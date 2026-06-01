@@ -1,0 +1,923 @@
+{
+  "generatedAt": "2026-06-01T20:52:33.523Z",
+  "base": "https://oztimberfloor.netlify.app",
+  "summary": {
+    "redirects": {
+      "tested": 34,
+      "failures": 0,
+      "chains": 0
+    },
+    "topPages": {
+      "tested": 25,
+      "failures": 0
+    },
+    "sitemap": {
+      "locCount": 1973,
+      "badUrls": 0,
+      "sampleTested": 77,
+      "sampleFailures": 0
+    },
+    "robots": {
+      "allows": true,
+      "finalSitemap": true,
+      "badDomain": false
+    },
+    "contact": {
+      "status": 200,
+      "hasForm": true,
+      "hasPhone": true,
+      "hasEmail": true,
+      "queryVisible": true
+    }
+  },
+  "redirectRows": [
+    {
+      "path": "/",
+      "first": 200,
+      "final": 200,
+      "finalPath": "/",
+      "hops": 1,
+      "ok": true
+    },
+    {
+      "path": "/contact-us/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/contact",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/services/",
+      "first": 200,
+      "final": 200,
+      "finalPath": "/services/",
+      "hops": 1,
+      "ok": true
+    },
+    {
+      "path": "/hybrid/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/hybrid-flooring-sydney",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/laminate/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/laminate-flooring-sydney",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/vinyl/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/vinyl-flooring-sydney",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/solid-timber/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/solid-timber-flooring-sydney",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/bamboo/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/bamboo-flooring-sydney",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/floor-levelling/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/floor-levelling-sydney",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/timber-floor-installation/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/timber-flooring-installation-sydney",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/timber-floor-removal-and-stripping/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/timber-floor-removal-and-stripping-sydney",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/timber-floor-sanding-and-polishing/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/timber-floor-sanding-and-polishing-sydney",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/commercial-flooring/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/commercial-flooring-sydney",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/office-flooring/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/office-flooring-sydney",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/blogs/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/guides",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/blogs/page/2/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/guides/",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/faqs/",
+      "first": 200,
+      "final": 200,
+      "finalPath": "/faqs/",
+      "hops": 1,
+      "ok": true
+    },
+    {
+      "path": "/gallery/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/projects/",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/product-category/hybrid/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/hybrid-flooring-sydney",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/product-category/laminate/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/laminate-flooring-sydney",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/product-category/engineered-timber/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/engineered-timber-flooring-sydney/",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/product-category/solid-timber/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/solid-timber-flooring-sydney",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/product-category/vinyl/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/vinyl-flooring-sydney",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/product-category/bamboo/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/bamboo-flooring-sydney",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/product-category/laminate/villeroy-boch-aquastop-10mm/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/ranges/villeroy-boch-aquastop-10mm/",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/product-category/hybrid/artisan-hybrid-tile/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/ranges/artisan-tile/",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/product-category/engineered-timber/artisan-oak/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/ranges/artisan-oak/",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/product-category/engineered-timber/prestige-oak-15mm/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/ranges/prestige-oak/",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/product-category/engineered-timber/pronto-engineered-oak/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/ranges/pronto/",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/product/eco-eco-swish-laminate-new-england-blackbutt/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/products/swish-laminate-new-england-blackbutt/",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/product/eco-eco-swish-laminate-nutmeg/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/products/swish-laminate-nutmeg/",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/product/eco-eco-swish-oak-contemporary-elegant-milano-oak/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/products/swish-oak-contemporary-elegant-milano-oak/",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/3-reasons-why-modern-homes-use-engineered-oak-flooring-in-sydney/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/guides/3-reasons-why-modern-homes-use-engineered-oak-flooring-in-sydney/",
+      "hops": 2,
+      "ok": true
+    },
+    {
+      "path": "/guide-to-choosing-the-right-vinyl-timber-flooring/",
+      "first": 301,
+      "final": 200,
+      "finalPath": "/guides/guide-to-choosing-the-right-vinyl-timber-flooring/",
+      "hops": 2,
+      "ok": true
+    }
+  ],
+  "topRows": [
+    {
+      "path": "/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/products/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/products/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/services/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/services/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/contact/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/contact/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/projects/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/projects/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/guides/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/guides/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/hybrid-flooring-sydney/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/hybrid-flooring-sydney/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/laminate-flooring-sydney/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/laminate-flooring-sydney/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/engineered-timber-flooring-sydney/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/engineered-timber-flooring-sydney/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/solid-timber-flooring-sydney/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/solid-timber-flooring-sydney/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/vinyl-flooring-sydney/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/vinyl-flooring-sydney/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/floor-levelling-sydney/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/floor-levelling-sydney/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/timber-flooring-installation-sydney/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/timber-flooring-installation-sydney/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/commercial-flooring-sydney/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/commercial-flooring-sydney/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/office-flooring-sydney/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/office-flooring-sydney/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/builder-flooring-contractor-sydney/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/builder-flooring-contractor-sydney/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/ranges/artisan-tile/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/ranges/artisan-tile/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/ranges/kronoswiss-aquastop/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/ranges/kronoswiss-aquastop/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/ranges/prestige-oak/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/ranges/prestige-oak/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/ranges/pronto/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/ranges/pronto/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/ranges/swish-oak-natura/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/ranges/swish-oak-natura/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/ranges/grand-oak/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/ranges/grand-oak/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/ranges/hydroplank-wpc/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/ranges/hydroplank-wpc/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/ranges/ornato-hybrid/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/ranges/ornato-hybrid/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    },
+    {
+      "path": "/ranges/etf-9-0mm-hybrid/",
+      "status": 200,
+      "canonical": "https://oztimberfloor.com.au/ranges/etf-9-0mm-hybrid/",
+      "canonicalOk": true,
+      "noindex": false,
+      "netlifyMeta": false,
+      "hasH1": true
+    }
+  ],
+  "sitemapBad": [],
+  "sitemapPathRows": [
+    {
+      "path": "/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/bamboo-flooring-sydney/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/builder-flooring-contractor-sydney/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/commercial-flooring-sydney/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/contact/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/engineered-timber-flooring-supplier-sydney/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/engineered-timber-flooring-sydney/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/faqs/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/floor-levelling-sydney/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/3-reasons-why-modern-homes-use-engineered-oak-flooring-in-sydney/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/3-services-timber-floor-installers-in-sydney-can-do-for-you/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/5-tell-tale-signs-engineered-timber-flooring-is-right-for-your-property/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/choosing-office-flooring-durability-design-performance/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/commercial-timber-flooring-high-traffic-spaces-sydney/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/commercial-timber-flooring-specialist-sydney-builders-designers/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/common-questions-we-get-as-hybrid-floor-installers-in-sydney/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/guide-to-choosing-the-right-vinyl-timber-flooring/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/hire-over-diy/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/how-hybrid-timber-flooring-performs-in-sydney-apartments/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/laying-the-foundations-right-why-floor-levelling-matters-for-your-timber-flooring/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/local-supply-installation-and-custom-finish-options-for-commercial-timber-flooring/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/professional-commercial-flooring-installation-what-to-expect/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/solid-timber-flooring-vs-engineered-flooring-which-one-is-right-for-you/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/the-5-questions-to-ask-your-timber-floor-installer-in-sydney/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/when-to-restore-replace-or-extend-existing-solid-timber-floors/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/why-a-hardwood-timber-floor-will-never-be-out-of-style/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/why-commercial-timber-flooring-is-the-right-choice-for-high-end-spaces/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/why-hardwood-timber-flooring-is-a-good-investment/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/guides/your-guide-for-choosing-a-reliable-sydney-timber-flooring-provider/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/hardwood-timber-flooring-sydney/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/hybrid-flooring-supplier-sydney/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/hybrid-flooring-sydney/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/laminate-flooring-supplier-sydney/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/laminate-flooring-sydney/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/office-flooring-sydney/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/12mm-laminate-aspen-oak/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/artisan-tile-black-maquina/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/artisan-tile-calacatta/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/artisan-tile-casper-white/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/artisan-tile-crema-marfil/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/artisan-tile-dover-grey/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/artisan-tile-grigio/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/artisan-tile-jasper-grey/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/artisan-tile-madison/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/artisan-tile-monaco-brown/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/artisan-tile-pietra-grey/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/artisan-tile-valley-beige/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/artisan-tile-volcano/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-bronx/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-brooklyn/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-chelsea/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-cooney-island/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-hamptons/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-harlem/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-midtown/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-queens/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-soho/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-straten-island/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-wpc-astoria/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-wpc-blackbutt/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-wpc-coney-island/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-wpc-hamptons/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-wpc-harlem/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-wpc-hudson-oak/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-wpc-marble-hill/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-wpc-northern-blackbutt/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-wpc-queens/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-wpc-soho/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-wpc-spotted-gum/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/hydroplank-wpc-staten-island/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/kronoswiss-aquastop-arosa/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/kronoswiss-aquastop-artisan-oak-beige/",
+      "status": 200,
+      "redirect": false
+    },
+    {
+      "path": "/products/kronoswiss-aquastop-artisan-oak-natural/",
+      "status": 200,
+      "redirect": false
+    }
+  ],
+  "robots": "User-agent: *\nAllow: /\n\nSitemap: https://oztimberfloor.com.au/sitemap.xml\nSitemap: https://oztimberfloor.com.au/sitemap-keyword-targets.xml\n"
+}
