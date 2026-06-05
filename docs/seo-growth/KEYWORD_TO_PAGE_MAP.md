@@ -1,92 +1,90 @@
 # Keyword To Page Map
 
-Date: 2026-05-26
+Date: 2026-06-04
 
-Use one primary page per main keyword theme. Supporting pages should link to the primary page rather than trying to outrank it for the same exact phrase.
+Purpose: use one primary page for each main keyword theme, then support that page with guides, range pages, product pages, project proof and internal links. This prevents cannibalisation and gives Search Console data a clear place to land.
 
-## Primary Keyword Map
+Status labels:
 
-| Keyword / theme | Primary page | Supporting pages | Cannibalisation risk |
-| --- | --- | --- | --- |
-| timber flooring Sydney | `/` | `/products/`, `/services/`, `/hardwood-timber-flooring-sydney/` | Medium: homepage and hardwood/category pages must stay distinct. |
-| timber flooring supplier Sydney | `/timber-flooring-supplier-sydney/` | `/products/`, supplier category pages | Medium: supplier pages should target supply/stock intent, not general homepage intent. |
-| flooring contractor Sydney | `/services/` | `/builder-flooring-contractor-sydney/`, `/timber-flooring-installation-sydney/` | Medium: builder page should target builder/subcontractor intent. |
-| timber flooring installation Sydney | `/timber-flooring-installation-sydney/` | `/services/`, guide pages | Low. |
-| timber floor installer Sydney | `/timber-flooring-installation-sydney/` | `/contact/`, project pages | Low. |
-| timber floor installation contractor Sydney | `/timber-flooring-installation-sydney/` | `/builder-flooring-contractor-sydney/` | Medium: installation page for homeowner/general; builder page for builder/trade. |
-| builder flooring contractor Sydney | `/builder-flooring-contractor-sydney/` | `/commercial-flooring-sydney/`, builder guides | Low. |
-| timber flooring contractor Sydney | `/builder-flooring-contractor-sydney/` | `/services/`, `/timber-flooring-installation-sydney/` | Medium: clarify builder/commercial vs homeowner install intent. |
-| flooring contractor for builders Sydney | `/builder-flooring-contractor-sydney/` | builder guide cluster | Low. |
-| timber flooring subcontractor Sydney | `/builder-flooring-contractor-sydney/` | builder guide cluster | Low. |
-| floor levelling Sydney | `/floor-levelling-sydney/` | `/services/`, preparation guides | Low. |
-| subfloor preparation Sydney | `/floor-levelling-sydney/` | preparation guides | Low. |
-| floor levelling contractor for builders Sydney | `/floor-levelling-sydney/` | `/builder-flooring-contractor-sydney/` | Medium: add builder-specific internal link/copy, but keep levelling page primary. |
-| hybrid flooring Sydney | `/hybrid-flooring-sydney/` | `/hybrid-flooring-supplier-sydney/`, hybrid ranges | Medium: supplier page must target supply/stock. |
-| laminate flooring Sydney | `/laminate-flooring-sydney/` | `/laminate-flooring-supplier-sydney/`, laminate ranges | Medium. |
-| engineered timber flooring Sydney | `/engineered-timber-flooring-sydney/` | `/engineered-timber-flooring-supplier-sydney/`, engineered ranges | Medium. |
-| solid timber flooring Sydney | `/solid-timber-flooring-sydney/` | `/solid-timber-flooring-supplier-sydney/`, solid ranges | Medium. |
-| vinyl flooring Sydney | `/vinyl-flooring-sydney/` | `/vinyl-flooring-supplier-sydney/`, vinyl ranges | Medium. |
-| bamboo flooring Sydney | `/bamboo-flooring-sydney/` | `/products/` legacy bamboo link | Low if copy stays availability/alternatives focused. |
-| hybrid flooring supplier Sydney | `/hybrid-flooring-supplier-sydney/` | `/hybrid-flooring-sydney/`, `/products/` | Low if supplier page keeps stock/supply intent. |
-| laminate flooring supplier Sydney | `/laminate-flooring-supplier-sydney/` | `/laminate-flooring-sydney/` | Low. |
-| engineered timber supplier Sydney | `/engineered-timber-flooring-supplier-sydney/` | `/engineered-timber-flooring-sydney/` | Low. |
-| solid timber supplier Sydney | `/solid-timber-flooring-supplier-sydney/` | `/solid-timber-flooring-sydney/` | Low. |
-| vinyl flooring supplier Sydney | `/vinyl-flooring-supplier-sydney/` | `/vinyl-flooring-sydney/` | Low. |
-| commercial flooring Sydney | `/commercial-flooring-sydney/` | `/office-flooring-sydney/`, commercial guides | Medium: office page should target office/workplace specifically. |
-| office flooring Sydney | `/office-flooring-sydney/` | `/commercial-flooring-sydney/`, office guides | Low. |
-| commercial timber flooring Sydney | `/commercial-flooring-sydney/` | commercial guide cluster | Low. |
+- `existing page ready`: usable after migration; monitor and refine from data.
+- `existing page needs improvement`: page exists but needs stronger content, proof, specs, FAQs, links or CTAs.
+- `new guide needed`: publish after migration stabilises.
+- `new supplier page needed`: only if supply/stock intent does not already have a page.
+- `new project proof needed`: real project photos, case notes or before/after evidence required.
+- `Google Ads test candidate`: use small paid tests to learn query value before heavy SEO work.
 
-## Range Keyword Map
+## Core Keyword Map
 
-| Range keyword pattern | Primary page | Notes |
-| --- | --- | --- |
-| Artisan Tile hybrid flooring | `/ranges/artisan-tile/` | Pilot rich range page. Keep old `/product-category/hybrid/artisan-hybrid-tile/` redirected here. |
-| Avala hybrid flooring | `/ranges/avala/` | High product value, strong colour list. |
-| Grande hybrid flooring | `/ranges/grande-9-0-hybrid/` and `/ranges/grande-7-5-hybrid/` | Keep thickness-specific identity clear. |
-| Storm Luxury hybrid flooring | `/ranges/storm-luxury/` | Important Topdeck legacy target. |
-| Hydroplank WPC hybrid flooring | `/ranges/hydroplank-wpc/` | Old high-value range. |
-| Ornato Hybrid flooring | `/ranges/ornato-hybrid/` | Preserve old hybrid intent separately from Ornato vinyl. |
-| Villeroy & Boch Aquastop laminate | `/ranges/villeroy-boch-aquastop-8mm/`, `/ranges/villeroy-boch-aquastop-10mm/`, `/ranges/villeroy-boch-aquastop-12mm/` | Thickness pages should remain distinct if product data supports them. |
-| Kronoswiss Aquastop laminate | `/ranges/kronoswiss-aquastop-laminate-8mm/`, `/ranges/kronoswiss-aquastop-laminate-12mm/`, `/ranges/kronoswiss-aquastop-laminate-14mm/` | Watch duplicate naming with `/ranges/kronoswiss-aquastop/`. |
-| Infinite laminate | `/ranges/infinite/` | Old high-value target. |
-| Reflections laminate | `/ranges/reflections/` | Old high-value target. |
-| Swish Laminate | `/ranges/swish-laminate/` | Preserve classic laminate intent. |
-| Swish Laminate Aqua | `/ranges/swish-laminate-aqua/` | Keep separate from Swish Laminate. |
-| Oakleaf Laminate | `/ranges/oakleaf-laminate/` | Keep separate from Oakleaf HD Plus if data supports distinction. |
-| Classic Laminate | `/ranges/classic-laminate/` | Important Preference range. |
-| Prestige Oak engineered timber | `/ranges/prestige-oak/` | Strong colour depth, high-value old target. |
-| Swish Oak Natura engineered timber | `/ranges/swish-oak-natura/` | Engineered oak target. |
-| Grand Oak engineered timber | `/ranges/grand-oak/` and thickness variants | Avoid duplicate/alias cannibalisation. |
-| Pronto engineered oak | `/ranges/pronto-engineered-oak/` or canonical successor | Needs identity cleanup if `/ranges/pronto/` competes. |
-| Raw Timber solid timber | `/ranges/raw-solid-timber/` | Solid timber long-tail. |
-| Topdeck Solid Timber | `/ranges/solid/` or canonical solid timber range | Needs naming/canonical consistency if promoted. |
-| Ornato Luxury vinyl | `/ranges/ornato-vinyl/` | Vinyl range target. |
-| Ultimo Luxury Vinyl Plank | `/ranges/ultimo-luxury-vinyl-plank/` | Needs full supplier-backed enrichment before heavy promotion. |
+| Keyword | Primary page | Classification | Supporting work | Ads candidate | Notes |
+| --- | --- | --- | --- | --- | --- |
+| timber flooring Sydney | `/` | existing page ready | Add real project proof and internal links to top categories over time. | yes | Homepage should own broad local trust and contractor/supplier intent. |
+| timber flooring supplier Sydney | `/timber-flooring-supplier-sydney/` | existing page needs improvement | Add stock, lead-time, supply-only and supply + install process detail. | yes | Keep distinct from homepage and category pages. |
+| timber flooring installation Sydney | `/timber-flooring-installation-sydney/` | existing page ready | Add project proof and guide links after migration stability. | yes | High-intent service page. |
+| hybrid flooring Sydney | `/hybrid-flooring-sydney/` | existing page ready | Enrich with comparison links and priority hybrid ranges. | yes | Category page should own buyer/category intent. |
+| laminate flooring Sydney | `/laminate-flooring-sydney/` | existing page ready | Add dry-room suitability and comparison guide links. | yes | Avoid unsupported wet-area claims. |
+| engineered timber flooring Sydney | `/engineered-timber-flooring-sydney/` | existing page ready | Add subfloor/installation method proof and project examples. | yes | Strong page 1 candidate. |
+| solid timber flooring Sydney | `/solid-timber-flooring-sydney/` | existing page needs improvement | Add species, finishing, sanding and maintenance guidance. | yes | Needs more real solid-timber proof. |
+| vinyl flooring Sydney | `/vinyl-flooring-sydney/` | existing page needs improvement | Add verified vinyl ranges and product details. | yes | Lower catalogue depth than hybrid/laminate. |
+| floor levelling Sydney | `/floor-levelling-sydney/` | existing page ready | Add technical checklist and builder links. | yes | Strong trade/high-intent page. |
+| timber floor removal Sydney | `/timber-floor-removal-and-stripping-sydney/` | existing page ready | Add disposal, site access and preparation FAQs. | yes | Good service conversion intent. |
+| timber floor sanding and polishing Sydney | `/timber-floor-sanding-and-polishing-sydney/` | existing page ready | Add real before/after project proof. | yes | Needs proof more than more copy. |
+| commercial flooring Sydney | `/commercial-flooring-sydney/` | existing page ready | Add sector proof and office/internal links. | yes | Commercial page should stay broader than office page. |
+| office flooring Sydney | `/office-flooring-sydney/` | existing page ready | Add office fit-out examples and guide links. | yes | Use for workplace-specific intent. |
+| builder flooring contractor Sydney | `/builder-flooring-contractor-sydney/` | existing page ready | Add builder handover guide and real project proof. | yes | High-value niche; owner trade knowledge is a major advantage. |
+| hybrid flooring supplier Sydney | `/hybrid-flooring-supplier-sydney/` | existing page needs improvement | Add stock-check process and links to strongest hybrid ranges. | yes | Supply/stock page, not general category page. |
+| engineered timber flooring supplier Sydney | `/engineered-timber-flooring-supplier-sydney/` | existing page needs improvement | Add engineered range depth and supply-only checks. | yes | Must not compete with category page too heavily. |
+| laminate flooring supplier Sydney | `/laminate-flooring-supplier-sydney/` | existing page needs improvement | Add stock, batch and dry-room suitability checks. | possible | Lower cost test after core pages. |
+| solid timber flooring supplier Sydney | `/solid-timber-flooring-supplier-sydney/` | existing page needs improvement | Add species and availability process. | possible | Needs verified catalogue/proof. |
+| vinyl flooring supplier Sydney | `/vinyl-flooring-supplier-sydney/` | existing page needs improvement | Add more verified vinyl ranges first. | possible | Do not push until product depth improves. |
 
-## Product Keyword Map
+## Range And Product Keyword Map
 
-| Product keyword pattern | Primary page | Notes |
-| --- | --- | --- |
-| `[range] [colour] hybrid flooring` | `/products/[product-slug]/` | Product page should link back to range and category. |
-| `[range] [colour] laminate flooring` | `/products/[product-slug]/` | Keep product-specific stock CTA. |
-| `[range] [colour] engineered timber flooring` | `/products/[product-slug]/` | Avoid overstating specs if not verified. |
-| `[species] solid timber flooring` | `/products/[solid-product-slug]/` or `/ranges/raw-solid-timber/` | Product page if available; otherwise parent range. |
-| `[colour] vinyl flooring` | `/products/[product-slug]/` | Use product page for colour/stock intent. |
+| Keyword pattern | Primary page | Classification | Supporting work | Ads candidate | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Artisan Tile hybrid flooring | `/ranges/artisan-tile/` | existing page ready | Monitor performance; use as enrichment benchmark. | possible | Supplier-backed pilot model. |
+| Kronoswiss Aquastop laminate | canonical Kronoswiss Aquastop range pages | existing page needs improvement | Resolve thickness/canonical clarity, enrich with verified specs. | possible | Watch duplicate family pages. |
+| Villeroy & Boch Aquastop laminate | canonical Villeroy & Boch range pages | existing page needs improvement | Add verified detail and avoid duplicate thickness confusion. | possible | High legacy SEO value. |
+| Prestige Oak engineered timber | `/ranges/prestige-oak/` | existing page needs improvement | Add project fit, buying checks and easier colour navigation. | possible | High colour depth, strong candidate. |
+| Pronto Engineered Oak | canonical Pronto page | existing page needs improvement | Finalise Pronto vs Pronto Engineered Oak identity. | possible | Needs duplicate/canonical cleanup. |
+| Swish Oak engineered timber | Swish Oak canonical range pages | existing page needs improvement | Verify supplier family, colour list and internal links. | possible | Useful engineered long-tail. |
+| Grand Oak engineered timber | Grand Oak canonical range pages | existing page needs improvement | Resolve thickness/alias pages before pushing. | possible | Avoid duplicate page competition. |
+| Hydroplank WPC hybrid flooring | `/ranges/hydroplank-wpc/` | existing page needs improvement | Verify missing colour/image data and add technical guidance. | possible | Old SEO value. |
+| Ornato Hybrid flooring | `/ranges/ornato-hybrid/` | existing page needs improvement | Add verified construction/spec details. | possible | Keep separate from Ornato vinyl. |
+| ETF Hybrid SPC | canonical ETF hybrid range pages | existing page needs improvement | Improve HRT/ETF naming consistency and specs. | possible | Useful long-tail if mapped cleanly. |
+| Storm Luxury hybrid flooring | `/ranges/storm-luxury/` | existing page needs improvement | Enrich like Artisan model and fix thumbnail consistency. | possible | High-value Topdeck range. |
+| Ornato Luxury vinyl | `/ranges/ornato-vinyl/` | existing page needs improvement | Add verified vinyl details and colour/product depth. | possible | Good vinyl page to improve. |
+| Ultimo Luxury Vinyl Plank | `/ranges/ultimo-luxury-vinyl-plank/` | existing page needs improvement | Complete supplier-image and colour pass before heavy promotion. | no | Keep cautious until verified. |
+| `[range] [colour] hybrid flooring` | `/products/[product-slug]/` | existing page needs improvement | Product page should show real image, range, specs, stock CTA. | no | Use SEO after image/spec QA. |
+| `[range] [colour] laminate flooring` | `/products/[product-slug]/` | existing page needs improvement | Link back to category/range and avoid unsupported claims. | no | Long-tail support. |
+| `[range] [colour] engineered timber flooring` | `/products/[product-slug]/` | existing page needs improvement | Verified image/spec required before heavy promotion. | no | Useful long-tail but quality matters. |
 
 ## Guide Keyword Map
 
-| Guide cluster | Target keywords | Primary role |
-| --- | --- | --- |
-| Builder contractor guides | builder flooring contractor, flooring subcontractor, handover flooring checks | Support `/builder-flooring-contractor-sydney/`. |
-| Floor preparation guides | floor levelling, subfloor preparation, moisture checks, trims/transitions | Support `/floor-levelling-sydney/`. |
-| Flooring comparison guides | hybrid vs laminate, solid vs engineered, vinyl vs hybrid | Support category pages. |
-| Apartment/strata guides | apartment flooring, acoustic flooring, strata flooring checks | Support hybrid/engineered and installation pages. |
-| Commercial/office guides | office flooring, commercial timber flooring, fit-out flooring | Support commercial and office pages. |
+| Guide theme | Target page to support | Classification | First guide idea | Ads candidate | Notes |
+| --- | --- | --- | --- | --- | --- |
+| builder flooring handover checklist | `/builder-flooring-contractor-sydney/` | new guide needed | Flooring handover checklist for Sydney builders | no | Strong owner-trade advantage. |
+| floor levelling before timber flooring | `/floor-levelling-sydney/` | new guide needed | When floor levelling is needed before timber flooring | no | Supports prep and install pages. |
+| hybrid vs laminate flooring | hybrid and laminate category pages | new guide needed | Hybrid vs laminate flooring for Sydney homes | possible | Good Ads query learning topic. |
+| solid timber vs engineered timber | solid and engineered category pages | existing guide needs improvement | Strengthen existing migrated guide and internal links. | no | Avoid duplicate new guide. |
+| apartment flooring acoustic checks | hybrid, engineered and installation pages | new guide needed | Flooring checks before apartment or strata installation | possible | Useful high-intent guide. |
+| commercial flooring fit-out checklist | commercial and office pages | new guide needed | Flooring checklist for office and commercial fit-outs | possible | Can support Ads and SEO. |
+| what to send for a flooring quote | `/contact/`, `/products/` | new guide needed | What to send for a supply or installation quote | no | Improves enquiry quality. |
 
 ## Cannibalisation Watchlist
 
-- Homepage vs `/hardwood-timber-flooring-sydney/` for `timber flooring Sydney`.
-- Category pages vs supplier pages for `hybrid flooring Sydney` and similar terms.
-- `/services/` vs individual service pages for service keywords.
+- Homepage vs category pages for `timber flooring Sydney`.
+- Category pages vs supplier pages for `hybrid flooring Sydney`, `laminate flooring Sydney` and similar.
+- `/services/` vs individual service pages for installation, floor levelling, sanding and removal.
 - Builder page vs installation page for contractor/installer wording.
-- Range aliases such as `Pronto` vs `Pronto Engineered Oak`, `Oakleaf` vs `Oakleaf Laminate`, and thickness-specific Aquastop pages.
+- Range aliases such as Pronto vs Pronto Engineered Oak, Oakleaf vs Oakleaf Laminate, and Aquastop thickness pages.
+- Product pages vs range pages for colour-specific keywords.
+
+## First Measurement Rule
+
+After production migration stabilises, use Search Console to prioritise:
+
+1. keywords already ranking positions 4-20,
+2. pages with high impressions and low CTR,
+3. old WordPress URLs still receiving impressions,
+4. Ads terms that produce real enquiries,
+5. category/range pages with missing proof, specs or internal links.
