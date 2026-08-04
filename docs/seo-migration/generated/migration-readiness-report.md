@@ -1,6 +1,6 @@
 # Migration readiness report
 
-Generated: 2026-08-04T10:22:48.814Z
+Generated: 2026-08-04T10:26:34.375Z
 
 ## Verdict: GO
 

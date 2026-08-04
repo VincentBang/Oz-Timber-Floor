@@ -157,7 +157,7 @@ redirectLines = redirectLines.map((line) => {
 
   if (sourceRoute === "/bamboo-flooring-sydney/" && parts[2] === "200!") {
     bambooLandingConverted += 1;
-    return `/bamboo-flooring-sydney/ ${hardwoodRoute} 301`;
+    return `/bamboo-flooring-sydney/ ${hardwoodRoute} 301!`;
   }
   if (!isRedirect) return line;
   if (destinationRoute === "/bamboo-flooring-sydney/") {
@@ -201,12 +201,12 @@ for (const decision of directRules) {
   }
 }
 
-const bambooHtmlRule = `/bamboo-flooring-sydney.html ${hardwoodRoute} 301`;
+const bambooHtmlRule = `/bamboo-flooring-sydney.html ${hardwoodRoute} 301!`;
 const bambooHtmlIndex = sourceLineIndex("/bamboo-flooring-sydney.html");
 if (bambooHtmlIndex >= 0) redirectLines[bambooHtmlIndex] = bambooHtmlRule;
 else linesToAdd.push(bambooHtmlRule);
 for (const source of ["/bamboo-flooring-sydney", "/bamboo-flooring-sydney/index.html"]) {
-  const rule = `${source} ${hardwoodRoute} 301`;
+  const rule = `${source} ${hardwoodRoute} 301!`;
   const existingIndex = sourceLineIndex(source);
   if (existingIndex >= 0) redirectLines[existingIndex] = rule;
   else linesToAdd.push(rule);

@@ -15,7 +15,7 @@
 /faqs/ /faqs.html 200!
 /floor-levelling-sydney/ /floor-levelling-sydney.html 200!
 /guides/ /guides.html 200!
-/bamboo-flooring-sydney/ /hardwood-timber-flooring-sydney/ 301
+/bamboo-flooring-sydney/ /hardwood-timber-flooring-sydney/ 301!
 /hybrid-flooring-supplier-sydney/ /hybrid-flooring-supplier-sydney.html 200!
 /hybrid-flooring-sydney/ /hybrid-flooring-sydney.html 200!
 /laminate-flooring-sydney/ /laminate-flooring-sydney.html 200!
@@ -1769,7 +1769,7 @@
 /ranges/prestige-oak-21mm/ /engineered-timber-flooring-sydney/ 301
 
 # Approved catalogue/Bamboo retirement routes — 2026-08-04
-/bamboo-flooring-sydney.html /hardwood-timber-flooring-sydney/ 301
+/bamboo-flooring-sydney.html /hardwood-timber-flooring-sydney/ 301!
 /products/aquastop-laminate-zermatt/ /ranges/aquastop-laminate/ 301
 /products/classic-antique-oak/ /ranges/classic-laminate/ 301
 /products/classic-blackbutt/ /ranges/classic-laminate/ 301
@@ -1924,6 +1924,6 @@
 /ranges/villeroy-boch-aquastop/ /laminate-flooring-sydney/ 301
 /ranges/vinyl/ /vinyl-flooring-sydney/ 301
 # Approved catalogue/Bamboo retirement routes — 2026-08-04
-/bamboo-flooring-sydney /hardwood-timber-flooring-sydney/ 301
-/bamboo-flooring-sydney/index.html /hardwood-timber-flooring-sydney/ 301
+/bamboo-flooring-sydney /hardwood-timber-flooring-sydney/ 301!
+/bamboo-flooring-sydney/index.html /hardwood-timber-flooring-sydney/ 301!
 /* /404.html 404

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T10:22:47.455Z",
+  "generatedAt": "2026-08-04T10:26:33.380Z",
   "summary": {
     "totalRules": 1910,
     "permanentRedirects": 1878,
@@ -155,8 +155,8 @@
       "source": "/bamboo-flooring-sydney/",
       "destination": "/hardwood-timber-flooring-sydney/",
       "status": 301,
-      "statusText": "301",
-      "raw": "/bamboo-flooring-sydney/ /hardwood-timber-flooring-sydney/ 301"
+      "statusText": "301!",
+      "raw": "/bamboo-flooring-sydney/ /hardwood-timber-flooring-sydney/ 301!"
     },
     {
       "line": 19,
@@ -14043,8 +14043,8 @@
       "source": "/bamboo-flooring-sydney.html",
       "destination": "/hardwood-timber-flooring-sydney/",
       "status": 301,
-      "statusText": "301",
-      "raw": "/bamboo-flooring-sydney.html /hardwood-timber-flooring-sydney/ 301"
+      "statusText": "301!",
+      "raw": "/bamboo-flooring-sydney.html /hardwood-timber-flooring-sydney/ 301!"
     },
     {
       "line": 1773,
@@ -15275,16 +15275,16 @@
       "source": "/bamboo-flooring-sydney",
       "destination": "/hardwood-timber-flooring-sydney/",
       "status": 301,
-      "statusText": "301",
-      "raw": "/bamboo-flooring-sydney /hardwood-timber-flooring-sydney/ 301"
+      "statusText": "301!",
+      "raw": "/bamboo-flooring-sydney /hardwood-timber-flooring-sydney/ 301!"
     },
     {
       "line": 1928,
       "source": "/bamboo-flooring-sydney/index.html",
       "destination": "/hardwood-timber-flooring-sydney/",
       "status": 301,
-      "statusText": "301",
-      "raw": "/bamboo-flooring-sydney/index.html /hardwood-timber-flooring-sydney/ 301"
+      "statusText": "301!",
+      "raw": "/bamboo-flooring-sydney/index.html /hardwood-timber-flooring-sydney/ 301!"
     },
     {
       "line": 1929,

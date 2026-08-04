@@ -1,6 +1,6 @@
 # Catalogue quality report
 
-Generated: 2026-08-04T10:22:47.043Z
+Generated: 2026-08-04T10:26:33.156Z
 
 This report is generated from the current static product/range pages and `data/product-catalogue.json`. It does not invent specifications. The report identifies every non-indexable classification; only explicit, reviewable entries in `data/catalogue-quality-overrides.json` receive automatic noindex/schema/sitemap changes. This prevents an unreviewed bulk noindex from breaking legacy redirect equity.
 
