@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-08-04T10:22:48.814Z",
+  "repository": {
+    "root": "/Users/daibang/Projects/oz-timber-floor",
+    "branch": "See git status",
+    "canonicalDomain": "https://oztimberfloor.com.au"
+  },
+  "verdict": "GO",
+  "summary": {
+    "BLOCKER": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "INFORMATIONAL": 0,
+    "htmlPages": 2201,
+    "sitemapUrls": 941,
+    "redirectRules": 1910,
+    "cataloguePages": 2115,
+    "catalogueIndexable": 893,
+    "catalogueClassifiedNonIndexable": 1222,
+    "catalogueCurrentlyNoindex": 1222,
+    "brokenInternalLinks": 0,
+    "brokenLocalAssets": 0,
+    "redirectConflicts": 0,
+    "redirectLoops": 0,
+    "redirectChains": 0,
+    "redirectMissingTargets": 0,
+    "redirectNoindexTargets": 0
+  },
+  "contracts": {
+    "contact": {
+      "requirements": {
+        "formPresent": true,
+        "netlifyDetection": true,
+        "stableName": true,
+        "matchingFormName": true,
+        "honeypot": true,
+        "consent": true,
+        "thankYou": true,
+        "attribution": true,
+        "progressiveFields": true
+      },
+      "failures": []
+    },
+    "analytics": {
+      "measurementIdConfigured": false,
+      "centralizedConfig": true,
+      "eventNames": {
+        "phone_call_click": true,
+        "email_click": true,
+        "generate_lead": true
+      },
+      "attributionFields": {
+        "page_path": true,
+        "source_page": true,
+        "enquiry_type": true,
+        "product_slug": true,
+        "range": true,
+        "category": true,
+        "utm_source": true,
+        "utm_medium": true,
+        "utm_campaign": true,
+        "gclid_present": true,
+        "fbclid_present": true
+      },
+      "duplicateInitGuard": true,
+      "duplicateListenerGuard": true,
+      "avoidsFreeText": true
+    },
+    "nonProduction": {
+      "productionRobotsAllow": true,
+      "productionHeaderTemplateIndexable": true,
+      "nonProductionHeadersNoindex": true,
+      "indexingApprovalGate": true,
+      "contextAwareBuild": true
+    },
+    "build": {
+      "missingFiles": [],
+      "hasBuildScript": true,
+      "hasReadinessScript": true,
+      "rootPublish": true
+    },
+    "performanceAccessibility": {
+      "htmlFiles": 2201,
+      "images": 18281,
+      "missingAlt": 0,
+      "missingDimensions": 13900,
+      "lazyImages": 13478,
+      "buttons": 6588,
+      "unnamedButtons": 0,
+      "focusVisibleStyles": true,
+      "reducedMotionStyles": true
+    }
+  },
+  "issues": []
+}

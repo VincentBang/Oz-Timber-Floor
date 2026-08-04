@@ -1,5 +1,18 @@
 # Oz Timber Floor Migration Checklist
 
+## Local Release Gate — 4 August 2026
+
+- [x] Approved Bamboo retirement applied as one mapped change.
+- [x] All 25 legacy Bamboo routes plus landing variants redirect directly to `/hardwood-timber-flooring-sydney/`.
+- [x] Public HTML and sitemap contain no Bamboo references.
+- [x] Controlled catalogue manifest covers 1,222 pages: 715 parent-range replacements and 507 category replacements.
+- [x] 1,026 controlled catalogue URLs removed from the sitemap.
+- [x] 220 direct redirects applied and 636 existing catalogue rules remapped: 632 initial destinations plus four forced `301!` aliases.
+- [x] Redirect validation reports zero conflicts, loops, chains, missing targets and noindex targets.
+- [x] Sitemap validation reports 941 canonical URLs and zero issues.
+- [x] `npm run migration:check:local` returns `GO` with 0 blockers, 0 high findings and 0 medium findings.
+- [ ] Record the deployed commit, deploy ID and production smoke-test evidence.
+
 ## Old URL Inventory
 
 Core old URLs to preserve or redirect:
@@ -64,33 +77,34 @@ Required mappings:
 
 ## Redirect Status
 
-- Check `_redirects` exists.
-- Check all required service redirects exist.
-- Check product/category/range redirects are relevant.
-- Check old Bamboo URLs redirect to a relevant non-Bamboo destination.
-- Check typo URLs redirect to corrected canonical destinations.
-- Check every redirect target exists.
+- [x] `_redirects` exists and contains 1,910 validated rules.
+- [x] All required service redirects exist.
+- [x] Product/category/range redirects have relevant controlled destinations.
+- [x] Old Bamboo URLs redirect directly to `/hardwood-timber-flooring-sydney/`.
+- [x] Typo URLs redirect to corrected canonical destinations.
+- [x] Every local redirect target exists; none points to a controlled/noindex page.
 
 ## Sitemap Status
 
-- Sitemap exists.
-- Sitemap uses `https://oztimberfloor.com.au/`.
-- Sitemap excludes Netlify staging URLs.
-- Sitemap excludes Bamboo public URLs.
-- Sitemap excludes redirected typo URLs.
-- Sitemap includes key services, products, ranges, projects, guides, legal and contact pages.
+- [x] Sitemap exists with 941 validated canonical URLs.
+- [x] Sitemap uses `https://oztimberfloor.com.au/`.
+- [x] Sitemap excludes Netlify staging URLs.
+- [x] Sitemap excludes Bamboo public URLs.
+- [x] Sitemap excludes redirected typo URLs and the 1,222 controlled catalogue fallbacks.
+- [x] Sitemap includes key services, indexable products/ranges, projects, guides, legal and contact pages.
 
 ## Robots Status
 
-- Production robots ready.
-- Staging indexing protection confirmed before launch.
-- Staging not submitted to Search Console.
+- [x] Repository robots/header logic is fail-closed.
+- [ ] Confirm deployed Netlify hostname remains noindex while no custom domain is connected.
+- [ ] After separate approval and domain connection, confirm production-domain robots/header responses are indexable.
+- [ ] Do not submit staging or Netlify hostnames to Search Console.
 
 ## Noindex Status
 
-- Staging should be noindex until approved.
-- Production should be indexable when the real domain is connected.
-- Confirm no staging noindex leaks into production launch.
+- Preview, branch and main Netlify-hostname deployments stay noindex by default.
+- Production-domain indexation requires approved domain connection plus explicit `OZ_PRODUCTION_INDEXING_ENABLED=true`.
+- Confirm noindex is removed only from the approved custom production-domain response.
 
 ## Search Console Readiness
 
@@ -140,8 +154,9 @@ Required mappings:
 - Broken redirect targets.
 - Broken contact form.
 - Staging noindex/production index confusion.
-- Public Bamboo references.
 - Public supplier names if current policy remains hidden supplier names.
 - Major missing old URL mappings.
 - Sitemap containing redirected or discontinued URLs.
 - Product/range pages with misleading images or fake specs.
+
+The repository gate currently finds none of the SEO/crawl blockers above. Form delivery, production header behaviour and deployment-state checks remain external verification items.

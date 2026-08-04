@@ -1,5 +1,7 @@
 # Final Redirect Smoke Test
 
+> **Historical observation — superseded 4 August 2026.** The chains and destinations below describe the 21 May Netlify deployment, not the current repository map. Current Bamboo routes point directly to `/hardwood-timber-flooring-sydney/`; deployment proof is pending.
+
 Date: 2026-05-21
 
 Test host: `https://oztimberfloor.netlify.app`

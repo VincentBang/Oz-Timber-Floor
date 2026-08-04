@@ -1,5 +1,7 @@
 # Migration Ready Report
 
+> **Historical report — superseded 4 August 2026.** Use `MIGRATION_READY_FINAL_REPORT_2026-08-04.md` for the current local `GO`, catalogue decisions, Bamboo retirement and deployment boundary.
+
 Date: 2026-05-21
 
 This report is now aligned to the final pre-launch verification pass and should be read alongside:

@@ -1,16 +1,18 @@
 [build]
   publish = "."
+  command = "npm run build"
 
-# Migration redirects are intentionally maintained in `/_redirects`
-# for this static Netlify publish. Keep the large 301 map there so
-# deploy behavior stays predictable across preview and production.
+# `npm run build` selects a per-deploy `_headers` file before publishing.
+# Production receives the indexable header set only when the separately
+# approved `OZ_PRODUCTION_INDEXING_ENABLED=true` release flag is present.
+# Until then, production, deploy previews and branch deploys receive a noindex
+# header set in addition to Netlify's native preview protection. Do not move
+# these headers into a global TOML block:
+# Netlify applies global TOML headers to every deploy context.
 
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "strict-origin-when-cross-origin"
-    X-Frame-Options = "DENY"
+# Migration redirects are intentionally maintained in `/_redirects` for this
+# static Netlify publish. Keep the large 301 map there so deploy behaviour
+# stays predictable across preview and production.
 
 # Contact form backend: Netlify Forms detects the contact form in /contact/.
 # Verify notification routing in the Netlify site settings during staging QA.

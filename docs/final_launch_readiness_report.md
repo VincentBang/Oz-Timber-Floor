@@ -1,5 +1,9 @@
 # Final Launch Readiness Report
 
+> **Historical snapshot — superseded 4 August 2026.** Do not use the branch, counts or blocker claims below as the current launch decision. The current repository result is local `GO` with 0 blocker/high/medium findings after mapped Bamboo retirement and controlled catalogue treatment. Use `docs/seo-migration/MIGRATION_READY_FINAL_REPORT_2026-08-04.md`. Deployment and external verification are not yet evidenced.
+
+The local `GO` does not authorise indexation on the Netlify hostname. While the linked site has no custom domain, its main deploy must remain noindex; indexation requires an approved connected production domain plus explicit `OZ_PRODUCTION_INDEXING_ENABLED=true`.
+
 ## 1. Branch / Deploy Status
 
 - Improved site is on `dev`.

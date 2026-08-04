@@ -1,5 +1,7 @@
 # Final Redirect Verification
 
+> **Historical report — superseded 4 August 2026.** Current generated validation covers 1,910 rules with zero conflicts, loops, chains, missing targets or noindex targets. Use `MIGRATION_READY_FINAL_REPORT_2026-08-04.md` and the generated redirect report.
+
 Date: 2026-05-31  
 Source set: live WordPress sitemaps, required legacy paths, migration docs and generated old URL exports.
 

@@ -6,7 +6,7 @@ The restored Search Console exports are enough to protect the most important mig
 
 | Old URL | Internal links | New target | Current status | Notes |
 | --- | ---: | --- | --- | --- |
-| `/bamboo/` | 341 | `/bamboo-flooring-sydney/` | Live 301 verified | Bamboo intent preserved without forcing a homepage or broad hardwood fallback. |
+| `/bamboo/` | 341 | `/hardwood-timber-flooring-sydney/` | Repo mapping validated | Approved mapped retirement preserves relevant hardwood intent; verify the deployed 301. |
 | `/product-category/laminate/infinite-laminate/` | 341 | `/ranges/infinite/` | Live 301 verified | Exact laminate range preserved. |
 | `/product-category/laminate/kronoswiss-aquastop-laminate-12mm/` | 341 | `/ranges/kronoswiss-aquastop-laminate-12mm/` | Live 301 verified | Exact range preserved. |
 | `/product-category/laminate/kronoswiss-aquastop-laminate-14mm/` | 341 | `/ranges/kronoswiss-aquastop-laminate-14mm/` | Live 301 verified | Exact range preserved. |

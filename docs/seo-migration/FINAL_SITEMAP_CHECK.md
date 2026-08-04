@@ -1,5 +1,7 @@
 # Final Sitemap Check
 
+> **Historical live check — superseded 4 August 2026.** The current local sitemap contains 941 canonical URLs with zero validator issues. Use `MIGRATION_READY_FINAL_REPORT_2026-08-04.md`; the next deployed sitemap still requires verification.
+
 Date: 2026-05-21
 
 Checked against:

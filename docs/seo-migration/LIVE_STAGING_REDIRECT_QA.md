@@ -1,5 +1,7 @@
 # Live Staging Redirect QA
 
+> **Historical observation — superseded 4 August 2026.** This records the 19 May Netlify deployment and its former Bamboo destination. Use `MIGRATION_READY_FINAL_REPORT_2026-08-04.md` for current repository evidence and re-test the next deployed artifact.
+
 Checked against:
 - `https://oztimberfloor.netlify.app`
 

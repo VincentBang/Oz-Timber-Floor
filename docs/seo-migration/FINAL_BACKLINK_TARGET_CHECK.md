@@ -1,6 +1,6 @@
 # Final Backlink Target Check
 
-Date: 2026-05-21
+Original check: 2026-05-21; repository mapping update: 2026-08-04
 
 ## Summary
 Backlink protection is directionally strong, but still limited by Search Console export granularity.
@@ -20,7 +20,7 @@ The available exports support prioritisation, but they do not pair every linking
 - `/laminate/` -> `/laminate-flooring-sydney/`
 - `/vinyl/` -> `/vinyl-flooring-sydney/`
 - `/solid-timber/` -> `/solid-timber-flooring-sydney/`
-- `/bamboo/` -> `/bamboo-flooring-sydney/`
+- `/bamboo/` -> `/hardwood-timber-flooring-sydney/` (approved direct retirement map)
 
 ### Ranges
 - `/product-category/laminate/infinite-laminate/` -> `/ranges/infinite/`
@@ -34,9 +34,9 @@ The available exports support prioritisation, but they do not pair every linking
 - sampled root-level legacy blog posts -> matching `/guides/[slug]/`
 
 ## Current Risk
-The protection logic is stronger in the repo than in the currently deployed staging redirect behavior.
+The protection logic is validated in the repo but still needs proof on the next deployed artifact.
 
-Observed live staging gap:
+Historical live staging gap observed on 21 May 2026 (not current deployment evidence):
 - three old product URLs still return `404` on staging:
   - `/product/eco-eco-swish-laminate-new-england-blackbutt/`
   - `/product/eco-eco-swish-laminate-nutmeg/`
@@ -50,4 +50,4 @@ Repo status:
 - If target-paired backlink exports become available later, this document should be refreshed with exact linked-old-URL to new-target confirmation.
 
 ## Conclusion
-Backlink target protection is mostly in place at the mapping layer, but current staging still needs a fresh deploy to prove that the repo-side fixes are live.
+Backlink target protection is in place at the mapping layer. The next deployment still needs representative response tests before the repo-side fixes can be called live.

@@ -1,6 +1,15 @@
 # Redirect QA
 
-## Status
+> **Current local result — 4 August 2026:** `_redirects` contains 1,910 rules. Generated validation reports zero conflicts, loops, chains, missing targets, noindex targets, wildcard-ordering issues or homepage dumps. Live production verification remains pending.
+
+## Current Status
+
+- All 25 legacy Bamboo routes plus landing variants redirect directly to `/hardwood-timber-flooring-sydney/`.
+- The approved release pass applied 220 direct redirects and remapped 636 existing catalogue rules: 632 initial destinations plus four forced `301!` aliases found by matcher refinement.
+- Remaining destinations pointing to a controlled/noindex route: 0.
+- Catalogue and range intent remains mapped to relevant indexable range/category destinations rather than a generic `/products/` dump.
+
+## Historical Status (superseded)
 
 - Redirect file checked: `_redirects`.
 - Redirect target check: 1,667 local redirect targets checked.

@@ -1,6 +1,18 @@
 # Sitemap QA
 
-## Status
+> **Current local result — 4 August 2026:** `sitemap.xml` contains 941 canonical URLs and the generated validator reports zero issues. Bamboo and all 1,222 controlled catalogue fallbacks are excluded. See `docs/seo-migration/MIGRATION_READY_FINAL_REPORT_2026-08-04.md`. Live production verification remains pending.
+
+## Current Status
+
+- URL count: 941.
+- Host used: `https://oztimberfloor.com.au/`.
+- Validation issues: 0.
+- Netlify staging URLs: 0.
+- Bamboo URLs: 0.
+- Controlled catalogue fallbacks: 0.
+- The decision pass removed 1,026 catalogue URLs that were previously sitemap-listed.
+
+## Historical Status (superseded)
 
 - Sitemap regenerated from canonical HTML pages.
 - URL count: 1,771.

@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-08-04T10:17:27.631Z",
+  "applied": true,
+  "policy": {
+    "bambooReplacement": "/hardwood-timber-flooring-sydney/",
+    "catalogue": "Approved controlled treatment: retain incomplete pages only as noindex,follow fallbacks without Product schema; redirect legacy traffic to an indexable parent range or matching category; redirect alias, retired, and supplier-bearing public routes directly."
+  },
+  "catalogue": {
+    "decisionPages": 1222,
+    "byReplacementBasis": {
+      "indexable-parent-range": 715,
+      "matching-flooring-category": 507
+    },
+    "directRouteRedirectsEnsured": 220,
+    "initialLegacyRedirectDestinationsRemapped": 632,
+    "forcedLegacyRedirectDestinationsRemapped": 4,
+    "totalLegacyRedirectDestinationsRemapped": 636,
+    "legacyRedirectDestinationsRemappedThisRun": 0
+  },
+  "bamboo": {
+    "initialLandingRewriteConverted": 1,
+    "initialLegacyRedirectDestinationsRemapped": 25,
+    "landingRewriteConvertedThisRun": 0,
+    "legacyRedirectDestinationsRemappedThisRun": 0,
+    "htmlFallbackRedirectEnsured": true,
+    "publicFilesChangedThisRun": [],
+    "sitemapEntryRemoved": false
+  },
+  "redirects": {
+    "directDecisionRulesUpdatedThisRun": 0,
+    "directDecisionRulesAddedThisRun": 0,
+    "remainingUnsafeDestinations": 0
+  }
+}

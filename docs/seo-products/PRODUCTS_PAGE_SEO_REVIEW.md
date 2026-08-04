@@ -1,6 +1,6 @@
 # Products Page SEO Review
 
-Date: 2026-05-26
+Date: 2026-05-26 (Bamboo handling updated 2026-08-04)
 
 Scope: `/products/` only. Redirects, `netlify.toml`, sitemap, robots, canonicals and migration URL mappings were not edited.
 
@@ -45,7 +45,7 @@ The update adds these signals naturally through page title, meta description, co
   - `/laminate/` -> `/laminate-flooring-sydney/`
   - `/solid-timber/` -> `/solid-timber-flooring-sydney/`
   - `/vinyl/` -> `/vinyl-flooring-sydney/`
-  - `/bamboo/` -> `/bamboo-flooring-sydney/`
+  - `/bamboo/` -> `/hardwood-timber-flooring-sydney/`
 - Old product-category range URLs should continue to map to the closest range page, for example:
   - `/product-category/laminate/villeroy-boch-aquastop-10mm/` -> `/ranges/villeroy-boch-aquastop-10mm/`
   - `/product-category/hybrid/artisan-hybrid-tile/` -> `/ranges/artisan-tile/`
@@ -66,7 +66,7 @@ Review of the existing redirect files/docs found no broad dump of old range/cate
 - Added a concise `How to use this product guide` section.
 - Added a lower `Need supply-only or stock check?` section linking to category supplier pages.
 - Added `Floor preparation needed` as a project-need pathway to `/floor-levelling-sydney/`.
-- Added a legacy bamboo availability card/link without presenting a live bamboo product catalogue.
+- The historical Bamboo availability card/link was removed as part of the approved public retirement.
 - Expanded popular ranges from 6 to 8 cards:
   - 2 hybrid
   - 2 laminate
@@ -84,7 +84,7 @@ Review of the existing redirect files/docs found no broad dump of old range/cate
 
 ## Bamboo Handling
 
-Bamboo is treated as a legacy availability enquiry pathway only. The page links to `/bamboo-flooring-sydney/` for current availability and alternatives; it does not show discontinued bamboo products or a bamboo catalogue.
+Bamboo is retired from the public products hub. No Bamboo card or public HTML reference remains; legacy traffic redirects directly to `/hardwood-timber-flooring-sydney/` under the approved migration map.
 
 ## Technical Safety Checks
 

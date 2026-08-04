@@ -1,22 +1,44 @@
 document.addEventListener("DOMContentLoaded", function () {
+  if (window.OZ_TIMBER_FLOOR_SITE_READY) return;
+  window.OZ_TIMBER_FLOOR_SITE_READY = true;
+
   var contact = window.OZ_TIMBER_FLOOR_CONTACT || {};
   var analytics = contact.analytics || {};
   var header = document.querySelector(".site-header");
   var toggle = document.querySelector(".nav-toggle");
   var params = new URLSearchParams(window.location.search);
+  var attributionKeys = ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "gclid", "fbclid"];
+
+  function attributionValue(key) {
+    var fromUrl = params.get(key);
+    if (fromUrl) {
+      try { window.sessionStorage.setItem("oz-attribution-" + key, fromUrl); } catch (error) {}
+      return fromUrl;
+    }
+    try { return window.sessionStorage.getItem("oz-attribution-" + key) || ""; } catch (error) { return ""; }
+  }
+
+  attributionKeys.forEach(function (key) { attributionValue(key); });
 
   function initAnalytics() {
-    if (!analytics.ga4MeasurementId) return;
+    var measurementId = String(analytics.ga4MeasurementId || "").trim().toUpperCase();
+    if (!/^G-[A-Z0-9]+$/.test(measurementId)) return;
+    if (window.OZ_TIMBER_FLOOR_GA4_READY) return;
+    window.OZ_TIMBER_FLOOR_GA4_READY = true;
     window.dataLayer = window.dataLayer || [];
     window.gtag = window.gtag || function () {
       window.dataLayer.push(arguments);
     };
     window.gtag("js", new Date());
-    window.gtag("config", analytics.ga4MeasurementId);
-    var tag = document.createElement("script");
-    tag.async = true;
-    tag.src = "https://www.googletagmanager.com/gtag/js?id=" + encodeURIComponent(analytics.ga4MeasurementId);
-    document.head.appendChild(tag);
+    window.gtag("config", measurementId);
+
+    if (!document.querySelector('script[data-oz-ga4="true"]')) {
+      var tag = document.createElement("script");
+      tag.async = true;
+      tag.setAttribute("data-oz-ga4", "true");
+      tag.src = "https://www.googletagmanager.com/gtag/js?id=" + encodeURIComponent(measurementId);
+      document.head.appendChild(tag);
+    }
   }
 
   function trackEvent(name, payload) {
@@ -76,6 +98,24 @@ document.addEventListener("DOMContentLoaded", function () {
   function setHidden(id, value) {
     var field = document.getElementById(id);
     if (field) field.value = value || "";
+  }
+
+  function analyticsPayload(extra) {
+    var sourcePage = params.get("source") || window.location.pathname;
+    var payload = {
+      page_path: window.location.pathname,
+      source_page: sourcePage,
+      enquiry_type: (select && select.value) || enquiry || "",
+      product_slug: productSlug || "",
+      range: range || "",
+      category: category || "",
+      utm_source: attributionValue("utm_source"),
+      utm_medium: attributionValue("utm_medium"),
+      utm_campaign: attributionValue("utm_campaign"),
+      gclid_present: Boolean(attributionValue("gclid")),
+      fbclid_present: Boolean(attributionValue("fbclid"))
+    };
+    return Object.assign(payload, extra || {});
   }
 
   initAnalytics();
@@ -261,7 +301,7 @@ document.addEventListener("DOMContentLoaded", function () {
       ["gclidField", "gclid"],
       ["fbclidField", "fbclid"]
     ].forEach(function (pair) {
-      setHidden(pair[0], params.get(pair[1]) || "");
+      setHidden(pair[0], attributionValue(pair[1]));
     });
   }
 
@@ -511,39 +551,35 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.querySelectorAll('a[href^="tel:"]').forEach(function (link) {
     link.addEventListener("click", function () {
-      trackEvent("phone_call_click", {
+      trackEvent("phone_call_click", analyticsPayload({
         event_category: "lead",
-        link_url: link.getAttribute("href"),
-        page_path: window.location.pathname
-      });
+        link_url: link.getAttribute("href")
+      }));
     });
   });
 
   document.querySelectorAll('a[href^="mailto:"]').forEach(function (link) {
     link.addEventListener("click", function () {
-      trackEvent("email_click", {
+      trackEvent("email_click", analyticsPayload({
         event_category: "lead",
-        link_url: link.getAttribute("href"),
-        page_path: window.location.pathname
-      });
+        link_url: link.getAttribute("href")
+      }));
     });
   });
 
   document.querySelectorAll("[data-contact-form]").forEach(function (form) {
     form.addEventListener("submit", function () {
       var formData = new FormData(form);
-      trackEvent("generate_lead", {
+      trackEvent("generate_lead", analyticsPayload({
         event_category: "lead",
+        lead_event_state: "submit_attempt",
         form_name: formData.get("form-name") || form.getAttribute("name") || "oz-flooring-enquiry",
         enquiry_type: formData.get("enquiry_type") || "",
         source_page: formData.get("source_page") || window.location.pathname,
-        product: formData.get("product") || "",
         product_slug: formData.get("product_slug") || "",
-        brand: formData.get("brand") || "",
         range: formData.get("range") || "",
-        category: formData.get("category") || "",
-        suburb: formData.get("suburb") || ""
-      });
+        category: formData.get("category") || ""
+      }));
     });
   });
 
