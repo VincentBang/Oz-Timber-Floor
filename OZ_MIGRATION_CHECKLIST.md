@@ -1,6 +1,37 @@
 # Oz Timber Floor Migration Checklist
 
-## Local Release Gate — 4 August 2026
+## Local Hardening Gate — 1 September 2026
+
+- [x] Publication inventory reconciled at 943 unique canonicals and 943 canonical-only sitemap URLs.
+- [x] Route inventory records 971 physical indexable HTML pages, 1,228 noindex routes and 350 redirect-only routes.
+- [x] `_redirects` contains 1,912 validated rules with zero unsafe noindex destinations.
+- [x] `migration/redirect-map.csv` contains 536 unique source rows with no duplicate source and no 301 self-map.
+- [x] Catalogue inventory records 2,115 pages: 893 indexable and 1,222 controlled/noindex; the current manifest splits the controlled set into 6 exact-product, 743 parent-range and 473 category replacements.
+- [x] GSC audit records 130 equity decisions, 60 priority manual rows, 72 exact product/range mappings and 8 unresolved mappings retained for review.
+- [x] Permanent hardening gate pins 60 reviewed semantic redirect contracts and independently derives 74 mapping candidates with zero blockers.
+- [x] Six ETF 9.0mm legacy product routes map to exact indexable product routes:
+  - `/product/etf-hybrid-spc-9mm-dexter-oak/` -> `/products/etf-9-0mm-hybrid-dexter-oak/`
+  - `/product/etf-hybrid-spc-9mm-driftwood/` -> `/products/etf-9-0mm-hybrid-driftwood/`
+  - `/product/etf-hybrid-spc-9mm-grey-oak/` -> `/products/etf-9-0mm-hybrid-grey-oak/`
+  - `/product/etf-hybrid-spc-9mm-new-zealand-blackbutt/` -> `/products/etf-9-0mm-hybrid-new-zealand-blackbutt/`
+  - `/product/etf-hybrid-spc-9mm-oslo-oak-grey/` -> `/products/etf-9-0mm-hybrid-oslo-oak-grey/`
+  - `/product/etf-hybrid-spc-9mm-spotted-gum/` -> `/products/etf-9-0mm-hybrid-spotted-gum/`
+- [x] Helena Oak maps to `/ranges/etf-9-0mm-hybrid/`; its exact product candidate remains incomplete/noindex pending verified product data and imagery.
+- [x] `/product-category/bamboo/stonewood-bamboo/` retains the approved retirement destination `/hardwood-timber-flooring-sydney/`.
+- [x] `/hybrid-timber-flooring-look-of-timber-with-extra-durability/` retires to `/hybrid-flooring-sydney/`.
+- [x] Fifteen reviewed incomplete product routes now preserve exact intent through their verified indexable parent ranges.
+- [x] Twenty-two Grand Oak legacy product routes now use the Engineered Timber category instead of the semantically wrong Hybrid treatment.
+- [x] Twelve additional verified product-to-parent-range corrections are pinned: Stone Floor (6), Storm (3), Swish Oak (2) and Swish Aqua (1).
+- [x] The catalogue hardening report retains 361 quality findings for controlled review; findings do not trigger automatic noindex.
+- [x] Bulk catalogue noindex is prohibited because 632 current redirect destinations were in the original control queue; each route requires a controlled data, redirect, retirement or 410 decision first.
+- [x] Privacy-safe analytics hooks are present without personal/free-text payloads; no approved GA4 measurement ID is configured.
+- [x] `npm run seo:gsc-audit` and `npm run seo:migration-hardening:check` pass and run after the inherited readiness check.
+- [x] No production, DNS, custom-domain, indexing, deployment or commit action was taken for this hardening record.
+- [ ] Verify Netlify Forms storage, notification routing, spam handling and a real mobile submission.
+- [ ] Approve/configure the GA4 measurement ID and verify the privacy-safe events in Realtime.
+- [ ] Approve and connect the production domain/DNS, then verify production headers, robots, sitemap and representative redirects on the real deployed artifact.
+
+## Historical Local Release Gate — 4 August 2026
 
 - [x] Approved Bamboo retirement applied as one mapped change.
 - [x] All 25 legacy Bamboo routes plus landing variants redirect directly to `/hardwood-timber-flooring-sydney/`.
@@ -77,7 +108,7 @@ Required mappings:
 
 ## Redirect Status
 
-- [x] `_redirects` exists and contains 1,910 validated rules.
+- [x] `_redirects` exists and contains 1,912 validated rules.
 - [x] All required service redirects exist.
 - [x] Product/category/range redirects have relevant controlled destinations.
 - [x] Old Bamboo URLs redirect directly to `/hardwood-timber-flooring-sydney/`.
@@ -86,7 +117,7 @@ Required mappings:
 
 ## Sitemap Status
 
-- [x] Sitemap exists with 941 validated canonical URLs.
+- [x] Sitemap exists with 943 validated canonical URLs.
 - [x] Sitemap uses `https://oztimberfloor.com.au/`.
 - [x] Sitemap excludes Netlify staging URLs.
 - [x] Sitemap excludes Bamboo public URLs.
@@ -108,20 +139,22 @@ Required mappings:
 
 ## Search Console Readiness
 
-- Export top linked pages.
-- Export top linking sites.
-- Confirm final sitemap URL.
-- Prepare to submit sitemap after production launch.
-- Monitor 404s after launch.
+- [x] Preserve the dated 2026-09-01 performance workbooks and the generated 130-page equity decision map.
+- [x] Retain the 60-row priority manual catalogue queue, including all 8 unresolved mappings; the wider 130-decision equity map records 72 exact product/range mappings.
+- [ ] Export top linked pages.
+- [ ] Export top linking sites.
+- [ ] Confirm the final production sitemap URL on the approved deployed domain.
+- [ ] Submit the sitemap only after production launch and indexing approval.
+- [ ] Monitor 404s, redirect responses and coverage after launch.
 
 ## Contact Form Test
 
-- Form destination confirmed.
-- Test submission successful.
-- Thank-you or success state works.
-- Enquiry type is captured.
-- Product/range/category/source fields are captured where relevant.
-- Phone and email CTAs work.
+- [ ] Netlify form destination and notification inbox confirmed externally.
+- [ ] Production/staging test submission successful.
+- [ ] Thank-you or success state works on the deployed artifact.
+- [ ] Enquiry type is captured.
+- [ ] Product/range/category/source fields are captured where relevant.
+- [ ] Phone and email CTAs work on the deployed artifact.
 
 ## Image Check
 
@@ -159,4 +192,4 @@ Required mappings:
 - Sitemap containing redirected or discontinued URLs.
 - Product/range pages with misleading images or fake specs.
 
-The repository gate currently finds none of the SEO/crawl blockers above. Form delivery, production header behaviour and deployment-state checks remain external verification items.
+The repository gate currently finds none of the SEO/crawl blockers above. Netlify Forms delivery, GA4 ID approval, production domain/DNS, real production redirect responses, production header/indexing behaviour and deployment-state checks remain external verification items.

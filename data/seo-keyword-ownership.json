@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "lastReviewed": "2026-09-01",
+  "owners": [
+    {
+      "cluster": "Broad Sydney timber flooring supplier, installer and contractor",
+      "owner": "/",
+      "primaryPhrase": "timber flooring sydney",
+      "phrases": ["timber flooring sydney", "sydney timber flooring", "timber floors sydney"]
+    },
+    {
+      "cluster": "Hybrid flooring Sydney",
+      "owner": "/hybrid-flooring-sydney/",
+      "primaryPhrase": "hybrid flooring sydney",
+      "phrases": ["hybrid flooring sydney"]
+    },
+    {
+      "cluster": "Laminate flooring Sydney",
+      "owner": "/laminate-flooring-sydney/",
+      "primaryPhrase": "laminate flooring sydney",
+      "phrases": ["laminate flooring sydney"]
+    },
+    {
+      "cluster": "Engineered timber flooring Sydney",
+      "owner": "/engineered-timber-flooring-sydney/",
+      "primaryPhrase": "engineered timber flooring sydney",
+      "phrases": ["engineered timber flooring sydney"]
+    },
+    {
+      "cluster": "Solid timber flooring Sydney",
+      "owner": "/solid-timber-flooring-sydney/",
+      "primaryPhrase": "solid timber flooring sydney",
+      "phrases": ["solid timber flooring sydney"]
+    },
+    {
+      "cluster": "Hardwood timber flooring Sydney",
+      "owner": "/hardwood-timber-flooring-sydney/",
+      "primaryPhrase": "hardwood timber flooring sydney",
+      "phrases": ["hardwood timber flooring sydney"]
+    },
+    {
+      "cluster": "Vinyl flooring Sydney",
+      "owner": "/vinyl-flooring-sydney/",
+      "primaryPhrase": "vinyl flooring sydney",
+      "phrases": ["vinyl flooring sydney"]
+    },
+    {
+      "cluster": "Timber flooring installation Sydney",
+      "owner": "/timber-flooring-installation-sydney/",
+      "primaryPhrase": "timber flooring installation sydney",
+      "phrases": ["timber flooring installation sydney"]
+    },
+    {
+      "cluster": "Floor levelling and preparation Sydney",
+      "owner": "/floor-levelling-sydney/",
+      "primaryPhrase": "floor levelling sydney",
+      "phrases": ["floor levelling sydney", "floor preparation sydney"]
+    },
+    {
+      "cluster": "Commercial flooring Sydney",
+      "owner": "/commercial-flooring-sydney/",
+      "primaryPhrase": "commercial flooring sydney",
+      "phrases": ["commercial flooring sydney"]
+    },
+    {
+      "cluster": "Office flooring Sydney",
+      "owner": "/office-flooring-sydney/",
+      "primaryPhrase": "office flooring sydney",
+      "phrases": ["office flooring sydney"]
+    },
+    {
+      "cluster": "Builder flooring contractor Sydney",
+      "owner": "/builder-flooring-contractor-sydney/",
+      "primaryPhrase": "builder flooring contractor sydney",
+      "phrases": ["builder flooring contractor sydney"]
+    }
+  ],
+  "supplierPairs": [
+    {"category": "/hybrid-flooring-sydney/", "supplier": "/hybrid-flooring-supplier-sydney/"},
+    {"category": "/laminate-flooring-sydney/", "supplier": "/laminate-flooring-supplier-sydney/"},
+    {"category": "/engineered-timber-flooring-sydney/", "supplier": "/engineered-timber-flooring-supplier-sydney/"},
+    {"category": "/solid-timber-flooring-sydney/", "supplier": "/solid-timber-flooring-supplier-sydney/"},
+    {"category": "/vinyl-flooring-sydney/", "supplier": "/vinyl-flooring-supplier-sydney/"},
+    {"category": "/", "supplier": "/timber-flooring-supplier-sydney/"}
+  ]
+}

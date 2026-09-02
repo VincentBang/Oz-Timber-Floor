@@ -1,0 +1,52 @@
+{
+  "capturedAt": "2026-08-04T11:10:32.177Z",
+  "mobileMenus": [
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "home-menu-open-390x844.png",
+      "state": {
+        "expanded": "true",
+        "horizontalOverflow": false,
+        "navClass": "nav-links",
+        "navDisplay": "grid",
+        "navRect": {
+          "bottom": 332,
+          "height": 260,
+          "left": 18,
+          "right": 408,
+          "top": 72,
+          "width": 390
+        },
+        "overlapsSticky": false,
+        "stickyCtaRect": null
+      }
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "screenshot": "home-menu-open-320x800.png",
+      "state": {
+        "expanded": "true",
+        "horizontalOverflow": false,
+        "navClass": "nav-links",
+        "navDisplay": "grid",
+        "navRect": {
+          "bottom": 332,
+          "height": 260,
+          "left": 18,
+          "right": 338,
+          "top": 72,
+          "width": 320
+        },
+        "overlapsSticky": false,
+        "stickyCtaRect": null
+      }
+    }
+  ],
+  "consoleLogs": []
+}

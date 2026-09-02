@@ -40,7 +40,8 @@ Use this record for the single deployment approved for the production domain. A 
 | Approved GA4 measurement ID configured in production build | `PENDING EXTERNAL VERIFICATION` | Never record the ID in a public report if that is not approved. |
 | GA4 Realtime/DebugView: phone click | `PENDING EXTERNAL VERIFICATION` | |
 | GA4 Realtime/DebugView: email click | `PENDING EXTERNAL VERIFICATION` | |
-| GA4 Realtime/DebugView: `generate_lead` submit attempt | `PENDING EXTERNAL VERIFICATION` | |
+| GA4 Realtime/DebugView: `quote_start` and `quote_submit` | `PENDING EXTERNAL VERIFICATION` | `quote_submit` is a browser submit attempt, not delivery proof. |
+| GA4 Realtime/DebugView: `stock_check`, `supply_only_enquiry`, `supply_install_enquiry` | `PENDING EXTERNAL VERIFICATION` | |
 | Netlify form visible | `PENDING EXTERNAL VERIFICATION` | Form name: `oz-flooring-enquiry`. |
 | Form notification received | `PENDING EXTERNAL VERIFICATION` | |
 | Product-specific attribution retained | `PENDING EXTERNAL VERIFICATION` | |

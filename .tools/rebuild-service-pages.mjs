@@ -5,6 +5,8 @@ const root = "/Users/daibang/Projects/oz-timber-floor";
 
 const pages = {
   "floor-levelling-sydney/index.html": {
+    flatOutput: "floor-levelling-sydney.html",
+    updateHead: true,
     canonical: "https://oztimberfloor.com.au/floor-levelling-sydney/",
     title: "Floor Levelling Sydney | Subfloor Preparation Specialist",
     description:
@@ -13,7 +15,7 @@ const pages = {
     heroEyebrow: "Floor levelling Sydney",
     heroH1: "Floor levelling Sydney",
     heroLead:
-      "Floor levelling helps prepare uneven floors before hybrid, laminate, engineered timber or other flooring is installed. Oz Timber Floor can review floor condition, preparation needs and installation suitability before work starts.",
+      "Prepare uneven concrete slabs and timber substrates before hybrid, laminate, engineered timber, solid timber or vinyl flooring, with the preparation method matched to the site condition and selected product.",
     heroImage: "/assets/images/hero/sydney-timber-flooring-contractor.jpg",
     heroAlt: "Floor levelling and subfloor preparation before flooring installation in Sydney",
     badges: ["Subfloor preparation", "Installation planning", "Sydney-wide"],
@@ -30,14 +32,14 @@ const pages = {
       "These starting points help decide whether the site needs floor levelling, removal, installation planning or a combined quote.",
     decisionCards: [
       {
-        title: "Uneven floor",
-        text: "You can feel dips, humps, movement or height changes before installation.",
+        title: "Dips, humps or movement",
+        text: "Visible or felt variation, hollow sounds, cracking or movement should be reviewed before a new floor is ordered or installed.",
         href: "/contact/?enquiry=service&topic=uneven%20floor&source=floor-levelling-sydney",
         label: "Ask about levelling",
       },
       {
-        title: "New flooring preparation",
-        text: "Hybrid, laminate and timber floors need a suitable flat and stable base.",
+        title: "Flatness or level concern",
+        text: "A floor can slope and still be flat, or appear level while containing localised high and low areas.",
         href: "/contact/?enquiry=service&topic=preparation%20review&source=floor-levelling-sydney",
         label: "Request preparation review",
       },
@@ -56,46 +58,47 @@ const pages = {
     ],
     whatHeading: "When floor levelling may be needed",
     whatIntro:
-      "Levelling usually becomes part of the conversation when the floor condition could affect board movement, finish quality or transitions.",
+      "Floor preparation should be matched to the selected flooring and the way localised surface variation could affect support, adhesion, joins or the finished appearance.",
     whatCards: [
-      ["Before hybrid flooring installation", "Floating hybrid floors still need a flat, stable base so joins are not stressed."],
-      ["Before laminate flooring installation", "Laminate performs better when the substrate is even and transitions are planned early."],
-      ["Before engineered timber installation", "Engineered timber often needs closer checks where adhesive method, moisture and heights matter."],
-      ["After removing old flooring", "Once the old floor is lifted, hidden dips, cracks, residue or repairs become easier to assess."],
-      ["When there are dips, humps or uneven joins", "Visible or felt height changes can affect installation and the way the finished floor feels underfoot."],
-      ["When adjoining rooms or doorways have height issues", "Door clearances, trims and changes between surfaces often need planning before flooring goes down."],
+      ["Flatness is different from level", "Flatness describes localised dips and raised areas across the surface. Level describes the overall slope. A floor may slope while remaining flat enough for a specified installation, or appear level while still containing humps and hollows."],
+      ["Hybrid and laminate flooring", "Floating floors need consistent support beneath the boards so locking joins are not left bridging dips or stressed over high spots."],
+      ["Engineered and solid timber", "Substrate flatness, stability, moisture condition and the selected installation method should be reviewed together before timber flooring is installed."],
+      ["Vinyl flooring", "Vinyl needs a smooth, properly prepared surface because localised imperfections may show through the finished floor."],
+      ["Practical warning signs", "Dips, humps, cracking, hollow sounds, movement, uneven joins and changing heights at doorways can all justify a closer inspection."],
+      ["Risks of skipping preparation", "Unsupported areas, stressed joins, poor adhesive contact, uneven transitions and visible surface variation can affect the finished result."],
     ],
     includeHeading: "What floor preparation may include",
     includeIntro:
       "The exact preparation depends on the substrate, the flooring being installed and what is uncovered on site.",
     includeCards: [
-      ["Floor condition review", "Checking visible dips, humps, movement, cracks or uneven transitions before installation planning."],
-      ["Subfloor preparation", "Preparing concrete slabs or timber substrates before new flooring is installed."],
-      ["Levelling compound or patching", "Using suitable preparation methods where the product and site conditions allow."],
-      ["Height and transition planning", "Checking doorways, trims, skirting or scotia and adjoining floor levels before work starts."],
-      ["Removal coordination", "Reviewing whether existing flooring must be removed before preparation or installation."],
+      ["Inspection and measurement", "Checking the exposed substrate for high spots, low areas, cracking, residue, movement, moisture concerns and transitions before choosing a preparation method."],
+      ["Concrete grinding", "Grinding can reduce isolated high spots, weak surface material and some contamination or adhesive residue where the substrate and scope allow."],
+      ["Self-levelling compound or patching", "A compatible compound or patching system can fill low areas and create a flatter base after the required cleaning, repairs and priming."],
+      ["Removal and surface preparation", "Existing flooring or residue may need to be removed before the actual substrate can be inspected and prepared."],
+      ["Scope boundary", "Floor levelling corrects surface variation. Structural movement, major slab defects, active cracking or moisture problems may need separate investigation or remediation."],
     ],
     siteHeading: "Site details that can affect the quote",
     siteIntro:
-      "A few practical site details make it easier to judge whether levelling is likely and how it fits the rest of the project.",
+      "Floor levelling cost depends on the work required rather than a single square-metre assumption. These details help define the scope without publishing unapproved prices.",
     siteCards: [
-      ["Floor area", "Approximate square metres helps frame the size of the preparation area."],
-      ["Current flooring type", "Tiles, carpet, vinyl, timber or bare concrete can change the preparation path."],
-      ["Concrete or timber substrate", "The base under the visible floor affects how preparation is reviewed."],
-      ["Severity of unevenness", "Photos or a description of dips, humps or height changes helps start the conversation."],
-      ["Moisture concerns", "Visible moisture, past leaks or slab concerns should be raised early."],
-      ["Access, stairs, lifts and parking", "Access conditions can affect how preparation work is scheduled."],
-      ["Whether new flooring is being installed", "The product category helps determine the level of substrate tolerance needed."],
-      ["Timing and site readiness", "Occupied rooms, other trades and project timing can affect the order of work."],
+      ["Total preparation area", "Approximate square metres and the number of separate rooms help frame the work area."],
+      ["Depth and extent of low areas", "Local patching has a different material and labour scope from deeper or widespread low areas."],
+      ["Grinding and high spots", "The number and severity of raised sections can change the amount of grinding and dust control required."],
+      ["Removal and residue", "Tiles, carpet, vinyl, timber, old adhesive or coatings can change what must happen before levelling starts."],
+      ["Cracks and repairs", "Cracking, weak areas and previous repairs should be assessed before a preparation system is selected."],
+      ["Selected flooring", "Hybrid, laminate, engineered timber, solid timber and vinyl can have different substrate and installation requirements."],
+      ["Access and staging", "Stairs, lifts, parking, occupied rooms and staged areas can affect how preparation is scheduled."],
+      ["Curing and site readiness", "Preparation materials need to be ready for the next stage, and other trades or moisture concerns can affect timing."],
     ],
     processHeading: "How the service enquiry works",
     processIntro:
       "A good levelling enquiry usually starts with photos, rough dimensions and the flooring outcome you are aiming for.",
     processSteps: [
-      ["Send project details", "Share suburb, approximate area, current floor, photos of uneven areas and timing."],
-      ["Review the site requirements", "Oz Timber Floor checks what type of preparation may be needed before flooring is installed."],
-      ["Confirm scope", "Product choice, removal, floor flatness, access and transitions are reviewed together."],
-      ["Quote or next step", "You receive the right preparation, removal or supply + install pathway for the project."],
+      ["Send project details", "Share suburb, approximate area, current floor, intended flooring, photos of uneven areas and timing."],
+      ["Inspect and measure", "The exposed substrate is checked for flatness, high and low areas, residue, cracking, movement and moisture concerns."],
+      ["Confirm the preparation method", "Removal, local repairs, grinding, priming, patching or self-levelling compound are considered against the site and selected floor."],
+      ["Prepare the substrate", "Approved preparation work is completed in the required sequence, including cleaning and compatible materials where needed."],
+      ["Verify before installation", "The preparation system must be ready for the next stage and the finished substrate checked against the selected product and installation instructions."],
     ],
     relatedHeading: "Related products and services",
     relatedIntro:
@@ -104,9 +107,12 @@ const pages = {
       ["Hybrid flooring", "Compare practical floating-floor options that still need a suitable base.", "/hybrid-flooring-sydney/"],
       ["Laminate flooring", "Review dry-area timber-look flooring before finalising preparation needs.", "/laminate-flooring-sydney/"],
       ["Engineered timber", "Check premium timber options where substrate condition and method matter more.", "/engineered-timber-flooring-sydney/"],
+      ["Solid timber", "Review solid timber installation requirements and confirm the applicable product specification.", "/solid-timber-flooring-sydney/"],
+      ["Vinyl flooring", "Compare vinyl options where a smooth prepared surface is especially important.", "/vinyl-flooring-sydney/"],
       ["Timber flooring installation", "Plan installation once the floor condition and preparation path are clearer.", "/timber-flooring-installation-sydney/"],
       ["Floor removal", "Review whether the old floor should be removed before levelling starts.", "/timber-floor-removal-and-stripping-sydney/"],
-      ["Projects", "See the kinds of flooring situations Oz Timber Floor helps solve before installation.", "/projects/"],
+      ["Contact", "Send photos, approximate dimensions and the intended flooring for a preparation review.", "/contact/?enquiry=service&topic=floor%20levelling%20Sydney&source=floor-levelling-sydney"],
+      ["ATFA solid-timber flatness reference", "For solid timber flooring, ATFA's specification says that, if no other flatness requirement has been set, slab flatness is not to exceed 3 mm beneath a 3 m straightedge. The selected product's installation instructions may set a different requirement and should still be checked.", "https://www.atfa.com.au/wp-content/uploads/2023/01/ATFA-Specification-for-Solid-Timber-Flooring-FINAL-Oct-18-.pdf"],
     ],
     proofHeading: "Common project examples",
     proofIntro:
@@ -119,11 +125,12 @@ const pages = {
     faqIntro:
       "These answers help customers decide whether floor levelling should be reviewed before installation or product ordering.",
     faqs: [
-      ["Do I need floor levelling before hybrid flooring?", "It depends on floor flatness, product requirements and site condition. The floor should be checked before installation."],
-      ["Can you quote floor levelling from photos?", "Photos can help start the review, but the final scope may still need site inspection or further measurement."],
-      ["What affects floor levelling cost?", "Area, unevenness, substrate condition, access, removal and the flooring being installed can all affect the scope."],
-      ["Can floor levelling be included with installation?", "Yes. Preparation can be reviewed as part of a supply + install enquiry."],
-      ["Can you level over old flooring?", "It depends on the existing floor, adhesion, movement and product requirements. It should be reviewed before planning work."],
+      ["What is the difference between floor flatness and level?", "Flatness describes localised dips and raised areas across the surface. Level describes the overall slope. A floor can slope and still meet an applicable flatness requirement, or appear level while containing local humps and hollows."],
+      ["What is the difference between concrete grinding and self-levelling compound?", "Grinding reduces raised areas and prepares parts of the surface. A compatible self-levelling compound or patching system fills low areas. Some floors may need one method and others may need both after inspection."],
+      ["Do hybrid, laminate, timber and vinyl need the same floor tolerance?", "No. The selected product and installation method determine the applicable substrate requirements. Product instructions should be checked before preparation and installation are confirmed."],
+      ["What affects floor levelling cost?", "Area, levelling depth, high spots, removal, residue, repairs, material quantities, access, staging and the selected flooring can all affect the scope."],
+      ["Does floor levelling fix structural or moisture problems?", "No. Levelling corrects surface variation. Structural movement, major defects, active cracking or moisture problems may require separate investigation or remediation."],
+      ["What flatness reference applies to solid timber flooring?", "The ATFA solid-timber specification says that, if no other requirement is specified, slab flatness is not to exceed 3 mm beneath a 3 m straightedge. The selected product's installation instructions may set a different requirement and should still be checked."],
     ],
     finalHeading: "Need your floor checked before installation?",
     finalText:
@@ -412,17 +419,20 @@ const pages = {
     ],
   },
   "commercial-flooring-sydney/index.html": {
+    flatOutput: "commercial-flooring-sydney.html",
+    flatMode: "metadata",
+    updateHead: true,
     canonical: "https://oztimberfloor.com.au/commercial-flooring-sydney/",
-    title: "Commercial Flooring Installation Sydney | Timber, Hybrid & Vinyl",
+    title: "Commercial Flooring Sydney | Supply, Installation & Preparation",
     description:
-      "Commercial flooring installation Sydney for engineered timber, hybrid and vinyl floors with staged installation, floor levelling, access planning and commercial handover support.",
-    serviceName: "Commercial flooring installation Sydney",
+      "Commercial flooring Sydney for timber, hybrid, vinyl and laminate floors, with staged installation, floor preparation, access planning and handover support.",
+    serviceName: "Commercial Flooring Sydney",
     heroEyebrow: "Commercial flooring Sydney",
-    heroH1: "Commercial flooring installation Sydney",
+    heroH1: "Commercial Flooring Sydney",
     heroLead:
       "Oz Timber Floor helps offices, retail, hospitality, medical suites and managed fit-out projects plan flooring supply, preparation, staging and installation with practical site coordination.",
     heroImage: "/assets/images/products/engineered/engineered-blackbutt-rustic.jpg",
-    heroAlt: "Commercial flooring installation in a Sydney fit-out project",
+    heroAlt: "Dark engineered timber flooring in a furnished interior",
     badges: ["Supply", "Install", "Managed sites"],
     primaryCta: { label: "Request commercial quote", href: "/contact/?enquiry=builder-commercial&source=commercial-flooring-sydney" },
     secondaryCta: { label: "Send project details", href: "/contact/?enquiry=service&topic=commercial%20project%20details&source=commercial-flooring-sydney" },
@@ -879,8 +889,34 @@ for (const [file, data] of Object.entries(pages)) {
   }
 
   let rebuilt = html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">${JSON.stringify(buildLdJson(file, data))}</script>`);
+  if (data.updateHead) {
+    rebuilt = rebuilt.replace(/<title>[\s\S]*?<\/title>/, `<title>${data.title}</title>`);
+    rebuilt = rebuilt.replace(/<meta name="description" content="[^"]*">/, `<meta name="description" content="${data.description}">`);
+    rebuilt = rebuilt.replace(/<meta property="og:title" content="[^"]*">/, `<meta property="og:title" content="${data.title}">`);
+    rebuilt = rebuilt.replace(/<meta property="og:description" content="[^"]*">/, `<meta property="og:description" content="${data.description}">`);
+  }
   rebuilt = rebuilt.replace(/<main>[\s\S]*?<\/main>/, buildMain(data));
+  if (data.updateHead) rebuilt = rebuilt.replace("</main></main>", "</main>");
   fs.writeFileSync(fullPath, rebuilt);
+  if (data.flatOutput) {
+    const flatPath = path.join(root, data.flatOutput);
+    if (data.flatMode === "metadata") {
+      let flat = fs.readFileSync(flatPath, "utf8");
+      flat = flat.replace(/<title>[\s\S]*?<\/title>/, `<title>${data.title}</title>`);
+      flat = flat.replace(/<meta name="description" content="[^"]*">/, `<meta name="description" content="${data.description}">`);
+      flat = flat.replace(/<meta property="og:title" content="[^"]*">/, `<meta property="og:title" content="${data.title}">`);
+      flat = flat.replace(/<meta property="og:description" content="[^"]*">/, `<meta property="og:description" content="${data.description}">`);
+      flat = flat.replace(
+        /<script type="application\/ld\+json">[\s\S]*?<\/script>(?:<script type="application\/ld\+json">[\s\S]*?<\/script>)?/,
+        `<script type="application/ld+json">${JSON.stringify(buildLdJson(file, data))}</script>`,
+      );
+      flat = flat.replace(/<h1>[\s\S]*?<\/h1>/, `<h1>${data.heroH1}</h1>`);
+      flat = flat.replace("</main></main>", "</main>");
+      fs.writeFileSync(flatPath, flat);
+    } else {
+      fs.writeFileSync(flatPath, rebuilt);
+    }
+  }
 }
 
 console.log(`Rebuilt ${Object.keys(pages).length} service pages.`);

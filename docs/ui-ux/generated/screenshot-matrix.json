@@ -1,0 +1,1076 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T03:21:46.010Z",
+  "definition": {
+    "routes": [
+      {
+        "route": "/",
+        "slug": "home"
+      },
+      {
+        "route": "/products/",
+        "slug": "products"
+      },
+      {
+        "route": "/ranges/",
+        "slug": "ranges"
+      },
+      {
+        "route": "/hybrid-flooring-sydney/",
+        "slug": "hybrid-flooring"
+      },
+      {
+        "route": "/engineered-timber-flooring-sydney/",
+        "slug": "engineered-timber-flooring"
+      },
+      {
+        "route": "/timber-flooring-installation-sydney/",
+        "slug": "installation"
+      },
+      {
+        "route": "/floor-levelling-sydney/",
+        "slug": "floor-levelling"
+      },
+      {
+        "route": "/projects/",
+        "slug": "projects"
+      },
+      {
+        "route": "/contact/",
+        "slug": "contact"
+      },
+      {
+        "route": "/ranges/avala/",
+        "slug": "range-avala"
+      },
+      {
+        "route": "/products/avala-blackbutt/",
+        "slug": "product-avala-blackbutt"
+      },
+      {
+        "route": "/privacy/",
+        "slug": "privacy"
+      },
+      {
+        "route": "/terms/",
+        "slug": "terms"
+      },
+      {
+        "route": "/404.html",
+        "slug": "404"
+      }
+    ],
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 390,
+        "height": 844
+      },
+      {
+        "width": 320,
+        "height": 800
+      }
+    ],
+    "expectedCells": 70,
+    "captureType": "consistent viewport capture"
+  },
+  "summary": {
+    "expectedCells": 70,
+    "presentCells": 70,
+    "passingCells": 70,
+    "failingCells": 0
+  },
+  "cells": [
+    {
+      "route": "/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/home-1440x1000.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1440,
+      "height": 1000,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/home-1024x768.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1024,
+      "height": 768,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/home-768x1024.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/home-390x844.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 390,
+      "height": 844,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/home-320x800.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 800,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/products/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/products-1440x1000.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1440,
+      "height": 1000,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/products/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/products-1024x768.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1024,
+      "height": 768,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/products/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/products-768x1024.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/products/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/products-390x844.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 390,
+      "height": 844,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/products/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/products-320x800.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 800,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/ranges/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/ranges-1440x1000.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1440,
+      "height": 1000,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/ranges/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/ranges-1024x768.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1024,
+      "height": 768,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/ranges/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/ranges-768x1024.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/ranges/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/ranges-390x844.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 390,
+      "height": 844,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/ranges/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/ranges-320x800.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 800,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/hybrid-flooring-sydney/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/hybrid-flooring-1440x1000.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1440,
+      "height": 1000,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/hybrid-flooring-sydney/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/hybrid-flooring-1024x768.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1024,
+      "height": 768,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/hybrid-flooring-sydney/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/hybrid-flooring-768x1024.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/hybrid-flooring-sydney/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/hybrid-flooring-390x844.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 390,
+      "height": 844,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/hybrid-flooring-sydney/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/hybrid-flooring-320x800.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 800,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/engineered-timber-flooring-sydney/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/engineered-timber-flooring-1440x1000.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1440,
+      "height": 1000,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/engineered-timber-flooring-sydney/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/engineered-timber-flooring-1024x768.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1024,
+      "height": 768,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/engineered-timber-flooring-sydney/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/engineered-timber-flooring-768x1024.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/engineered-timber-flooring-sydney/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/engineered-timber-flooring-390x844.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 390,
+      "height": 844,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/engineered-timber-flooring-sydney/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/engineered-timber-flooring-320x800.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 800,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/timber-flooring-installation-sydney/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/installation-1440x1000.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1440,
+      "height": 1000,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/timber-flooring-installation-sydney/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/installation-1024x768.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1024,
+      "height": 768,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/timber-flooring-installation-sydney/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/installation-768x1024.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/timber-flooring-installation-sydney/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/installation-390x844.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 390,
+      "height": 844,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/timber-flooring-installation-sydney/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/installation-320x800.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 800,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/floor-levelling-sydney/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/floor-levelling-1440x1000.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1440,
+      "height": 1000,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/floor-levelling-sydney/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/floor-levelling-1024x768.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1024,
+      "height": 768,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/floor-levelling-sydney/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/floor-levelling-768x1024.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/floor-levelling-sydney/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/floor-levelling-390x844.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 390,
+      "height": 844,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/floor-levelling-sydney/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/floor-levelling-320x800.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 800,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/projects/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/projects-1440x1000.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1440,
+      "height": 1000,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/projects/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/projects-1024x768.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1024,
+      "height": 768,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/projects/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/projects-768x1024.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/projects/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/projects-390x844.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 390,
+      "height": 844,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/projects/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/projects-320x800.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 800,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/contact/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/contact-1440x1000.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1440,
+      "height": 1000,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/contact/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/contact-1024x768.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1024,
+      "height": 768,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/contact/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/contact-768x1024.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/contact/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/contact-390x844.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 390,
+      "height": 844,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/contact/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/contact-320x800.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 800,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/ranges/avala/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/range-avala-1440x1000.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1440,
+      "height": 1000,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/ranges/avala/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/range-avala-1024x768.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1024,
+      "height": 768,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/ranges/avala/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/range-avala-768x1024.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/ranges/avala/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/range-avala-390x844.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 390,
+      "height": 844,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/ranges/avala/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/range-avala-320x800.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 800,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/products/avala-blackbutt/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/product-avala-blackbutt-1440x1000.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1440,
+      "height": 1000,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/products/avala-blackbutt/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/product-avala-blackbutt-1024x768.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1024,
+      "height": 768,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/products/avala-blackbutt/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/product-avala-blackbutt-768x1024.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/products/avala-blackbutt/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/product-avala-blackbutt-390x844.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 390,
+      "height": 844,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/products/avala-blackbutt/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/product-avala-blackbutt-320x800.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 800,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/privacy/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/privacy-1440x1000.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1440,
+      "height": 1000,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/privacy/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/privacy-1024x768.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1024,
+      "height": 768,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/privacy/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/privacy-768x1024.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/privacy/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/privacy-390x844.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 390,
+      "height": 844,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/privacy/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/privacy-320x800.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 800,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/terms/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/terms-1440x1000.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1440,
+      "height": 1000,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/terms/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/terms-1024x768.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1024,
+      "height": 768,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/terms/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/terms-768x1024.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/terms/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/terms-390x844.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 390,
+      "height": 844,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/terms/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/terms-320x800.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 800,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/404.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/404-1440x1000.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1440,
+      "height": 1000,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/404.html",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/404-1024x768.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 1024,
+      "height": 768,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/404.html",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/404-768x1024.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/404.html",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/404-390x844.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 390,
+      "height": 844,
+      "success": true,
+      "failures": []
+    },
+    {
+      "route": "/404.html",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/404-320x800.jpg",
+      "exists": true,
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 800,
+      "success": true,
+      "failures": []
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "capturedAt": "2026-08-04T11:27:48.704Z",
+  "routeConsole": [
+    {
+      "route": "/",
+      "logs": []
+    },
+    {
+      "route": "/products/",
+      "logs": []
+    },
+    {
+      "route": "/ranges/",
+      "logs": []
+    },
+    {
+      "route": "/hybrid-flooring-sydney/",
+      "logs": []
+    },
+    {
+      "route": "/timber-flooring-installation-sydney/",
+      "logs": []
+    },
+    {
+      "route": "/projects/",
+      "logs": []
+    },
+    {
+      "route": "/contact/",
+      "logs": []
+    },
+    {
+      "route": "/ranges/avala/",
+      "logs": []
+    },
+    {
+      "route": "/products/avala-blackbutt/",
+      "logs": []
+    }
+  ],
+  "desktopDropdown": {
+    "before": "false",
+    "after": "true",
+    "visual": {
+      "display": "grid",
+      "rect": {
+        "bottom": 378,
+        "left": 555,
+        "right": 805,
+        "top": 74
+      },
+      "withinViewport": true
+    }
+  },
+  "mobileMenu": [
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dropdownBefore": "false",
+      "dropdownOpened": "true",
+      "dropdownClosed": "false",
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/home-menu-open-390x844.png",
+      "metrics": {
+        "actions": {
+          "bottom": 472,
+          "height": 54,
+          "left": 16,
+          "right": 374,
+          "top": 418,
+          "width": 358
+        },
+        "actionsWithinViewport": true,
+        "closedArrowTransform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, -2)",
+        "closedDropdownDisplay": "none",
+        "headerOpen": true,
+        "links": {
+          "bottom": 402,
+          "height": 326,
+          "left": 16,
+          "right": 374,
+          "top": 76,
+          "width": 358
+        },
+        "linksWithinViewport": true,
+        "pageScrollWidth": 390,
+        "toggleExpanded": "true",
+        "viewport": {
+          "height": 844,
+          "width": 390
+        }
+      }
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "dropdownBefore": "false",
+      "dropdownOpened": "true",
+      "dropdownClosed": "false",
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/home-menu-open-320x800.png",
+      "metrics": {
+        "actions": {
+          "bottom": 472,
+          "height": 54,
+          "left": 16,
+          "right": 304,
+          "top": 418,
+          "width": 288
+        },
+        "actionsWithinViewport": true,
+        "closedArrowTransform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, -2)",
+        "closedDropdownDisplay": "none",
+        "headerOpen": true,
+        "links": {
+          "bottom": 402,
+          "height": 326,
+          "left": 16,
+          "right": 304,
+          "top": 76,
+          "width": 288
+        },
+        "linksWithinViewport": true,
+        "pageScrollWidth": 320,
+        "toggleExpanded": "true",
+        "viewport": {
+          "height": 800,
+          "width": 320
+        }
+      }
+    }
+  ],
+  "productMenuOverlap": {
+    "header": {
+      "bottom": 489,
+      "left": 0,
+      "right": 390,
+      "top": 0
+    },
+    "overlaps": false,
+    "pageScrollWidth": 390,
+    "sticky": {
+      "bottom": 554,
+      "left": 0,
+      "right": 390,
+      "top": 489
+    },
+    "viewportWidth": 390
+  },
+  "contactForm": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/contact-form-1440x1000.png",
+      "metrics": {
+        "controlCount": 18,
+        "horizontalOverflow": 0,
+        "maxControlRight": 780,
+        "minControlWidth": 0,
+        "rect": {
+          "bottom": 1124,
+          "height": 780,
+          "left": 163,
+          "right": 780,
+          "top": 344,
+          "width": 617
+        }
+      }
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/contact-form-390x844.png",
+      "metrics": {
+        "controlCount": 18,
+        "horizontalOverflow": 0,
+        "maxControlRight": 353,
+        "minControlWidth": 0,
+        "rect": {
+          "bottom": 1294,
+          "height": 1028,
+          "left": 37,
+          "right": 353,
+          "top": 266,
+          "width": 316
+        }
+      }
+    }
+  ]
+}

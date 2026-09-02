@@ -1,0 +1,1718 @@
+{
+  "capturedAt": "2026-08-04T11:25:32.356Z",
+  "baseUrl": "http://127.0.0.1:42873",
+  "results": [
+    {
+      "route": "/",
+      "slug": "home",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/home-1440x1000.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 1440,
+        "h1": "Sydney timber flooring supply, installation and preparation",
+        "h1Rect": {
+          "bottom": 467,
+          "height": 295,
+          "left": 130,
+          "right": 707,
+          "top": 171,
+          "width": 577
+        },
+        "hero": {
+          "bottom": 810,
+          "height": 721,
+          "left": 0,
+          "right": 1440,
+          "top": 89,
+          "width": 1440
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 1000,
+        "innerWidth": 1440,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 654,
+          "height": 54,
+          "left": 130,
+          "right": 411,
+          "top": 600,
+          "width": 281
+        },
+        "title": "Oz Timber Floor | Sydney Timber Flooring Contractor & Supplier",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/",
+      "slug": "home",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/home-1024x768.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 1024,
+        "h1": "Sydney timber flooring supply, installation and preparation",
+        "h1Rect": {
+          "bottom": 381,
+          "height": 210,
+          "left": 24,
+          "right": 497,
+          "top": 171,
+          "width": 473
+        },
+        "hero": {
+          "bottom": 784,
+          "height": 695,
+          "left": 0,
+          "right": 1024,
+          "top": 89,
+          "width": 1024
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 768,
+        "innerWidth": 1024,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 562,
+          "height": 54,
+          "left": 24,
+          "right": 305,
+          "top": 508,
+          "width": 281
+        },
+        "title": "Oz Timber Floor | Sydney Timber Flooring Contractor & Supplier",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/",
+      "slug": "home",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/home-390x844.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 390,
+        "h1": "Sydney timber flooring supply, installation and preparation",
+        "h1Rect": {
+          "bottom": 321,
+          "height": 182,
+          "left": 16,
+          "right": 374,
+          "top": 139,
+          "width": 358
+        },
+        "hero": {
+          "bottom": 1209,
+          "height": 1136,
+          "left": 0,
+          "right": 390,
+          "top": 73,
+          "width": 390
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 844,
+        "innerWidth": 390,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 525,
+          "height": 54,
+          "left": 16,
+          "right": 374,
+          "top": 471,
+          "width": 358
+        },
+        "title": "Oz Timber Floor | Sydney Timber Flooring Contractor & Supplier",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/",
+      "slug": "home",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/home-320x800.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 320,
+        "h1": "Sydney timber flooring supply, installation and preparation",
+        "h1Rect": {
+          "bottom": 309,
+          "height": 149,
+          "left": 16,
+          "right": 304,
+          "top": 159,
+          "width": 288
+        },
+        "hero": {
+          "bottom": 1219,
+          "height": 1146,
+          "left": 0,
+          "right": 320,
+          "top": 73,
+          "width": 320
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 800,
+        "innerWidth": 320,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 539,
+          "height": 54,
+          "left": 16,
+          "right": 304,
+          "top": 485,
+          "width": 288
+        },
+        "title": "Oz Timber Floor | Sydney Timber Flooring Contractor & Supplier",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/products/",
+      "slug": "products",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/products-1440x1000.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 1440,
+        "h1": "Browse flooring products by type, range and colour",
+        "h1Rect": {
+          "bottom": 393,
+          "height": 222,
+          "left": 130,
+          "right": 707,
+          "top": 171,
+          "width": 577
+        },
+        "hero": {
+          "bottom": 718,
+          "height": 629,
+          "left": 0,
+          "right": 1440,
+          "top": 89,
+          "width": 1440
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 1000,
+        "innerWidth": 1440,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 580,
+          "height": 54,
+          "left": 130,
+          "right": 360,
+          "top": 526,
+          "width": 230
+        },
+        "title": "Flooring Products Sydney | Oz Timber Floor",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/products/",
+      "slug": "products",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/products-1024x768.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 1024,
+        "h1": "Browse flooring products by type, range and colour",
+        "h1Rect": {
+          "bottom": 331,
+          "height": 158,
+          "left": 24,
+          "right": 497,
+          "top": 173,
+          "width": 473
+        },
+        "hero": {
+          "bottom": 651,
+          "height": 562,
+          "left": 0,
+          "right": 1024,
+          "top": 89,
+          "width": 1024
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 768,
+        "innerWidth": 1024,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 511,
+          "height": 54,
+          "left": 24,
+          "right": 254,
+          "top": 457,
+          "width": 230
+        },
+        "title": "Flooring Products Sydney | Oz Timber Floor",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/products/",
+      "slug": "products",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/products-390x844.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 390,
+        "h1": "Browse flooring products by type, range and colour",
+        "h1Rect": {
+          "bottom": 276,
+          "height": 136,
+          "left": 16,
+          "right": 374,
+          "top": 139,
+          "width": 358
+        },
+        "hero": {
+          "bottom": 1139,
+          "height": 1066,
+          "left": 0,
+          "right": 390,
+          "top": 73,
+          "width": 390
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 844,
+        "innerWidth": 390,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 479,
+          "height": 54,
+          "left": 16,
+          "right": 374,
+          "top": 425,
+          "width": 358
+        },
+        "title": "Flooring Products Sydney | Oz Timber Floor",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/products/",
+      "slug": "products",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/products-320x800.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 320,
+        "h1": "Browse flooring products by type, range and colour",
+        "h1Rect": {
+          "bottom": 251,
+          "height": 112,
+          "left": 16,
+          "right": 304,
+          "top": 139,
+          "width": 288
+        },
+        "hero": {
+          "bottom": 1141,
+          "height": 1068,
+          "left": 0,
+          "right": 320,
+          "top": 73,
+          "width": 320
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 800,
+        "innerWidth": 320,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 482,
+          "height": 54,
+          "left": 16,
+          "right": 304,
+          "top": 428,
+          "width": 288
+        },
+        "title": "Flooring Products Sydney | Oz Timber Floor",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/ranges/",
+      "slug": "ranges",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/ranges-1440x1000.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 1440,
+        "h1": "All flooring ranges",
+        "h1Rect": {
+          "bottom": 379,
+          "height": 148,
+          "left": 130,
+          "right": 707,
+          "top": 231,
+          "width": 577
+        },
+        "hero": {
+          "bottom": 699,
+          "height": 610,
+          "left": 0,
+          "right": 1440,
+          "top": 89,
+          "width": 1440
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 1000,
+        "innerWidth": 1440,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 566,
+          "height": 54,
+          "left": 130,
+          "right": 305,
+          "top": 513,
+          "width": 175
+        },
+        "title": "All Flooring Ranges Sydney | Oz Timber Floor",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/ranges/",
+      "slug": "ranges",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/ranges-1024x768.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 1024,
+        "h1": "All flooring ranges",
+        "h1Rect": {
+          "bottom": 264,
+          "height": 53,
+          "left": 24,
+          "right": 497,
+          "top": 212,
+          "width": 473
+        },
+        "hero": {
+          "bottom": 557,
+          "height": 468,
+          "left": 0,
+          "right": 1024,
+          "top": 89,
+          "width": 1024
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 768,
+        "innerWidth": 1024,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 445,
+          "height": 54,
+          "left": 24,
+          "right": 199,
+          "top": 391,
+          "width": 175
+        },
+        "title": "All Flooring Ranges Sydney | Oz Timber Floor",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/ranges/",
+      "slug": "ranges",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/ranges-390x844.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 390,
+        "h1": "All flooring ranges",
+        "h1Rect": {
+          "bottom": 230,
+          "height": 91,
+          "left": 16,
+          "right": 374,
+          "top": 139,
+          "width": 358
+        },
+        "hero": {
+          "bottom": 843,
+          "height": 770,
+          "left": 0,
+          "right": 390,
+          "top": 73,
+          "width": 390
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 844,
+        "innerWidth": 390,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 434,
+          "height": 54,
+          "left": 16,
+          "right": 374,
+          "top": 380,
+          "width": 358
+        },
+        "title": "All Flooring Ranges Sydney | Oz Timber Floor",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/ranges/",
+      "slug": "ranges",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/ranges-320x800.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 320,
+        "h1": "All flooring ranges",
+        "h1Rect": {
+          "bottom": 214,
+          "height": 75,
+          "left": 16,
+          "right": 304,
+          "top": 139,
+          "width": 288
+        },
+        "hero": {
+          "bottom": 828,
+          "height": 755,
+          "left": 0,
+          "right": 320,
+          "top": 73,
+          "width": 320
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 800,
+        "innerWidth": 320,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 445,
+          "height": 54,
+          "left": 16,
+          "right": 304,
+          "top": 391,
+          "width": 288
+        },
+        "title": "All Flooring Ranges Sydney | Oz Timber Floor",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/hybrid-flooring-sydney/",
+      "slug": "hybrid-flooring",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/hybrid-flooring-1440x1000.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 1440,
+        "h1": "Hybrid flooring supply and installation in Sydney",
+        "h1Rect": {
+          "bottom": 467,
+          "height": 295,
+          "left": 130,
+          "right": 707,
+          "top": 172,
+          "width": 577
+        },
+        "hero": {
+          "bottom": 764,
+          "height": 675,
+          "left": 0,
+          "right": 1440,
+          "top": 89,
+          "width": 1440
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 1000,
+        "innerWidth": 1440,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 625,
+          "height": 54,
+          "left": 130,
+          "right": 290,
+          "top": 571,
+          "width": 160
+        },
+        "title": "Hybrid Flooring Sydney | Supply & Installation",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/hybrid-flooring-sydney/",
+      "slug": "hybrid-flooring",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/hybrid-flooring-1024x768.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 1024,
+        "h1": "Hybrid flooring supply and installation in Sydney",
+        "h1Rect": {
+          "bottom": 381,
+          "height": 210,
+          "left": 24,
+          "right": 497,
+          "top": 171,
+          "width": 473
+        },
+        "hero": {
+          "bottom": 700,
+          "height": 611,
+          "left": 0,
+          "right": 1024,
+          "top": 89,
+          "width": 1024
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 768,
+        "innerWidth": 1024,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 562,
+          "height": 54,
+          "left": 24,
+          "right": 184,
+          "top": 508,
+          "width": 160
+        },
+        "title": "Hybrid Flooring Sydney | Supply & Installation",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/hybrid-flooring-sydney/",
+      "slug": "hybrid-flooring",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/hybrid-flooring-390x844.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 390,
+        "h1": "Hybrid flooring supply and installation in Sydney",
+        "h1Rect": {
+          "bottom": 321,
+          "height": 182,
+          "left": 16,
+          "right": 374,
+          "top": 139,
+          "width": 358
+        },
+        "hero": {
+          "bottom": 1221,
+          "height": 1148,
+          "left": 0,
+          "right": 390,
+          "top": 73,
+          "width": 390
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 844,
+        "innerWidth": 390,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 498,
+          "height": 54,
+          "left": 16,
+          "right": 374,
+          "top": 444,
+          "width": 358
+        },
+        "title": "Hybrid Flooring Sydney | Supply & Installation",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/hybrid-flooring-sydney/",
+      "slug": "hybrid-flooring",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/hybrid-flooring-320x800.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 320,
+        "h1": "Hybrid flooring supply and installation in Sydney",
+        "h1Rect": {
+          "bottom": 288,
+          "height": 149,
+          "left": 16,
+          "right": 304,
+          "top": 139,
+          "width": 288
+        },
+        "hero": {
+          "bottom": 1152,
+          "height": 1079,
+          "left": 0,
+          "right": 320,
+          "top": 73,
+          "width": 320
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 800,
+        "innerWidth": 320,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 492,
+          "height": 54,
+          "left": 16,
+          "right": 304,
+          "top": 438,
+          "width": 288
+        },
+        "title": "Hybrid Flooring Sydney | Supply & Installation",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/timber-flooring-installation-sydney/",
+      "slug": "installation",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/installation-1440x1000.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 1440,
+        "h1": "Timber flooring installation Sydney",
+        "h1Rect": {
+          "bottom": 393,
+          "height": 222,
+          "left": 130,
+          "right": 707,
+          "top": 171,
+          "width": 577
+        },
+        "hero": {
+          "bottom": 652,
+          "height": 563,
+          "left": 0,
+          "right": 1440,
+          "top": 89,
+          "width": 1440
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 1000,
+        "innerWidth": 1440,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 580,
+          "height": 54,
+          "left": 130,
+          "right": 411,
+          "top": 526,
+          "width": 281
+        },
+        "title": "Timber Flooring Installation Sydney | Oz Timber Floor",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/timber-flooring-installation-sydney/",
+      "slug": "installation",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/installation-1024x768.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 1024,
+        "h1": "Timber flooring installation Sydney",
+        "h1Rect": {
+          "bottom": 304,
+          "height": 105,
+          "left": 24,
+          "right": 497,
+          "top": 199,
+          "width": 473
+        },
+        "hero": {
+          "bottom": 651,
+          "height": 562,
+          "left": 0,
+          "right": 1024,
+          "top": 89,
+          "width": 1024
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 768,
+        "innerWidth": 1024,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 485,
+          "height": 54,
+          "left": 24,
+          "right": 305,
+          "top": 431,
+          "width": 281
+        },
+        "title": "Timber Flooring Installation Sydney | Oz Timber Floor",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/timber-flooring-installation-sydney/",
+      "slug": "installation",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/installation-390x844.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 390,
+        "h1": "Timber flooring installation Sydney",
+        "h1Rect": {
+          "bottom": 276,
+          "height": 136,
+          "left": 16,
+          "right": 374,
+          "top": 139,
+          "width": 358
+        },
+        "hero": {
+          "bottom": 1075,
+          "height": 1002,
+          "left": 0,
+          "right": 390,
+          "top": 73,
+          "width": 390
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 844,
+        "innerWidth": 390,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 479,
+          "height": 54,
+          "left": 16,
+          "right": 374,
+          "top": 425,
+          "width": 358
+        },
+        "title": "Timber Flooring Installation Sydney | Oz Timber Floor",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/timber-flooring-installation-sydney/",
+      "slug": "installation",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/installation-320x800.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 320,
+        "h1": "Timber flooring installation Sydney",
+        "h1Rect": {
+          "bottom": 271,
+          "height": 112,
+          "left": 16,
+          "right": 304,
+          "top": 159,
+          "width": 288
+        },
+        "hero": {
+          "bottom": 1125,
+          "height": 1052,
+          "left": 0,
+          "right": 320,
+          "top": 73,
+          "width": 320
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 800,
+        "innerWidth": 320,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 529,
+          "height": 54,
+          "left": 16,
+          "right": 304,
+          "top": 475,
+          "width": 288
+        },
+        "title": "Timber Flooring Installation Sydney | Oz Timber Floor",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/projects/",
+      "slug": "projects",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/projects-1440x1000.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 1440,
+        "h1": "Sydney flooring projects and installation examples",
+        "h1Rect": {
+          "bottom": 467,
+          "height": 295,
+          "left": 130,
+          "right": 707,
+          "top": 171,
+          "width": 577
+        },
+        "hero": {
+          "bottom": 821,
+          "height": 732,
+          "left": 0,
+          "right": 1440,
+          "top": 89,
+          "width": 1440
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 1000,
+        "innerWidth": 1440,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 683,
+          "height": 54,
+          "left": 130,
+          "right": 357,
+          "top": 629,
+          "width": 227
+        },
+        "title": "Flooring Projects Sydney | Oz Timber Floor Gallery",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/projects/",
+      "slug": "projects",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/projects-1024x768.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 1024,
+        "h1": "Sydney flooring projects and installation examples",
+        "h1Rect": {
+          "bottom": 381,
+          "height": 210,
+          "left": 24,
+          "right": 497,
+          "top": 171,
+          "width": 473
+        },
+        "hero": {
+          "bottom": 727,
+          "height": 638,
+          "left": 0,
+          "right": 1024,
+          "top": 89,
+          "width": 1024
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 768,
+        "innerWidth": 1024,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 589,
+          "height": 54,
+          "left": 24,
+          "right": 251,
+          "top": 535,
+          "width": 227
+        },
+        "title": "Flooring Projects Sydney | Oz Timber Floor Gallery",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/projects/",
+      "slug": "projects",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/projects-390x844.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 390,
+        "h1": "Sydney flooring projects and installation examples",
+        "h1Rect": {
+          "bottom": 321,
+          "height": 182,
+          "left": 16,
+          "right": 374,
+          "top": 139,
+          "width": 358
+        },
+        "hero": {
+          "bottom": 1211,
+          "height": 1138,
+          "left": 0,
+          "right": 390,
+          "top": 73,
+          "width": 390
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 844,
+        "innerWidth": 390,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 552,
+          "height": 54,
+          "left": 16,
+          "right": 374,
+          "top": 498,
+          "width": 358
+        },
+        "title": "Flooring Projects Sydney | Oz Timber Floor Gallery",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/projects/",
+      "slug": "projects",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/projects-320x800.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 320,
+        "h1": "Sydney flooring projects and installation examples",
+        "h1Rect": {
+          "bottom": 288,
+          "height": 149,
+          "left": 16,
+          "right": 304,
+          "top": 139,
+          "width": 288
+        },
+        "hero": {
+          "bottom": 1233,
+          "height": 1160,
+          "left": 0,
+          "right": 320,
+          "top": 73,
+          "width": 320
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 800,
+        "innerWidth": 320,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 573,
+          "height": 54,
+          "left": 16,
+          "right": 304,
+          "top": 519,
+          "width": 288
+        },
+        "title": "Flooring Projects Sydney | Oz Timber Floor Gallery",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/contact/",
+      "slug": "contact",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/contact-1440x1000.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": {
+          "bottom": 2301,
+          "height": 780,
+          "left": 163,
+          "right": 780,
+          "top": 1521,
+          "width": 617
+        },
+        "documentScrollWidth": 1440,
+        "h1": "Contact Oz Timber Floor",
+        "h1Rect": {
+          "bottom": 355,
+          "height": 148,
+          "left": 130,
+          "right": 707,
+          "top": 208,
+          "width": 577
+        },
+        "hero": {
+          "bottom": 651,
+          "height": 562,
+          "left": 0,
+          "right": 1440,
+          "top": 89,
+          "width": 1440
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 1000,
+        "innerWidth": 1440,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 543,
+          "height": 54,
+          "left": 130,
+          "right": 411,
+          "top": 489,
+          "width": 281
+        },
+        "title": "Contact Oz Timber Floor | Flooring Supply & Installation Sydney",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/contact/",
+      "slug": "contact",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/contact-1024x768.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": {
+          "bottom": 2360,
+          "height": 804,
+          "left": 53,
+          "right": 557,
+          "top": 1556,
+          "width": 505
+        },
+        "documentScrollWidth": 1024,
+        "h1": "Contact Oz Timber Floor",
+        "h1Rect": {
+          "bottom": 304,
+          "height": 105,
+          "left": 24,
+          "right": 497,
+          "top": 199,
+          "width": 473
+        },
+        "hero": {
+          "bottom": 651,
+          "height": 562,
+          "left": 0,
+          "right": 1024,
+          "top": 89,
+          "width": 1024
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 768,
+        "innerWidth": 1024,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 485,
+          "height": 54,
+          "left": 24,
+          "right": 305,
+          "top": 431,
+          "width": 281
+        },
+        "title": "Contact Oz Timber Floor | Flooring Supply & Installation Sydney",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/contact/",
+      "slug": "contact",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/contact-390x844.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": {
+          "bottom": 3375,
+          "height": 1028,
+          "left": 37,
+          "right": 353,
+          "top": 2348,
+          "width": 316
+        },
+        "documentScrollWidth": 390,
+        "h1": "Contact Oz Timber Floor",
+        "h1Rect": {
+          "bottom": 230,
+          "height": 91,
+          "left": 16,
+          "right": 374,
+          "top": 139,
+          "width": 358
+        },
+        "hero": {
+          "bottom": 1030,
+          "height": 957,
+          "left": 0,
+          "right": 390,
+          "top": 73,
+          "width": 390
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 844,
+        "innerWidth": 390,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 434,
+          "height": 54,
+          "left": 16,
+          "right": 374,
+          "top": 380,
+          "width": 358
+        },
+        "title": "Contact Oz Timber Floor | Flooring Supply & Installation Sydney",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/contact/",
+      "slug": "contact",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/contact-320x800.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": {
+          "bottom": 3597,
+          "height": 1076,
+          "left": 37,
+          "right": 283,
+          "top": 2521,
+          "width": 246
+        },
+        "documentScrollWidth": 320,
+        "h1": "Contact Oz Timber Floor",
+        "h1Rect": {
+          "bottom": 214,
+          "height": 75,
+          "left": 16,
+          "right": 304,
+          "top": 139,
+          "width": 288
+        },
+        "hero": {
+          "bottom": 1013,
+          "height": 940,
+          "left": 0,
+          "right": 320,
+          "top": 73,
+          "width": 320
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 800,
+        "innerWidth": 320,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 418,
+          "height": 54,
+          "left": 16,
+          "right": 304,
+          "top": 364,
+          "width": 288
+        },
+        "title": "Contact Oz Timber Floor | Flooring Supply & Installation Sydney",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/ranges/avala/",
+      "slug": "range-avala",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/range-avala-1440x1000.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 1440,
+        "h1": "Avala",
+        "h1Rect": {
+          "bottom": 429,
+          "height": 74,
+          "left": 130,
+          "right": 707,
+          "top": 355,
+          "width": 577
+        },
+        "hero": {
+          "bottom": 818,
+          "height": 610,
+          "left": 0,
+          "right": 1440,
+          "top": 208,
+          "width": 1440
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 1000,
+        "innerWidth": 1440,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 616,
+          "height": 54,
+          "left": 130,
+          "right": 276,
+          "top": 562,
+          "width": 146
+        },
+        "title": "Avala Hybrid Flooring Range | Oz Timber Floor",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/ranges/avala/",
+      "slug": "range-avala",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/range-avala-1024x768.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 1024,
+        "h1": "Avala",
+        "h1Rect": {
+          "bottom": 350,
+          "height": 53,
+          "left": 24,
+          "right": 497,
+          "top": 298,
+          "width": 473
+        },
+        "hero": {
+          "bottom": 676,
+          "height": 468,
+          "left": 0,
+          "right": 1024,
+          "top": 208,
+          "width": 1024
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 768,
+        "innerWidth": 1024,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 531,
+          "height": 54,
+          "left": 24,
+          "right": 170,
+          "top": 477,
+          "width": 146
+        },
+        "title": "Avala Hybrid Flooring Range | Oz Timber Floor",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/ranges/avala/",
+      "slug": "range-avala",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/range-avala-390x844.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 390,
+        "h1": "Avala",
+        "h1Rect": {
+          "bottom": 304,
+          "height": 45,
+          "left": 16,
+          "right": 374,
+          "top": 259,
+          "width": 358
+        },
+        "hero": {
+          "bottom": 981,
+          "height": 788,
+          "left": 0,
+          "right": 390,
+          "top": 192,
+          "width": 390
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 844,
+        "innerWidth": 390,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 508,
+          "height": 54,
+          "left": 16,
+          "right": 374,
+          "top": 454,
+          "width": 358
+        },
+        "title": "Avala Hybrid Flooring Range | Oz Timber Floor",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/ranges/avala/",
+      "slug": "range-avala",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/range-avala-320x800.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 320,
+        "h1": "Avala",
+        "h1Rect": {
+          "bottom": 296,
+          "height": 37,
+          "left": 16,
+          "right": 304,
+          "top": 259,
+          "width": 288
+        },
+        "hero": {
+          "bottom": 974,
+          "height": 782,
+          "left": 0,
+          "right": 320,
+          "top": 192,
+          "width": 320
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 800,
+        "innerWidth": 320,
+        "mobileStickyCta": null,
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 527,
+          "height": 54,
+          "left": 16,
+          "right": 304,
+          "top": 473,
+          "width": 288
+        },
+        "title": "Avala Hybrid Flooring Range | Oz Timber Floor",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/products/avala-blackbutt/",
+      "slug": "product-avala-blackbutt",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/product-avala-blackbutt-1440x1000.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 1440,
+        "h1": "Avala Blackbutt",
+        "h1Rect": {
+          "bottom": 364,
+          "height": 74,
+          "left": 782,
+          "right": 1310,
+          "top": 291,
+          "width": 528
+        },
+        "hero": {
+          "bottom": 1059,
+          "height": 851,
+          "left": 0,
+          "right": 1440,
+          "top": 208,
+          "width": 1440
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 1000,
+        "innerWidth": 1440,
+        "mobileStickyCta": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0
+        },
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 523,
+          "height": 54,
+          "left": 782,
+          "right": 992,
+          "top": 469,
+          "width": 209
+        },
+        "title": "Avala Blackbutt Hybrid Flooring | Oz Timber Floor",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/products/avala-blackbutt/",
+      "slug": "product-avala-blackbutt",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/product-avala-blackbutt-1024x768.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 1024,
+        "h1": "Avala Blackbutt",
+        "h1Rect": {
+          "bottom": 343,
+          "height": 53,
+          "left": 566,
+          "right": 1000,
+          "top": 291,
+          "width": 434
+        },
+        "hero": {
+          "bottom": 876,
+          "height": 668,
+          "left": 0,
+          "right": 1024,
+          "top": 208,
+          "width": 1024
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 768,
+        "innerWidth": 1024,
+        "mobileStickyCta": {
+          "bottom": 0,
+          "height": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "width": 0
+        },
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 497,
+          "height": 54,
+          "left": 566,
+          "right": 775,
+          "top": 443,
+          "width": 209
+        },
+        "title": "Avala Blackbutt Hybrid Flooring | Oz Timber Floor",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/products/avala-blackbutt/",
+      "slug": "product-avala-blackbutt",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/product-avala-blackbutt-390x844.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 390,
+        "h1": "Avala Blackbutt",
+        "h1Rect": {
+          "bottom": 400,
+          "height": 45,
+          "left": 16,
+          "right": 374,
+          "top": 355,
+          "width": 358
+        },
+        "hero": {
+          "bottom": 1229,
+          "height": 941,
+          "left": 0,
+          "right": 390,
+          "top": 289,
+          "width": 390
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 844,
+        "innerWidth": 390,
+        "mobileStickyCta": {
+          "bottom": 138,
+          "height": 65,
+          "left": 0,
+          "right": 390,
+          "top": 73,
+          "width": 390
+        },
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 550,
+          "height": 54,
+          "left": 16,
+          "right": 374,
+          "top": 496,
+          "width": 358
+        },
+        "title": "Avala Blackbutt Hybrid Flooring | Oz Timber Floor",
+        "visibleImagesNotReady": []
+      }
+    },
+    {
+      "route": "/products/avala-blackbutt/",
+      "slug": "product-avala-blackbutt",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "screenshot": "/Users/daibang/Projects/oz-timber-floor/docs/ui-ux/screenshots/after/product-avala-blackbutt-320x800.png",
+      "metrics": {
+        "brokenImages": [],
+        "contactForm": null,
+        "documentScrollWidth": 320,
+        "h1": "Avala Blackbutt",
+        "h1Rect": {
+          "bottom": 392,
+          "height": 37,
+          "left": 16,
+          "right": 304,
+          "top": 355,
+          "width": 288
+        },
+        "hero": {
+          "bottom": 1197,
+          "height": 908,
+          "left": 0,
+          "right": 320,
+          "top": 289,
+          "width": 320
+        },
+        "horizontalOverflow": 0,
+        "innerHeight": 800,
+        "innerWidth": 320,
+        "mobileStickyCta": {
+          "bottom": 138,
+          "height": 65,
+          "left": 0,
+          "right": 320,
+          "top": 73,
+          "width": 320
+        },
+        "primaryCta": {
+          "aboveFold": true,
+          "bottom": 569,
+          "height": 54,
+          "left": 16,
+          "right": 304,
+          "top": 515,
+          "width": 288
+        },
+        "title": "Avala Blackbutt Hybrid Flooring | Oz Timber Floor",
+        "visibleImagesNotReady": []
+      }
+    }
+  ]
+}

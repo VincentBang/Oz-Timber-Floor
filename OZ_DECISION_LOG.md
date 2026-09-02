@@ -21,7 +21,8 @@
 - Supplier names should not be shown publicly under the current policy.
 - Indexation is fail-closed. Preview, branch and main Netlify-hostname deploys remain noindex unless an approved custom production domain is connected and `OZ_PRODUCTION_INDEXING_ENABLED=true` is explicitly set; only that approved production-domain output may be indexable.
 - The production GA4 measurement ID is supplied only at Netlify build time through `OZ_GA4_MEASUREMENT_ID`; source remains unset until an approved ID exists.
-- Catalogue quality is manifest-controlled. The approved 4 August 2026 decision covers 1,222 pages: 715 use an indexable parent range and 507 use a matching category. These pages remain available as `noindex,follow` fallbacks without Product schema and are excluded from the sitemap.
+- Analytics hooks are restricted to the privacy-safe events `phone_click`, `email_click`, `quote_start`, `quote_submit`, `stock_check`, `supply_only_enquiry` and `supply_install_enquiry`; names, phone numbers, email addresses and message text must not be sent. No GA4 ID is approved or configured yet.
+- Catalogue quality is manifest-controlled. The historical 4 August 2026 snapshot covered 1,222 pages: 715 used an indexable parent range and 507 used a matching category. These figures are preserved as history and superseded by the verified 1 September manifest; controlled pages remain available as `noindex,follow` fallbacks without Product schema and are excluded from the sitemap.
 - Redirect continuity is part of the catalogue decision: 220 direct redirects were applied and 636 existing catalogue rules were remapped to indexable replacements (632 in the initial risk set plus four forced `301!` aliases found by matcher refinement). A release is invalid if any redirect destination becomes controlled/noindex.
 - The duplicate keyword sitemap has no separate operational role and redirects to the main sitemap. Only the main sitemap is advertised in `robots.txt`.
 - The static site remains enquiry-led. Rebuilding checkout requires separate revenue and operational evidence.
@@ -68,10 +69,50 @@
 - Verified local outcome: 941 sitemap URLs, 1,910 redirect rules, zero unsafe redirect destinations and local gate `GO` with 0 blocker/high/medium findings.
 - Approved repository promotion path: push the validated commit to `dev`, merge that exact commit to `main`, then deploy `main`. This does not approve DNS/custom-domain changes or production indexation.
 
+## Decision Record — 1 September 2026
+
+- Reconciled current publication state: 943 unique publication canonicals and 943 sitemap URLs, represented by 971 physical indexable HTML pages. The wider route inventory also contains 1,228 noindex routes, 350 redirect-only routes and 1,912 redirect rules.
+- Reconciled current catalogue state: 2,115 catalogue pages, of which 893 are indexable and 1,222 are controlled/noindex.
+- Approved the repeatable GSC equity rule: include the exported top 100 Pages rows, every row with at least one click and every row with at least 500 impressions. The result is 130 page decisions.
+- Recorded the current audit result: 60 priority manual catalogue rows, 72 exact product/range mappings and 8 unresolved mappings retained for controlled business/source review.
+- The unfiltered Queries export is capped at exactly 1,000 rows and is directional, not exhaustive. Pages-sheet dimension sums are coverage evidence, not property traffic totals, and must not be combined with overlapping query/filter exports.
+- Approved 60 semantic redirect contracts as permanent regression expectations.
+- Approved these six exact ETF 9.0mm product mappings:
+  - `/product/etf-hybrid-spc-9mm-dexter-oak/` -> `/products/etf-9-0mm-hybrid-dexter-oak/`
+  - `/product/etf-hybrid-spc-9mm-driftwood/` -> `/products/etf-9-0mm-hybrid-driftwood/`
+  - `/product/etf-hybrid-spc-9mm-grey-oak/` -> `/products/etf-9-0mm-hybrid-grey-oak/`
+  - `/product/etf-hybrid-spc-9mm-new-zealand-blackbutt/` -> `/products/etf-9-0mm-hybrid-new-zealand-blackbutt/`
+  - `/product/etf-hybrid-spc-9mm-oslo-oak-grey/` -> `/products/etf-9-0mm-hybrid-oslo-oak-grey/`
+  - `/product/etf-hybrid-spc-9mm-spotted-gum/` -> `/products/etf-9-0mm-hybrid-spotted-gum/`
+- Approved Helena Oak treatment: `/product/etf-hybrid-spc-9mm-helena-oak/` redirects to the indexable `/ranges/etf-9-0mm-hybrid/` range because no verified indexable exact product exists and the exact local candidate is incomplete/noindex.
+- Preserved the Stonewood Bamboo retirement: `/product-category/bamboo/stonewood-bamboo/` -> `/hardwood-timber-flooring-sydney/`.
+- Retired the legacy Hybrid guide `/hybrid-timber-flooring-look-of-timber-with-extra-durability/` to `/hybrid-flooring-sydney/`, which preserves the current product-selection intent without carrying unsupported legacy claims.
+- Approved 15 incomplete product-to-parent-range corrections after verifying their indexable catalogue parents.
+- Approved 22 Grand Oak product corrections to `/engineered-timber-flooring-sydney/`; the inherited Hybrid classification is semantically wrong, while no verified indexable exact Grand Oak product/range is currently publishable.
+- Approved 12 additional product-to-parent-range corrections: Stone Floor (6), Storm (3), Swish Oak (2) and Swish Aqua (1).
+- Reconciled the current 1,222-page control manifest to 6 exact-product replacements, 743 parent-range replacements and 473 category replacements. The historical 4 August split remains 715 parent-range and 507 category replacements.
+- Bulk catalogue noindex is prohibited. The original control queue included 632 current redirect destinations, so indexation may change only after route-level data, redirect, retirement or 410 treatment and inbound redirect reconciliation.
+- The 361 catalogue quality findings are a controlled manual-review queue, not an automatic noindex instruction.
+- The permanent hardening result records 130 GSC decisions, 12 keyword owners, 60 semantic redirect contracts and zero hardening blockers. It independently derives 74 mapping candidates as a second check on the committed decision set.
+- Privacy-safe analytics hooks are prepared, but no approved GA4 measurement ID is present and production analytics is not considered operational.
+- This hardening record does not approve or perform a commit, deploy, domain/DNS change or production-indexing change.
+
+## Decision Record — OZ-PERF-002, 1 September 2026
+
+- The priority performance scope is fixed to 15 redirect-resolved publication owners. Flat files selected by exact 200 rewrites are authoritative over drifting directory aliases.
+- `scripts/image-dimension-audit.mjs` is the authoritative final-stage generator for image dimensions and primary-image loading attributes on those owners. Legacy bulk/stale page generators are not approved for this scoped task.
+- The final build order is header preparation, catalogue apply, then the scoped image-performance apply. Migration readiness fails if that exact contract is removed or reordered.
+- Each priority route may have exactly one verified primary image with factual `width`/`height`, eager loading, high fetch priority, async decoding and the LCP marker. Below-fold lazy loading is preserved; multiple preloads and unverified image recompression are not approved.
+- Performance-only SEO-freeze allowances are valid only when the complete owner HTML normalises exactly to the reconstructed pre-task file after removing `width`, `height`, `loading`, `fetchpriority`, `decoding` and `data-lcp-image`. All other page and protected-file differences remain blocking.
+- The catalogue top-25 is an audit queue, not approval to change redirects, indexation, metadata, schema, product data or public copy. Class B requires verified evidence, Class C retains current control and Class D requires a separate mapped decision; Class A authorises only the named deterministic cleanup.
+- OZ-PERF-002 completed locally with 136 missing dimension pairs resolved, 75/75 browser records passing, the exact same 29 authorised SEO-freeze differences, unchanged publication/GSC/workbook contracts and no commit, push, merge, deploy, DNS or production-indexing action.
+
 ## Open Decisions
 
 - Final production launch date.
-- Final form backend/destination and submission test.
+- Final Netlify Forms destination/notification routing and real submission test.
+- Approved GA4 measurement ID and production Realtime verification.
+- Production domain/DNS approval and real production redirect/header/robots/sitemap verification after deployment.
 - Whether any supplier names may be shown publicly later.
 - Real project proof availability.
 - Insurance/licence wording, if the business wants to show it.

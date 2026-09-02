@@ -1,11 +1,11 @@
 # Redirect validation report
 
-Generated: 2026-08-04T10:26:33.380Z
+Generated: 2026-09-02T05:30:46.574Z
 
 | Check | Result |
 | --- | ---: |
-| totalRules | 1910 |
-| permanentRedirects | 1878 |
+| totalRules | 1912 |
+| permanentRedirects | 1880 |
 | cleanRewrites | 29 |
 | goneRules | 2 |
 | conflicts | 0 |

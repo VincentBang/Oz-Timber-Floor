@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-09-01T03:17:21.099Z",
+  "applied": true,
+  "policy": {
+    "bambooReplacement": "/hardwood-timber-flooring-sydney/",
+    "catalogue": "Approved controlled treatment: retain incomplete pages only as noindex,follow fallbacks without Product schema; prefer a verified indexable parent range before a matching category; redirect alias, retired, and supplier-bearing public routes directly."
+  },
+  "catalogue": {
+    "decisionPages": 1222,
+    "byReplacementBasis": {
+      "indexable-parent-range": 743,
+      "matching-flooring-category": 473,
+      "exact-indexable-product": 6
+    },
+    "directRouteRedirectsEnsured": 220,
+    "initialLegacyRedirectDestinationsRemapped": 632,
+    "forcedLegacyRedirectDestinationsRemapped": 4,
+    "totalLegacyRedirectDestinationsRemapped": 636,
+    "legacyRedirectDestinationsRemappedThisRun": 0
+  },
+  "bamboo": {
+    "initialLandingRewriteConverted": 1,
+    "initialLegacyRedirectDestinationsRemapped": 25,
+    "landingRewriteConvertedThisRun": 0,
+    "legacyRedirectDestinationsRemappedThisRun": 0,
+    "htmlFallbackRedirectEnsured": true,
+    "publicFilesChangedThisRun": [],
+    "sitemapEntryRemoved": false,
+    "sitemapEntriesRemovedThisRun": 0,
+    "requiredPublicationEntriesRestoredThisRun": []
+  },
+  "redirects": {
+    "reviewedSemanticContractsEnsured": 60,
+    "catalogueFallbackContractsEnsured": 57,
+    "directDecisionRulesUpdatedThisRun": 0,
+    "directDecisionRulesAddedThisRun": 0,
+    "reviewedSemanticRulesUpdatedThisRun": 0,
+    "reviewedSemanticRulesAddedThisRun": 0,
+    "remainingUnsafeDestinations": 0
+  }
+}

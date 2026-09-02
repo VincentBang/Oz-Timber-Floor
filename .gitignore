@@ -1,2 +1,10 @@
 .DS_Store
 screenlog.0
+dist/
+
+# Private, machine-local migration and release evidence. These inputs must not
+# be published through the public Git repository or the Netlify site artifact.
+docs/release/
+docs/seo-migration/source/search-console/
+docs/seo-migration/generated/gsc-equity-map-*.csv
+docs/seo-migration/generated/catalogue-equity-manual-review-*.csv

@@ -1,0 +1,2873 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T04:02:29.027677Z",
+  "baseUrl": "http://127.0.0.1:8765",
+  "sourceHashes": {
+    "assets/site.css": "e1e9ca12e173b9f1df74dfd166ff08b8ea9a7014695752b052ff8322ae45072f",
+    "assets/site.js": "22925e4faa61960ec96c8964a167b5d93b424162720f8389fe410ce1737163af",
+    "index.html": "d528b1166ca29b719b1ae43c8b4f3567f0dc8984f2d5424d54059a61f172c498",
+    "products/index.html": "f5c9f246610f3d8ad819c712fc0670f585c9ea4fd86aea15ca9f18c78706ee3b",
+    "ranges/index.html": "d6c74e5ba9e39b3f9c3f3d7920b6100e73de0e35765d4feb8cb16c8ba8026356",
+    "hybrid-flooring-sydney/index.html": "23ddbecb35319270803db23fb943c8871b27ee9111d033a25ac20a1dc486dafb",
+    "engineered-timber-flooring-sydney/index.html": "2f96aa556b86ba96411326326b8e0f76b40b7e172bc0d32709be020aed8e1eae",
+    "timber-flooring-installation-sydney/index.html": "29908aec1d18ceab924a067a1f06f37c808d773ee0a85022ae0965b7c93f18a7",
+    "floor-levelling-sydney/index.html": "905dd75fb369ca639dba47fe7d6cf6797efc544f5e0447753b6171aaace0ab70",
+    "projects/index.html": "7512cca220789428b1cb424d00290409c5b9d65e12929ac5b8ab5ae99c1c268d",
+    "contact/index.html": "9a8fcab9d1ad916aab1bf997171660a9413de9802b468e72edb5d88df00f4360",
+    "ranges/avala/index.html": "06f26b72d5b3bf1daf287182a7f528b5bb0faa4d4433ff89f50cfbeeaf992d1b",
+    "products/avala-blackbutt/index.html": "e89898dd164aa934a3427208df213ed9081842ca6f8063677d3722dc133f1b79",
+    "privacy/index.html": "1883ed791f2c10ed918f21bbdbcbcd406e5c8606d44347d814c20bbc3fdb1daa",
+    "terms/index.html": "78ad8612fb992cc4e774d25dbfed1bc63eb6987ec839bfc727b895e2eb53c09e",
+    "404.html": "21249739a50c5417ec8dc7a94b52963e0593e9ae4b4b67b09b16885ccca6c59a"
+  },
+  "routeMatrix": [
+    {
+      "brand": {
+        "bottom": 75.9921875,
+        "height": 63.9921875,
+        "left": 130,
+        "right": 332.4140625,
+        "top": 12
+      },
+      "brokenImages": 0,
+      "consoleErrors": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1440,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1000,
+      "innerWidth": 1440,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1500",
+        "loading": "eager",
+        "width": "1800"
+      },
+      "route": "/",
+      "scrollY": 0,
+      "success": true,
+      "viewport": {
+        "height": 1000,
+        "width": 1440
+      },
+      "visibleImagesReady": true,
+      "file": "docs/ui-ux/screenshots/after-v2/home-1440x1000.jpg"
+    },
+    {
+      "route": "/products/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/products-1440x1000.jpg",
+      "brand": {
+        "bottom": 75.9921875,
+        "height": 63.9921875,
+        "left": 130,
+        "right": 332.4140625,
+        "top": 12
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1440,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1000,
+      "innerWidth": 1440,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1000",
+        "loading": "eager",
+        "width": "1500"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/ranges/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/ranges-1440x1000.jpg",
+      "brand": {
+        "bottom": 75.9921875,
+        "height": 63.9921875,
+        "left": 130,
+        "right": 332.4140625,
+        "top": 12
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1440,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1000,
+      "innerWidth": 1440,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1400",
+        "loading": "eager",
+        "width": "933"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/hybrid-flooring-sydney/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/hybrid-flooring-1440x1000.jpg",
+      "brand": {
+        "bottom": 75.9921875,
+        "height": 63.9921875,
+        "left": 130,
+        "right": 332.4140625,
+        "top": 12
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1440,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1000,
+      "innerWidth": 1440,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "300",
+        "loading": "eager",
+        "width": "300"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/engineered-timber-flooring-sydney/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/engineered-timber-flooring-1440x1000.jpg",
+      "brand": {
+        "bottom": 75.9921875,
+        "height": 63.9921875,
+        "left": 130,
+        "right": 332.4140625,
+        "top": 12
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1440,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1000,
+      "innerWidth": 1440,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1000",
+        "loading": "eager",
+        "width": "1500"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/timber-flooring-installation-sydney/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/installation-1440x1000.jpg",
+      "brand": {
+        "bottom": 75.9921875,
+        "height": 63.9921875,
+        "left": 130,
+        "right": 332.4140625,
+        "top": 12
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1440,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1000,
+      "innerWidth": 1440,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/floor-levelling-sydney/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/floor-levelling-1440x1000.jpg",
+      "brand": {
+        "bottom": 75.9921875,
+        "height": 63.9921875,
+        "left": 130,
+        "right": 332.4140625,
+        "top": 12
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1440,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1000,
+      "innerWidth": 1440,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/projects/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/projects-1440x1000.jpg",
+      "brand": {
+        "bottom": 75.9921875,
+        "height": 63.9921875,
+        "left": 130,
+        "right": 332.4140625,
+        "top": 12
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1440,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1000,
+      "innerWidth": 1440,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/contact/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/contact-1440x1000.jpg",
+      "brand": {
+        "bottom": 75.9921875,
+        "height": 63.9921875,
+        "left": 130,
+        "right": 332.4140625,
+        "top": 12
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1440,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1000,
+      "innerWidth": 1440,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/ranges/avala/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/range-avala-1440x1000.jpg",
+      "brand": {
+        "bottom": 75.9921875,
+        "height": 63.9921875,
+        "left": 130,
+        "right": 332.4140625,
+        "top": 12
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1440,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1000,
+      "innerWidth": 1440,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1400",
+        "loading": "eager",
+        "width": "933"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/products/avala-blackbutt/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/product-avala-blackbutt-1440x1000.jpg",
+      "brand": {
+        "bottom": 75.9921875,
+        "height": 63.9921875,
+        "left": 130,
+        "right": 332.4140625,
+        "top": 12
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1440,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1000,
+      "innerWidth": 1440,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1400",
+        "loading": "eager",
+        "width": "933"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/privacy/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/privacy-1440x1000.jpg",
+      "brand": {
+        "bottom": 75.9921875,
+        "height": 63.9921875,
+        "left": 130,
+        "right": 332.4140625,
+        "top": 12
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1440,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1000,
+      "innerWidth": 1440,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/terms/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/terms-1440x1000.jpg",
+      "brand": {
+        "bottom": 75.9921875,
+        "height": 63.9921875,
+        "left": 130,
+        "right": 332.4140625,
+        "top": 12
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1440,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1000,
+      "innerWidth": 1440,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/404.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/404-1440x1000.jpg",
+      "brand": {
+        "bottom": 75.9921875,
+        "height": 63.9921875,
+        "left": 130,
+        "right": 332.4140625,
+        "top": 12
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1440,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1000,
+      "innerWidth": 1440,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "brand": {
+        "bottom": 70.9921875,
+        "height": 53.9921875,
+        "left": 24,
+        "right": 194.7890625,
+        "top": 17
+      },
+      "brokenImages": 0,
+      "consoleErrors": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1024,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 768,
+      "innerWidth": 1024,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1500",
+        "loading": "eager",
+        "width": "1800"
+      },
+      "route": "/",
+      "scrollY": 0,
+      "success": true,
+      "viewport": {
+        "height": 768,
+        "width": 1024
+      },
+      "visibleImagesReady": true,
+      "file": "docs/ui-ux/screenshots/after-v2/home-1024x768.jpg"
+    },
+    {
+      "route": "/products/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/products-1024x768.jpg",
+      "brand": {
+        "bottom": 70.9921875,
+        "height": 53.9921875,
+        "left": 24,
+        "right": 194.7890625,
+        "top": 17
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1024,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 768,
+      "innerWidth": 1024,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1000",
+        "loading": "eager",
+        "width": "1500"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/ranges/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/ranges-1024x768.jpg",
+      "brand": {
+        "bottom": 70.9921875,
+        "height": 53.9921875,
+        "left": 24,
+        "right": 194.7890625,
+        "top": 17
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1024,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 768,
+      "innerWidth": 1024,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1400",
+        "loading": "eager",
+        "width": "933"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/hybrid-flooring-sydney/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/hybrid-flooring-1024x768.jpg",
+      "brand": {
+        "bottom": 70.9921875,
+        "height": 53.9921875,
+        "left": 24,
+        "right": 194.7890625,
+        "top": 17
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1024,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 768,
+      "innerWidth": 1024,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "300",
+        "loading": "eager",
+        "width": "300"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/engineered-timber-flooring-sydney/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/engineered-timber-flooring-1024x768.jpg",
+      "brand": {
+        "bottom": 70.9921875,
+        "height": 53.9921875,
+        "left": 24,
+        "right": 194.7890625,
+        "top": 17
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1024,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 768,
+      "innerWidth": 1024,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1000",
+        "loading": "eager",
+        "width": "1500"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/timber-flooring-installation-sydney/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/installation-1024x768.jpg",
+      "brand": {
+        "bottom": 70.9921875,
+        "height": 53.9921875,
+        "left": 24,
+        "right": 194.7890625,
+        "top": 17
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1024,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 768,
+      "innerWidth": 1024,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/floor-levelling-sydney/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/floor-levelling-1024x768.jpg",
+      "brand": {
+        "bottom": 70.9921875,
+        "height": 53.9921875,
+        "left": 24,
+        "right": 194.7890625,
+        "top": 17
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1024,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 768,
+      "innerWidth": 1024,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/projects/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/projects-1024x768.jpg",
+      "brand": {
+        "bottom": 70.9921875,
+        "height": 53.9921875,
+        "left": 24,
+        "right": 194.7890625,
+        "top": 17
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1024,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 768,
+      "innerWidth": 1024,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/contact/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/contact-1024x768.jpg",
+      "brand": {
+        "bottom": 70.9921875,
+        "height": 53.9921875,
+        "left": 24,
+        "right": 194.7890625,
+        "top": 17
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1024,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 768,
+      "innerWidth": 1024,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/ranges/avala/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/range-avala-1024x768.jpg",
+      "brand": {
+        "bottom": 70.9921875,
+        "height": 53.9921875,
+        "left": 24,
+        "right": 194.7890625,
+        "top": 17
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1024,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 768,
+      "innerWidth": 1024,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1400",
+        "loading": "eager",
+        "width": "933"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/products/avala-blackbutt/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/product-avala-blackbutt-1024x768.jpg",
+      "brand": {
+        "bottom": 70.9921875,
+        "height": 53.9921875,
+        "left": 24,
+        "right": 194.7890625,
+        "top": 17
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1024,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 768,
+      "innerWidth": 1024,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1400",
+        "loading": "eager",
+        "width": "933"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/privacy/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/privacy-1024x768.jpg",
+      "brand": {
+        "bottom": 70.9921875,
+        "height": 53.9921875,
+        "left": 24,
+        "right": 194.7890625,
+        "top": 17
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1024,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 768,
+      "innerWidth": 1024,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/terms/",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/terms-1024x768.jpg",
+      "brand": {
+        "bottom": 70.9921875,
+        "height": 53.9921875,
+        "left": 24,
+        "right": 194.7890625,
+        "top": 17
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1024,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 768,
+      "innerWidth": 1024,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/404.html",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/404-1024x768.jpg",
+      "brand": {
+        "bottom": 70.9921875,
+        "height": 53.9921875,
+        "left": 24,
+        "right": 194.7890625,
+        "top": 17
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 89,
+        "height": 89,
+        "left": 0,
+        "right": 1024,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 768,
+      "innerWidth": 1024,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "brand": {
+        "bottom": 62.9921875,
+        "height": 53.9921875,
+        "left": 18,
+        "right": 188.7890625,
+        "top": 9
+      },
+      "brokenImages": 0,
+      "consoleErrors": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 768,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1024,
+      "innerWidth": 768,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1500",
+        "loading": "eager",
+        "width": "1800"
+      },
+      "route": "/",
+      "scrollY": 0,
+      "success": true,
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      },
+      "visibleImagesReady": true,
+      "file": "docs/ui-ux/screenshots/after-v2/home-768x1024.jpg"
+    },
+    {
+      "route": "/products/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/products-768x1024.jpg",
+      "brand": {
+        "bottom": 62.9921875,
+        "height": 53.9921875,
+        "left": 18,
+        "right": 188.7890625,
+        "top": 9
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 768,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1024,
+      "innerWidth": 768,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1000",
+        "loading": "eager",
+        "width": "1500"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/ranges/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/ranges-768x1024.jpg",
+      "brand": {
+        "bottom": 62.9921875,
+        "height": 53.9921875,
+        "left": 18,
+        "right": 188.7890625,
+        "top": 9
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 768,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1024,
+      "innerWidth": 768,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1400",
+        "loading": "eager",
+        "width": "933"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/hybrid-flooring-sydney/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/hybrid-flooring-768x1024.jpg",
+      "brand": {
+        "bottom": 62.9921875,
+        "height": 53.9921875,
+        "left": 18,
+        "right": 188.7890625,
+        "top": 9
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 768,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1024,
+      "innerWidth": 768,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "300",
+        "loading": "eager",
+        "width": "300"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/engineered-timber-flooring-sydney/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/engineered-timber-flooring-768x1024.jpg",
+      "brand": {
+        "bottom": 62.9921875,
+        "height": 53.9921875,
+        "left": 18,
+        "right": 188.7890625,
+        "top": 9
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 768,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1024,
+      "innerWidth": 768,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1000",
+        "loading": "eager",
+        "width": "1500"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/timber-flooring-installation-sydney/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/installation-768x1024.jpg",
+      "brand": {
+        "bottom": 62.9921875,
+        "height": 53.9921875,
+        "left": 18,
+        "right": 188.7890625,
+        "top": 9
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 768,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1024,
+      "innerWidth": 768,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/floor-levelling-sydney/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/floor-levelling-768x1024.jpg",
+      "brand": {
+        "bottom": 62.9921875,
+        "height": 53.9921875,
+        "left": 18,
+        "right": 188.7890625,
+        "top": 9
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 768,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1024,
+      "innerWidth": 768,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/projects/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/projects-768x1024.jpg",
+      "brand": {
+        "bottom": 62.9921875,
+        "height": 53.9921875,
+        "left": 18,
+        "right": 188.7890625,
+        "top": 9
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 768,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1024,
+      "innerWidth": 768,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/contact/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/contact-768x1024.jpg",
+      "brand": {
+        "bottom": 62.9921875,
+        "height": 53.9921875,
+        "left": 18,
+        "right": 188.7890625,
+        "top": 9
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 768,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1024,
+      "innerWidth": 768,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/ranges/avala/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/range-avala-768x1024.jpg",
+      "brand": {
+        "bottom": 62.9921875,
+        "height": 53.9921875,
+        "left": 18,
+        "right": 188.7890625,
+        "top": 9
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 768,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1024,
+      "innerWidth": 768,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1400",
+        "loading": "eager",
+        "width": "933"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/products/avala-blackbutt/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/product-avala-blackbutt-768x1024.jpg",
+      "brand": {
+        "bottom": 62.9921875,
+        "height": 53.9921875,
+        "left": 18,
+        "right": 188.7890625,
+        "top": 9
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 768,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1024,
+      "innerWidth": 768,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1400",
+        "loading": "eager",
+        "width": "933"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/privacy/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/privacy-768x1024.jpg",
+      "brand": {
+        "bottom": 62.9921875,
+        "height": 53.9921875,
+        "left": 18,
+        "right": 188.7890625,
+        "top": 9
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 768,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1024,
+      "innerWidth": 768,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/terms/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/terms-768x1024.jpg",
+      "brand": {
+        "bottom": 62.9921875,
+        "height": 53.9921875,
+        "left": 18,
+        "right": 188.7890625,
+        "top": 9
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 768,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1024,
+      "innerWidth": 768,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/404.html",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/404-768x1024.jpg",
+      "brand": {
+        "bottom": 62.9921875,
+        "height": 53.9921875,
+        "left": 18,
+        "right": 188.7890625,
+        "top": 9
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 768,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 1024,
+      "innerWidth": 768,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "consoleErrors": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 390,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1500",
+        "loading": "eager",
+        "width": "1800"
+      },
+      "route": "/",
+      "scrollY": 0,
+      "success": true,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "visibleImagesReady": true,
+      "file": "docs/ui-ux/screenshots/after-v2/home-390x844.jpg"
+    },
+    {
+      "route": "/products/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/products-390x844.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 390,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1000",
+        "loading": "eager",
+        "width": "1500"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/ranges/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/ranges-390x844.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 390,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1400",
+        "loading": "eager",
+        "width": "933"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/hybrid-flooring-sydney/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/hybrid-flooring-390x844.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 390,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "300",
+        "loading": "eager",
+        "width": "300"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/engineered-timber-flooring-sydney/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/engineered-timber-flooring-390x844.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 390,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1000",
+        "loading": "eager",
+        "width": "1500"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/timber-flooring-installation-sydney/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/installation-390x844.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 390,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/floor-levelling-sydney/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/floor-levelling-390x844.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 390,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/projects/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/projects-390x844.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 390,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/contact/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/contact-390x844.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 390,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/ranges/avala/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/range-avala-390x844.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 390,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1400",
+        "loading": "eager",
+        "width": "933"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/products/avala-blackbutt/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/product-avala-blackbutt-390x844.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 390,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1400",
+        "loading": "eager",
+        "width": "933"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/privacy/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/privacy-390x844.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 390,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/terms/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/terms-390x844.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 390,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/404.html",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/404-390x844.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 390,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "consoleErrors": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 320,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 800,
+      "innerWidth": 320,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1500",
+        "loading": "eager",
+        "width": "1800"
+      },
+      "route": "/",
+      "scrollY": 0,
+      "success": true,
+      "viewport": {
+        "height": 800,
+        "width": 320
+      },
+      "visibleImagesReady": true,
+      "file": "docs/ui-ux/screenshots/after-v2/home-320x800.jpg"
+    },
+    {
+      "route": "/products/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/products-320x800.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 320,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 800,
+      "innerWidth": 320,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1000",
+        "loading": "eager",
+        "width": "1500"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/ranges/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/ranges-320x800.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 320,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 800,
+      "innerWidth": 320,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1400",
+        "loading": "eager",
+        "width": "933"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/hybrid-flooring-sydney/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/hybrid-flooring-320x800.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 320,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 800,
+      "innerWidth": 320,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "300",
+        "loading": "eager",
+        "width": "300"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/engineered-timber-flooring-sydney/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/engineered-timber-flooring-320x800.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 320,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 800,
+      "innerWidth": 320,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1000",
+        "loading": "eager",
+        "width": "1500"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/timber-flooring-installation-sydney/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/installation-320x800.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 320,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 800,
+      "innerWidth": 320,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/floor-levelling-sydney/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/floor-levelling-320x800.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 320,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 800,
+      "innerWidth": 320,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/projects/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/projects-320x800.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 320,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 800,
+      "innerWidth": 320,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/contact/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/contact-320x800.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 320,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 800,
+      "innerWidth": 320,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/ranges/avala/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/range-avala-320x800.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 320,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 800,
+      "innerWidth": 320,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1400",
+        "loading": "eager",
+        "width": "933"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/products/avala-blackbutt/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/product-avala-blackbutt-320x800.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 320,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 800,
+      "innerWidth": 320,
+      "lcp": {
+        "aboveFold": true,
+        "fetchpriority": "high",
+        "height": "1400",
+        "loading": "eager",
+        "width": "933"
+      },
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/privacy/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/privacy-320x800.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 320,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 800,
+      "innerWidth": 320,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/terms/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/terms-320x800.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 320,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 800,
+      "innerWidth": 320,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    },
+    {
+      "route": "/404.html",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "file": "docs/ui-ux/screenshots/after-v2/404-320x800.jpg",
+      "brand": {
+        "bottom": 60.9921875,
+        "height": 49.9921875,
+        "left": 16,
+        "right": 174.1328125,
+        "top": 11
+      },
+      "brokenImages": 0,
+      "h1Count": 1,
+      "header": {
+        "bottom": 73,
+        "height": 73,
+        "left": 0,
+        "right": 320,
+        "top": 0
+      },
+      "horizontalOverflow": 0,
+      "innerHeight": 800,
+      "innerWidth": 320,
+      "lcp": null,
+      "scrollY": 0,
+      "visibleImagesReady": true,
+      "consoleErrors": 0,
+      "success": true
+    }
+  ],
+  "mobileInteractions": [
+    {
+      "width": 320,
+      "open": true,
+      "servicesExpanded": true,
+      "productsExpanded": true,
+      "escapeClose": true,
+      "outsideClickApplicable": true,
+      "outsideClickClose": true,
+      "bodyLocked": true,
+      "backgroundScrollPrevented": true,
+      "scrollRestored": true,
+      "focusReturned": true,
+      "ariaReset": true,
+      "drawerScrollable": true,
+      "minimumTarget": true,
+      "mobileCallVisible": true,
+      "mobileCallHref": "tel:+61435496975",
+      "success": true
+    },
+    {
+      "width": 390,
+      "open": true,
+      "servicesExpanded": true,
+      "productsExpanded": true,
+      "escapeClose": true,
+      "outsideClickApplicable": true,
+      "outsideClickClose": true,
+      "bodyLocked": true,
+      "backgroundScrollPrevented": true,
+      "scrollRestored": true,
+      "focusReturned": true,
+      "ariaReset": true,
+      "drawerScrollable": true,
+      "minimumTarget": true,
+      "mobileCallVisible": true,
+      "mobileCallHref": "tel:+61435496975",
+      "success": true
+    },
+    {
+      "width": 768,
+      "open": true,
+      "servicesExpanded": true,
+      "productsExpanded": true,
+      "escapeClose": true,
+      "outsideClickApplicable": true,
+      "outsideClickClose": true,
+      "bodyLocked": true,
+      "backgroundScrollPrevented": true,
+      "scrollRestored": true,
+      "focusReturned": true,
+      "ariaReset": true,
+      "drawerScrollable": true,
+      "minimumTarget": true,
+      "mobileCallVisible": true,
+      "mobileCallHref": "tel:+61435496975",
+      "success": true
+    }
+  ],
+  "productImageStyles": [
+    {
+      "path": "/products/avala-blackbutt/",
+      "count": 9,
+      "overflow": 0,
+      "styles": [
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/avala/avala-blackbutt.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/avala/avala-blackbutt-gallery-2.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/avala/avala-blackbutt-gallery-3.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/avala/avala-coastal-beige.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/avala/avala-jarrah.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/avala/avala-moschino.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/avala/avala-orchid-ash.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/avala/avala-pebble-grey.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/avala/avala-prague-oak.webp"
+        }
+      ],
+      "success": true
+    },
+    {
+      "path": "/ranges/avala/",
+      "count": 15,
+      "overflow": 0,
+      "styles": [
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/avala/avala-blackbutt.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/avala/avala-blackbutt.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/avala/avala-coastal-beige.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/avala/avala-jarrah.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/avala/avala-moschino.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/avala/avala-orchid-ash.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/avala/avala-pebble-grey.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/avala/avala-prague-oak.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/avala/avala-spotted-gum.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/avala/avala-stamford-oak.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/avala/avala-tas-oak.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/artisan-tile/artisan-black-maquina.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/belle-vie/belle-vie-bellevue-avenue.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/lumiere-ultra-hd/lumiere-bellevue-avenue.webp"
+        },
+        {
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "opacity": "1",
+          "src": "/assets/products/hybrid/storm-luxury/storm-askada-grey-wash.webp"
+        }
+      ],
+      "success": true
+    }
+  ],
+  "dockTests": [
+    {
+      "width": 320,
+      "route": "/products/avala-blackbutt/",
+      "top": {
+        "ariaHidden": "true",
+        "exists": true,
+        "overflow": 0,
+        "ready": true,
+        "suppressed": true
+      },
+      "middle": {
+        "bottom": 800,
+        "height": 69,
+        "linkTargets": [
+          48,
+          48
+        ],
+        "mainPaddingBottom": "86px",
+        "overflow": 0,
+        "visible": true
+      },
+      "menuSuppressed": true,
+      "bottom": {
+        "footerVisible": true,
+        "suppressed": true
+      },
+      "success": true
+    },
+    {
+      "width": 390,
+      "route": "/products/avala-blackbutt/",
+      "top": {
+        "ariaHidden": "true",
+        "exists": true,
+        "overflow": 0,
+        "ready": true,
+        "suppressed": true
+      },
+      "middle": {
+        "bottom": 844,
+        "height": 69,
+        "linkTargets": [
+          48,
+          48
+        ],
+        "mainPaddingBottom": "86px",
+        "overflow": 0,
+        "visible": true
+      },
+      "menuSuppressed": true,
+      "bottom": {
+        "footerVisible": true,
+        "suppressed": true
+      },
+      "success": true
+    }
+  ],
+  "contact": {
+    "action": "/thank-you/",
+    "categoryInterest": "Hybrid",
+    "consentRequired": true,
+    "dockPresent": false,
+    "enquiry": "service",
+    "footer": {
+      "address": "24/24-32 Hughes Street, Cabramatta NSW 2166",
+      "blocks": 1,
+      "email": 1,
+      "legacy": 0,
+      "primary": 1,
+      "secondary": 1
+    },
+    "formName": "oz-flooring-enquiry",
+    "ga4Scripts": 0,
+    "hiddenCount": 17,
+    "hiddenNames": [
+      "form-name",
+      "approved_inbox",
+      "form_handler",
+      "source_page",
+      "product_slug",
+      "brand",
+      "range",
+      "category",
+      "current_page_url",
+      "referrer",
+      "utm_source",
+      "utm_medium",
+      "utm_campaign",
+      "utm_term",
+      "utm_content",
+      "gclid",
+      "fbclid"
+    ],
+    "method": "post",
+    "overflow": 0,
+    "product": "Avala Blackbutt",
+    "schema": {
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AU",
+        "addressLocality": "Cabramatta",
+        "addressRegion": "NSW",
+        "postalCode": "2166",
+        "streetAddress": "24/24-32 Hughes Street"
+      },
+      "businessEntities": 1,
+      "businessIds": 1,
+      "email": "info@oztimberfloor.com.au",
+      "hasHours": false,
+      "hasRating": false,
+      "hasSocial": false,
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://oztimberfloor.com.au/assets/brand/oz-timber-floor-logo.webp"
+      },
+      "telephone": [
+        "+61435496975",
+        "+61434882699"
+      ],
+      "url": "https://oztimberfloor.com.au/"
+    },
+    "selectedText": "SELECTED ENQUIRY\n\nProduct: Avala Blackbutt\n\nRange: Avala\n\nCategory: Hybrid\n\nEnquiry type: Service or floor preparation enquiry\n\nChange enquiry type\nChange product details",
+    "serviceHidden": false,
+    "serviceVisible": true,
+    "submitObstructed": false,
+    "submitVisible": true,
+    "success": true
+  },
+  "catalogue": {
+    "initial": {
+      "item13Accessible": true,
+      "overflow": 0,
+      "total": 85,
+      "visible": 85
+    },
+    "filtered": {
+      "visible": 1
+    },
+    "cleared": {
+      "item13Accessible": true,
+      "overflow": 0,
+      "value": "",
+      "visible": 85
+    },
+    "success": true
+  },
+  "additionalEvidence": [
+    {
+      "name": "ranges-footer-contact",
+      "result": "PASS",
+      "detail": "One verified phone pair, one email, one showroom address and no legacy duplicate block."
+    },
+    {
+      "name": "runtime-business-schema",
+      "result": "PASS",
+      "detail": "One canonical LocalBusiness entity with verified E.164 phones, email, postal address, logo and URL; no review, opening-hours or social claims."
+    },
+    {
+      "name": "analytics-privacy",
+      "result": "PASS",
+      "detail": "GA4 remains disabled until an approved measurement ID is supplied; browser QA found no analytics script injection."
+    }
+  ],
+  "console": {
+    "warningsOrErrors": []
+  },
+  "summary": {
+    "responsiveCells": 70,
+    "responsivePassing": 70,
+    "mobileWidthsPassing": 3,
+    "productStyleTestsPassing": 2,
+    "dockTestsPassing": 2,
+    "consoleWarningsOrErrors": 0,
+    "success": true
+  },
+  "captureMethod": "Fresh navigation for each route and viewport; explicit scrollY=0; visible images required ready; browser interactions executed at 320, 390 and 768 CSS px. OZ-PERF-002 refreshed the five home cells through the in-app browser after the scoped publication-owner image hardening; unchanged route cells retain their existing evidence."
+}

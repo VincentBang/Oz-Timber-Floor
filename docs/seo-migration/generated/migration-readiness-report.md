@@ -1,14 +1,19 @@
 # Migration readiness report
 
-Generated: 2026-08-04T10:26:34.375Z
+Generated: 2026-09-02T05:30:47.665Z
 
 ## Verdict: GO
 
 | Measure | Result |
 | --- | ---: |
 | HTML pages | 2201 |
-| Sitemap URLs | 941 |
-| Redirect rules | 1910 |
+| Physical indexable HTML pages | 971 |
+| Unique publication canonicals | 943 |
+| Unique noindex routes | 1228 |
+| Physical redirect-only routes | 350 |
+| Sitemap URLs | 943 |
+| Publication canonicals missing from sitemap | 0 |
+| Redirect rules | 1912 |
 | Catalogue pages | 2115 |
 | Catalogue indexable | 893 |
 | Catalogue classified non-indexable (review queue) | 1222 |

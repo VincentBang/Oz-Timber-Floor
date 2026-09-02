@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "lastReviewed": "2026-08-04",
-  "policy": "Approved controlled treatment: retain incomplete pages only as noindex,follow fallbacks without Product schema; redirect legacy traffic to an indexable parent range or matching category; redirect alias, retired, and supplier-bearing public routes directly.",
+  "lastReviewed": "2026-09-01",
+  "policy": "Approved controlled treatment: retain incomplete pages only as noindex,follow fallbacks without Product schema; prefer a verified indexable parent range before a matching category; redirect alias, retired, and supplier-bearing public routes directly.",
   "pages": {
     "/products/12mm-laminate-aspen-oak/": {
       "classification": "manual-review",
@@ -598,8 +598,8 @@
     "/products/australian-blackbutt/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/solid-timber-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/solid/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness."
     },
@@ -1014,8 +1014,8 @@
     "/products/cumaru-brazilian-teak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/solid-timber-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/solid/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness."
     },
@@ -2102,58 +2102,58 @@
     "/products/etf-hybrid-spc-9mm-dexter-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/products/etf-9-0mm-hybrid-dexter-oak/",
+      "replacementBasis": "exact-indexable-product",
       "directRedirect": false,
-      "reason": "Approved 2026-08-04 controlled treatment for product-schema-missing-image."
+      "reason": "Reviewed 2026-09-01: retain this incomplete alias as noindex; legacy traffic belongs on the verified exact ETF 9.0mm product."
     },
     "/products/etf-hybrid-spc-9mm-driftwood/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/products/etf-9-0mm-hybrid-driftwood/",
+      "replacementBasis": "exact-indexable-product",
       "directRedirect": false,
-      "reason": "Approved 2026-08-04 controlled treatment for product-schema-missing-image."
+      "reason": "Reviewed 2026-09-01: retain this incomplete alias as noindex; legacy traffic belongs on the verified exact ETF 9.0mm product."
     },
     "/products/etf-hybrid-spc-9mm-grey-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/products/etf-9-0mm-hybrid-grey-oak/",
+      "replacementBasis": "exact-indexable-product",
       "directRedirect": false,
-      "reason": "Approved 2026-08-04 controlled treatment for product-schema-missing-image."
+      "reason": "Reviewed 2026-09-01: retain this incomplete alias as noindex; legacy traffic belongs on the verified exact ETF 9.0mm product."
     },
     "/products/etf-hybrid-spc-9mm-helena-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/etf-9-0mm-hybrid/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": false,
-      "reason": "Approved 2026-08-04 controlled treatment for product-schema-missing-image."
+      "reason": "Reviewed 2026-09-01: no verified indexable Helena product exists; keep noindex and send legacy traffic to the verified ETF 9.0mm range pending manual product data."
     },
     "/products/etf-hybrid-spc-9mm-new-zealand-blackbutt/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/products/etf-9-0mm-hybrid-new-zealand-blackbutt/",
+      "replacementBasis": "exact-indexable-product",
       "directRedirect": false,
-      "reason": "Approved 2026-08-04 controlled treatment for product-schema-missing-image."
+      "reason": "Reviewed 2026-09-01: retain this incomplete alias as noindex; legacy traffic belongs on the verified exact ETF 9.0mm product."
     },
     "/products/etf-hybrid-spc-9mm-oslo-oak-grey/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/products/etf-9-0mm-hybrid-oslo-oak-grey/",
+      "replacementBasis": "exact-indexable-product",
       "directRedirect": false,
-      "reason": "Approved 2026-08-04 controlled treatment for product-schema-missing-image."
+      "reason": "Reviewed 2026-09-01: retain this incomplete alias as noindex; legacy traffic belongs on the verified exact ETF 9.0mm product."
     },
     "/products/etf-hybrid-spc-9mm-spotted-gum/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/products/etf-9-0mm-hybrid-spotted-gum/",
+      "replacementBasis": "exact-indexable-product",
       "directRedirect": false,
-      "reason": "Approved 2026-08-04 controlled treatment for product-schema-missing-image."
+      "reason": "Reviewed 2026-09-01: retain this incomplete alias as noindex; legacy traffic belongs on the verified exact ETF 9.0mm product."
     },
     "/products/etf-oak-chevron-chevron-beach-oak/": {
       "classification": "needs-data",
@@ -2462,7 +2462,7 @@
     "/products/grandoak-age-carbonised-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2470,7 +2470,7 @@
     "/products/grandoak-arctic-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2478,7 +2478,7 @@
     "/products/grandoak-baliness-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2486,7 +2486,7 @@
     "/products/grandoak-black-forest/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2494,7 +2494,7 @@
     "/products/grandoak-black-opal/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2502,7 +2502,7 @@
     "/products/grandoak-burnt-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2510,7 +2510,7 @@
     "/products/grandoak-canyon-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2518,7 +2518,7 @@
     "/products/grandoak-desert-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2526,7 +2526,7 @@
     "/products/grandoak-driftwood/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2534,7 +2534,7 @@
     "/products/grandoak-european-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2542,7 +2542,7 @@
     "/products/grandoak-french-grey/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2550,7 +2550,7 @@
     "/products/grandoak-ghost-white/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2558,7 +2558,7 @@
     "/products/grandoak-gunsynd-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2566,7 +2566,7 @@
     "/products/grandoak-limed-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2574,7 +2574,7 @@
     "/products/grandoak-milano-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2582,7 +2582,7 @@
     "/products/grandoak-mink-grey/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2590,7 +2590,7 @@
     "/products/grandoak-moroccan-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2598,7 +2598,7 @@
     "/products/grandoak-natural-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2606,7 +2606,7 @@
     "/products/grandoak-persian-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2614,7 +2614,7 @@
     "/products/grandoak-trio-smoked-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2622,7 +2622,7 @@
     "/products/grandoak-uluru-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -2630,7 +2630,7 @@
     "/products/grandoak-white-smoked-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
+      "replacementRoute": "/engineered-timber-flooring-sydney/",
       "replacementBasis": "matching-flooring-category",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
@@ -4182,8 +4182,8 @@
     "/products/jatoba-brazilian-cherry/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/solid-timber-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/solid/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness."
     },
@@ -5382,8 +5382,8 @@
     "/products/ornato-latina/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/vinyl-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/ornato-vinyl/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
     },
@@ -5518,8 +5518,8 @@
     "/products/pacific-blackbutt/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/solid-timber-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/solid/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness."
     },
@@ -6886,8 +6886,8 @@
     "/products/solid-raw-timber-american-white-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/solid-timber-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/raw-solid-timber/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": true,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image, public-supplier-name."
     },
@@ -6942,8 +6942,8 @@
     "/products/solid-raw-timber-cypress-pine/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/solid-timber-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/raw-solid-timber/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": true,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image, public-supplier-name."
     },
@@ -6958,8 +6958,8 @@
     "/products/solid-raw-timber-grey-box/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/solid-timber-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/raw-solid-timber/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": true,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image, public-supplier-name."
     },
@@ -6974,8 +6974,8 @@
     "/products/solid-raw-timber-grey-ironbark/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/solid-timber-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/raw-solid-timber/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": true,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image, public-supplier-name."
     },
@@ -7006,8 +7006,8 @@
     "/products/solid-raw-timber-nsw-spotted-gum/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/solid-timber-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/raw-solid-timber/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": true,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image, public-supplier-name."
     },
@@ -7022,8 +7022,8 @@
     "/products/solid-raw-timber-red-ironbark/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/solid-timber-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/raw-solid-timber/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": true,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image, public-supplier-name."
     },
@@ -7062,16 +7062,16 @@
     "/products/solid-raw-timber-tasmanian-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/solid-timber-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/raw-solid-timber/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": true,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image, public-supplier-name."
     },
     "/products/solid-raw-timber-turpentine/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/solid-timber-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/raw-solid-timber/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": true,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image, public-supplier-name."
     },
@@ -7134,16 +7134,16 @@
     "/products/stone-floor-bianco-white/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/stone-floor-tile/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
     },
     "/products/stone-floor-blackbutt/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/stone-floor-tile/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
     },
@@ -7230,8 +7230,8 @@
     "/products/stone-floor-oak-beige/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/stone-floor-tile/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
     },
@@ -7246,8 +7246,8 @@
     "/products/stone-floor-snow-white/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/stone-floor-tile/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
     },
@@ -7262,8 +7262,8 @@
     "/products/stone-floor-stone-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/stone-floor-tile/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
     },
@@ -7454,8 +7454,8 @@
     "/products/stone-floor-white-wash/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/stone-floor-tile/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
     },
@@ -7494,8 +7494,8 @@
     "/products/storm-new-england-blackbutt/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/storm-luxury/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
     },
@@ -7518,8 +7518,8 @@
     "/products/storm-royal-white-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/storm-luxury/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
     },
@@ -7550,16 +7550,16 @@
     "/products/storm-vintage-evian-oak/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/storm-luxury/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
     },
     "/products/swish-aquastop-blackbutt/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/laminate-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/swish-laminate-aqua/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
     },
@@ -7670,8 +7670,8 @@
     "/products/swish-blackbutt/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/engineered-timber-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/swish/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for invalid-board-dimensions."
     },
@@ -7942,8 +7942,8 @@
     "/products/swish-oak-fiano-brown/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/engineered-timber-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/swish-oak-natura/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
     },
@@ -8094,8 +8094,8 @@
     "/products/swish-oak-raw-caramel/": {
       "classification": "needs-data",
       "applyNoindex": true,
-      "replacementRoute": "/engineered-timber-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/swish-oak-natura/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": false,
       "reason": "Approved 2026-08-04 controlled treatment for empty-or-placeholder-thickness, product-schema-missing-image."
     },
@@ -9294,10 +9294,10 @@
     "/ranges/etf-hybrid-spc-9mm/": {
       "classification": "redirect-only",
       "applyNoindex": true,
-      "replacementRoute": "/hybrid-flooring-sydney/",
-      "replacementBasis": "matching-flooring-category",
+      "replacementRoute": "/ranges/etf-9-0mm-hybrid/",
+      "replacementBasis": "indexable-parent-range",
       "directRedirect": true,
-      "reason": "Approved 2026-08-04 controlled treatment for legacy-or-alias-range, range-alias."
+      "reason": "Reviewed 2026-09-01: verified legacy ETF SPC 9mm alias maps to the exact indexable ETF 9.0mm range."
     },
     "/ranges/grand-oak-14-5mm/": {
       "classification": "redirect-only",

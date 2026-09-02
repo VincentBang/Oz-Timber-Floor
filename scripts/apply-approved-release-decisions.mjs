@@ -1,6 +1,12 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import {
+  createPublicationInventory,
+  filterExactSitemapLocation,
+  sitemapLocation,
+  sitemapUrlBlocks,
+} from "./publication-inventory.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const apply = process.argv.includes("--apply");
@@ -15,6 +21,8 @@ const initialApplicationEvidence = {
   bambooLandingRewriteConverted: 1,
 };
 const generatedDir = path.join(root, "docs", "seo-migration", "generated");
+const publicationInventory = createPublicationInventory({ root, domain });
+const publicationRoutes = new Set(publicationInventory.publicationRoutes);
 
 function read(relativePath) {
   return fs.readFileSync(path.join(root, relativePath), "utf8");
@@ -59,6 +67,16 @@ function replaceFile(relativePath, replacer) {
   return next !== current;
 }
 
+function ensureSitemapBlocks(xml, requiredBlocks) {
+  const existingLocations = new Set(sitemapUrlBlocks(xml).map(sitemapLocation));
+  const missing = requiredBlocks.filter(({ location }) => !existingLocations.has(location));
+  if (!missing.length) return { xml, restored: [] };
+  const insertion = `${missing.map(({ block }) => block).join("\n")}\n`;
+  const next = String(xml).replace(/(<urlset\b[^>]*>\s*)/i, `$1${insertion}`);
+  if (next === xml) throw new Error("Cannot find sitemap <urlset> root while restoring required publication URLs.");
+  return { xml: next, restored: missing.map(({ location }) => location) };
+}
+
 const quality = readJson("docs/seo-migration/generated/catalogue-quality-report.json");
 const previousOverrides = readJson("data/catalogue-quality-overrides.json");
 const sitemapXml = read("sitemap.xml");
@@ -74,7 +92,33 @@ const categoryRoutes = new Map([
   ["vinyl", "/vinyl-flooring-sydney/"],
 ]);
 
+// Reviewed semantic replacements must win over the generic category fallback.
+// These mappings are backed by the 2026-09-01 GSC equity review and verified
+// against current indexability, canonicals and sitemap membership.
+const semanticRedirectDecisions = readJson("data/seo-migration-redirect-expectations.json");
+const reviewedReplacementRoutes = new Map(
+  semanticRedirectDecisions.catalogueFallbacks.map(({ route, target }) => [route, target]),
+);
+
 function approvedReplacement(page) {
+  const reviewedRoute = reviewedReplacementRoutes.get(page.route);
+  if (reviewedRoute) {
+    const reviewedPage = pagesByRoute.get(reviewedRoute);
+    const catalogueTarget = reviewedRoute.startsWith("/products/") || reviewedRoute.startsWith("/ranges/");
+    if ((catalogueTarget && reviewedPage?.classification !== "indexable")
+      || !publicationRoutes.has(reviewedRoute)
+      || !sitemapRoutes.has(reviewedRoute)) {
+      throw new Error(`Reviewed replacement is no longer publishable: ${page.route} -> ${reviewedRoute}`);
+    }
+    return {
+      route: reviewedRoute,
+      basis: reviewedRoute.startsWith("/products/")
+        ? "exact-indexable-product"
+        : reviewedRoute.startsWith("/ranges/")
+          ? "indexable-parent-range"
+          : "matching-flooring-category",
+    };
+  }
   if (page.type === "product" && page.range) {
     const rangeRoute = `/ranges/${slug(page.range)}/`;
     const rangePage = pagesByRoute.get(rangeRoute);
@@ -126,8 +170,8 @@ const decisionCounts = decisionPages.reduce((counts, decision) => {
 
 const overrideManifest = {
   schemaVersion: 2,
-  lastReviewed: "2026-08-04",
-  policy: "Approved controlled treatment: retain incomplete pages only as noindex,follow fallbacks without Product schema; redirect legacy traffic to an indexable parent range or matching category; redirect alias, retired, and supplier-bearing public routes directly.",
+  lastReviewed: "2026-09-01",
+  policy: "Approved controlled treatment: retain incomplete pages only as noindex,follow fallbacks without Product schema; prefer a verified indexable parent range before a matching category; redirect alias, retired, and supplier-bearing public routes directly.",
   pages: Object.fromEntries(decisionPages.map((decision) => [decision.route, {
     classification: decision.classification,
     applyNoindex: decision.applyNoindex,
@@ -145,6 +189,8 @@ let bambooLegacyRemapped = 0;
 let catalogueLegacyRemapped = 0;
 let directDecisionRulesUpdated = 0;
 let directDecisionRulesAdded = 0;
+let reviewedSemanticRulesUpdated = 0;
+let reviewedSemanticRulesAdded = 0;
 
 redirectLines = redirectLines.map((line) => {
   const trimmed = line.trim();
@@ -182,11 +228,34 @@ function sourceLineIndex(source) {
   });
 }
 
+// Re-apply every reviewed semantic contract after the generic catalogue pass.
+// This prevents an older controlled-page fallback from silently restoring a
+// broad or category-inconsistent destination on a high-equity legacy route.
+const reviewedSemanticLinesToAdd = [];
+for (const expected of semanticRedirectDecisions.reviewedRedirects) {
+  const source = routeFromUrl(expected.source);
+  const target = routeFromUrl(expected.target);
+  if (!sitemapRoutes.has(target)) {
+    throw new Error(`Reviewed semantic target is not an indexable sitemap route: ${source} -> ${target}`);
+  }
+  const replacementLine = `${source} ${target} 301`;
+  const existingIndex = sourceLineIndex(source);
+  if (existingIndex >= 0) {
+    if (redirectLines[existingIndex] !== replacementLine) {
+      redirectLines[existingIndex] = replacementLine;
+      reviewedSemanticRulesUpdated += 1;
+    }
+  } else {
+    reviewedSemanticLinesToAdd.push(replacementLine);
+    reviewedSemanticRulesAdded += 1;
+  }
+}
+
 const directRules = decisionPages.filter((decision) => decision.directRedirect);
 if (directRules.length !== expectedDirectRedirectCount) {
   throw new Error(`Approval scope changed: expected ${expectedDirectRedirectCount} direct catalogue redirects, found ${directRules.length}.`);
 }
-const linesToAdd = [];
+const linesToAdd = [...reviewedSemanticLinesToAdd];
 for (const decision of directRules) {
   const existingIndex = sourceLineIndex(decision.route);
   const replacementLine = `${decision.route} ${decision.replacementRoute} 301`;
@@ -232,10 +301,29 @@ if (remainingUnsafeRedirects.length) {
   throw new Error(`Unsafe redirect destinations remain: ${remainingUnsafeRedirects.slice(0, 5).map((parts) => parts.join(" ")).join("; ")}`);
 }
 
-const bambooPattern = /\s*<url(?:\s[^>]*)?>[\s\S]*?<loc>https:\/\/oztimberfloor\.com\.au\/bamboo-flooring-sydney\/<\/loc>[\s\S]*?<\/url>/i;
-const nextSitemap = sitemapXml.replace(bambooPattern, "").replace(/\n{3,}/g, "\n\n");
-if (nextSitemap === sitemapXml && sitemapRoutes.has("/bamboo-flooring-sydney/")) {
+const bambooSitemapLocation = `${domain}/bamboo-flooring-sydney/`;
+const bambooEntriesBefore = sitemapUrlBlocks(sitemapXml).filter((block) => sitemapLocation(block) === bambooSitemapLocation).length;
+const sitemapWithoutBamboo = filterExactSitemapLocation(sitemapXml, bambooSitemapLocation);
+const requiredPublicationBlocks = [
+  {
+    location: `${domain}/`,
+    block: `  <url>\n    <loc>${domain}/</loc>\n    <changefreq>weekly</changefreq>\n    <priority>1.00</priority>\n  </url>`,
+  },
+  {
+    location: `${domain}/about/`,
+    block: `  <url>\n    <loc>${domain}/about/</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.64</priority>\n  </url>`,
+  },
+];
+const restoredSitemap = ensureSitemapBlocks(sitemapWithoutBamboo, requiredPublicationBlocks);
+const nextSitemap = restoredSitemap.xml
+  .replace(/[ \t]+\n/g, "\n")
+  .replace(/\n{3,}/g, "\n\n");
+const nextSitemapLocations = new Set(sitemapUrlBlocks(nextSitemap).map(sitemapLocation));
+if (nextSitemapLocations.has(bambooSitemapLocation)) {
   throw new Error("Bamboo sitemap entry was not removed.");
+}
+for (const { location } of requiredPublicationBlocks) {
+  if (!nextSitemapLocations.has(location)) throw new Error(`Required publication sitemap entry is missing: ${location}`);
 }
 
 const retiredLanding = `<!DOCTYPE html>
@@ -322,23 +410,31 @@ const decisionReport = {
     legacyRedirectDestinationsRemappedThisRun: bambooLegacyRemapped,
     htmlFallbackRedirectEnsured: true,
     publicFilesChangedThisRun: publicChanges,
-    sitemapEntryRemoved: nextSitemap !== sitemapXml,
+    sitemapEntryRemoved: bambooEntriesBefore > 0,
+    sitemapEntriesRemovedThisRun: bambooEntriesBefore,
+    requiredPublicationEntriesRestoredThisRun: restoredSitemap.restored,
   },
   redirects: {
+    reviewedSemanticContractsEnsured: semanticRedirectDecisions.reviewedRedirects.length,
+    catalogueFallbackContractsEnsured: semanticRedirectDecisions.catalogueFallbacks.length,
     directDecisionRulesUpdatedThisRun: directDecisionRulesUpdated,
     directDecisionRulesAddedThisRun: directDecisionRulesAdded,
+    reviewedSemanticRulesUpdatedThisRun: reviewedSemanticRulesUpdated,
+    reviewedSemanticRulesAddedThisRun: reviewedSemanticRulesAdded,
     remainingUnsafeDestinations: remainingUnsafeRedirects.length,
   },
 };
 
 if (apply) {
-  write("docs/seo-migration/generated/approved-release-decisions-2026-08-04.json", `${JSON.stringify(decisionReport, null, 2)}\n`);
-  write("docs/seo-migration/generated/approved-release-decisions-2026-08-04.md", [
-    "# Approved release decisions — 4 August 2026",
+  write("docs/seo-migration/generated/approved-release-decisions-2026-09-01.json", `${JSON.stringify(decisionReport, null, 2)}\n`);
+  write("docs/seo-migration/generated/approved-release-decisions-2026-09-01.md", [
+    "# Approved release decisions — 1 September 2026",
     "",
     `- Catalogue pages receiving explicit controlled treatment: ${decisionPages.length}.`,
-    `- Replacement basis: ${decisionCounts["indexable-parent-range"] || 0} indexable parent ranges; ${decisionCounts["matching-flooring-category"] || 0} matching categories.`,
+    `- Replacement basis: ${decisionCounts["exact-indexable-product"] || 0} exact indexable products; ${decisionCounts["indexable-parent-range"] || 0} indexable parent ranges; ${decisionCounts["matching-flooring-category"] || 0} matching categories.`,
     `- Direct alias/retired/supplier-bearing routes mapped to safe replacements: ${directRules.length}.`,
+    `- Reviewed high-equity semantic redirects ensured: ${semanticRedirectDecisions.reviewedRedirects.length}.`,
+    `- Controlled catalogue fallback overrides ensured: ${semanticRedirectDecisions.catalogueFallbacks.length}.`,
     `- Existing catalogue redirect destinations remapped in the initial approved application: ${initialApplicationEvidence.catalogueLegacyRedirectDestinationsRemapped}.`,
     `- Additional forced catalogue aliases remapped after matcher validation: ${initialApplicationEvidence.forcedCatalogueRedirectDestinationsRemapped}.`,
     `- Total existing catalogue redirect destinations remapped: ${initialApplicationEvidence.catalogueLegacyRedirectDestinationsRemapped + initialApplicationEvidence.forcedCatalogueRedirectDestinationsRemapped}.`,
@@ -352,4 +448,4 @@ if (apply) {
   ].join("\n"));
 }
 
-process.stdout.write(`${apply ? "Applied" : "Dry run"}: ${decisionPages.length} catalogue decisions (${decisionCounts["indexable-parent-range"] || 0} range, ${decisionCounts["matching-flooring-category"] || 0} category); ${catalogueLegacyRemapped} catalogue and ${bambooLegacyRemapped} Bamboo redirect destinations remapped; ${remainingUnsafeRedirects.length} unsafe destinations remain.\n`);
+process.stdout.write(`${apply ? "Applied" : "Dry run"}: ${decisionPages.length} catalogue decisions (${decisionCounts["exact-indexable-product"] || 0} exact product, ${decisionCounts["indexable-parent-range"] || 0} range, ${decisionCounts["matching-flooring-category"] || 0} category); ${catalogueLegacyRemapped} catalogue and ${bambooLegacyRemapped} Bamboo redirect destinations remapped; ${remainingUnsafeRedirects.length} unsafe destinations remain.\n`);

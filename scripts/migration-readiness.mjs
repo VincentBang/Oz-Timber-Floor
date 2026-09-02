@@ -1,14 +1,23 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import {
+  createPublicationInventory,
+  intentionalNoindexUtilityRoutes,
+} from "./publication-inventory.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const domain = "https://oztimberfloor.com.au";
 const args = new Set(process.argv.slice(2));
 const applyCatalogueOnly = args.has("--apply-catalogue-only");
 const allowExternal = args.has("--allow-external");
-const generatedDir = path.join(root, "docs", "seo-migration", "generated");
-const ignoredDirectories = new Set([".git", "node_modules", ".netlify", "docs", "migration", "config"]);
+const generatedDir = process.env.OZ_MIGRATION_GENERATED_DIR
+  ? path.resolve(process.env.OZ_MIGRATION_GENERATED_DIR)
+  : path.join(root, "docs", "seo-migration", "generated");
+const sitemapPath = process.env.OZ_MIGRATION_SITEMAP_PATH
+  ? path.resolve(process.env.OZ_MIGRATION_SITEMAP_PATH)
+  : path.join(root, "sitemap.xml");
+const ignoredDirectories = new Set([".git", "dist", "node_modules", ".netlify", "docs", "migration", "config"]);
 const categoryNames = new Set(["hybrid", "laminate", "engineered timber", "solid timber", "vinyl"]);
 
 function toPosix(value) {
@@ -664,7 +673,9 @@ function redirectAudit(noindexRoutes) {
     if (target === "/" && source !== "/") homepageDumps.push({ line: rule.line, source });
     const localFile = fileForRoute(target);
     if (!localFile && !directRedirects.has(target) && !/^\/(?:404\.html)?$/.test(target)) missingTargets.push({ line: rule.line, source, destination: rule.destination });
-    if (noindexRoutes.has(routeFromUrl(target))) noindexTargets.push({ line: rule.line, source, destination: rule.destination });
+    if (noindexRoutes.has(routeFromUrl(target)) && !intentionalNoindexUtilityRoutes.includes(routeFromUrl(target))) {
+      noindexTargets.push({ line: rule.line, source, destination: rule.destination });
+    }
   }
   for (let index = 0; index < rules.length; index += 1) {
     const generic = rules[index];
@@ -781,8 +792,28 @@ function analyticsContract() {
   const idMatch = config.match(/ga4MeasurementId\s*:\s*(null|["']([^"']*)["'])/i);
   const measurementId = idMatch ? (idMatch[2] || "") : "";
   const idConfigured = /^G-[A-Z0-9]+$/i.test(measurementId);
-  const eventNames = ["phone_call_click", "email_click", "generate_lead"];
-  const fields = ["page_path", "source_page", "enquiry_type", "product_slug", "range", "category", "utm_source", "utm_medium", "utm_campaign", "gclid_present", "fbclid_present"];
+  const eventNames = [
+    "phone_click",
+    "email_click",
+    "quote_start",
+    "quote_submit",
+    "stock_check",
+    "supply_only_enquiry",
+    "supply_install_enquiry",
+  ];
+  const fields = [
+    "page_path",
+    "source_page",
+    "enquiry_type",
+    "category",
+    "has_product_context",
+    "has_range_context",
+    "utm_source_present",
+    "utm_medium_present",
+    "utm_campaign_present",
+    "gclid_present",
+    "fbclid_present",
+  ];
   return {
     measurementIdConfigured: idConfigured,
     centralizedConfig: /window\.OZ_TIMBER_FLOOR_CONTACT/.test(config) && /ga4MeasurementId/.test(config),
@@ -790,7 +821,9 @@ function analyticsContract() {
     attributionFields: Object.fromEntries(fields.map((field) => [field, new RegExp(escapeRegex(field)).test(site)])),
     duplicateInitGuard: /OZ_TIMBER_FLOOR_GA4_READY/.test(site) && /data-oz-ga4/.test(site),
     duplicateListenerGuard: /OZ_TIMBER_FLOOR_SITE_READY/.test(site),
-    avoidsFreeText: !/message\s*:\s*formData\.get\(["']message/.test(site),
+    avoidsFreeText: !/\blink_url\s*:/.test(site)
+      && !/trackEvent\([\s\S]{0,800}\bformData\.get\(/.test(site)
+      && !/\butm_(?:source|medium|campaign)\s*:/.test(site),
   };
 }
 
@@ -855,7 +888,7 @@ function pageContracts(sitemapRoutes) {
 }
 
 function sitemapAudit() {
-  const main = sitemapEntries(path.join(root, "sitemap.xml"));
+  const main = sitemapEntries(sitemapPath);
   const routes = [];
   const issues = [];
   const seen = new Set();
@@ -879,12 +912,30 @@ function sitemapAudit() {
   return { routes, issues, count: main.entries.length };
 }
 
-function writeSitemapReport(sitemap) {
+function writeSitemapReport(sitemap, publication) {
   const report = {
     generatedAt: new Date().toISOString(),
-    summary: { urlCount: sitemap.count, issueCount: sitemap.issues.length },
+    summary: {
+      urlCount: sitemap.count,
+      publicationCanonicalCount: publication.publicationRoutes.length,
+      sitemapOmissionCount: publication.sitemapOmissions.length,
+      noindexSitemapCount: publication.noindexSitemapRoutes.length,
+      issueCount: sitemap.issues.length + publication.blockingIssues.length,
+    },
     urls: sitemap.routes.map((route) => `${domain}${route}`),
-    issues: sitemap.issues,
+    publication: {
+      canonicalRoutes: publication.publicationRoutes,
+      sitemapOmissions: publication.sitemapOmissions,
+      sitemapWithoutPublicationCanonical: publication.sitemapWithoutPublicationCanonical,
+      noindexRoutes: publication.noindexRoutes,
+      redirectOnlyRoutes: publication.redirectOnlyRoutes,
+      noindexSitemapRoutes: publication.noindexSitemapRoutes,
+      intentionalPhysicalAliases: publication.intentionalPhysicalAliases,
+      duplicateCanonicalOwnership: publication.duplicateOwnership,
+      missingCanonicalFiles: publication.missingCanonicalFiles,
+      conflictingRobotsFiles: publication.conflictingRobotsFiles,
+    },
+    issues: [...sitemap.issues, ...publication.blockingIssues],
   };
   writeText(path.join(generatedDir, "sitemap-validation-report.json"), `${JSON.stringify(report, null, 2)}\n`);
   writeText(path.join(generatedDir, "sitemap-validation-report.md"), [
@@ -893,6 +944,9 @@ function writeSitemapReport(sitemap) {
     `Generated: ${report.generatedAt}`,
     "",
     `- Main sitemap URLs: ${report.summary.urlCount}`,
+    `- Expected publication canonicals: ${report.summary.publicationCanonicalCount}`,
+    `- Publication canonicals missing from the sitemap: ${report.summary.sitemapOmissionCount}`,
+    `- Noindex routes present in the sitemap: ${report.summary.noindexSitemapCount}`,
     `- Validation findings: ${report.summary.issueCount}`,
     "- The full URL list and findings are in `sitemap-validation-report.json`.",
     "",
@@ -912,15 +966,24 @@ function buildContract() {
     "data/product-catalogue.json",
     "data/catalogue-quality-overrides.json",
     "scripts/prepare-netlify-deploy.mjs",
+    "scripts/build-public-package.mjs",
     "scripts/migration-readiness.mjs",
   ];
   const packageData = readJson("package.json");
   const netlify = fs.readFileSync(path.join(root, "netlify.toml"), "utf8");
+  const migrationCheck = packageData.scripts?.["migration:check"] || "";
+  const localMigrationCheck = packageData.scripts?.["migration:check:local"] || "";
+  const fullHardeningChain = (command, readinessCommand) => command === [
+    readinessCommand,
+    "npm run seo:gsc-audit",
+    "npm run seo:migration-hardening:check",
+  ].join(" && ");
   return {
     missingFiles: requiredFiles.filter((file) => !fs.existsSync(path.join(root, file))),
-    hasBuildScript: packageData.scripts?.build === "node scripts/prepare-netlify-deploy.mjs && npm run catalogue:apply",
-    hasReadinessScript: packageData.scripts?.["migration:check"] === "node scripts/migration-readiness.mjs",
-    rootPublish: /publish\s*=\s*"\."/.test(netlify),
+    hasBuildScript: packageData.scripts?.build === "node scripts/prepare-netlify-deploy.mjs && npm run catalogue:apply && npm run perf:images:apply && npm run release:package",
+    hasReadinessScript: fullHardeningChain(migrationCheck, "node scripts/migration-readiness.mjs")
+      && fullHardeningChain(localMigrationCheck, "node scripts/migration-readiness.mjs --allow-external"),
+    publicPackagePublish: /publish\s*=\s*"dist"/.test(netlify),
   };
 }
 
@@ -986,7 +1049,7 @@ function issueSummary(issues) {
   return counts;
 }
 
-function migrationReport({ catalogue, sitemap, redirects, contracts, links, contact, analytics, nonProduction, build, performanceAccessibility, issues }) {
+function migrationReport({ catalogue, sitemap, publication, redirects, contracts, links, contact, analytics, nonProduction, build, performanceAccessibility, issues }) {
   const counts = issueSummary(issues);
   const indexable = catalogue.pages.filter((page) => page.classification === "indexable").length;
   const classifiedNonIndexable = catalogue.pages.length - indexable;
@@ -998,7 +1061,12 @@ function migrationReport({ catalogue, sitemap, redirects, contracts, links, cont
     summary: {
       ...counts,
       htmlPages: walkFiles(root, (file) => file.endsWith(".html")).length,
+      physicalIndexableHtmlPages: publication.physicalIndexableHtmlFiles,
+      publicationCanonicals: publication.publicationRoutes.length,
+      noindexRoutes: publication.noindexRoutes.length,
+      redirectOnlyRoutes: publication.redirectOnlyRoutes.length,
       sitemapUrls: sitemap.count,
+      publicationCanonicalSitemapOmissions: publication.sitemapOmissions.length,
       redirectRules: redirects.rules.length,
       cataloguePages: catalogue.totals.cataloguePages,
       catalogueIndexable: indexable,
@@ -1011,6 +1079,21 @@ function migrationReport({ catalogue, sitemap, redirects, contracts, links, cont
       redirectChains: redirects.chains.length,
       redirectMissingTargets: redirects.missingTargets.length,
       redirectNoindexTargets: redirects.noindexTargets.length,
+    },
+    publication: {
+      canonicalRoutes: publication.publicationRoutes,
+      sitemapRoutes: publication.sitemapRoutes,
+      sitemapOmissions: publication.sitemapOmissions,
+      sitemapWithoutPublicationCanonical: publication.sitemapWithoutPublicationCanonical,
+      noindexRoutes: publication.noindexRoutes,
+      redirectOnlyRoutes: publication.redirectOnlyRoutes,
+      noindexSitemapRoutes: publication.noindexSitemapRoutes,
+      intentionalPhysicalAliases: publication.intentionalPhysicalAliases,
+      duplicateCanonicals: publication.duplicateCanonicals,
+      duplicateCanonicalOwnership: publication.duplicateOwnership,
+      missingCanonicalFiles: publication.missingCanonicalFiles,
+      invalidCanonicalFiles: publication.invalidCanonicalFiles,
+      conflictingRobotsFiles: publication.conflictingRobotsFiles,
     },
     contracts: { contact, analytics, nonProduction, build, performanceAccessibility },
     issues,
@@ -1030,7 +1113,12 @@ function markdownReport(report) {
     "| Measure | Result |",
     "| --- | ---: |",
     `| HTML pages | ${summary.htmlPages} |`,
+    `| Physical indexable HTML pages | ${summary.physicalIndexableHtmlPages} |`,
+    `| Unique publication canonicals | ${summary.publicationCanonicals} |`,
+    `| Unique noindex routes | ${summary.noindexRoutes} |`,
+    `| Physical redirect-only routes | ${summary.redirectOnlyRoutes} |`,
     `| Sitemap URLs | ${summary.sitemapUrls} |`,
+    `| Publication canonicals missing from sitemap | ${summary.publicationCanonicalSitemapOmissions} |`,
     `| Redirect rules | ${summary.redirectRules} |`,
     `| Catalogue pages | ${summary.cataloguePages} |`,
     `| Catalogue indexable | ${summary.catalogueIndexable} |`,
@@ -1056,13 +1144,14 @@ function runFullCheck() {
   const catalogue = catalogueAnalysis();
   writeCatalogueReports(catalogue);
   const sitemap = sitemapAudit();
+  const publication = createPublicationInventory({ root, domain, sitemapPath });
   const noindexRoutes = new Set();
   for (const file of walkFiles(root, (filePath) => filePath.endsWith(".html"))) {
     if (pageHasNoindex(fs.readFileSync(file, "utf8"))) noindexRoutes.add(urlForFile(file));
   }
   const redirects = redirectAudit(noindexRoutes);
   writeRedirectReports(redirects);
-  writeSitemapReport(sitemap);
+  writeSitemapReport(sitemap, publication);
   const contracts = pageContracts(sitemap.routes);
   const links = linkAudit(sitemap.routes);
   const contact = contactContract();
@@ -1073,10 +1162,11 @@ function runFullCheck() {
   writePerformanceAccessibilityReport(performanceAccessibility);
   const issues = [
     ...sitemap.issues,
+    ...publication.blockingIssues,
     ...build.missingFiles.map((file) => ({ severity: "BLOCKER", code: "required-file-missing", file })),
     ...(!build.hasBuildScript ? [{ severity: "BLOCKER", code: "build-script-mismatch" }] : []),
     ...(!build.hasReadinessScript ? [{ severity: "BLOCKER", code: "readiness-script-mismatch" }] : []),
-    ...(!build.rootPublish ? [{ severity: "BLOCKER", code: "netlify-publish-directory-mismatch" }] : []),
+    ...(!build.publicPackagePublish ? [{ severity: "BLOCKER", code: "netlify-publish-directory-mismatch" }] : []),
     ...catalogue.pages
       .filter((page) => page.classification !== "indexable" && sitemap.routes.includes(page.route) && !pageHasNoindex(fs.readFileSync(path.join(root, page.file), "utf8")))
       .map((page) => ({
@@ -1113,7 +1203,7 @@ function runFullCheck() {
     ...(!performanceAccessibility.focusVisibleStyles ? [{ severity: "MEDIUM", code: "accessibility-focus-visible-styles-missing" }] : []),
     ...(!performanceAccessibility.reducedMotionStyles ? [{ severity: "MEDIUM", code: "accessibility-reduced-motion-styles-missing" }] : []),
   ];
-  const report = migrationReport({ catalogue, sitemap, redirects, contracts, links, contact, analytics, nonProduction, build, performanceAccessibility, issues });
+  const report = migrationReport({ catalogue, sitemap, publication, redirects, contracts, links, contact, analytics, nonProduction, build, performanceAccessibility, issues });
   writeText(path.join(generatedDir, "migration-readiness-report.json"), `${JSON.stringify(report, null, 2)}\n`);
   writeText(path.join(generatedDir, "migration-readiness-report.md"), markdownReport(report));
   process.stdout.write(`${report.verdict}: ${report.summary.BLOCKER} blocker(s), ${report.summary.HIGH} high finding(s), ${report.summary.MEDIUM} medium finding(s).\n`);

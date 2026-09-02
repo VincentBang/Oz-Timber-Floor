@@ -4,11 +4,25 @@
   "version": "1.0.0",
   "description": "Local launch-safety controls for the Oz Timber Floor static Netlify site.",
   "scripts": {
-    "build": "node scripts/prepare-netlify-deploy.mjs && npm run catalogue:apply",
+    "build": "node scripts/prepare-netlify-deploy.mjs && npm run catalogue:apply && npm run perf:images:apply && npm run release:package",
     "catalogue:apply": "node scripts/migration-readiness.mjs --apply-catalogue-only",
     "catalogue:approve-release-decisions": "node scripts/apply-approved-release-decisions.mjs --apply && npm run catalogue:apply",
     "catalogue:fix-indexable-metadata": "node scripts/fix-indexable-catalogue-metadata.mjs --apply",
-    "migration:check": "node scripts/migration-readiness.mjs",
-    "migration:check:local": "node scripts/migration-readiness.mjs --allow-external"
+    "migration:check": "node scripts/migration-readiness.mjs && npm run seo:gsc-audit && npm run seo:migration-hardening:check",
+    "migration:check:local": "node scripts/migration-readiness.mjs --allow-external && npm run seo:gsc-audit && npm run seo:migration-hardening:check",
+    "seo:gsc-audit": "python3 scripts/gsc_migration_audit.py",
+    "seo:migration-hardening:check": "node scripts/seo-migration-hardening.mjs",
+    "perf:images:apply": "node scripts/image-dimension-audit.mjs --apply",
+    "perf:images:check": "node scripts/image-dimension-audit.mjs",
+    "perf:priority-routes:check": "node scripts/priority-route-performance-check.mjs",
+    "release:package": "node scripts/build-public-package.mjs",
+    "release:package:check": "node scripts/build-public-package.mjs --check",
+    "ui:seo-freeze:before": "node scripts/ui-ux-seo-freeze.mjs capture-before",
+    "ui:seo-freeze:after": "node scripts/ui-ux-seo-freeze.mjs capture-after",
+    "ui:seo-freeze:compare": "node scripts/ui-ux-seo-freeze.mjs compare",
+    "ui:seo-freeze:check": "npm run ui:seo-freeze:after && npm run ui:seo-freeze:compare",
+    "ui:lcp:check": "node scripts/ui-ux-lcp-check.mjs",
+    "ui:qa": "node scripts/ui-ux-lcp-check.mjs && node scripts/ui-qa.mjs",
+    "ui:screenshots": "node scripts/ui-screenshots.mjs"
   }
 }

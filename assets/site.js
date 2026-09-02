@@ -101,17 +101,21 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function analyticsPayload(extra) {
-    var sourcePage = params.get("source") || window.location.pathname;
+    var allowedEnquiries = ["stock", "supply-only", "supply-install", "product", "commercial", "service"];
+    var currentEnquiry = (select && select.value) || enquiry || "";
+    if (allowedEnquiries.indexOf(currentEnquiry) === -1) currentEnquiry = "";
+    var allowedCategories = ["Hybrid", "Laminate", "Engineered timber", "Solid timber", "Vinyl"];
+    var safeCategory = allowedCategories.indexOf(category) !== -1 ? category : "";
     var payload = {
       page_path: window.location.pathname,
-      source_page: sourcePage,
-      enquiry_type: (select && select.value) || enquiry || "",
-      product_slug: productSlug || "",
-      range: range || "",
-      category: category || "",
-      utm_source: attributionValue("utm_source"),
-      utm_medium: attributionValue("utm_medium"),
-      utm_campaign: attributionValue("utm_campaign"),
+      source_page: window.location.pathname,
+      enquiry_type: currentEnquiry,
+      category: safeCategory,
+      has_product_context: Boolean(product || productSlug),
+      has_range_context: Boolean(range),
+      utm_source_present: Boolean(attributionValue("utm_source")),
+      utm_medium_present: Boolean(attributionValue("utm_medium")),
+      utm_campaign_present: Boolean(attributionValue("utm_campaign")),
       gclid_present: Boolean(attributionValue("gclid")),
       fbclid_present: Boolean(attributionValue("fbclid"))
     };
@@ -120,34 +124,249 @@ document.addEventListener("DOMContentLoaded", function () {
 
   initAnalytics();
 
-  if (header && toggle) {
-    toggle.addEventListener("click", function () {
-      var isOpen = header.classList.toggle("is-open");
-      toggle.setAttribute("aria-expanded", String(isOpen));
+  var mobileNavQuery = window.matchMedia ? window.matchMedia("(max-width: 980px)") : null;
+  var navScrollState = null;
+
+  function resetNavSubmenus() {
+    document.querySelectorAll(".nav-item.is-expanded").forEach(function (item) {
+      item.classList.remove("is-expanded");
+    });
+    document.querySelectorAll(".nav-dropdown-toggle").forEach(function (button) {
+      button.setAttribute("aria-expanded", "false");
     });
   }
+
+  function lockPageScroll() {
+    if (navScrollState) return;
+    var root = document.documentElement;
+    var body = document.body;
+    navScrollState = {
+      x: window.scrollX || window.pageXOffset || 0,
+      y: window.scrollY || window.pageYOffset || 0,
+      rootStyle: root.getAttribute("style"),
+      bodyStyle: body.getAttribute("style")
+    };
+    root.style.overflow = "hidden";
+    body.style.position = "fixed";
+    body.style.top = "-" + navScrollState.y + "px";
+    body.style.left = "-" + navScrollState.x + "px";
+    body.style.right = "0";
+    body.style.width = "100%";
+    body.style.overflow = "hidden";
+    body.classList.add("mobile-nav-scroll-locked");
+  }
+
+  function unlockPageScroll() {
+    if (!navScrollState) return;
+    var root = document.documentElement;
+    var body = document.body;
+    var restore = navScrollState;
+    navScrollState = null;
+    body.classList.remove("mobile-nav-scroll-locked");
+    if (restore.rootStyle === null) root.removeAttribute("style");
+    else root.setAttribute("style", restore.rootStyle);
+    if (restore.bodyStyle === null) body.removeAttribute("style");
+    else body.setAttribute("style", restore.bodyStyle);
+    root.style.scrollBehavior = "auto";
+    root.style.overflowAnchor = "none";
+    window.scrollTo(restore.x, restore.y);
+    window.requestAnimationFrame(function () {
+      window.scrollTo(restore.x, restore.y);
+      window.requestAnimationFrame(function () {
+        window.scrollTo(restore.x, restore.y);
+        if (restore.rootStyle === null) root.removeAttribute("style");
+        else root.setAttribute("style", restore.rootStyle);
+      });
+    });
+  }
+
+  function mobileMenuFocusables() {
+    if (!header) return [];
+    return Array.from(header.querySelectorAll('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'))
+      .filter(function (element) {
+        return !element.hidden && element.getClientRects().length > 0;
+      });
+  }
+
+  function setMobileMenuOpen(shouldOpen, options) {
+    if (!header || !toggle) return;
+    var open = Boolean(shouldOpen) && (!mobileNavQuery || mobileNavQuery.matches);
+    var wasOpen = header.classList.contains("is-open");
+    if (open && !wasOpen) lockPageScroll();
+    header.classList.toggle("is-open", open);
+    toggle.setAttribute("aria-expanded", String(open));
+    toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+    document.body.classList.toggle("mobile-nav-open", open);
+
+    if (open) {
+      if (!wasOpen) {
+        window.requestAnimationFrame(function () {
+          var firstLink = header.querySelector(".nav-links a[href]");
+          if (firstLink) firstLink.focus({ preventScroll: true });
+        });
+      }
+    } else {
+      resetNavSubmenus();
+      if (wasOpen && options && options.returnFocus) {
+        toggle.focus({ preventScroll: true });
+      }
+      unlockPageScroll();
+    }
+
+    document.dispatchEvent(new CustomEvent("oz:mobile-menu-state", { detail: { open: open } }));
+  }
+
+  if (header && toggle) {
+    toggle.addEventListener("click", function () {
+      setMobileMenuOpen(!header.classList.contains("is-open"), { returnFocus: true });
+    });
+
+    document.addEventListener("click", function (event) {
+      if (header.classList.contains("is-open") && !header.contains(event.target)) {
+        setMobileMenuOpen(false, { returnFocus: true });
+      }
+    });
+
+    document.addEventListener("keydown", function (event) {
+      if (!header.classList.contains("is-open")) return;
+      if (event.key === "Escape") {
+        event.preventDefault();
+        setMobileMenuOpen(false, { returnFocus: true });
+        return;
+      }
+      if (event.key !== "Tab") return;
+      var focusables = mobileMenuFocusables();
+      if (!focusables.length) {
+        event.preventDefault();
+        toggle.focus({ preventScroll: true });
+        return;
+      }
+      var first = focusables[0];
+      var last = focusables[focusables.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus({ preventScroll: true });
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus({ preventScroll: true });
+      }
+    });
+
+    if (mobileNavQuery) {
+      var handleNavBreakpoint = function () {
+        if (!mobileNavQuery.matches && header.classList.contains("is-open")) {
+          setMobileMenuOpen(false, { returnFocus: false });
+        }
+      };
+      if (typeof mobileNavQuery.addEventListener === "function") {
+        mobileNavQuery.addEventListener("change", handleNavBreakpoint);
+      } else if (typeof mobileNavQuery.addListener === "function") {
+        mobileNavQuery.addListener(handleNavBreakpoint);
+      }
+    }
+  }
+
+  function initMobileHeaderCall() {
+    if (!header || !contact.phoneHref || !contact.phoneDisplay) return;
+    var actions = header.querySelector(".header-actions");
+    if (!actions || actions.querySelector("[data-mobile-call]")) return;
+    var call = document.createElement("a");
+    call.className = "button-secondary mobile-nav-call";
+    call.href = "tel:" + contact.phoneHref;
+    call.textContent = "Call " + contact.phoneDisplay;
+    call.setAttribute("data-mobile-call", "true");
+    actions.appendChild(call);
+  }
+
+  initMobileHeaderCall();
 
   document.querySelectorAll(".nav-dropdown-toggle").forEach(function (button) {
     button.addEventListener("click", function () {
       var item = button.closest(".nav-item");
       if (!item) return;
-      var isOpen = item.classList.toggle("is-expanded");
+      var isOpen = !item.classList.contains("is-expanded");
+      document.querySelectorAll(".nav-item.is-expanded").forEach(function (expandedItem) {
+        if (expandedItem === item) return;
+        expandedItem.classList.remove("is-expanded");
+        var expandedControl = expandedItem.querySelector(".nav-dropdown-toggle");
+        if (expandedControl) expandedControl.setAttribute("aria-expanded", "false");
+      });
+      item.classList.toggle("is-expanded", isOpen);
       button.setAttribute("aria-expanded", String(isOpen));
     });
   });
 
-  document.querySelectorAll(".nav-dropdown a, .nav-links > a").forEach(function (link) {
+  document.querySelectorAll(".brand, .nav-dropdown a, .nav-links > a, .nav-parent, .header-actions a").forEach(function (link) {
     link.addEventListener("click", function () {
       if (!header || !toggle) return;
-      header.classList.remove("is-open");
-      toggle.setAttribute("aria-expanded", "false");
-      document.querySelectorAll(".nav-item.is-expanded").forEach(function (item) {
-        item.classList.remove("is-expanded");
-        var control = item.querySelector(".nav-dropdown-toggle");
-        if (control) control.setAttribute("aria-expanded", "false");
-      });
+      setMobileMenuOpen(false, { returnFocus: false });
     });
   });
+
+  function initMobileActionDock() {
+    var dock = document.querySelector("main > .mobile-sticky-cta");
+    var productHero = document.querySelector(".product-hero");
+    if (!dock || !productHero) return;
+    var robots = document.querySelector('meta[name="robots"]');
+    if (robots && /(?:^|,)\s*noindex\b/i.test(robots.getAttribute("content") || "")) {
+      dock.hidden = true;
+      return;
+    }
+
+    var mobileDockQuery = window.matchMedia ? window.matchMedia("(max-width: 720px)") : null;
+    var dockLinks = Array.from(dock.querySelectorAll("a[href]"));
+    var originalTabIndexes = dockLinks.map(function (link) { return link.getAttribute("tabindex"); });
+    var watchedElements = [
+      productHero.querySelector(".button-row"),
+      document.querySelector("main > .section:last-of-type .button-row"),
+      document.querySelector(".site-footer")
+    ].filter(Boolean);
+    var visibility = new Map();
+
+    function isInViewport(element) {
+      var rect = element.getBoundingClientRect();
+      return rect.bottom > 0 && rect.top < window.innerHeight && rect.right > 0 && rect.left < window.innerWidth;
+    }
+
+    function setDockSuppressed(suppressed) {
+      dock.classList.toggle("is-suppressed", suppressed);
+      dock.setAttribute("aria-hidden", String(suppressed));
+      if ("inert" in dock) dock.inert = suppressed;
+      dockLinks.forEach(function (link, index) {
+        if (suppressed) link.setAttribute("tabindex", "-1");
+        else if (originalTabIndexes[index] === null) link.removeAttribute("tabindex");
+        else link.setAttribute("tabindex", originalTabIndexes[index]);
+      });
+    }
+
+    function updateDock() {
+      watchedElements.forEach(function (element) {
+        visibility.set(element, isInViewport(element));
+      });
+      var isMobile = !mobileDockQuery || mobileDockQuery.matches;
+      var competingActionVisible = watchedElements.some(function (element) { return visibility.get(element); });
+      setDockSuppressed(!isMobile || document.body.classList.contains("mobile-nav-open") || competingActionVisible);
+    }
+
+    document.body.classList.add("has-mobile-action-dock");
+    updateDock();
+    dock.setAttribute("data-dock-ready", "true");
+
+    if ("IntersectionObserver" in window) {
+      var dockObserver = new IntersectionObserver(updateDock, { threshold: [0, 0.05] });
+      watchedElements.forEach(function (element) { dockObserver.observe(element); });
+    } else {
+      window.addEventListener("scroll", updateDock, { passive: true });
+    }
+    window.addEventListener("resize", updateDock, { passive: true });
+    document.addEventListener("oz:mobile-menu-state", updateDock);
+    if (mobileDockQuery) {
+      if (typeof mobileDockQuery.addEventListener === "function") mobileDockQuery.addEventListener("change", updateDock);
+      else if (typeof mobileDockQuery.addListener === "function") mobileDockQuery.addListener(updateDock);
+    }
+  }
+
+  initMobileActionDock();
 
   document.querySelectorAll(".faq-item button").forEach(function (button) {
     button.addEventListener("click", function () {
@@ -461,6 +680,7 @@ document.addEventListener("DOMContentLoaded", function () {
         window.history.replaceState({}, "", window.location.pathname + "?" + params.toString());
       }
       setVisibleFields();
+      trackEnquiryIntent(enquiry);
     });
   }
 
@@ -489,6 +709,7 @@ document.addEventListener("DOMContentLoaded", function () {
       var nextValue = link.getAttribute("data-set-enquiry");
       var target = link.getAttribute("data-scroll-target") || "#contact-form-start";
       applyEnquirySelection(nextValue, "contact", target);
+      trackEnquiryIntent(normalizeEnquiry(nextValue));
       if (formStart) {
         var focusTarget = select || productField || formStart;
         if (focusTarget && typeof focusTarget.focus === "function") {
@@ -526,9 +747,39 @@ document.addEventListener("DOMContentLoaded", function () {
     target.innerHTML = actions.join("");
   });
 
+  function buildFooterContact() {
+    var footerContact = document.createElement("address");
+    footerContact.className = "footer-contact";
+    footerContact.setAttribute("data-footer-contact", "true");
+
+    function appendFooterContactLink(href, label) {
+      if (!href || !label) return;
+      var link = document.createElement("a");
+      link.href = href;
+      link.textContent = label;
+      footerContact.appendChild(link);
+    }
+
+    appendFooterContactLink(contact.phoneHref ? "tel:" + contact.phoneHref : "", contact.phoneDisplay);
+    appendFooterContactLink(contact.secondaryPhoneHref ? "tel:" + contact.secondaryPhoneHref : "", contact.secondaryPhoneDisplay);
+    appendFooterContactLink(contact.email ? "mailto:" + contact.email : "", contact.email);
+    if (contact.showroom) {
+      var showroom = document.createElement("span");
+      showroom.textContent = contact.showroom;
+      footerContact.appendChild(showroom);
+    }
+    return footerContact;
+  }
+
   document.querySelectorAll(".site-footer").forEach(function (footer) {
     var sections = footer.querySelectorAll(".footer-grid > div");
     if (sections.length < 4) return;
+    if (!sections[0].querySelector("[data-footer-contact]")) {
+      var footerContact = buildFooterContact();
+      var legacyContact = sections[0].querySelector("[data-contact-block]");
+      if (legacyContact) legacyContact.replaceWith(footerContact);
+      else sections[0].appendChild(footerContact);
+    }
     var enquiryLinks = sections[3].querySelector(".footer-links");
     if (!enquiryLinks) return;
     var wanted = [
@@ -551,34 +802,48 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.querySelectorAll('a[href^="tel:"]').forEach(function (link) {
     link.addEventListener("click", function () {
-      trackEvent("phone_call_click", analyticsPayload({
-        event_category: "lead",
-        link_url: link.getAttribute("href")
-      }));
+      trackEvent("phone_click", analyticsPayload({ event_category: "lead" }));
     });
   });
 
   document.querySelectorAll('a[href^="mailto:"]').forEach(function (link) {
     link.addEventListener("click", function () {
-      trackEvent("email_click", analyticsPayload({
-        event_category: "lead",
-        link_url: link.getAttribute("href")
-      }));
+      trackEvent("email_click", analyticsPayload({ event_category: "lead" }));
+    });
+  });
+
+  function trackEnquiryIntent(value) {
+    var payload = analyticsPayload({ event_category: "lead", enquiry_type: value });
+    if (value === "stock") trackEvent("stock_check", payload);
+    if (value === "supply-only") trackEvent("supply_only_enquiry", payload);
+    if (value === "supply-install") trackEvent("supply_install_enquiry", payload);
+  }
+
+  document.querySelectorAll('a[href*="/contact/"]').forEach(function (link) {
+    link.addEventListener("click", function () {
+      var href = link.getAttribute("href") || "";
+      var intent = "";
+      try {
+        var destination = new URL(href, window.location.origin);
+        if (destination.origin === window.location.origin && destination.searchParams.get("enquiry")) {
+          intent = normalizeEnquiry(destination.searchParams.get("enquiry"));
+        }
+      } catch (error) {}
+      if (intent) trackEnquiryIntent(intent);
     });
   });
 
   document.querySelectorAll("[data-contact-form]").forEach(function (form) {
+    form.addEventListener("focusin", function () {
+      if (form.getAttribute("data-analytics-started") === "true") return;
+      form.setAttribute("data-analytics-started", "true");
+      trackEvent("quote_start", analyticsPayload({ event_category: "lead" }));
+    });
     form.addEventListener("submit", function () {
-      var formData = new FormData(form);
-      trackEvent("generate_lead", analyticsPayload({
+      trackEvent("quote_submit", analyticsPayload({
         event_category: "lead",
         lead_event_state: "submit_attempt",
-        form_name: formData.get("form-name") || form.getAttribute("name") || "oz-flooring-enquiry",
-        enquiry_type: formData.get("enquiry_type") || "",
-        source_page: formData.get("source_page") || window.location.pathname,
-        product_slug: formData.get("product_slug") || "",
-        range: formData.get("range") || "",
-        category: formData.get("category") || ""
+        form_name: contact.formName || "oz-flooring-enquiry"
       }));
     });
   });
@@ -590,27 +855,48 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   if (contact.businessName) {
+    var schemaId = "https://oztimberfloor.com.au/#business";
     var schema = {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "@id": "https://oztimberfloor.com.au/#business-contact",
+      "@id": schemaId,
       "name": contact.businessName,
       "url": "https://oztimberfloor.com.au/",
-      "telephone": [contact.phoneDisplay, contact.secondaryPhoneDisplay].filter(Boolean),
+      "telephone": [contact.phoneHref, contact.secondaryPhoneHref].filter(Boolean),
       "email": contact.email || undefined,
-      "address": contact.showroom ? {
-        "@type": "PostalAddress",
-        "streetAddress": contact.showroom,
-        "addressCountry": "AU"
+      "logo": contact.logoUrl ? {
+        "@type": "ImageObject",
+        "url": contact.logoUrl
       } : undefined,
+      "address": contact.address ? Object.assign({
+        "@type": "PostalAddress",
+      }, contact.address) : undefined,
       "areaServed": contact.areaServed ? {
         "@type": "City",
         "name": contact.areaServed
       } : undefined
     };
-    var schemaTag = document.createElement("script");
-    schemaTag.type = "application/ld+json";
-    schemaTag.textContent = JSON.stringify(schema);
-    document.head.appendChild(schemaTag);
+    var schemaUpdated = false;
+    document.querySelectorAll('script[type="application/ld+json"]').forEach(function (schemaTag) {
+      if (schemaUpdated) return;
+      try {
+        var data = JSON.parse(schemaTag.textContent || "{}");
+        var entities = Array.isArray(data["@graph"]) ? data["@graph"] : [data];
+        var business = entities.find(function (entity) {
+          return entity && entity["@id"] === schemaId;
+        });
+        if (!business) return;
+        Object.assign(business, schema);
+        delete business["@context"];
+        schemaTag.textContent = JSON.stringify(data);
+        schemaUpdated = true;
+      } catch (error) {}
+    });
+    if (!schemaUpdated) {
+      var schemaTag = document.createElement("script");
+      schemaTag.type = "application/ld+json";
+      schemaTag.textContent = JSON.stringify(schema);
+      document.head.appendChild(schemaTag);
+    }
   }
 });

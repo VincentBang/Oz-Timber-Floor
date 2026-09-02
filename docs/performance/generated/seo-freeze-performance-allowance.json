@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "task": "OZ-PERF-002",
+  "purpose": "Preserve the authorised SEO-freeze difference set while proving priority-route HTML changed only through allowed image performance attributes.",
+  "ignoredImageAttributes": [
+    "width",
+    "height",
+    "loading",
+    "fetchpriority",
+    "decoding",
+    "data-lcp-image"
+  ],
+  "routes": [
+    {
+      "route": "/",
+      "file": "index.html",
+      "baselineRawSha256": "64de39f4ab6d5ba01f9f052e9fe23c23f14b2c91d07684765aebf6554400d993",
+      "baselineNormalizedSha256": "5661419be5d4703782c33b3553604be33a180a9f96032558ec879ace3e20acf0",
+      "currentRawSha256": "d528b1166ca29b719b1ae43c8b4f3567f0dc8984f2d5424d54059a61f172c498",
+      "currentNormalizedSha256": "5661419be5d4703782c33b3553604be33a180a9f96032558ec879ace3e20acf0",
+      "verifiedPerformanceOnly": true
+    },
+    {
+      "route": "/floor-levelling-sydney/",
+      "file": "floor-levelling-sydney.html",
+      "baselineRawSha256": "905dd75fb369ca639dba47fe7d6cf6797efc544f5e0447753b6171aaace0ab70",
+      "baselineNormalizedSha256": "db6f6b716f0e6994ef5f9d0e35df50b8f976bb3b823d694277d335c82634a209",
+      "currentRawSha256": "9290b775486faf5561e89a7c54410edacb7a58ea34f025742b3a1adec9801032",
+      "currentNormalizedSha256": "db6f6b716f0e6994ef5f9d0e35df50b8f976bb3b823d694277d335c82634a209",
+      "verifiedPerformanceOnly": true
+    },
+    {
+      "route": "/timber-flooring-installation-sydney/",
+      "file": "timber-flooring-installation-sydney.html",
+      "baselineRawSha256": "33edfde968a806eba653a6014ad5df53999fae3c564fe455822705e944dc007c",
+      "baselineNormalizedSha256": "ac4d3e9f7d2ab9132149380fae19c7849e75119c70ee93e8dfa7afa278d8183e",
+      "currentRawSha256": "2e898651ba3201c2dfea1df365713696888a55b9f15fd2fdac0ec8279beab51d",
+      "currentNormalizedSha256": "ac4d3e9f7d2ab9132149380fae19c7849e75119c70ee93e8dfa7afa278d8183e",
+      "verifiedPerformanceOnly": true
+    },
+    {
+      "route": "/hybrid-flooring-sydney/",
+      "file": "hybrid-flooring-sydney.html",
+      "baselineRawSha256": "23ddbecb35319270803db23fb943c8871b27ee9111d033a25ac20a1dc486dafb",
+      "baselineNormalizedSha256": "8734d5704a62322ed61bc9bda7ae6cef821b3f0aa4526dc6faf7cae1e4883cb5",
+      "currentRawSha256": "a95d4c29a5b9f027eda5bf3f67dbf7431edad434f2cc2cd27195dc47a75be1a1",
+      "currentNormalizedSha256": "8734d5704a62322ed61bc9bda7ae6cef821b3f0aa4526dc6faf7cae1e4883cb5",
+      "verifiedPerformanceOnly": true
+    },
+    {
+      "route": "/laminate-flooring-sydney/",
+      "file": "laminate-flooring-sydney.html",
+      "baselineRawSha256": "be249f6de6016da6ee6aea5a0f6f924e1a1cb7ea76e1437a7ecdc2b27c9d4285",
+      "baselineNormalizedSha256": "2081f33a98b02343b616539830574cab84a051f921f27f01ddf6b0a5f99d4a7f",
+      "currentRawSha256": "6348081283e89b2b7e937048fe83ca874480aa2ec1c241c47602b5e9fc703799",
+      "currentNormalizedSha256": "2081f33a98b02343b616539830574cab84a051f921f27f01ddf6b0a5f99d4a7f",
+      "verifiedPerformanceOnly": true
+    },
+    {
+      "route": "/engineered-timber-flooring-sydney/",
+      "file": "engineered-timber-flooring-sydney.html",
+      "baselineRawSha256": "2f96aa556b86ba96411326326b8e0f76b40b7e172bc0d32709be020aed8e1eae",
+      "baselineNormalizedSha256": "dc66873209cf901962f475b98d5a99a5bd8c4911a92e1c6f7d135a1c5922fea1",
+      "currentRawSha256": "e400a48ad08d323c64b4a0570b73b11f62f30222b88f703e7f9ee46da1366dda",
+      "currentNormalizedSha256": "dc66873209cf901962f475b98d5a99a5bd8c4911a92e1c6f7d135a1c5922fea1",
+      "verifiedPerformanceOnly": true
+    },
+    {
+      "route": "/solid-timber-flooring-sydney/",
+      "file": "solid-timber-flooring-sydney.html",
+      "baselineRawSha256": "1e09ce7fa2229b65d7e9a1bca33ff5e765e87a52db0dc88df813f001e2312d49",
+      "baselineNormalizedSha256": "15cd041a9c9b7314208d96a8984edb93296fe6b191778e865554ea83082410d7",
+      "currentRawSha256": "c5f12203fdfe6c2f6d9e5c7378f34508b0f538c38a9df8226e39d43e7f4b957f",
+      "currentNormalizedSha256": "15cd041a9c9b7314208d96a8984edb93296fe6b191778e865554ea83082410d7",
+      "verifiedPerformanceOnly": true
+    },
+    {
+      "route": "/commercial-flooring-sydney/",
+      "file": "commercial-flooring-sydney.html",
+      "baselineRawSha256": "f8ea1860031d8c3b9675004476f621faf7a9161cbacb081de7ad7367ff472bfa",
+      "baselineNormalizedSha256": "8638e3b7089da8bcd765577f67c6a0855d82ce698a786cec33df28df5716fefb",
+      "currentRawSha256": "e46654d739fe623f258bb189c9b2f71c8d36e567a93f6b03098f7be2ce539c10",
+      "currentNormalizedSha256": "8638e3b7089da8bcd765577f67c6a0855d82ce698a786cec33df28df5716fefb",
+      "verifiedPerformanceOnly": true
+    },
+    {
+      "route": "/office-flooring-sydney/",
+      "file": "office-flooring-sydney.html",
+      "baselineRawSha256": "40ae4bfa9473ad01262d54e97ebc00c87f59eca039df2dc01add4ce9b7211a90",
+      "baselineNormalizedSha256": "b65c998810b2f56d0c0aef312831910fbf1ffbcc1154da6e774da4facc8d159d",
+      "currentRawSha256": "8e17428eda36270fc97ffb8063e62ecb9abc7d2f266f00daadfa7c846b4efd2f",
+      "currentNormalizedSha256": "b65c998810b2f56d0c0aef312831910fbf1ffbcc1154da6e774da4facc8d159d",
+      "verifiedPerformanceOnly": true
+    },
+    {
+      "route": "/products/",
+      "file": "products.html",
+      "baselineRawSha256": "06a6bd840890e951fe4897cadbb936d07e36c52fa609eeb89262264cdd73d93e",
+      "baselineNormalizedSha256": "ca1cbc1276abdb6848787d6aa26629fd6013ba16c9aa3ea8f538b226dd733fd9",
+      "currentRawSha256": "df5fb44c5850de46e58891d7c12a9eb680414ee1ef7683884c4d8e5de277177f",
+      "currentNormalizedSha256": "ca1cbc1276abdb6848787d6aa26629fd6013ba16c9aa3ea8f538b226dd733fd9",
+      "verifiedPerformanceOnly": true
+    },
+    {
+      "route": "/ranges/etf-9-0mm-hybrid/",
+      "file": "ranges/etf-9-0mm-hybrid/index.html",
+      "baselineRawSha256": "ed2b9838e9a9f8772d55ed1c6eee5015d31de64cb99b2424c9506c6ff7ae2be4",
+      "baselineNormalizedSha256": "073daa61aa65b3332d30745c0e06abf1b89acdec4ece8183b9e246af23011a1b",
+      "currentRawSha256": "9456a2f8aec270630fdbdf642aef6b5edd46cce00c9b1192fd7830d2cec32f1a",
+      "currentNormalizedSha256": "073daa61aa65b3332d30745c0e06abf1b89acdec4ece8183b9e246af23011a1b",
+      "verifiedPerformanceOnly": true
+    },
+    {
+      "route": "/products/etf-9-0mm-hybrid-driftwood/",
+      "file": "products/etf-9-0mm-hybrid-driftwood/index.html",
+      "baselineRawSha256": "a4be1a58f9f4b5e602f1841a0b4d4bfb70998cf83e630759f4de696894f253ae",
+      "baselineNormalizedSha256": "c5f09a1e02338c8b75de83f73919a25d71777c1dbfb8ddd03bb024e2bcc3c88a",
+      "currentRawSha256": "a5e1013fd8feff5114259711aa8d55862d2ebf973232da74eb647d633ca43284",
+      "currentNormalizedSha256": "c5f09a1e02338c8b75de83f73919a25d71777c1dbfb8ddd03bb024e2bcc3c88a",
+      "verifiedPerformanceOnly": true
+    },
+    {
+      "route": "/projects/",
+      "file": "projects.html",
+      "baselineRawSha256": "7512cca220789428b1cb424d00290409c5b9d65e12929ac5b8ab5ae99c1c268d",
+      "baselineNormalizedSha256": "264c0cf3351501eb5bb10879755fc837a98640cd92a410309a176725a6eafa14",
+      "currentRawSha256": "3c8a8b32499d53e8c66747461699cc863f1a33b698ce110a9176de01020f81ff",
+      "currentNormalizedSha256": "264c0cf3351501eb5bb10879755fc837a98640cd92a410309a176725a6eafa14",
+      "verifiedPerformanceOnly": true
+    },
+    {
+      "route": "/about/",
+      "file": "about.html",
+      "baselineRawSha256": "0a0dfcc495a26c6606e08590853edf75c1cfc34eceeb4cd2691790c7828f6fce",
+      "baselineNormalizedSha256": "bb6e1089c2a239bc45ebbb1708e0fb55f25b5b32a8c68056f58dc7115f9dbc31",
+      "currentRawSha256": "8c5f0066cf01d38d4eb6ded87c1524437ac8cd7eb949716fc04ddda2402c4e09",
+      "currentNormalizedSha256": "bb6e1089c2a239bc45ebbb1708e0fb55f25b5b32a8c68056f58dc7115f9dbc31",
+      "verifiedPerformanceOnly": true
+    },
+    {
+      "route": "/contact/",
+      "file": "contact.html",
+      "baselineRawSha256": "9a8fcab9d1ad916aab1bf997171660a9413de9802b468e72edb5d88df00f4360",
+      "baselineNormalizedSha256": "c4b546f0e0eb141c9d57685c283074a7376cb528900db0d53ad57eec6e540306",
+      "currentRawSha256": "5e5b2a0e77fa95559f0f753870fd33898e7d795ef142aa1357ce75066d85d09e",
+      "currentNormalizedSha256": "c4b546f0e0eb141c9d57685c283074a7376cb528900db0d53ad57eec6e540306",
+      "verifiedPerformanceOnly": true
+    }
+  ]
+}

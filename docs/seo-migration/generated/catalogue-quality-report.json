@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T10:26:33.156Z",
+  "generatedAt": "2026-09-02T05:30:46.097Z",
   "totals": {
     "cataloguePages": 2115,
     "productPages": 1948,
@@ -12229,7 +12229,7 @@
       "currentRobots": "noindex,follow",
       "indexationControl": {
         "applyNoindex": true,
-        "reason": "Approved 2026-08-04 controlled treatment for product-schema-missing-image."
+        "reason": "Reviewed 2026-09-01: retain this incomplete alias as noindex; legacy traffic belongs on the verified exact ETF 9.0mm product."
       },
       "issues": []
     },
@@ -12249,7 +12249,7 @@
       "currentRobots": "noindex,follow",
       "indexationControl": {
         "applyNoindex": true,
-        "reason": "Approved 2026-08-04 controlled treatment for product-schema-missing-image."
+        "reason": "Reviewed 2026-09-01: retain this incomplete alias as noindex; legacy traffic belongs on the verified exact ETF 9.0mm product."
       },
       "issues": []
     },
@@ -12269,7 +12269,7 @@
       "currentRobots": "noindex,follow",
       "indexationControl": {
         "applyNoindex": true,
-        "reason": "Approved 2026-08-04 controlled treatment for product-schema-missing-image."
+        "reason": "Reviewed 2026-09-01: retain this incomplete alias as noindex; legacy traffic belongs on the verified exact ETF 9.0mm product."
       },
       "issues": []
     },
@@ -12289,7 +12289,7 @@
       "currentRobots": "noindex,follow",
       "indexationControl": {
         "applyNoindex": true,
-        "reason": "Approved 2026-08-04 controlled treatment for product-schema-missing-image."
+        "reason": "Reviewed 2026-09-01: no verified indexable Helena product exists; keep noindex and send legacy traffic to the verified ETF 9.0mm range pending manual product data."
       },
       "issues": []
     },
@@ -12309,7 +12309,7 @@
       "currentRobots": "noindex,follow",
       "indexationControl": {
         "applyNoindex": true,
-        "reason": "Approved 2026-08-04 controlled treatment for product-schema-missing-image."
+        "reason": "Reviewed 2026-09-01: retain this incomplete alias as noindex; legacy traffic belongs on the verified exact ETF 9.0mm product."
       },
       "issues": []
     },
@@ -12329,7 +12329,7 @@
       "currentRobots": "noindex,follow",
       "indexationControl": {
         "applyNoindex": true,
-        "reason": "Approved 2026-08-04 controlled treatment for product-schema-missing-image."
+        "reason": "Reviewed 2026-09-01: retain this incomplete alias as noindex; legacy traffic belongs on the verified exact ETF 9.0mm product."
       },
       "issues": []
     },
@@ -12349,7 +12349,7 @@
       "currentRobots": "noindex,follow",
       "indexationControl": {
         "applyNoindex": true,
-        "reason": "Approved 2026-08-04 controlled treatment for product-schema-missing-image."
+        "reason": "Reviewed 2026-09-01: retain this incomplete alias as noindex; legacy traffic belongs on the verified exact ETF 9.0mm product."
       },
       "issues": []
     },
@@ -47438,7 +47438,7 @@
       "currentRobots": "noindex,follow",
       "indexationControl": {
         "applyNoindex": true,
-        "reason": "Approved 2026-08-04 controlled treatment for legacy-or-alias-range, range-alias."
+        "reason": "Reviewed 2026-09-01: verified legacy ETF SPC 9mm alias maps to the exact indexable ETF 9.0mm range."
       },
       "issues": [
         {

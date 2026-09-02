@@ -1,0 +1,650 @@
+{
+  "schemaVersion": 2,
+  "lastReviewed": "2026-09-01",
+  "source": "Google Search Console, Web, last 12 months export dated 2026-09-01",
+  "reviewedRedirects": [
+    {
+      "source": "/product-category/bamboo/stonewood-bamboo/",
+      "target": "/hardwood-timber-flooring-sydney/",
+      "semanticMatch": "retired",
+      "decision": "redirect-category",
+      "note": "Bamboo is retired from public catalogue use; preserve the approved hardwood retirement destination."
+    },
+    {
+      "source": "/hybrid-timber-flooring-look-of-timber-with-extra-durability/",
+      "target": "/hybrid-flooring-sydney/",
+      "semanticMatch": "exact-category",
+      "decision": "redirect-category",
+      "note": "The retired legacy article has no clean migrated equivalent; the current Hybrid category preserves the same product-selection intent without carrying unsupported claims."
+    },
+    {
+      "source": "/product-category/hybrid/etf-hybrid-spc-9mm/",
+      "target": "/ranges/etf-9-0mm-hybrid/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range"
+    },
+    {
+      "source": "/product/etf-hybrid-spc-9mm-dexter-oak/",
+      "target": "/products/etf-9-0mm-hybrid-dexter-oak/",
+      "semanticMatch": "exact-product",
+      "decision": "redirect-exact"
+    },
+    {
+      "source": "/product/etf-hybrid-spc-9mm-driftwood/",
+      "target": "/products/etf-9-0mm-hybrid-driftwood/",
+      "semanticMatch": "exact-product",
+      "decision": "redirect-exact"
+    },
+    {
+      "source": "/product/etf-hybrid-spc-9mm-grey-oak/",
+      "target": "/products/etf-9-0mm-hybrid-grey-oak/",
+      "semanticMatch": "exact-product",
+      "decision": "redirect-exact"
+    },
+    {
+      "source": "/product/etf-hybrid-spc-9mm-new-zealand-blackbutt/",
+      "target": "/products/etf-9-0mm-hybrid-new-zealand-blackbutt/",
+      "semanticMatch": "exact-product",
+      "decision": "redirect-exact"
+    },
+    {
+      "source": "/product/etf-hybrid-spc-9mm-oslo-oak-grey/",
+      "target": "/products/etf-9-0mm-hybrid-oslo-oak-grey/",
+      "semanticMatch": "exact-product",
+      "decision": "redirect-exact"
+    },
+    {
+      "source": "/product/etf-hybrid-spc-9mm-spotted-gum/",
+      "target": "/products/etf-9-0mm-hybrid-spotted-gum/",
+      "semanticMatch": "exact-product",
+      "decision": "redirect-exact"
+    },
+    {
+      "source": "/product/etf-hybrid-spc-9mm-helena-oak/",
+      "target": "/ranges/etf-9-0mm-hybrid/",
+      "semanticMatch": "exact-range",
+      "decision": "manual-product-decision",
+      "note": "No verified indexable ETF 9.0mm Helena Oak product exists. Keep the incomplete alias noindex and confirm current product data and imagery before any product-page publication decision."
+    },
+    {
+      "source": "/ranges/etf-hybrid-spc-9mm/",
+      "target": "/ranges/etf-9-0mm-hybrid/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range"
+    },
+    {
+      "source": "/product/jatoba-brazilian-cherry/",
+      "target": "/ranges/solid/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product route is incomplete or noindex; preserve product intent through its verified indexable catalogue parent range."
+    },
+    {
+      "source": "/product/solid-raw-timber-american-white-oak/",
+      "target": "/ranges/raw-solid-timber/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product route is incomplete or noindex; preserve product intent through its verified indexable catalogue parent range."
+    },
+    {
+      "source": "/product/solid-raw-timber-turpentine/",
+      "target": "/ranges/raw-solid-timber/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product route is incomplete or noindex; preserve product intent through its verified indexable catalogue parent range."
+    },
+    {
+      "source": "/product/solid-raw-timber-grey-box/",
+      "target": "/ranges/raw-solid-timber/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product route is incomplete or noindex; preserve product intent through its verified indexable catalogue parent range."
+    },
+    {
+      "source": "/product/australian-blackbutt/",
+      "target": "/ranges/solid/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product route is incomplete or noindex; preserve product intent through its verified indexable catalogue parent range."
+    },
+    {
+      "source": "/product/swish-blackbutt/",
+      "target": "/ranges/swish/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product route is incomplete or noindex; preserve product intent through its verified indexable catalogue parent range."
+    },
+    {
+      "source": "/product/solid-raw-timber-cypress-pine/",
+      "target": "/ranges/raw-solid-timber/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product route is incomplete or noindex; preserve product intent through its verified indexable catalogue parent range."
+    },
+    {
+      "source": "/product/solid-raw-timber-red-ironbark/",
+      "target": "/ranges/raw-solid-timber/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product route is incomplete or noindex; preserve product intent through its verified indexable catalogue parent range."
+    },
+    {
+      "source": "/product/solid-raw-timber-nsw-spotted-gum/",
+      "target": "/ranges/raw-solid-timber/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product route is incomplete or noindex; preserve product intent through its verified indexable catalogue parent range."
+    },
+    {
+      "source": "/product/pacific-blackbutt/",
+      "target": "/ranges/solid/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product route is incomplete or noindex; preserve product intent through its verified indexable catalogue parent range."
+    },
+    {
+      "source": "/product/cumaru-brazilian-teak/",
+      "target": "/ranges/solid/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product route is incomplete or noindex; preserve product intent through its verified indexable catalogue parent range."
+    },
+    {
+      "source": "/product/solid-raw-timber-grey-ironbark/",
+      "target": "/ranges/raw-solid-timber/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product route is incomplete or noindex; preserve product intent through its verified indexable catalogue parent range."
+    },
+    {
+      "source": "/product/ornato-latina/",
+      "target": "/ranges/ornato-vinyl/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product route is incomplete or noindex; preserve product intent through its verified indexable catalogue parent range."
+    },
+    {
+      "source": "/product/solid-raw-timber-tasmanian-oak/",
+      "target": "/ranges/raw-solid-timber/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product route is incomplete or noindex; preserve product intent through its verified indexable catalogue parent range."
+    },
+    {
+      "source": "/product/solid-raw-timber-blackbutt/",
+      "target": "/ranges/raw-solid-timber/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product route is incomplete or noindex; preserve product intent through its verified indexable catalogue parent range."
+    },
+    {
+      "source": "/product/grandoak-age-carbonised-oak/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-black-forest/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-driftwood/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-french-grey/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-ghost-white/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-natural-oak/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-trio-smoked-oak/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-white-smoked-oak/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-arctic-oak/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-mink-grey/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-gunsynd-oak/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-moroccan-oak/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-milano-oak/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-canyon-oak/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-european-oak/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-limed-oak/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-baliness-oak/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-burnt-oak/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-black-opal/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-uluru-oak/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-persian-oak/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/grandoak-desert-oak/",
+      "target": "/engineered-timber-flooring-sydney/",
+      "semanticMatch": "generic-category",
+      "decision": "redirect-category",
+      "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
+    },
+    {
+      "source": "/product/stone-floor-oak-beige/",
+      "target": "/ranges/stone-floor-tile/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product remains controlled/noindex; preserve its product-family intent through the verified indexable Stone Floor Tile range."
+    },
+    {
+      "source": "/product/storm-royal-white-oak/",
+      "target": "/ranges/storm-luxury/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product remains controlled/noindex; preserve its product-family intent through the verified indexable Storm Luxury range."
+    },
+    {
+      "source": "/product/storm-vintage-evian-oak/",
+      "target": "/ranges/storm-luxury/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product remains controlled/noindex; preserve its product-family intent through the verified indexable Storm Luxury range."
+    },
+    {
+      "source": "/product/stone-floor-bianco-white/",
+      "target": "/ranges/stone-floor-tile/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product remains controlled/noindex; preserve its product-family intent through the verified indexable Stone Floor Tile range."
+    },
+    {
+      "source": "/product/stone-floor-stone-oak/",
+      "target": "/ranges/stone-floor-tile/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product remains controlled/noindex; preserve its product-family intent through the verified indexable Stone Floor Tile range."
+    },
+    {
+      "source": "/product/storm-new-england-blackbutt/",
+      "target": "/ranges/storm-luxury/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product remains controlled/noindex; preserve its product-family intent through the verified indexable Storm Luxury range."
+    },
+    {
+      "source": "/product/stone-floor-snow-white/",
+      "target": "/ranges/stone-floor-tile/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product remains controlled/noindex; preserve its product-family intent through the verified indexable Stone Floor Tile range."
+    },
+    {
+      "source": "/product/swish-oak-fiano-brown/",
+      "target": "/ranges/swish-oak-natura/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product remains controlled/noindex; preserve its product-family intent through the verified indexable Swish Oak Natura range."
+    },
+    {
+      "source": "/product/swish-aquastop-blackbutt/",
+      "target": "/ranges/swish-laminate-aqua/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product remains controlled/noindex; preserve its product-family intent through the verified indexable Swish Laminate Aqua range."
+    },
+    {
+      "source": "/product/stone-floor-blackbutt/",
+      "target": "/ranges/stone-floor-tile/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product remains controlled/noindex; preserve its product-family intent through the verified indexable Stone Floor Tile range."
+    },
+    {
+      "source": "/product/swish-oak-raw-caramel/",
+      "target": "/ranges/swish-oak-natura/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product remains controlled/noindex; preserve its product-family intent through the verified indexable Swish Oak Natura range."
+    },
+    {
+      "source": "/product/stone-floor-white-wash/",
+      "target": "/ranges/stone-floor-tile/",
+      "semanticMatch": "exact-range",
+      "decision": "redirect-range",
+      "note": "The exact product remains controlled/noindex; preserve its product-family intent through the verified indexable Stone Floor Tile range."
+    }
+  ],
+  "catalogueFallbacks": [
+    {
+      "route": "/ranges/etf-hybrid-spc-9mm/",
+      "target": "/ranges/etf-9-0mm-hybrid/"
+    },
+    {
+      "route": "/products/etf-hybrid-spc-9mm-dexter-oak/",
+      "target": "/products/etf-9-0mm-hybrid-dexter-oak/"
+    },
+    {
+      "route": "/products/etf-hybrid-spc-9mm-driftwood/",
+      "target": "/products/etf-9-0mm-hybrid-driftwood/"
+    },
+    {
+      "route": "/products/etf-hybrid-spc-9mm-grey-oak/",
+      "target": "/products/etf-9-0mm-hybrid-grey-oak/"
+    },
+    {
+      "route": "/products/etf-hybrid-spc-9mm-new-zealand-blackbutt/",
+      "target": "/products/etf-9-0mm-hybrid-new-zealand-blackbutt/"
+    },
+    {
+      "route": "/products/etf-hybrid-spc-9mm-oslo-oak-grey/",
+      "target": "/products/etf-9-0mm-hybrid-oslo-oak-grey/"
+    },
+    {
+      "route": "/products/etf-hybrid-spc-9mm-spotted-gum/",
+      "target": "/products/etf-9-0mm-hybrid-spotted-gum/"
+    },
+    {
+      "route": "/products/etf-hybrid-spc-9mm-helena-oak/",
+      "target": "/ranges/etf-9-0mm-hybrid/"
+    },
+    {
+      "route": "/products/jatoba-brazilian-cherry/",
+      "target": "/ranges/solid/"
+    },
+    {
+      "route": "/products/solid-raw-timber-american-white-oak/",
+      "target": "/ranges/raw-solid-timber/"
+    },
+    {
+      "route": "/products/solid-raw-timber-turpentine/",
+      "target": "/ranges/raw-solid-timber/"
+    },
+    {
+      "route": "/products/solid-raw-timber-grey-box/",
+      "target": "/ranges/raw-solid-timber/"
+    },
+    {
+      "route": "/products/australian-blackbutt/",
+      "target": "/ranges/solid/"
+    },
+    {
+      "route": "/products/swish-blackbutt/",
+      "target": "/ranges/swish/"
+    },
+    {
+      "route": "/products/solid-raw-timber-cypress-pine/",
+      "target": "/ranges/raw-solid-timber/"
+    },
+    {
+      "route": "/products/solid-raw-timber-red-ironbark/",
+      "target": "/ranges/raw-solid-timber/"
+    },
+    {
+      "route": "/products/solid-raw-timber-nsw-spotted-gum/",
+      "target": "/ranges/raw-solid-timber/"
+    },
+    {
+      "route": "/products/pacific-blackbutt/",
+      "target": "/ranges/solid/"
+    },
+    {
+      "route": "/products/cumaru-brazilian-teak/",
+      "target": "/ranges/solid/"
+    },
+    {
+      "route": "/products/solid-raw-timber-grey-ironbark/",
+      "target": "/ranges/raw-solid-timber/"
+    },
+    {
+      "route": "/products/ornato-latina/",
+      "target": "/ranges/ornato-vinyl/"
+    },
+    {
+      "route": "/products/solid-raw-timber-tasmanian-oak/",
+      "target": "/ranges/raw-solid-timber/"
+    },
+    {
+      "route": "/products/solid-raw-timber-blackbutt/",
+      "target": "/ranges/raw-solid-timber/"
+    },
+    {
+      "route": "/products/grandoak-age-carbonised-oak/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-black-forest/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-driftwood/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-french-grey/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-ghost-white/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-natural-oak/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-trio-smoked-oak/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-white-smoked-oak/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-arctic-oak/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-mink-grey/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-gunsynd-oak/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-moroccan-oak/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-milano-oak/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-canyon-oak/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-european-oak/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-limed-oak/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-baliness-oak/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-burnt-oak/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-black-opal/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-uluru-oak/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-persian-oak/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/grandoak-desert-oak/",
+      "target": "/engineered-timber-flooring-sydney/"
+    },
+    {
+      "route": "/products/stone-floor-oak-beige/",
+      "target": "/ranges/stone-floor-tile/"
+    },
+    {
+      "route": "/products/storm-royal-white-oak/",
+      "target": "/ranges/storm-luxury/"
+    },
+    {
+      "route": "/products/storm-vintage-evian-oak/",
+      "target": "/ranges/storm-luxury/"
+    },
+    {
+      "route": "/products/stone-floor-bianco-white/",
+      "target": "/ranges/stone-floor-tile/"
+    },
+    {
+      "route": "/products/stone-floor-stone-oak/",
+      "target": "/ranges/stone-floor-tile/"
+    },
+    {
+      "route": "/products/storm-new-england-blackbutt/",
+      "target": "/ranges/storm-luxury/"
+    },
+    {
+      "route": "/products/stone-floor-snow-white/",
+      "target": "/ranges/stone-floor-tile/"
+    },
+    {
+      "route": "/products/swish-oak-fiano-brown/",
+      "target": "/ranges/swish-oak-natura/"
+    },
+    {
+      "route": "/products/swish-aquastop-blackbutt/",
+      "target": "/ranges/swish-laminate-aqua/"
+    },
+    {
+      "route": "/products/stone-floor-blackbutt/",
+      "target": "/ranges/stone-floor-tile/"
+    },
+    {
+      "route": "/products/swish-oak-raw-caramel/",
+      "target": "/ranges/swish-oak-natura/"
+    },
+    {
+      "route": "/products/stone-floor-white-wash/",
+      "target": "/ranges/stone-floor-tile/"
+    }
+  ],
+  "candidatePolicy": "Prefer an exact indexable product; otherwise use its verified indexable catalogue parent range. Use a reviewed category only when no publishable exact product or range exists."
+}

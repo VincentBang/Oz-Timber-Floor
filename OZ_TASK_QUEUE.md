@@ -8,6 +8,15 @@
 - [x] Applied controlled treatment to 1,222 catalogue pages, removed 1,026 from the sitemap, applied 220 direct redirects and remapped 636 existing catalogue rules (632 initial plus four forced `301!` aliases).
 - [x] Reached local migration gate `GO` with 0 blocker/high/medium findings.
 
+## Completed Performance/Evidence Work — 1 September 2026
+
+- [x] Resolved 136 missing intrinsic-dimension pairs across the 15 priority publication owners without changing image bytes, colour, content or SEO contracts.
+- [x] Added exactly one verified eager/high-priority primary image per priority route and retained below-fold lazy loading.
+- [x] Added deterministic `perf:images:check` and `perf:priority-routes:check` gates and made the scoped postprocessor the final build stage.
+- [x] Passed 75 redirect-aware browser records across five widths with zero overflow, missing dimensions, lazy primary candidates or console errors; captured 10 representative screenshots.
+- [x] Preserved the exact authorised 29-item SEO-freeze set and unchanged 943-publication/943-sitemap/1,912-redirect contract.
+- [x] Ranked the next 25 catalogue evidence/decision packages without changing indexation, redirects, metadata, schema or catalogue facts.
+
 ## P0: Launch Blockers / SEO Damage Risk
 
 - Preserve the validated redirect and sitemap state through deployment; re-test the deployed responses.
@@ -28,6 +37,8 @@
 
 ## P2: Catalogue/Range/Product Cleanup
 
+- Prepare the verified Raw Solid Timber evidence package first; keep all affected exact routes controlled until status, specifications and image identity are confirmed.
+- Use `docs/seo-migration/CATALOGUE_QUALITY_NEXT_QUEUE_2026-09-01.md` as the route/cohort order. Class B/C/D items remain approval- or evidence-gated.
 - Audit product and range images for missing, generic or mismatched images.
 - Enrich the 1,222 controlled catalogue pages only from verified source data; do not re-index them merely to increase page count.
 - Clean product/range names and suspected typo slugs.

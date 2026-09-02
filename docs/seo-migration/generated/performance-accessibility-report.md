@@ -5,8 +5,8 @@
 | HTML files scanned | 2201 |
 | Images | 18281 |
 | Images with missing alt attribute | 0 |
-| Images with missing width or height | 13900 |
-| Images marked lazy | 13478 |
+| Images with missing width or height | 13752 |
+| Images marked lazy | 13465 |
 | Buttons without an accessible name | 0 |
 | Focus-visible styling present | yes |
 | Reduced-motion styling present | yes |
