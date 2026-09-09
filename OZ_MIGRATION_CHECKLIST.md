@@ -15,6 +15,7 @@
 - [ ] Apply and verify the exact 172-route control and nine owner decisions only after approval.
 - [ ] Refresh stale historical browser/performance hashes after the protected slice.
 - [x] Vincent subsequently requested dev push, main merge and deployment; existing noindex protection and unapproved route decisions remain unchanged.
+- [x] Dev pushed, main fast-forwarded/pushed, Git-triggered protected Netlify deployment verified: 30 HTTP checks and four live browser cells pass; receipt recorded in the task directory.
 - [ ] Obtain separate approval for form tests, DNS/domain changes, production indexing, GA4 and Search Console actions.
 
 ## Local Hardening Gate — 1 September 2026

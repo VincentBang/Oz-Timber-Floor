@@ -10,6 +10,10 @@
 
 ## Current Task
 
+The reviewed OZ-MIG-004 repair package is deployed to the existing protected Netlify site through the Git integration. Code commit `1916b19733a90907aafe765089ffbe85c390ef2c` was pushed to dev and fast-forwarded into main; ready main deploy `6aa144f26420d10008e8b8fc` passed 30 live HTTP checks and four live browser cells. See `docs/seo-migration/OZ-MIG-004/DEPLOYMENT_RECEIPT_2026-09-09.md`. The receipt/test follow-up changes no public package bytes. Production indexing and the protected route/catalogue decision remain unapproved.
+
+### Local repair and approval context
+
 OZ-MIG-004 independently safe local repairs are complete; the consolidated protected decision is pending. Current counts remain 943 publication canonicals/sitemap URLs, 971 physical indexable HTML, 1,230 physical noindex files representing 1,228 unique noindex routes, 350 redirect-only routes and 1,912 redirect rules. Factual catalogue repair exposed 172 exact currently indexable Hardwood-derived routes that require the hash-locked route-level control decision; no bulk noindex or protected redirect/indexation change was made. Vincent subsequently requested dev push, main merge and deployment. The protected-preview package and promotion preflight are recorded in `docs/seo-migration/OZ-MIG-004/IMPLEMENTATION_AND_QA.md`; actual publication is established by the provider receipt and post-deploy smoke test, not this preflight. No form submission, DNS/domain, production-indexing, GA4 or Search Console action is included in that promotion.
 
 ## OZ-MIG-004 current record — 9 September 2026

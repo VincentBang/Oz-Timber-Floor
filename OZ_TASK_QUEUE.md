@@ -11,6 +11,7 @@
 - [ ] Vincent approval: `APPROVE OZ-MIG-004 DECISION PLAN ab50628d77038ea331e94d253aa4735ee0405a05f5d1d785b8cd28bf5650514e`.
 - [ ] After approval, atomically implement the nine route owners and exact 172-route catalogue control, then refresh the three stale browser/performance evidence records and all-candidate gate.
 - [x] Vincent requested dev push, main merge and deployment after the local repair report; execute against the verified existing Oz Netlify target with noindex preserved.
+- [x] Executed dev/main promotion and verified ready Git-triggered Netlify deployments; live HTTP/browser checks and receipt complete.
 - [ ] Separately approve any form test, domain/DNS, production indexing, GA4 or Search Console action.
 
 ## Completed Release-Safety Work — 4 August 2026

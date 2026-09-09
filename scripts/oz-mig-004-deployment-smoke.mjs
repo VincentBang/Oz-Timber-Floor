@@ -17,14 +17,18 @@ async function inspect(route, status = 200, expectedLocation = null) {
   const text = bytes.toString("utf8");
   const row = { route, status: response.status, expectedStatus: status, noindex: response.headers.get("x-robots-tag"), location: response.headers.get("location"), sha256: sha(bytes) };
   if (response.status !== status) failures.push(`${route}: status ${response.status}, expected ${status}`);
-  if (!/noindex/i.test(row.noindex || "")) failures.push(`${route}: global noindex missing`);
+  // Netlify's static _headers do not apply to edge-generated redirect responses.
+  // Require noindex on every served/error page, and check each redirect's final page below.
+  if ((status < 300 || status >= 400) && !/noindex/i.test(row.noindex || "")) failures.push(`${route}: global noindex missing`);
   // Netlify pretty URLs normalize these existing locations without the terminal slash.
-  if (expectedLocation && new URL(row.location || route, origin).pathname.replace(/\/$/, "") !== expectedLocation.replace(/\/$/, "")) failures.push(`${route}: unexpected redirect ${row.location}`);
+  const target = new URL(row.location || route, origin);
+  if (expectedLocation && (target.origin !== origin.origin || target.pathname.replace(/\/$/, "") !== expectedLocation.replace(/\/$/, ""))) failures.push(`${route}: unexpected redirect ${row.location}`);
   if (status === 200 && route.endsWith("/")) {
     if ((text.match(/<h1\b/gi) || []).length !== 1) failures.push(`${route}: H1 count`);
     if ((text.match(/<link\b[^>]*rel=["']canonical["']/gi) || []).length !== 1) failures.push(`${route}: canonical count`);
   }
   rows.push(row);
+  if (expectedLocation && target.origin === origin.origin) await inspect(target.pathname);
   return text;
 }
 for (const route of ["/", "/products/", "/ranges/", "/floor-levelling-sydney/", "/laminate-flooring-sydney/", "/engineered-timber-flooring-sydney/", "/products/hardwood-collection-forest-oak/", "/guides/choosing-office-flooring-durability-design-performance/", "/privacy/", "/terms/"]) await inspect(route);

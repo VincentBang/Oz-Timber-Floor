@@ -1248,7 +1248,7 @@
       "disposition": "malformed-catalogue-presentation-repair"
     }
   ],
-  "changedFileCount": 303,
+  "changedFileCount": 304,
   "unexpectedPaths": [],
   "unexplainedProtectedDrift": [],
   "result": "PASS"

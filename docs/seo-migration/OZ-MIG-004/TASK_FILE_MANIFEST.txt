@@ -13,6 +13,7 @@ docs/seo-migration/OZ-MIG-004/CONTENT_PARITY.csv
 docs/seo-migration/OZ-MIG-004/CURRENT_STATE_AND_ISSUE_REGISTER.md
 docs/seo-migration/OZ-MIG-004/DECISION_PLAN.json
 docs/seo-migration/OZ-MIG-004/DECISION_PLAN.md
+docs/seo-migration/OZ-MIG-004/DEPLOYMENT_RECEIPT_2026-09-09.md
 docs/seo-migration/OZ-MIG-004/HTTP_RECONCILIATION_SUMMARY.json
 docs/seo-migration/OZ-MIG-004/IMPLEMENTATION_AND_QA.md
 docs/seo-migration/OZ-MIG-004/MANUAL_INPUTS.md

@@ -2,7 +2,7 @@
 
 ## Outcome
 
-Layer: **LOCAL REPAIRS COMPLETE; PROTECTED DECISIONS PENDING**.
+Layer: **REPAIRS DEPLOYED TO PROTECTED NETLIFY; PROTECTED DECISIONS PENDING**. Actual promotion and live checks are recorded in `DEPLOYMENT_RECEIPT_2026-09-09.md`.
 
 Starting state was clean `main` at `d0c66b802e544aa1a807f91798ea284c31c0998b`. No inherited change was overwritten. The initial local repair phase made no external writes. Vincent subsequently requested “push to dev merge to main and deploy”; the promotion preflight below records that separate authority. Form submission, DNS/domain change, production-indexing change, GA4 configuration and Search Console writes remain outside this release.
 
@@ -116,4 +116,4 @@ The legacy freeze is intentionally not converted to green by accepting current o
 - The analytics marker now retains only enum/boolean non-PII context, expires after ten minutes and is consumed once. Real-script VM tests cover context retention, malformed/future/expired markers, direct thank-you visits, tampering, no attempted-submit success and inactive GA4.
 - The current release contract now unconditionally protects all canonical/robots/form tags, limits five product identity corrections to exact suffix removal, and pins the range identity, FAQ schema and complete link multiset. Twenty-one in-memory positive/negative checks verified rejection of previously overbroad exemptions.
 - Fresh local regression run: package, analytics, catalogue integrity, old assets, image dimensions, LCP, GSC and semantic redirects pass. Readiness still fails only on the 172 unapproved catalogue routes; broken internal links/assets and redirect conflicts/loops/chains/missing/noindex targets are all zero. Historical UI/performance/freeze checks retain the separately documented stale-baseline failures; no test was weakened to conceal them.
-- Actual Git promotion and deployment receipt are reported after execution; this preflight is not evidence that a publish already happened.
+- This preflight alone is not publish evidence. Subsequent actual Git promotion, provider deployment IDs and live results are recorded in `DEPLOYMENT_RECEIPT_2026-09-09.md`.

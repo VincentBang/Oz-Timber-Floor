@@ -16,6 +16,8 @@ These sets overlap and must not be summed. The difference between 971 physical i
 
 ## Issue register
 
+The statuses below record the pre-promotion assessment. The independently safe local fixes were subsequently verified on the protected Netlify deployment; see `DEPLOYMENT_RECEIPT_2026-09-09.md`. The protected decisions remain pending.
+
 | Finding | Status | Evidence and impact | Treatment/test |
 | --- | --- | --- | --- |
 | Nine established production owners differ from staging owners | `NEEDS_PROTECTED_DECISION` | WordPress still serves the old paths as self-canonical `200`; newer staging paths are not production owners. Reversing or retaining ownership changes canonicals, redirects, sitemap and many links. | Exact atomic proposals are hash-locked in `DECISION_PLAN.json`; no route change implemented. |
