@@ -1,5 +1,22 @@
 # Oz Timber Floor Migration Checklist
 
+## OZ-MIG-004 local layer — 9 September 2026
+
+- [x] Fresh 35-route GET evidence captured for WordPress and Netlify with redirect chains, headers and content fingerprints.
+- [x] Publication/catalogue counts reconciled without summing overlapping inventories.
+- [x] Verified 12-colour Hardwood Collection data and presentation repaired; unsupported fields omitted.
+- [x] Old WordPress asset dependency reduced to zero release HTML references.
+- [x] Analytics confirmed-success contract passes without PII.
+- [x] Protected preview package builds deterministically and contains no private roots.
+- [x] Isolated production fixture distinguishes global indexability from deliberate page-level controls.
+- [x] Current-head release contract reports zero unexplained protected drift.
+- [x] Replaced invalid initial screenshot comparison: 30 git-verified baseline/current captures at actual CSS widths, plus 25/25 current browser cells and 320px menu/form checks pass.
+- [ ] Approve the exact decision manifest `ab50628d77038ea331e94d253aa4735ee0405a05f5d1d785b8cd28bf5650514e`.
+- [ ] Apply and verify the exact 172-route control and nine owner decisions only after approval.
+- [ ] Refresh stale historical browser/performance hashes after the protected slice.
+- [x] Vincent subsequently requested dev push, main merge and deployment; existing noindex protection and unapproved route decisions remain unchanged.
+- [ ] Obtain separate approval for form tests, DNS/domain changes, production indexing, GA4 and Search Console actions.
+
 ## Local Hardening Gate — 1 September 2026
 
 - [x] Publication inventory reconciled at 943 unique canonicals and 943 canonical-only sitemap URLs.

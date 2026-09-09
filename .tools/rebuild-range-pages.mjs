@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const root = process.cwd();
+const onlyRange = process.argv.find((value) => value.startsWith("--only="))?.split("=")[1] || "";
 const catalogue = JSON.parse(fs.readFileSync(path.join(root, "data/product-catalogue.json"), "utf8"));
 const ranges = catalogue.ranges || [];
 const products = catalogue.products || [];
@@ -149,7 +150,10 @@ function rangeProducts(range) {
     .map(cleanSlug)
     .map((slug) => productById.get(slug))
     .filter(Boolean);
-  const fromRange = productsByRange.get(cleanSlug(range.slug || range.id || range.name)) || [];
+  // An explicit reviewed colour list is authoritative. Falling through to every
+  // imported record with the same range label previously mixed unrelated source
+  // rows into Hardwood Collection and inflated its colour count.
+  const fromRange = fromSlugs.length ? [] : (productsByRange.get(cleanSlug(range.slug || range.id || range.name)) || []);
   return [...fromSlugs, ...fromRange].filter((product) => {
     const key = cleanSlug(product.id || product.slug || product.url);
     if (!key || seen.has(key)) return false;
@@ -414,6 +418,7 @@ const duplicateNotes = [];
 const colourListReviewNotes = [];
 for (const range of allRangesForRelated) {
   if (!range.slug || !range.url) continue;
+  if (onlyRange && range.slug !== onlyRange) continue;
   const canonical = canonicalByName.get(String(range.name || "").toLowerCase());
   if (canonical && canonical.slug !== range.slug) {
     duplicateNotes.push(`- ${range.url} duplicates ${canonical.url} for range name "${range.name}". Review redirect/canonical decision.`);
@@ -429,7 +434,7 @@ for (const range of allRangesForRelated) {
   written += 1;
 }
 
-fs.writeFileSync(path.join(root, "docs/range_template_rebuild_report.md"), `# Range Template Rebuild Report
+if (!onlyRange) fs.writeFileSync(path.join(root, "docs/range_template_rebuild_report.md"), `# Range Template Rebuild Report
 
 Updated: 2026-05-17
 

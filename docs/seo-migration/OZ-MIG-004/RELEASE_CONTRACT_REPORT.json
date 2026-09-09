@@ -1,0 +1,1255 @@
+{
+  "schemaVersion": 1,
+  "task": "OZ-MIG-004",
+  "generatedAt": "2026-09-09",
+  "baseline": {
+    "branch": "main",
+    "head": "d0c66b802e544aa1a807f91798ea284c31c0998b",
+    "worktreeWasClean": true
+  },
+  "protectedDecisionPlan": {
+    "sha256": "ab50628d77038ea331e94d253aa4735ee0405a05f5d1d785b8cd28bf5650514e",
+    "approvalState": "PENDING_VINCENT_APPROVAL",
+    "protectedChangesImplemented": false
+  },
+  "historicalSeoFreeze": {
+    "reportedDifferenceCount": 31,
+    "briefHistoricalAllowanceCount": 29,
+    "preservedAtStartingHead": true
+  },
+  "approvedLocalDeltas": [
+    "remove reproduced cross-contaminated catalogue fields without inventing replacements",
+    "restore the verified 12-colour Hardwood Collection range and supplier-level dimensions/method",
+    "remove obsolete WordPress srcset dependencies where the local primary image already exists",
+    "emit quote_submit only after a confirmed thank-you navigation marker",
+    "remove one internal-facing phrase from floor-levelling customer copy",
+    "add deterministic task checks and evidence"
+  ],
+  "protectedFiles": [
+    {
+      "file": "_headers",
+      "beforeSha256": "bfec46e18eff2b92895c36cad3efa4d2715eebc24f7f2e0020237fa1d63a6669",
+      "afterSha256": "bfec46e18eff2b92895c36cad3efa4d2715eebc24f7f2e0020237fa1d63a6669",
+      "unchanged": true
+    },
+    {
+      "file": "_redirects",
+      "beforeSha256": "d40d78e4ceecc6de30302c9a30e689504da9e4bbb4caddd1c38e3f939c27ac84",
+      "afterSha256": "d40d78e4ceecc6de30302c9a30e689504da9e4bbb4caddd1c38e3f939c27ac84",
+      "unchanged": true
+    },
+    {
+      "file": "netlify.toml",
+      "beforeSha256": "92c2e6ea8155ae030662a4d90c7088cfce35b6e213c588e9c023441a2bb71498",
+      "afterSha256": "92c2e6ea8155ae030662a4d90c7088cfce35b6e213c588e9c023441a2bb71498",
+      "unchanged": true
+    },
+    {
+      "file": "robots.txt",
+      "beforeSha256": "f1e683e48f0494a6511d785ed08cafc943b9ea44a4e7f36ff37035bec4037350",
+      "afterSha256": "f1e683e48f0494a6511d785ed08cafc943b9ea44a4e7f36ff37035bec4037350",
+      "unchanged": true
+    },
+    {
+      "file": "sitemap.xml",
+      "beforeSha256": "a05dd770b8323999cbe41e831c0e9da18b01c361d74e95d92070762e5400e070",
+      "afterSha256": "a05dd770b8323999cbe41e831c0e9da18b01c361d74e95d92070762e5400e070",
+      "unchanged": true
+    },
+    {
+      "file": "assets/contact-config.js",
+      "beforeSha256": "4674202754c9e5b927ef69c83c504b94bfa0cbd65fa2ef754eb17ff58f168774",
+      "afterSha256": "4674202754c9e5b927ef69c83c504b94bfa0cbd65fa2ef754eb17ff58f168774",
+      "unchanged": true
+    },
+    {
+      "file": "data/catalogue-quality-overrides.json",
+      "beforeSha256": "9f33d310e081e7ee67ebbf7be21f9089b13da7d59ee8bd1f7cfc9941cc0cb1cf",
+      "afterSha256": "9f33d310e081e7ee67ebbf7be21f9089b13da7d59ee8bd1f7cfc9941cc0cb1cf",
+      "unchanged": true
+    },
+    {
+      "file": "data/seo-keyword-ownership.json",
+      "beforeSha256": "d5d5da1a89e8b28ff564ba8faf54c0a71564141c9c21b20846493b74e96df179",
+      "afterSha256": "d5d5da1a89e8b28ff564ba8faf54c0a71564141c9c21b20846493b74e96df179",
+      "unchanged": true
+    },
+    {
+      "file": "data/seo-migration-redirect-expectations.json",
+      "beforeSha256": "3151fb46495eae5fc1d23e27031eb1d162fb53d54f55547a73656f48b7486aa7",
+      "afterSha256": "3151fb46495eae5fc1d23e27031eb1d162fb53d54f55547a73656f48b7486aa7",
+      "unchanged": true
+    },
+    {
+      "file": "migration/redirect-map.csv",
+      "beforeSha256": "9cfafdb8c21a4ce2c1bb53496ebaeacd4c73d1dabaa4b71903da91754cd0d01a",
+      "afterSha256": "9cfafdb8c21a4ce2c1bb53496ebaeacd4c73d1dabaa4b71903da91754cd0d01a",
+      "unchanged": true
+    },
+    {
+      "file": "contact/index.html",
+      "beforeSha256": "9a8fcab9d1ad916aab1bf997171660a9413de9802b468e72edb5d88df00f4360",
+      "afterSha256": "9a8fcab9d1ad916aab1bf997171660a9413de9802b468e72edb5d88df00f4360",
+      "unchanged": true
+    },
+    {
+      "file": "privacy/index.html",
+      "beforeSha256": "1883ed791f2c10ed918f21bbdbcbcd406e5c8606d44347d814c20bbc3fdb1daa",
+      "afterSha256": "1883ed791f2c10ed918f21bbdbcbcd406e5c8606d44347d814c20bbc3fdb1daa",
+      "unchanged": true
+    },
+    {
+      "file": "terms/index.html",
+      "beforeSha256": "78ad8612fb992cc4e774d25dbfed1bc63eb6987ec839bfc727b895e2eb53c09e",
+      "afterSha256": "78ad8612fb992cc4e774d25dbfed1bc63eb6987ec839bfc727b895e2eb53c09e",
+      "unchanged": true
+    }
+  ],
+  "changedHtml": [
+    {
+      "file": "engineered-timber-flooring-sydney.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "engineered-timber-flooring-sydney/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "floor-levelling-sydney.html",
+      "changedFields": [],
+      "disposition": "customer-copy-repair"
+    },
+    {
+      "file": "floor-levelling-sydney/index.html",
+      "changedFields": [],
+      "disposition": "customer-copy-repair"
+    },
+    {
+      "file": "guides/choosing-office-flooring-durability-design-performance/index.html",
+      "changedFields": [],
+      "disposition": "old-host-srcset-removal"
+    },
+    {
+      "file": "guides/commercial-timber-flooring-high-traffic-spaces-sydney/index.html",
+      "changedFields": [],
+      "disposition": "old-host-srcset-removal"
+    },
+    {
+      "file": "guides/commercial-timber-flooring-specialist-sydney-builders-designers/index.html",
+      "changedFields": [],
+      "disposition": "old-host-srcset-removal"
+    },
+    {
+      "file": "guides/guide-to-choosing-the-right-vinyl-timber-flooring/index.html",
+      "changedFields": [],
+      "disposition": "old-host-srcset-removal"
+    },
+    {
+      "file": "guides/professional-commercial-flooring-installation-what-to-expect/index.html",
+      "changedFields": [],
+      "disposition": "old-host-srcset-removal"
+    },
+    {
+      "file": "laminate-flooring-sydney.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "laminate-flooring-sydney/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-abbey-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-acacia/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-aged-blackbutt/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-aged-natural/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-aged-oak/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-aged-spotted-gum/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-alpine-snow/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-ancient-stone/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-antique-oak/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-antique/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-arctic-fox/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-artisan-oak-beige/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-artisan-oak-natural/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-ashwood/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-aspen-oak/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-autumn-leaves/index.html",
+      "changedFields": [],
+      "disposition": "verified-hardwood-spec-repair"
+    },
+    {
+      "file": "products/hardwood-collection-avola-natural/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-beach/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-bedrock/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-bellmore-oak/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-black-fox/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-bleached-driftwood/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-bluegrass/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-bondi-beach/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-bondi/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-brazilian-oak/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-bright/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-brown-sugar/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-brownstone/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-brush-box/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-burnt-ash/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-carbon/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-castle-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-chablis/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-chalkers-ridge/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-charm-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-chesterfield/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-chevron-cannes/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-chevron-champagne/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-chevron-latte/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-chevron-riesling/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-chevron-vintage/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-chicory/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-classic-oak/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-cloud-break/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-coastal-spotted-gum/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-copper-still/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-coral-cay/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-crema/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-crystal-lake/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-crystal/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-deep-brown/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-delta-sand/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-doeskin/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-double-char/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-dover-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-dublin/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-ebony/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-elegant/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-euro-oak/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-flagstone/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-foggy-shore/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-forest-oak/index.html",
+      "changedFields": [],
+      "disposition": "verified-hardwood-spec-repair"
+    },
+    {
+      "file": "products/hardwood-collection-forest/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-forrest/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-frosty-snap/index.html",
+      "changedFields": [],
+      "disposition": "verified-hardwood-spec-repair"
+    },
+    {
+      "file": "products/hardwood-collection-ghost-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-golden-bloom/index.html",
+      "changedFields": [],
+      "disposition": "verified-hardwood-spec-repair"
+    },
+    {
+      "file": "products/hardwood-collection-golden-sands/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-graphite/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-grey-pearl/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-grey-stone/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-grey-wash/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-grigio/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-hamptons/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-harbourside/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-harlem/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-hb-dark-brown/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-helsinki/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-heritage-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-heron-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-herringbone-ash-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-herringbone-barnside/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-herringbone-beacon-cove/index.html",
+      "changedFields": [
+        "title",
+        "description",
+        "h1",
+        "jsonLdHash"
+      ],
+      "disposition": "exact-reviewed-catalogue-identity-repair"
+    },
+    {
+      "file": "products/hardwood-collection-herringbone-cabernet/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-herringbone-chateau-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-herringbone-classic-spotted-gum/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-herringbone-cognac/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-herringbone-colonial-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-herringbone-dark-brown/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-herringbone-golden-sands/index.html",
+      "changedFields": [
+        "title",
+        "description",
+        "h1",
+        "jsonLdHash"
+      ],
+      "disposition": "exact-reviewed-catalogue-identity-repair"
+    },
+    {
+      "file": "products/hardwood-collection-herringbone-grey-stone/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-herringbone-pebble-reef/index.html",
+      "changedFields": [
+        "title",
+        "description",
+        "h1",
+        "jsonLdHash"
+      ],
+      "disposition": "exact-reviewed-catalogue-identity-repair"
+    },
+    {
+      "file": "products/hardwood-collection-herringbone-pewter/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-herringbone-porcelain/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-herringbone-pure-natural/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-herringbone-riesling/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-herringbone-san-remo/index.html",
+      "changedFields": [
+        "title",
+        "description",
+        "h1",
+        "jsonLdHash"
+      ],
+      "disposition": "exact-reviewed-catalogue-identity-repair"
+    },
+    {
+      "file": "products/hardwood-collection-herringbone-sauvignon/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-herringbone-shore-break/index.html",
+      "changedFields": [
+        "title",
+        "description",
+        "h1",
+        "jsonLdHash"
+      ],
+      "disposition": "exact-reviewed-catalogue-identity-repair"
+    },
+    {
+      "file": "products/hardwood-collection-herringbone-storm/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-hickory/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-homestead/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-honey-mash/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-honeybee/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-honeycomb/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-hudson-oak/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-husky-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-iron-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-iron-ridge/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-ivory/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-kempas/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-liberty-grey/index.html",
+      "changedFields": [],
+      "disposition": "verified-hardwood-spec-repair"
+    },
+    {
+      "file": "products/hardwood-collection-limestone/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-limewash/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-lugano-oak/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-maize/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-maple-falls/index.html",
+      "changedFields": [],
+      "disposition": "verified-hardwood-spec-repair"
+    },
+    {
+      "file": "products/hardwood-collection-maritime/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-mb-blackbutt/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-mb-spotted-gum/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-merbau/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-millstone/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-misty-cove/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-moon/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-moonstone/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-mountain-spotted-gum/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-mystic-oak/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-natural-oak-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-natural/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-nordic-oak/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-northern-blackbutt/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-nsw-spotted-gum/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-nubuck/index.html",
+      "changedFields": [],
+      "disposition": "verified-hardwood-spec-repair"
+    },
+    {
+      "file": "products/hardwood-collection-nutshell/index.html",
+      "changedFields": [],
+      "disposition": "verified-hardwood-spec-repair"
+    },
+    {
+      "file": "products/hardwood-collection-oak-adaja/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-oak-natural/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-oriental-pearl/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-oyster-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-pale-stone/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-pearl-shell/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-pewter/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-piccolo/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-polar-fleece/index.html",
+      "changedFields": [],
+      "disposition": "verified-hardwood-spec-repair"
+    },
+    {
+      "file": "products/hardwood-collection-pure-oak/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-qld-spotted-gum/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-queens/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-raffia/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-ranchwood/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-red-rock/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-red-stone/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-regent-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-river-sand/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-rock/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-royal-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-rustic-eldorado/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-rustic-natural/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-san-remo/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-sandalwood/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-sandy-bluff/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-sandy-cape/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-seafoam/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-seaspray/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-sierra-oak/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-silk-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-silver-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-silver-moon/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-silverwood/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-snow/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-soho/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-spring-moon/index.html",
+      "changedFields": [],
+      "disposition": "verified-hardwood-spec-repair"
+    },
+    {
+      "file": "products/hardwood-collection-stone-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-storm/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-summer-haze/index.html",
+      "changedFields": [],
+      "disposition": "verified-hardwood-spec-repair"
+    },
+    {
+      "file": "products/hardwood-collection-surfside/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-toasted-rye/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-toledo/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-tumble-stone/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-urban-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-urban-oak-natural/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-warm-springs/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-washed-coral/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-washed-oak/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-wattleseed/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-welsh-slate/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-wheat/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-whiskey-barrel/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-white-lily/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-white-sands/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-white-smoke/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-willow/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-windsor/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/hardwood-collection-winter-frost/index.html",
+      "changedFields": [],
+      "disposition": "verified-hardwood-spec-repair"
+    },
+    {
+      "file": "products/hardwood-collection-wolf-grey/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/oakleaf-laminate-aged-spotted-gum/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/select-australian-timber-mb-blackbutt/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "products/select-australian-timber-mb-spotted-gum/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "ranges/classic-laminate/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "ranges/de-marque-oak/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "ranges/elk-falls/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "ranges/engineered-timber/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "ranges/fiddleback/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "ranges/hardwood-collection/index.html",
+      "changedFields": [
+        "title",
+        "description",
+        "h1",
+        "jsonLdHash",
+        "internalHrefsHash"
+      ],
+      "disposition": "exact-reviewed-catalogue-identity-repair"
+    },
+    {
+      "file": "ranges/kronoswiss-aquastop/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "ranges/laminate/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "ranges/oakleaf-laminate/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "ranges/oakleaf/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "ranges/prestige-oak/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "ranges/pronto/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "ranges/select-australian-timber/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    },
+    {
+      "file": "ranges/wide-plank-water-resistant-laminate/index.html",
+      "changedFields": [],
+      "disposition": "malformed-catalogue-presentation-repair"
+    }
+  ],
+  "changedFileCount": 303,
+  "unexpectedPaths": [],
+  "unexplainedProtectedDrift": [],
+  "result": "PASS"
+}

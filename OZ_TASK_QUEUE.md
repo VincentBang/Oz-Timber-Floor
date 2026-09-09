@@ -1,5 +1,18 @@
 # Oz Timber Floor Task Queue
 
+## OZ-MIG-004 — 9 September 2026
+
+- [x] Reconcile the current WordPress site, Netlify deployment, local source and generated public package.
+- [x] Repair verified Hardwood Collection field/range contamination and old-host guide assets without inventing facts.
+- [x] Correct `quote_submit` success semantics and retain the existing form/prefill contract.
+- [x] Add current-head release-contract and context-aware preview/production-fixture package checks.
+- [x] Produce 30 matched screenshots and a 25-cell live responsive/browser interaction pass.
+- [x] Produce the consolidated protected decision plan, 28-row parity matrix and 60-row catalogue remediation record.
+- [ ] Vincent approval: `APPROVE OZ-MIG-004 DECISION PLAN ab50628d77038ea331e94d253aa4735ee0405a05f5d1d785b8cd28bf5650514e`.
+- [ ] After approval, atomically implement the nine route owners and exact 172-route catalogue control, then refresh the three stale browser/performance evidence records and all-candidate gate.
+- [x] Vincent requested dev push, main merge and deployment after the local repair report; execute against the verified existing Oz Netlify target with noindex preserved.
+- [ ] Separately approve any form test, domain/DNS, production indexing, GA4 or Search Console action.
+
 ## Completed Release-Safety Work — 4 August 2026
 
 - [x] Validated 1,910 redirect rules with zero conflicts, loops, chains, missing targets or noindex destinations.

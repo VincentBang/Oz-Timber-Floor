@@ -1,0 +1,1487 @@
+{
+  "schemaVersion": 1,
+  "task": "OZ-MIG-004",
+  "generatedAt": "2026-09-09",
+  "startingBranch": "main",
+  "startingHead": "d0c66b802e544aa1a807f91798ea284c31c0998b",
+  "approvalState": "PENDING_VINCENT_APPROVAL",
+  "hashAlgorithm": "sha256 of exact DECISION_PLAN.json bytes",
+  "protectedChangesImplemented": false,
+  "proposals": [
+    {
+      "id": "route-floor-levelling",
+      "scope": "launch-critical",
+      "intent": "Floor levelling",
+      "evidence": [
+        "2026-09-09 WordPress GET: /floor-levelling/ is canonical 200",
+        "2026-09-09 WordPress GET: /floor-levelling-sydney/ is 404",
+        "2026-09-09 Netlify GET: /floor-levelling/ redirects/rewrite-resolves to staging-only /floor-levelling-sydney/",
+        "GSC export window: 86 clicks, 17060 impressions",
+        "2026-05-18 target-page export: 335 historical internal links"
+      ],
+      "old_owner": "/floor-levelling/",
+      "current_candidate_owner": "/floor-levelling-sydney/",
+      "selected_owner": "/floor-levelling/",
+      "action": "serve the preserved redesigned content at the established WordPress owner; permanently redirect the staging-only candidate to it",
+      "aliases": [
+        "/floor-levelling-sydney/"
+      ],
+      "exact_redirect_changes": [
+        {
+          "from": "/floor-levelling/",
+          "remove_or_reverse": true
+        },
+        {
+          "from": "/floor-levelling-sydney/",
+          "to": "/floor-levelling/",
+          "status": 301,
+          "force": true
+        }
+      ],
+      "canonical_changes": [
+        {
+          "from": "/floor-levelling-sydney/",
+          "to": "/floor-levelling/"
+        }
+      ],
+      "sitemap_delta": {
+        "remove": [
+          "/floor-levelling-sydney/"
+        ],
+        "add": [
+          "/floor-levelling/"
+        ],
+        "net": 0
+      },
+      "indexation_delta": {
+        "remove_indexable_owner": [
+          "/floor-levelling-sydney/"
+        ],
+        "add_indexable_owner": [
+          "/floor-levelling/"
+        ],
+        "net": 0
+      },
+      "affected_files": [
+        "_redirects",
+        "sitemap.xml",
+        "data/seo-keyword-ownership.json",
+        "data/seo-migration-redirect-expectations.json",
+        "scripts/priority-route-performance-check.mjs",
+        "floor-levelling-sydney.html",
+        "floor-levelling-sydney/index.html"
+      ],
+      "affected_file_discovery": {
+        "token": "/floor-levelling-sydney/",
+        "current_non_dist_file_count": 2184
+      },
+      "GSC_clicks": 86,
+      "GSC_impressions": 17060,
+      "backlink_evidence": {
+        "supplied_external_target_count": "not available at route level",
+        "historical_internal_links": 335
+      },
+      "content_equivalence": "same commercial intent; redesigned candidate content can be served at the established owner without losing the completed UI/content work",
+      "uncertainty": "Provider Pretty URL and forced-rule order must be verified in an isolated fixture and again after any separately approved deploy.",
+      "tests": [
+        "selected owner 200/self-canonical/no effective noindex in isolated production fixture",
+        "alias one-hop permanent redirect preserving query parameters",
+        "redirect graph has no loop, chain, missing or noindex destination",
+        "sitemap contains owner and excludes alias",
+        "title, description, H1, JSON-LD and internal links use selected owner"
+      ],
+      "rollback": "Restore the current /floor-levelling/ -> /floor-levelling-sydney/ rule, candidate canonical and sitemap owner from the pre-change patch; rebuild and rerun the full route matrix."
+    },
+    {
+      "id": "route-hybrid",
+      "scope": "launch-critical",
+      "intent": "Hybrid flooring",
+      "evidence": [
+        "2026-09-09 WordPress GET: /hybrid/ is canonical 200",
+        "2026-09-09 WordPress GET: /hybrid-flooring-sydney/ is 404",
+        "2026-09-09 Netlify GET: /hybrid/ redirects/rewrite-resolves to staging-only /hybrid-flooring-sydney/",
+        "GSC export window: 37 clicks, 37931 impressions",
+        "2026-05-18 target-page export: 337 historical internal links"
+      ],
+      "old_owner": "/hybrid/",
+      "current_candidate_owner": "/hybrid-flooring-sydney/",
+      "selected_owner": "/hybrid/",
+      "action": "serve the preserved redesigned content at the established WordPress owner; permanently redirect the staging-only candidate to it",
+      "aliases": [
+        "/hybrid-flooring-sydney/"
+      ],
+      "exact_redirect_changes": [
+        {
+          "from": "/hybrid/",
+          "remove_or_reverse": true
+        },
+        {
+          "from": "/hybrid-flooring-sydney/",
+          "to": "/hybrid/",
+          "status": 301,
+          "force": true
+        }
+      ],
+      "canonical_changes": [
+        {
+          "from": "/hybrid-flooring-sydney/",
+          "to": "/hybrid/"
+        }
+      ],
+      "sitemap_delta": {
+        "remove": [
+          "/hybrid-flooring-sydney/"
+        ],
+        "add": [
+          "/hybrid/"
+        ],
+        "net": 0
+      },
+      "indexation_delta": {
+        "remove_indexable_owner": [
+          "/hybrid-flooring-sydney/"
+        ],
+        "add_indexable_owner": [
+          "/hybrid/"
+        ],
+        "net": 0
+      },
+      "affected_files": [
+        "_redirects",
+        "sitemap.xml",
+        "data/seo-keyword-ownership.json",
+        "data/seo-migration-redirect-expectations.json",
+        "scripts/priority-route-performance-check.mjs",
+        "hybrid-flooring-sydney.html",
+        "hybrid-flooring-sydney/index.html"
+      ],
+      "affected_file_discovery": {
+        "token": "/hybrid-flooring-sydney/",
+        "current_non_dist_file_count": 2187
+      },
+      "GSC_clicks": 37,
+      "GSC_impressions": 37931,
+      "backlink_evidence": {
+        "supplied_external_target_count": "not available at route level",
+        "historical_internal_links": 337
+      },
+      "content_equivalence": "same commercial intent; redesigned candidate content can be served at the established owner without losing the completed UI/content work",
+      "uncertainty": "Provider Pretty URL and forced-rule order must be verified in an isolated fixture and again after any separately approved deploy.",
+      "tests": [
+        "selected owner 200/self-canonical/no effective noindex in isolated production fixture",
+        "alias one-hop permanent redirect preserving query parameters",
+        "redirect graph has no loop, chain, missing or noindex destination",
+        "sitemap contains owner and excludes alias",
+        "title, description, H1, JSON-LD and internal links use selected owner"
+      ],
+      "rollback": "Restore the current /hybrid/ -> /hybrid-flooring-sydney/ rule, candidate canonical and sitemap owner from the pre-change patch; rebuild and rerun the full route matrix."
+    },
+    {
+      "id": "route-laminate",
+      "scope": "launch-critical",
+      "intent": "Laminate flooring",
+      "evidence": [
+        "2026-09-09 WordPress GET: /laminate/ is canonical 200",
+        "2026-09-09 WordPress GET: /laminate-flooring-sydney/ is 404",
+        "2026-09-09 Netlify GET: /laminate/ redirects/rewrite-resolves to staging-only /laminate-flooring-sydney/",
+        "GSC export window: 16 clicks, 27766 impressions",
+        "2026-05-18 target-page export: 337 historical internal links"
+      ],
+      "old_owner": "/laminate/",
+      "current_candidate_owner": "/laminate-flooring-sydney/",
+      "selected_owner": "/laminate/",
+      "action": "serve the preserved redesigned content at the established WordPress owner; permanently redirect the staging-only candidate to it",
+      "aliases": [
+        "/laminate-flooring-sydney/"
+      ],
+      "exact_redirect_changes": [
+        {
+          "from": "/laminate/",
+          "remove_or_reverse": true
+        },
+        {
+          "from": "/laminate-flooring-sydney/",
+          "to": "/laminate/",
+          "status": 301,
+          "force": true
+        }
+      ],
+      "canonical_changes": [
+        {
+          "from": "/laminate-flooring-sydney/",
+          "to": "/laminate/"
+        }
+      ],
+      "sitemap_delta": {
+        "remove": [
+          "/laminate-flooring-sydney/"
+        ],
+        "add": [
+          "/laminate/"
+        ],
+        "net": 0
+      },
+      "indexation_delta": {
+        "remove_indexable_owner": [
+          "/laminate-flooring-sydney/"
+        ],
+        "add_indexable_owner": [
+          "/laminate/"
+        ],
+        "net": 0
+      },
+      "affected_files": [
+        "_redirects",
+        "sitemap.xml",
+        "data/seo-keyword-ownership.json",
+        "data/seo-migration-redirect-expectations.json",
+        "scripts/priority-route-performance-check.mjs",
+        "laminate-flooring-sydney.html",
+        "laminate-flooring-sydney/index.html"
+      ],
+      "affected_file_discovery": {
+        "token": "/laminate-flooring-sydney/",
+        "current_non_dist_file_count": 2182
+      },
+      "GSC_clicks": 16,
+      "GSC_impressions": 27766,
+      "backlink_evidence": {
+        "supplied_external_target_count": "not available at route level",
+        "historical_internal_links": 337
+      },
+      "content_equivalence": "same commercial intent; redesigned candidate content can be served at the established owner without losing the completed UI/content work",
+      "uncertainty": "Provider Pretty URL and forced-rule order must be verified in an isolated fixture and again after any separately approved deploy.",
+      "tests": [
+        "selected owner 200/self-canonical/no effective noindex in isolated production fixture",
+        "alias one-hop permanent redirect preserving query parameters",
+        "redirect graph has no loop, chain, missing or noindex destination",
+        "sitemap contains owner and excludes alias",
+        "title, description, H1, JSON-LD and internal links use selected owner"
+      ],
+      "rollback": "Restore the current /laminate/ -> /laminate-flooring-sydney/ rule, candidate canonical and sitemap owner from the pre-change patch; rebuild and rerun the full route matrix."
+    },
+    {
+      "id": "route-engineered",
+      "scope": "launch-critical",
+      "intent": "Engineered timber",
+      "evidence": [
+        "2026-09-09 WordPress GET: /engineered-timber-flooring/ is canonical 200",
+        "2026-09-09 WordPress GET: /engineered-timber-flooring-sydney/ is 404",
+        "2026-09-09 Netlify GET: /engineered-timber-flooring/ redirects/rewrite-resolves to staging-only /engineered-timber-flooring-sydney/",
+        "GSC export window: 7 clicks, 8594 impressions",
+        "2026-05-18 target-page export: 277 historical internal links"
+      ],
+      "old_owner": "/engineered-timber-flooring/",
+      "current_candidate_owner": "/engineered-timber-flooring-sydney/",
+      "selected_owner": "/engineered-timber-flooring/",
+      "action": "serve the preserved redesigned content at the established WordPress owner; permanently redirect the staging-only candidate to it",
+      "aliases": [
+        "/engineered-timber-flooring-sydney/"
+      ],
+      "exact_redirect_changes": [
+        {
+          "from": "/engineered-timber-flooring/",
+          "remove_or_reverse": true
+        },
+        {
+          "from": "/engineered-timber-flooring-sydney/",
+          "to": "/engineered-timber-flooring/",
+          "status": 301,
+          "force": true
+        }
+      ],
+      "canonical_changes": [
+        {
+          "from": "/engineered-timber-flooring-sydney/",
+          "to": "/engineered-timber-flooring/"
+        }
+      ],
+      "sitemap_delta": {
+        "remove": [
+          "/engineered-timber-flooring-sydney/"
+        ],
+        "add": [
+          "/engineered-timber-flooring/"
+        ],
+        "net": 0
+      },
+      "indexation_delta": {
+        "remove_indexable_owner": [
+          "/engineered-timber-flooring-sydney/"
+        ],
+        "add_indexable_owner": [
+          "/engineered-timber-flooring/"
+        ],
+        "net": 0
+      },
+      "affected_files": [
+        "_redirects",
+        "sitemap.xml",
+        "data/seo-keyword-ownership.json",
+        "data/seo-migration-redirect-expectations.json",
+        "scripts/priority-route-performance-check.mjs",
+        "engineered-timber-flooring-sydney.html",
+        "engineered-timber-flooring-sydney/index.html"
+      ],
+      "affected_file_discovery": {
+        "token": "/engineered-timber-flooring-sydney/",
+        "current_non_dist_file_count": 2187
+      },
+      "GSC_clicks": 7,
+      "GSC_impressions": 8594,
+      "backlink_evidence": {
+        "supplied_external_target_count": "not available at route level",
+        "historical_internal_links": 277
+      },
+      "content_equivalence": "same commercial intent; redesigned candidate content can be served at the established owner without losing the completed UI/content work",
+      "uncertainty": "Provider Pretty URL and forced-rule order must be verified in an isolated fixture and again after any separately approved deploy.",
+      "tests": [
+        "selected owner 200/self-canonical/no effective noindex in isolated production fixture",
+        "alias one-hop permanent redirect preserving query parameters",
+        "redirect graph has no loop, chain, missing or noindex destination",
+        "sitemap contains owner and excludes alias",
+        "title, description, H1, JSON-LD and internal links use selected owner"
+      ],
+      "rollback": "Restore the current /engineered-timber-flooring/ -> /engineered-timber-flooring-sydney/ rule, candidate canonical and sitemap owner from the pre-change patch; rebuild and rerun the full route matrix."
+    },
+    {
+      "id": "route-installation",
+      "scope": "launch-critical",
+      "intent": "Installation",
+      "evidence": [
+        "2026-09-09 WordPress GET: /timber-floor-installation/ is canonical 200",
+        "2026-09-09 WordPress GET: /timber-flooring-installation-sydney/ is 404",
+        "2026-09-09 Netlify GET: /timber-floor-installation/ redirects/rewrite-resolves to staging-only /timber-flooring-installation-sydney/",
+        "GSC export window: 6 clicks, 10006 impressions",
+        "2026-05-18 target-page export: 338 historical internal links"
+      ],
+      "old_owner": "/timber-floor-installation/",
+      "current_candidate_owner": "/timber-flooring-installation-sydney/",
+      "selected_owner": "/timber-floor-installation/",
+      "action": "serve the preserved redesigned content at the established WordPress owner; permanently redirect the staging-only candidate to it",
+      "aliases": [
+        "/timber-flooring-installation-sydney/"
+      ],
+      "exact_redirect_changes": [
+        {
+          "from": "/timber-floor-installation/",
+          "remove_or_reverse": true
+        },
+        {
+          "from": "/timber-flooring-installation-sydney/",
+          "to": "/timber-floor-installation/",
+          "status": 301,
+          "force": true
+        }
+      ],
+      "canonical_changes": [
+        {
+          "from": "/timber-flooring-installation-sydney/",
+          "to": "/timber-floor-installation/"
+        }
+      ],
+      "sitemap_delta": {
+        "remove": [
+          "/timber-flooring-installation-sydney/"
+        ],
+        "add": [
+          "/timber-floor-installation/"
+        ],
+        "net": 0
+      },
+      "indexation_delta": {
+        "remove_indexable_owner": [
+          "/timber-flooring-installation-sydney/"
+        ],
+        "add_indexable_owner": [
+          "/timber-floor-installation/"
+        ],
+        "net": 0
+      },
+      "affected_files": [
+        "_redirects",
+        "sitemap.xml",
+        "data/seo-keyword-ownership.json",
+        "data/seo-migration-redirect-expectations.json",
+        "scripts/priority-route-performance-check.mjs",
+        "timber-flooring-installation-sydney.html",
+        "timber-flooring-installation-sydney/index.html"
+      ],
+      "affected_file_discovery": {
+        "token": "/timber-flooring-installation-sydney/",
+        "current_non_dist_file_count": 2182
+      },
+      "GSC_clicks": 6,
+      "GSC_impressions": 10006,
+      "backlink_evidence": {
+        "supplied_external_target_count": "not available at route level",
+        "historical_internal_links": 338
+      },
+      "content_equivalence": "same commercial intent; redesigned candidate content can be served at the established owner without losing the completed UI/content work",
+      "uncertainty": "Provider Pretty URL and forced-rule order must be verified in an isolated fixture and again after any separately approved deploy.",
+      "tests": [
+        "selected owner 200/self-canonical/no effective noindex in isolated production fixture",
+        "alias one-hop permanent redirect preserving query parameters",
+        "redirect graph has no loop, chain, missing or noindex destination",
+        "sitemap contains owner and excludes alias",
+        "title, description, H1, JSON-LD and internal links use selected owner"
+      ],
+      "rollback": "Restore the current /timber-floor-installation/ -> /timber-flooring-installation-sydney/ rule, candidate canonical and sitemap owner from the pre-change patch; rebuild and rerun the full route matrix."
+    },
+    {
+      "id": "route-commercial",
+      "scope": "launch-critical",
+      "intent": "Commercial flooring",
+      "evidence": [
+        "2026-09-09 WordPress GET: /commercial-flooring/ is canonical 200",
+        "2026-09-09 WordPress GET: /commercial-flooring-sydney/ is 404",
+        "2026-09-09 Netlify GET: /commercial-flooring/ redirects/rewrite-resolves to staging-only /commercial-flooring-sydney/",
+        "GSC export window: 2 clicks, 7128 impressions",
+        "2026-05-18 target-page export: 337 historical internal links"
+      ],
+      "old_owner": "/commercial-flooring/",
+      "current_candidate_owner": "/commercial-flooring-sydney/",
+      "selected_owner": "/commercial-flooring/",
+      "action": "serve the preserved redesigned content at the established WordPress owner; permanently redirect the staging-only candidate to it",
+      "aliases": [
+        "/commercial-flooring-sydney/"
+      ],
+      "exact_redirect_changes": [
+        {
+          "from": "/commercial-flooring/",
+          "remove_or_reverse": true
+        },
+        {
+          "from": "/commercial-flooring-sydney/",
+          "to": "/commercial-flooring/",
+          "status": 301,
+          "force": true
+        }
+      ],
+      "canonical_changes": [
+        {
+          "from": "/commercial-flooring-sydney/",
+          "to": "/commercial-flooring/"
+        }
+      ],
+      "sitemap_delta": {
+        "remove": [
+          "/commercial-flooring-sydney/"
+        ],
+        "add": [
+          "/commercial-flooring/"
+        ],
+        "net": 0
+      },
+      "indexation_delta": {
+        "remove_indexable_owner": [
+          "/commercial-flooring-sydney/"
+        ],
+        "add_indexable_owner": [
+          "/commercial-flooring/"
+        ],
+        "net": 0
+      },
+      "affected_files": [
+        "_redirects",
+        "sitemap.xml",
+        "data/seo-keyword-ownership.json",
+        "data/seo-migration-redirect-expectations.json",
+        "scripts/priority-route-performance-check.mjs",
+        "commercial-flooring-sydney.html",
+        "commercial-flooring-sydney/index.html"
+      ],
+      "affected_file_discovery": {
+        "token": "/commercial-flooring-sydney/",
+        "current_non_dist_file_count": 2181
+      },
+      "GSC_clicks": 2,
+      "GSC_impressions": 7128,
+      "backlink_evidence": {
+        "supplied_external_target_count": "not available at route level",
+        "historical_internal_links": 337
+      },
+      "content_equivalence": "same commercial intent; redesigned candidate content can be served at the established owner without losing the completed UI/content work",
+      "uncertainty": "Provider Pretty URL and forced-rule order must be verified in an isolated fixture and again after any separately approved deploy.",
+      "tests": [
+        "selected owner 200/self-canonical/no effective noindex in isolated production fixture",
+        "alias one-hop permanent redirect preserving query parameters",
+        "redirect graph has no loop, chain, missing or noindex destination",
+        "sitemap contains owner and excludes alias",
+        "title, description, H1, JSON-LD and internal links use selected owner"
+      ],
+      "rollback": "Restore the current /commercial-flooring/ -> /commercial-flooring-sydney/ rule, candidate canonical and sitemap owner from the pre-change patch; rebuild and rerun the full route matrix."
+    },
+    {
+      "id": "route-office",
+      "scope": "launch-critical",
+      "intent": "Office flooring",
+      "evidence": [
+        "2026-09-09 WordPress GET: /office-flooring/ is canonical 200",
+        "2026-09-09 WordPress GET: /office-flooring-sydney/ is 404",
+        "2026-09-09 Netlify GET: /office-flooring/ redirects/rewrite-resolves to staging-only /office-flooring-sydney/",
+        "GSC export window: 1 clicks, 1624 impressions",
+        "2026-05-18 target-page export: 338 historical internal links"
+      ],
+      "old_owner": "/office-flooring/",
+      "current_candidate_owner": "/office-flooring-sydney/",
+      "selected_owner": "/office-flooring/",
+      "action": "serve the preserved redesigned content at the established WordPress owner; permanently redirect the staging-only candidate to it",
+      "aliases": [
+        "/office-flooring-sydney/"
+      ],
+      "exact_redirect_changes": [
+        {
+          "from": "/office-flooring/",
+          "remove_or_reverse": true
+        },
+        {
+          "from": "/office-flooring-sydney/",
+          "to": "/office-flooring/",
+          "status": 301,
+          "force": true
+        }
+      ],
+      "canonical_changes": [
+        {
+          "from": "/office-flooring-sydney/",
+          "to": "/office-flooring/"
+        }
+      ],
+      "sitemap_delta": {
+        "remove": [
+          "/office-flooring-sydney/"
+        ],
+        "add": [
+          "/office-flooring/"
+        ],
+        "net": 0
+      },
+      "indexation_delta": {
+        "remove_indexable_owner": [
+          "/office-flooring-sydney/"
+        ],
+        "add_indexable_owner": [
+          "/office-flooring/"
+        ],
+        "net": 0
+      },
+      "affected_files": [
+        "_redirects",
+        "sitemap.xml",
+        "data/seo-keyword-ownership.json",
+        "data/seo-migration-redirect-expectations.json",
+        "scripts/priority-route-performance-check.mjs",
+        "office-flooring-sydney.html",
+        "office-flooring-sydney/index.html"
+      ],
+      "affected_file_discovery": {
+        "token": "/office-flooring-sydney/",
+        "current_non_dist_file_count": 20
+      },
+      "GSC_clicks": 1,
+      "GSC_impressions": 1624,
+      "backlink_evidence": {
+        "supplied_external_target_count": "not available at route level",
+        "historical_internal_links": 338
+      },
+      "content_equivalence": "same commercial intent; redesigned candidate content can be served at the established owner without losing the completed UI/content work",
+      "uncertainty": "Provider Pretty URL and forced-rule order must be verified in an isolated fixture and again after any separately approved deploy.",
+      "tests": [
+        "selected owner 200/self-canonical/no effective noindex in isolated production fixture",
+        "alias one-hop permanent redirect preserving query parameters",
+        "redirect graph has no loop, chain, missing or noindex destination",
+        "sitemap contains owner and excludes alias",
+        "title, description, H1, JSON-LD and internal links use selected owner"
+      ],
+      "rollback": "Restore the current /office-flooring/ -> /office-flooring-sydney/ rule, candidate canonical and sitemap owner from the pre-change patch; rebuild and rerun the full route matrix."
+    },
+    {
+      "id": "route-solid",
+      "scope": "launch-critical",
+      "intent": "Solid timber",
+      "evidence": [
+        "2026-09-09 WordPress GET: /solid-timber/ is canonical 200",
+        "2026-09-09 WordPress GET: /solid-timber-flooring-sydney/ is 404",
+        "2026-09-09 Netlify GET: /solid-timber/ redirects/rewrite-resolves to staging-only /solid-timber-flooring-sydney/",
+        "GSC export window: 4 clicks, 6791 impressions",
+        "2026-05-18 target-page export: 339 historical internal links"
+      ],
+      "old_owner": "/solid-timber/",
+      "current_candidate_owner": "/solid-timber-flooring-sydney/",
+      "selected_owner": "/solid-timber/",
+      "action": "serve the preserved redesigned content at the established WordPress owner; permanently redirect the staging-only candidate to it",
+      "aliases": [
+        "/solid-timber-flooring-sydney/"
+      ],
+      "exact_redirect_changes": [
+        {
+          "from": "/solid-timber/",
+          "remove_or_reverse": true
+        },
+        {
+          "from": "/solid-timber-flooring-sydney/",
+          "to": "/solid-timber/",
+          "status": 301,
+          "force": true
+        }
+      ],
+      "canonical_changes": [
+        {
+          "from": "/solid-timber-flooring-sydney/",
+          "to": "/solid-timber/"
+        }
+      ],
+      "sitemap_delta": {
+        "remove": [
+          "/solid-timber-flooring-sydney/"
+        ],
+        "add": [
+          "/solid-timber/"
+        ],
+        "net": 0
+      },
+      "indexation_delta": {
+        "remove_indexable_owner": [
+          "/solid-timber-flooring-sydney/"
+        ],
+        "add_indexable_owner": [
+          "/solid-timber/"
+        ],
+        "net": 0
+      },
+      "affected_files": [
+        "_redirects",
+        "sitemap.xml",
+        "data/seo-keyword-ownership.json",
+        "data/seo-migration-redirect-expectations.json",
+        "scripts/priority-route-performance-check.mjs",
+        "solid-timber-flooring-sydney.html",
+        "solid-timber-flooring-sydney/index.html"
+      ],
+      "affected_file_discovery": {
+        "token": "/solid-timber-flooring-sydney/",
+        "current_non_dist_file_count": 2181
+      },
+      "GSC_clicks": 4,
+      "GSC_impressions": 6791,
+      "backlink_evidence": {
+        "supplied_external_target_count": "not available at route level",
+        "historical_internal_links": 339
+      },
+      "content_equivalence": "same commercial intent; redesigned candidate content can be served at the established owner without losing the completed UI/content work",
+      "uncertainty": "Provider Pretty URL and forced-rule order must be verified in an isolated fixture and again after any separately approved deploy.",
+      "tests": [
+        "selected owner 200/self-canonical/no effective noindex in isolated production fixture",
+        "alias one-hop permanent redirect preserving query parameters",
+        "redirect graph has no loop, chain, missing or noindex destination",
+        "sitemap contains owner and excludes alias",
+        "title, description, H1, JSON-LD and internal links use selected owner"
+      ],
+      "rollback": "Restore the current /solid-timber/ -> /solid-timber-flooring-sydney/ rule, candidate canonical and sitemap owner from the pre-change patch; rebuild and rerun the full route matrix."
+    },
+    {
+      "id": "route-vinyl",
+      "scope": "launch-critical",
+      "intent": "Vinyl flooring",
+      "evidence": [
+        "2026-09-09 WordPress GET: /vinyl/ is canonical 200",
+        "2026-09-09 WordPress GET: /vinyl-flooring-sydney/ is 404",
+        "2026-09-09 Netlify GET: /vinyl/ redirects/rewrite-resolves to staging-only /vinyl-flooring-sydney/",
+        "GSC export window: 6 clicks, 8569 impressions",
+        "2026-05-18 target-page export: 338 historical internal links"
+      ],
+      "old_owner": "/vinyl/",
+      "current_candidate_owner": "/vinyl-flooring-sydney/",
+      "selected_owner": "/vinyl/",
+      "action": "serve the preserved redesigned content at the established WordPress owner; permanently redirect the staging-only candidate to it",
+      "aliases": [
+        "/vinyl-flooring-sydney/"
+      ],
+      "exact_redirect_changes": [
+        {
+          "from": "/vinyl/",
+          "remove_or_reverse": true
+        },
+        {
+          "from": "/vinyl-flooring-sydney/",
+          "to": "/vinyl/",
+          "status": 301,
+          "force": true
+        }
+      ],
+      "canonical_changes": [
+        {
+          "from": "/vinyl-flooring-sydney/",
+          "to": "/vinyl/"
+        }
+      ],
+      "sitemap_delta": {
+        "remove": [
+          "/vinyl-flooring-sydney/"
+        ],
+        "add": [
+          "/vinyl/"
+        ],
+        "net": 0
+      },
+      "indexation_delta": {
+        "remove_indexable_owner": [
+          "/vinyl-flooring-sydney/"
+        ],
+        "add_indexable_owner": [
+          "/vinyl/"
+        ],
+        "net": 0
+      },
+      "affected_files": [
+        "_redirects",
+        "sitemap.xml",
+        "data/seo-keyword-ownership.json",
+        "data/seo-migration-redirect-expectations.json",
+        "scripts/priority-route-performance-check.mjs",
+        "vinyl-flooring-sydney.html",
+        "vinyl-flooring-sydney/index.html"
+      ],
+      "affected_file_discovery": {
+        "token": "/vinyl-flooring-sydney/",
+        "current_non_dist_file_count": 2181
+      },
+      "GSC_clicks": 6,
+      "GSC_impressions": 8569,
+      "backlink_evidence": {
+        "supplied_external_target_count": "not available at route level",
+        "historical_internal_links": 338
+      },
+      "content_equivalence": "same commercial intent; redesigned candidate content can be served at the established owner without losing the completed UI/content work",
+      "uncertainty": "Provider Pretty URL and forced-rule order must be verified in an isolated fixture and again after any separately approved deploy.",
+      "tests": [
+        "selected owner 200/self-canonical/no effective noindex in isolated production fixture",
+        "alias one-hop permanent redirect preserving query parameters",
+        "redirect graph has no loop, chain, missing or noindex destination",
+        "sitemap contains owner and excludes alias",
+        "title, description, H1, JSON-LD and internal links use selected owner"
+      ],
+      "rollback": "Restore the current /vinyl/ -> /vinyl-flooring-sydney/ rule, candidate canonical and sitemap owner from the pre-change patch; rebuild and rerun the full route matrix."
+    },
+    {
+      "id": "bamboo-retirement-contract",
+      "scope": "launch-critical",
+      "intent": "Retired Bamboo catalogue",
+      "evidence": [
+        "AGENTS.md requires Bamboo to remain retired and public Bamboo pages not to be restored",
+        "Current _redirects contains 21 Bamboo/Verdura rules",
+        "GSC /bamboo/ row: 4 clicks and 3,517 impressions",
+        "Current destination is indexable but is not an exact Bamboo equivalent"
+      ],
+      "old_owner": "/bamboo/",
+      "current_candidate_owner": "/hardwood-timber-flooring-sydney/",
+      "selected_owner": "/hardwood-timber-flooring-sydney/",
+      "action": "retain retirement redirects and no public Bamboo landing page; require route-level evidence before any future 404/410 or alternative-category remap",
+      "aliases": [
+        "/bamboo-flooring-sydney/",
+        "/bamboo/",
+        "/product-category/bamboo/stonewood-bamboo/",
+        "/verdura/",
+        "/bt-bamboo/",
+        "/product-category/bamboo/",
+        "/product-category/bamboo/*",
+        "/product/verdura-natural/",
+        "/product/verdura-sandy/",
+        "/product/verdura-coffee/",
+        "/product/verdura-australiana/",
+        "/product/verdura-brown-sugar/",
+        "/product/verdura-coral-reef/",
+        "/product/verdura-french-bleed/",
+        "/product/verdura-ghost-gum/",
+        "/product/verdura-rustic/",
+        "/product/verdura-uluru/",
+        "/product/verdura-outback/",
+        "/bamboo-flooring-sydney.html",
+        "/bamboo-flooring-sydney",
+        "/bamboo-flooring-sydney/index.html"
+      ],
+      "exact_redirect_changes": [],
+      "canonical_changes": [],
+      "sitemap_delta": {
+        "remove": [],
+        "add": [],
+        "net": 0
+      },
+      "indexation_delta": {
+        "remove": [],
+        "add": [],
+        "net": 0
+      },
+      "affected_files": [
+        "_redirects",
+        "data/seo-migration-redirect-expectations.json"
+      ],
+      "GSC_clicks": 4,
+      "GSC_impressions": 3517,
+      "backlink_evidence": {
+        "supplied_external_target_count": "not resolved to individual Bamboo URLs"
+      },
+      "content_equivalence": "retirement alternative, not an exact product/category equivalent",
+      "uncertainty": "High; business confirmation of the preferred customer alternative remains absent.",
+      "tests": [
+        "all listed aliases remain one hop",
+        "destination is indexable",
+        "no Bamboo URL enters sitemap",
+        "no public Bamboo marketing page is created"
+      ],
+      "rollback": "Restore the current redirect block and rerun representative Bamboo/Verdura redirect tests."
+    },
+    {
+      "id": "catalogue-indexation-control",
+      "scope": "launch-critical",
+      "intent": "Remaining catalogue quality and evidence queue",
+      "evidence": [
+        "2,115 catalogue pages: 893 currently indexable and 1,222 currently controlled/noindex",
+        "172 currently indexable cross-contaminated Hardwood Collection product routes are now deterministically classified needs-data after field repair",
+        "None of those newly classified routes is a current direct _redirects destination",
+        "632 initial redirect destinations plus four forced aliases were previously reconciled and must remain protected",
+        "60 priority rows reviewed; 361 historical indexable findings were quality flags, not 361 proven blockers"
+      ],
+      "old_owner": null,
+      "current_candidate_owner": null,
+      "selected_owner": null,
+      "action": "approve controlled noindex/schema/sitemap treatment for the 172 exact cross-contaminated Hardwood Collection routes listed here; retain the verified 12-colour range and all other current route-level controls; prohibit any bulk treatment of the protected 632-destination cohort",
+      "aliases": [],
+      "exact_redirect_changes": [],
+      "canonical_changes": [],
+      "sitemap_delta": {
+        "remove": [
+          "/products/hardwood-collection-abbey-grey/",
+          "/products/hardwood-collection-acacia/",
+          "/products/hardwood-collection-aged-blackbutt/",
+          "/products/hardwood-collection-aged-natural/",
+          "/products/hardwood-collection-aged-oak/",
+          "/products/hardwood-collection-alpine-snow/",
+          "/products/hardwood-collection-ancient-stone/",
+          "/products/hardwood-collection-antique-oak/",
+          "/products/hardwood-collection-antique/",
+          "/products/hardwood-collection-arctic-fox/",
+          "/products/hardwood-collection-artisan-oak-beige/",
+          "/products/hardwood-collection-artisan-oak-natural/",
+          "/products/hardwood-collection-ashwood/",
+          "/products/hardwood-collection-aspen-oak/",
+          "/products/hardwood-collection-avola-natural/",
+          "/products/hardwood-collection-beach/",
+          "/products/hardwood-collection-bedrock/",
+          "/products/hardwood-collection-bellmore-oak/",
+          "/products/hardwood-collection-black-fox/",
+          "/products/hardwood-collection-bleached-driftwood/",
+          "/products/hardwood-collection-bluegrass/",
+          "/products/hardwood-collection-bondi-beach/",
+          "/products/hardwood-collection-bondi/",
+          "/products/hardwood-collection-brazilian-oak/",
+          "/products/hardwood-collection-bright/",
+          "/products/hardwood-collection-brown-sugar/",
+          "/products/hardwood-collection-brownstone/",
+          "/products/hardwood-collection-brush-box/",
+          "/products/hardwood-collection-burnt-ash/",
+          "/products/hardwood-collection-carbon/",
+          "/products/hardwood-collection-castle-grey/",
+          "/products/hardwood-collection-chablis/",
+          "/products/hardwood-collection-chalkers-ridge/",
+          "/products/hardwood-collection-charm-grey/",
+          "/products/hardwood-collection-chesterfield/",
+          "/products/hardwood-collection-chevron-cannes/",
+          "/products/hardwood-collection-chevron-champagne/",
+          "/products/hardwood-collection-chevron-latte/",
+          "/products/hardwood-collection-chevron-riesling/",
+          "/products/hardwood-collection-chevron-vintage/",
+          "/products/hardwood-collection-chicory/",
+          "/products/hardwood-collection-cloud-break/",
+          "/products/hardwood-collection-coastal-spotted-gum/",
+          "/products/hardwood-collection-copper-still/",
+          "/products/hardwood-collection-coral-cay/",
+          "/products/hardwood-collection-crema/",
+          "/products/hardwood-collection-crystal-lake/",
+          "/products/hardwood-collection-crystal/",
+          "/products/hardwood-collection-deep-brown/",
+          "/products/hardwood-collection-delta-sand/",
+          "/products/hardwood-collection-doeskin/",
+          "/products/hardwood-collection-double-char/",
+          "/products/hardwood-collection-dover-grey/",
+          "/products/hardwood-collection-dublin/",
+          "/products/hardwood-collection-ebony/",
+          "/products/hardwood-collection-elegant/",
+          "/products/hardwood-collection-euro-oak/",
+          "/products/hardwood-collection-flagstone/",
+          "/products/hardwood-collection-foggy-shore/",
+          "/products/hardwood-collection-forest/",
+          "/products/hardwood-collection-forrest/",
+          "/products/hardwood-collection-ghost-grey/",
+          "/products/hardwood-collection-golden-sands/",
+          "/products/hardwood-collection-graphite/",
+          "/products/hardwood-collection-grey-pearl/",
+          "/products/hardwood-collection-grey-stone/",
+          "/products/hardwood-collection-grey-wash/",
+          "/products/hardwood-collection-grigio/",
+          "/products/hardwood-collection-hamptons/",
+          "/products/hardwood-collection-harbourside/",
+          "/products/hardwood-collection-harlem/",
+          "/products/hardwood-collection-hb-dark-brown/",
+          "/products/hardwood-collection-helsinki/",
+          "/products/hardwood-collection-heritage-grey/",
+          "/products/hardwood-collection-heron-grey/",
+          "/products/hardwood-collection-herringbone-ash-grey/",
+          "/products/hardwood-collection-herringbone-barnside/",
+          "/products/hardwood-collection-herringbone-cabernet/",
+          "/products/hardwood-collection-herringbone-chateau-grey/",
+          "/products/hardwood-collection-herringbone-classic-spotted-gum/",
+          "/products/hardwood-collection-herringbone-cognac/",
+          "/products/hardwood-collection-herringbone-colonial-grey/",
+          "/products/hardwood-collection-herringbone-dark-brown/",
+          "/products/hardwood-collection-herringbone-grey-stone/",
+          "/products/hardwood-collection-herringbone-pewter/",
+          "/products/hardwood-collection-herringbone-porcelain/",
+          "/products/hardwood-collection-herringbone-pure-natural/",
+          "/products/hardwood-collection-herringbone-riesling/",
+          "/products/hardwood-collection-herringbone-sauvignon/",
+          "/products/hardwood-collection-herringbone-storm/",
+          "/products/hardwood-collection-homestead/",
+          "/products/hardwood-collection-honey-mash/",
+          "/products/hardwood-collection-honeybee/",
+          "/products/hardwood-collection-honeycomb/",
+          "/products/hardwood-collection-hudson-oak/",
+          "/products/hardwood-collection-husky-grey/",
+          "/products/hardwood-collection-iron-grey/",
+          "/products/hardwood-collection-iron-ridge/",
+          "/products/hardwood-collection-ivory/",
+          "/products/hardwood-collection-kempas/",
+          "/products/hardwood-collection-limestone/",
+          "/products/hardwood-collection-limewash/",
+          "/products/hardwood-collection-lugano-oak/",
+          "/products/hardwood-collection-maize/",
+          "/products/hardwood-collection-maritime/",
+          "/products/hardwood-collection-merbau/",
+          "/products/hardwood-collection-millstone/",
+          "/products/hardwood-collection-misty-cove/",
+          "/products/hardwood-collection-moon/",
+          "/products/hardwood-collection-moonstone/",
+          "/products/hardwood-collection-mountain-spotted-gum/",
+          "/products/hardwood-collection-mystic-oak/",
+          "/products/hardwood-collection-natural-oak-grey/",
+          "/products/hardwood-collection-natural/",
+          "/products/hardwood-collection-nordic-oak/",
+          "/products/hardwood-collection-northern-blackbutt/",
+          "/products/hardwood-collection-nsw-spotted-gum/",
+          "/products/hardwood-collection-oak-adaja/",
+          "/products/hardwood-collection-oak-natural/",
+          "/products/hardwood-collection-oriental-pearl/",
+          "/products/hardwood-collection-oyster-grey/",
+          "/products/hardwood-collection-pale-stone/",
+          "/products/hardwood-collection-pearl-shell/",
+          "/products/hardwood-collection-pewter/",
+          "/products/hardwood-collection-piccolo/",
+          "/products/hardwood-collection-pure-oak/",
+          "/products/hardwood-collection-qld-spotted-gum/",
+          "/products/hardwood-collection-queens/",
+          "/products/hardwood-collection-raffia/",
+          "/products/hardwood-collection-ranchwood/",
+          "/products/hardwood-collection-red-rock/",
+          "/products/hardwood-collection-red-stone/",
+          "/products/hardwood-collection-regent-grey/",
+          "/products/hardwood-collection-river-sand/",
+          "/products/hardwood-collection-rock/",
+          "/products/hardwood-collection-royal-grey/",
+          "/products/hardwood-collection-rustic-eldorado/",
+          "/products/hardwood-collection-rustic-natural/",
+          "/products/hardwood-collection-san-remo/",
+          "/products/hardwood-collection-sandalwood/",
+          "/products/hardwood-collection-sandy-bluff/",
+          "/products/hardwood-collection-sandy-cape/",
+          "/products/hardwood-collection-seafoam/",
+          "/products/hardwood-collection-seaspray/",
+          "/products/hardwood-collection-sierra-oak/",
+          "/products/hardwood-collection-silk-grey/",
+          "/products/hardwood-collection-silver-grey/",
+          "/products/hardwood-collection-silver-moon/",
+          "/products/hardwood-collection-silverwood/",
+          "/products/hardwood-collection-snow/",
+          "/products/hardwood-collection-soho/",
+          "/products/hardwood-collection-stone-grey/",
+          "/products/hardwood-collection-storm/",
+          "/products/hardwood-collection-surfside/",
+          "/products/hardwood-collection-toasted-rye/",
+          "/products/hardwood-collection-toledo/",
+          "/products/hardwood-collection-tumble-stone/",
+          "/products/hardwood-collection-urban-grey/",
+          "/products/hardwood-collection-urban-oak-natural/",
+          "/products/hardwood-collection-warm-springs/",
+          "/products/hardwood-collection-washed-coral/",
+          "/products/hardwood-collection-washed-oak/",
+          "/products/hardwood-collection-wattleseed/",
+          "/products/hardwood-collection-welsh-slate/",
+          "/products/hardwood-collection-wheat/",
+          "/products/hardwood-collection-whiskey-barrel/",
+          "/products/hardwood-collection-white-lily/",
+          "/products/hardwood-collection-white-sands/",
+          "/products/hardwood-collection-white-smoke/",
+          "/products/hardwood-collection-willow/",
+          "/products/hardwood-collection-windsor/",
+          "/products/hardwood-collection-wolf-grey/"
+        ],
+        "add": [],
+        "net": -172
+      },
+      "indexation_delta": {
+        "add_noindex": [
+          "/products/hardwood-collection-abbey-grey/",
+          "/products/hardwood-collection-acacia/",
+          "/products/hardwood-collection-aged-blackbutt/",
+          "/products/hardwood-collection-aged-natural/",
+          "/products/hardwood-collection-aged-oak/",
+          "/products/hardwood-collection-alpine-snow/",
+          "/products/hardwood-collection-ancient-stone/",
+          "/products/hardwood-collection-antique-oak/",
+          "/products/hardwood-collection-antique/",
+          "/products/hardwood-collection-arctic-fox/",
+          "/products/hardwood-collection-artisan-oak-beige/",
+          "/products/hardwood-collection-artisan-oak-natural/",
+          "/products/hardwood-collection-ashwood/",
+          "/products/hardwood-collection-aspen-oak/",
+          "/products/hardwood-collection-avola-natural/",
+          "/products/hardwood-collection-beach/",
+          "/products/hardwood-collection-bedrock/",
+          "/products/hardwood-collection-bellmore-oak/",
+          "/products/hardwood-collection-black-fox/",
+          "/products/hardwood-collection-bleached-driftwood/",
+          "/products/hardwood-collection-bluegrass/",
+          "/products/hardwood-collection-bondi-beach/",
+          "/products/hardwood-collection-bondi/",
+          "/products/hardwood-collection-brazilian-oak/",
+          "/products/hardwood-collection-bright/",
+          "/products/hardwood-collection-brown-sugar/",
+          "/products/hardwood-collection-brownstone/",
+          "/products/hardwood-collection-brush-box/",
+          "/products/hardwood-collection-burnt-ash/",
+          "/products/hardwood-collection-carbon/",
+          "/products/hardwood-collection-castle-grey/",
+          "/products/hardwood-collection-chablis/",
+          "/products/hardwood-collection-chalkers-ridge/",
+          "/products/hardwood-collection-charm-grey/",
+          "/products/hardwood-collection-chesterfield/",
+          "/products/hardwood-collection-chevron-cannes/",
+          "/products/hardwood-collection-chevron-champagne/",
+          "/products/hardwood-collection-chevron-latte/",
+          "/products/hardwood-collection-chevron-riesling/",
+          "/products/hardwood-collection-chevron-vintage/",
+          "/products/hardwood-collection-chicory/",
+          "/products/hardwood-collection-cloud-break/",
+          "/products/hardwood-collection-coastal-spotted-gum/",
+          "/products/hardwood-collection-copper-still/",
+          "/products/hardwood-collection-coral-cay/",
+          "/products/hardwood-collection-crema/",
+          "/products/hardwood-collection-crystal-lake/",
+          "/products/hardwood-collection-crystal/",
+          "/products/hardwood-collection-deep-brown/",
+          "/products/hardwood-collection-delta-sand/",
+          "/products/hardwood-collection-doeskin/",
+          "/products/hardwood-collection-double-char/",
+          "/products/hardwood-collection-dover-grey/",
+          "/products/hardwood-collection-dublin/",
+          "/products/hardwood-collection-ebony/",
+          "/products/hardwood-collection-elegant/",
+          "/products/hardwood-collection-euro-oak/",
+          "/products/hardwood-collection-flagstone/",
+          "/products/hardwood-collection-foggy-shore/",
+          "/products/hardwood-collection-forest/",
+          "/products/hardwood-collection-forrest/",
+          "/products/hardwood-collection-ghost-grey/",
+          "/products/hardwood-collection-golden-sands/",
+          "/products/hardwood-collection-graphite/",
+          "/products/hardwood-collection-grey-pearl/",
+          "/products/hardwood-collection-grey-stone/",
+          "/products/hardwood-collection-grey-wash/",
+          "/products/hardwood-collection-grigio/",
+          "/products/hardwood-collection-hamptons/",
+          "/products/hardwood-collection-harbourside/",
+          "/products/hardwood-collection-harlem/",
+          "/products/hardwood-collection-hb-dark-brown/",
+          "/products/hardwood-collection-helsinki/",
+          "/products/hardwood-collection-heritage-grey/",
+          "/products/hardwood-collection-heron-grey/",
+          "/products/hardwood-collection-herringbone-ash-grey/",
+          "/products/hardwood-collection-herringbone-barnside/",
+          "/products/hardwood-collection-herringbone-cabernet/",
+          "/products/hardwood-collection-herringbone-chateau-grey/",
+          "/products/hardwood-collection-herringbone-classic-spotted-gum/",
+          "/products/hardwood-collection-herringbone-cognac/",
+          "/products/hardwood-collection-herringbone-colonial-grey/",
+          "/products/hardwood-collection-herringbone-dark-brown/",
+          "/products/hardwood-collection-herringbone-grey-stone/",
+          "/products/hardwood-collection-herringbone-pewter/",
+          "/products/hardwood-collection-herringbone-porcelain/",
+          "/products/hardwood-collection-herringbone-pure-natural/",
+          "/products/hardwood-collection-herringbone-riesling/",
+          "/products/hardwood-collection-herringbone-sauvignon/",
+          "/products/hardwood-collection-herringbone-storm/",
+          "/products/hardwood-collection-homestead/",
+          "/products/hardwood-collection-honey-mash/",
+          "/products/hardwood-collection-honeybee/",
+          "/products/hardwood-collection-honeycomb/",
+          "/products/hardwood-collection-hudson-oak/",
+          "/products/hardwood-collection-husky-grey/",
+          "/products/hardwood-collection-iron-grey/",
+          "/products/hardwood-collection-iron-ridge/",
+          "/products/hardwood-collection-ivory/",
+          "/products/hardwood-collection-kempas/",
+          "/products/hardwood-collection-limestone/",
+          "/products/hardwood-collection-limewash/",
+          "/products/hardwood-collection-lugano-oak/",
+          "/products/hardwood-collection-maize/",
+          "/products/hardwood-collection-maritime/",
+          "/products/hardwood-collection-merbau/",
+          "/products/hardwood-collection-millstone/",
+          "/products/hardwood-collection-misty-cove/",
+          "/products/hardwood-collection-moon/",
+          "/products/hardwood-collection-moonstone/",
+          "/products/hardwood-collection-mountain-spotted-gum/",
+          "/products/hardwood-collection-mystic-oak/",
+          "/products/hardwood-collection-natural-oak-grey/",
+          "/products/hardwood-collection-natural/",
+          "/products/hardwood-collection-nordic-oak/",
+          "/products/hardwood-collection-northern-blackbutt/",
+          "/products/hardwood-collection-nsw-spotted-gum/",
+          "/products/hardwood-collection-oak-adaja/",
+          "/products/hardwood-collection-oak-natural/",
+          "/products/hardwood-collection-oriental-pearl/",
+          "/products/hardwood-collection-oyster-grey/",
+          "/products/hardwood-collection-pale-stone/",
+          "/products/hardwood-collection-pearl-shell/",
+          "/products/hardwood-collection-pewter/",
+          "/products/hardwood-collection-piccolo/",
+          "/products/hardwood-collection-pure-oak/",
+          "/products/hardwood-collection-qld-spotted-gum/",
+          "/products/hardwood-collection-queens/",
+          "/products/hardwood-collection-raffia/",
+          "/products/hardwood-collection-ranchwood/",
+          "/products/hardwood-collection-red-rock/",
+          "/products/hardwood-collection-red-stone/",
+          "/products/hardwood-collection-regent-grey/",
+          "/products/hardwood-collection-river-sand/",
+          "/products/hardwood-collection-rock/",
+          "/products/hardwood-collection-royal-grey/",
+          "/products/hardwood-collection-rustic-eldorado/",
+          "/products/hardwood-collection-rustic-natural/",
+          "/products/hardwood-collection-san-remo/",
+          "/products/hardwood-collection-sandalwood/",
+          "/products/hardwood-collection-sandy-bluff/",
+          "/products/hardwood-collection-sandy-cape/",
+          "/products/hardwood-collection-seafoam/",
+          "/products/hardwood-collection-seaspray/",
+          "/products/hardwood-collection-sierra-oak/",
+          "/products/hardwood-collection-silk-grey/",
+          "/products/hardwood-collection-silver-grey/",
+          "/products/hardwood-collection-silver-moon/",
+          "/products/hardwood-collection-silverwood/",
+          "/products/hardwood-collection-snow/",
+          "/products/hardwood-collection-soho/",
+          "/products/hardwood-collection-stone-grey/",
+          "/products/hardwood-collection-storm/",
+          "/products/hardwood-collection-surfside/",
+          "/products/hardwood-collection-toasted-rye/",
+          "/products/hardwood-collection-toledo/",
+          "/products/hardwood-collection-tumble-stone/",
+          "/products/hardwood-collection-urban-grey/",
+          "/products/hardwood-collection-urban-oak-natural/",
+          "/products/hardwood-collection-warm-springs/",
+          "/products/hardwood-collection-washed-coral/",
+          "/products/hardwood-collection-washed-oak/",
+          "/products/hardwood-collection-wattleseed/",
+          "/products/hardwood-collection-welsh-slate/",
+          "/products/hardwood-collection-wheat/",
+          "/products/hardwood-collection-whiskey-barrel/",
+          "/products/hardwood-collection-white-lily/",
+          "/products/hardwood-collection-white-sands/",
+          "/products/hardwood-collection-white-smoke/",
+          "/products/hardwood-collection-willow/",
+          "/products/hardwood-collection-windsor/",
+          "/products/hardwood-collection-wolf-grey/"
+        ],
+        "remove_noindex": [],
+        "net_indexable": -172
+      },
+      "affected_files": [
+        "data/catalogue-quality-overrides.json",
+        "sitemap.xml",
+        "products/hardwood-collection-abbey-grey/index.html",
+        "products/hardwood-collection-acacia/index.html",
+        "products/hardwood-collection-aged-blackbutt/index.html",
+        "products/hardwood-collection-aged-natural/index.html",
+        "products/hardwood-collection-aged-oak/index.html",
+        "products/hardwood-collection-alpine-snow/index.html",
+        "products/hardwood-collection-ancient-stone/index.html",
+        "products/hardwood-collection-antique-oak/index.html",
+        "products/hardwood-collection-antique/index.html",
+        "products/hardwood-collection-arctic-fox/index.html",
+        "products/hardwood-collection-artisan-oak-beige/index.html",
+        "products/hardwood-collection-artisan-oak-natural/index.html",
+        "products/hardwood-collection-ashwood/index.html",
+        "products/hardwood-collection-aspen-oak/index.html",
+        "products/hardwood-collection-avola-natural/index.html",
+        "products/hardwood-collection-beach/index.html",
+        "products/hardwood-collection-bedrock/index.html",
+        "products/hardwood-collection-bellmore-oak/index.html",
+        "products/hardwood-collection-black-fox/index.html",
+        "products/hardwood-collection-bleached-driftwood/index.html",
+        "products/hardwood-collection-bluegrass/index.html",
+        "products/hardwood-collection-bondi-beach/index.html",
+        "products/hardwood-collection-bondi/index.html",
+        "products/hardwood-collection-brazilian-oak/index.html",
+        "products/hardwood-collection-bright/index.html",
+        "products/hardwood-collection-brown-sugar/index.html",
+        "products/hardwood-collection-brownstone/index.html",
+        "products/hardwood-collection-brush-box/index.html",
+        "products/hardwood-collection-burnt-ash/index.html",
+        "products/hardwood-collection-carbon/index.html",
+        "products/hardwood-collection-castle-grey/index.html",
+        "products/hardwood-collection-chablis/index.html",
+        "products/hardwood-collection-chalkers-ridge/index.html",
+        "products/hardwood-collection-charm-grey/index.html",
+        "products/hardwood-collection-chesterfield/index.html",
+        "products/hardwood-collection-chevron-cannes/index.html",
+        "products/hardwood-collection-chevron-champagne/index.html",
+        "products/hardwood-collection-chevron-latte/index.html",
+        "products/hardwood-collection-chevron-riesling/index.html",
+        "products/hardwood-collection-chevron-vintage/index.html",
+        "products/hardwood-collection-chicory/index.html",
+        "products/hardwood-collection-cloud-break/index.html",
+        "products/hardwood-collection-coastal-spotted-gum/index.html",
+        "products/hardwood-collection-copper-still/index.html",
+        "products/hardwood-collection-coral-cay/index.html",
+        "products/hardwood-collection-crema/index.html",
+        "products/hardwood-collection-crystal-lake/index.html",
+        "products/hardwood-collection-crystal/index.html",
+        "products/hardwood-collection-deep-brown/index.html",
+        "products/hardwood-collection-delta-sand/index.html",
+        "products/hardwood-collection-doeskin/index.html",
+        "products/hardwood-collection-double-char/index.html",
+        "products/hardwood-collection-dover-grey/index.html",
+        "products/hardwood-collection-dublin/index.html",
+        "products/hardwood-collection-ebony/index.html",
+        "products/hardwood-collection-elegant/index.html",
+        "products/hardwood-collection-euro-oak/index.html",
+        "products/hardwood-collection-flagstone/index.html",
+        "products/hardwood-collection-foggy-shore/index.html",
+        "products/hardwood-collection-forest/index.html",
+        "products/hardwood-collection-forrest/index.html",
+        "products/hardwood-collection-ghost-grey/index.html",
+        "products/hardwood-collection-golden-sands/index.html",
+        "products/hardwood-collection-graphite/index.html",
+        "products/hardwood-collection-grey-pearl/index.html",
+        "products/hardwood-collection-grey-stone/index.html",
+        "products/hardwood-collection-grey-wash/index.html",
+        "products/hardwood-collection-grigio/index.html",
+        "products/hardwood-collection-hamptons/index.html",
+        "products/hardwood-collection-harbourside/index.html",
+        "products/hardwood-collection-harlem/index.html",
+        "products/hardwood-collection-hb-dark-brown/index.html",
+        "products/hardwood-collection-helsinki/index.html",
+        "products/hardwood-collection-heritage-grey/index.html",
+        "products/hardwood-collection-heron-grey/index.html",
+        "products/hardwood-collection-herringbone-ash-grey/index.html",
+        "products/hardwood-collection-herringbone-barnside/index.html",
+        "products/hardwood-collection-herringbone-cabernet/index.html",
+        "products/hardwood-collection-herringbone-chateau-grey/index.html",
+        "products/hardwood-collection-herringbone-classic-spotted-gum/index.html",
+        "products/hardwood-collection-herringbone-cognac/index.html",
+        "products/hardwood-collection-herringbone-colonial-grey/index.html",
+        "products/hardwood-collection-herringbone-dark-brown/index.html",
+        "products/hardwood-collection-herringbone-grey-stone/index.html",
+        "products/hardwood-collection-herringbone-pewter/index.html",
+        "products/hardwood-collection-herringbone-porcelain/index.html",
+        "products/hardwood-collection-herringbone-pure-natural/index.html",
+        "products/hardwood-collection-herringbone-riesling/index.html",
+        "products/hardwood-collection-herringbone-sauvignon/index.html",
+        "products/hardwood-collection-herringbone-storm/index.html",
+        "products/hardwood-collection-homestead/index.html",
+        "products/hardwood-collection-honey-mash/index.html",
+        "products/hardwood-collection-honeybee/index.html",
+        "products/hardwood-collection-honeycomb/index.html",
+        "products/hardwood-collection-hudson-oak/index.html",
+        "products/hardwood-collection-husky-grey/index.html",
+        "products/hardwood-collection-iron-grey/index.html",
+        "products/hardwood-collection-iron-ridge/index.html",
+        "products/hardwood-collection-ivory/index.html",
+        "products/hardwood-collection-kempas/index.html",
+        "products/hardwood-collection-limestone/index.html",
+        "products/hardwood-collection-limewash/index.html",
+        "products/hardwood-collection-lugano-oak/index.html",
+        "products/hardwood-collection-maize/index.html",
+        "products/hardwood-collection-maritime/index.html",
+        "products/hardwood-collection-merbau/index.html",
+        "products/hardwood-collection-millstone/index.html",
+        "products/hardwood-collection-misty-cove/index.html",
+        "products/hardwood-collection-moon/index.html",
+        "products/hardwood-collection-moonstone/index.html",
+        "products/hardwood-collection-mountain-spotted-gum/index.html",
+        "products/hardwood-collection-mystic-oak/index.html",
+        "products/hardwood-collection-natural-oak-grey/index.html",
+        "products/hardwood-collection-natural/index.html",
+        "products/hardwood-collection-nordic-oak/index.html",
+        "products/hardwood-collection-northern-blackbutt/index.html",
+        "products/hardwood-collection-nsw-spotted-gum/index.html",
+        "products/hardwood-collection-oak-adaja/index.html",
+        "products/hardwood-collection-oak-natural/index.html",
+        "products/hardwood-collection-oriental-pearl/index.html",
+        "products/hardwood-collection-oyster-grey/index.html",
+        "products/hardwood-collection-pale-stone/index.html",
+        "products/hardwood-collection-pearl-shell/index.html",
+        "products/hardwood-collection-pewter/index.html",
+        "products/hardwood-collection-piccolo/index.html",
+        "products/hardwood-collection-pure-oak/index.html",
+        "products/hardwood-collection-qld-spotted-gum/index.html",
+        "products/hardwood-collection-queens/index.html",
+        "products/hardwood-collection-raffia/index.html",
+        "products/hardwood-collection-ranchwood/index.html",
+        "products/hardwood-collection-red-rock/index.html",
+        "products/hardwood-collection-red-stone/index.html",
+        "products/hardwood-collection-regent-grey/index.html",
+        "products/hardwood-collection-river-sand/index.html",
+        "products/hardwood-collection-rock/index.html",
+        "products/hardwood-collection-royal-grey/index.html",
+        "products/hardwood-collection-rustic-eldorado/index.html",
+        "products/hardwood-collection-rustic-natural/index.html",
+        "products/hardwood-collection-san-remo/index.html",
+        "products/hardwood-collection-sandalwood/index.html",
+        "products/hardwood-collection-sandy-bluff/index.html",
+        "products/hardwood-collection-sandy-cape/index.html",
+        "products/hardwood-collection-seafoam/index.html",
+        "products/hardwood-collection-seaspray/index.html",
+        "products/hardwood-collection-sierra-oak/index.html",
+        "products/hardwood-collection-silk-grey/index.html",
+        "products/hardwood-collection-silver-grey/index.html",
+        "products/hardwood-collection-silver-moon/index.html",
+        "products/hardwood-collection-silverwood/index.html",
+        "products/hardwood-collection-snow/index.html",
+        "products/hardwood-collection-soho/index.html",
+        "products/hardwood-collection-stone-grey/index.html",
+        "products/hardwood-collection-storm/index.html",
+        "products/hardwood-collection-surfside/index.html",
+        "products/hardwood-collection-toasted-rye/index.html",
+        "products/hardwood-collection-toledo/index.html",
+        "products/hardwood-collection-tumble-stone/index.html",
+        "products/hardwood-collection-urban-grey/index.html",
+        "products/hardwood-collection-urban-oak-natural/index.html",
+        "products/hardwood-collection-warm-springs/index.html",
+        "products/hardwood-collection-washed-coral/index.html",
+        "products/hardwood-collection-washed-oak/index.html",
+        "products/hardwood-collection-wattleseed/index.html",
+        "products/hardwood-collection-welsh-slate/index.html",
+        "products/hardwood-collection-wheat/index.html",
+        "products/hardwood-collection-whiskey-barrel/index.html",
+        "products/hardwood-collection-white-lily/index.html",
+        "products/hardwood-collection-white-sands/index.html",
+        "products/hardwood-collection-white-smoke/index.html",
+        "products/hardwood-collection-willow/index.html",
+        "products/hardwood-collection-windsor/index.html",
+        "products/hardwood-collection-wolf-grey/index.html"
+      ],
+      "GSC_clicks": null,
+      "GSC_impressions": null,
+      "backlink_evidence": {
+        "supplied_external_target_count": "incomplete; absence from 130-row GSC map is not proof of no equity"
+      },
+      "content_equivalence": "The 172 route identities are not supported by the current 12-colour supplier set and therefore cannot remain factual product owners without new evidence.",
+      "uncertainty": "The supplier set may change later; reindex only after exact current product evidence and image identity are approved.",
+      "tests": [
+        "exact 172-route fixture and negative fixture",
+        "zero redirect destinations are page-level noindex",
+        "controlled pages excluded from sitemap and Product schema removed",
+        "verified 12 Hardwood Collection products and range remain indexable",
+        "all other publication counts unchanged"
+      ],
+      "rollback": "Restore the per-route override and redirect entries for the affected cohort only."
+    },
+    {
+      "id": "supplier-page-ownership",
+      "scope": "launch-critical",
+      "intent": "Six category/supplier owner pairs",
+      "evidence": [
+        "Current hardening report: 6 of 6 pairs differentiated",
+        "Each supplier page retains stock, batch, quantity, pickup, delivery, lead-time and supply-only signals",
+        "Zero title/H1 keyword-owner collisions"
+      ],
+      "old_owner": null,
+      "current_candidate_owner": "six existing supplier pages",
+      "selected_owner": "keep all six differentiated supplier pages separate",
+      "action": "no consolidation or canonical merge",
+      "aliases": [],
+      "exact_redirect_changes": [],
+      "canonical_changes": [],
+      "sitemap_delta": {
+        "remove": [],
+        "add": [],
+        "net": 0
+      },
+      "indexation_delta": {
+        "remove": [],
+        "add": [],
+        "net": 0
+      },
+      "affected_files": [
+        "data/seo-keyword-ownership.json",
+        "docs/seo-migration/KEYWORD_OWNERSHIP_MAP_2026-09-01.md"
+      ],
+      "GSC_clicks": null,
+      "GSC_impressions": null,
+      "backlink_evidence": {
+        "status": "not required for no-change decision"
+      },
+      "content_equivalence": "different user purpose: category comparison versus supply-side enquiry",
+      "uncertainty": "Reassess only if real traffic/content evidence later shows overlap.",
+      "tests": [
+        "six pairs remain differentiated",
+        "zero owner collisions",
+        "supplier pages retain at least three supply-side signals"
+      ],
+      "rollback": "No implementation change proposed."
+    },
+    {
+      "id": "service-area-hub",
+      "scope": "optional-growth",
+      "intent": "Sydney service-area coverage",
+      "evidence": [
+        "Existing homepage/services/contact structure already states Sydney service coverage",
+        "GSC place queries indicate visibility but do not prove offices or completed projects",
+        "No approved evidence currently supports a new indexable location hub"
+      ],
+      "old_owner": null,
+      "current_candidate_owner": null,
+      "selected_owner": null,
+      "action": "do not add an indexable service-area hub in this release; use concise verified service-area copy on existing owners only",
+      "aliases": [],
+      "exact_redirect_changes": [],
+      "canonical_changes": [],
+      "sitemap_delta": {
+        "remove": [],
+        "add": [],
+        "net": 0
+      },
+      "indexation_delta": {
+        "remove": [],
+        "add": [],
+        "net": 0
+      },
+      "affected_files": [],
+      "GSC_clicks": null,
+      "GSC_impressions": null,
+      "backlink_evidence": {
+        "status": "none supplied for a new hub"
+      },
+      "content_equivalence": "not applicable",
+      "uncertainty": "Requires approved service-area/business evidence.",
+      "tests": [
+        "no auto-generated suburb pages",
+        "no unsupported office/project claims",
+        "homepage remains broad Sydney owner"
+      ],
+      "rollback": "No implementation change proposed."
+    }
+  ]
+}

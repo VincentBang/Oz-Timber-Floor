@@ -1,0 +1,857 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-09-09T11:33:00.014Z",
+  "endedAt": "2026-09-09T11:34:21.182Z",
+  "baselineHead": "d0c66b802e544aa1a807f91798ea284c31c0998b",
+  "baselineRoot": "/tmp/oz-mig-004-baseline-site.BYgpUA",
+  "chromePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "browserEngine": "Chromium via existing Playwright; no installed dependency",
+  "sourceHashes": {
+    "assets/site.js": "b06445a1cbb5b9b740c60be3cfd45161f1cb4f332d24b89c09aa13ecd6991dd2",
+    "assets/site.css": "e1e9ca12e173b9f1df74dfd166ff08b8ea9a7014695752b052ff8322ae45072f",
+    "assets/contact-config.js": "4674202754c9e5b927ef69c83c504b94bfa0cbd65fa2ef754eb17ff58f168774",
+    "floor-levelling-sydney.html": "a8f6fd623497d4b71bbaebda44a5bffebc6fb6f48dabcd42af46c5e9806c8611",
+    "contact.html": "5e5b2a0e77fa95559f0f753870fd33898e7d795ef142aa1357ce75066d85d09e",
+    "ranges/hardwood-collection/index.html": "bfb0622d7ae10247b7c70d858aa5b665150bc65fb4ef8c47361db638c6addf09",
+    "products/hardwood-collection-forest-oak/index.html": "7ed3395f04930842ecc52b71ae393811d3659524c1bd9763c493c0f74481643f",
+    "guides/choosing-office-flooring-durability-design-performance/index.html": "76c7dea13f413229c8f24cc9974f6b4c7f6309a97564f4813a7f3b3401273c11"
+  },
+  "nonGetRequests": 0,
+  "protectedFromFormSubmission": true,
+  "passed": true,
+  "cellCount": 25,
+  "cells": [
+    {
+      "state": "after",
+      "route": "/floor-levelling-sydney/",
+      "requestedUrl": "http://127.0.0.1:53198/floor-levelling-sydney/",
+      "resolvedUrl": "http://127.0.0.1:53198/floor-levelling-sydney/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "physicalFile": "floor-levelling-sydney.html",
+      "sourceSha256": "a8f6fd623497d4b71bbaebda44a5bffebc6fb6f48dabcd42af46c5e9806c8611",
+      "innerWidth": 1440,
+      "innerHeight": 1000,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "h1Count": 1,
+      "h1": "Floor levelling Sydney",
+      "imageCount": 3,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/contact/?enquiry=stock&product=Hardwood+Collection+Forest+Oak&productSlug=hardwood-collection-forest-oak&range=Hardwood+Collection&category=Engineered+timber&source=%2Franges%2Fhardwood-collection%2F",
+      "requestedUrl": "http://127.0.0.1:53198/contact/?enquiry=stock&product=Hardwood+Collection+Forest+Oak&productSlug=hardwood-collection-forest-oak&range=Hardwood+Collection&category=Engineered+timber&source=%2Franges%2Fhardwood-collection%2F",
+      "resolvedUrl": "http://127.0.0.1:53198/contact/?enquiry=stock&product=Hardwood+Collection+Forest+Oak&productSlug=hardwood-collection-forest-oak&range=Hardwood+Collection&category=Engineered+timber&source=%2Franges%2Fhardwood-collection%2F",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "physicalFile": "contact.html",
+      "sourceSha256": "5e5b2a0e77fa95559f0f753870fd33898e7d795ef142aa1357ce75066d85d09e",
+      "innerWidth": 1440,
+      "innerHeight": 1000,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "h1Count": 1,
+      "h1": "Contact Oz Timber Floor",
+      "imageCount": 3,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/ranges/hardwood-collection/",
+      "requestedUrl": "http://127.0.0.1:53198/ranges/hardwood-collection/",
+      "resolvedUrl": "http://127.0.0.1:53198/ranges/hardwood-collection/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "physicalFile": "ranges/hardwood-collection/index.html",
+      "sourceSha256": "bfb0622d7ae10247b7c70d858aa5b665150bc65fb4ef8c47361db638c6addf09",
+      "innerWidth": 1440,
+      "innerHeight": 1000,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "h1Count": 1,
+      "h1": "Hardwood Collection engineered timber flooring range",
+      "imageCount": 21,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/products/hardwood-collection-forest-oak/",
+      "requestedUrl": "http://127.0.0.1:53198/products/hardwood-collection-forest-oak/",
+      "resolvedUrl": "http://127.0.0.1:53198/products/hardwood-collection-forest-oak/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "physicalFile": "products/hardwood-collection-forest-oak/index.html",
+      "sourceSha256": "7ed3395f04930842ecc52b71ae393811d3659524c1bd9763c493c0f74481643f",
+      "innerWidth": 1440,
+      "innerHeight": 1000,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "h1Count": 1,
+      "h1": "Forest Oak",
+      "imageCount": 9,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/guides/choosing-office-flooring-durability-design-performance/",
+      "requestedUrl": "http://127.0.0.1:53198/guides/choosing-office-flooring-durability-design-performance/",
+      "resolvedUrl": "http://127.0.0.1:53198/guides/choosing-office-flooring-durability-design-performance/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "physicalFile": "guides/choosing-office-flooring-durability-design-performance/index.html",
+      "sourceSha256": "76c7dea13f413229c8f24cc9974f6b4c7f6309a97564f4813a7f3b3401273c11",
+      "innerWidth": 1440,
+      "innerHeight": 1000,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "h1Count": 1,
+      "h1": "Choosing the Right Flooring for Office Spaces: Durability, Design and Performance",
+      "imageCount": 11,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/floor-levelling-sydney/",
+      "requestedUrl": "http://127.0.0.1:53198/floor-levelling-sydney/",
+      "resolvedUrl": "http://127.0.0.1:53198/floor-levelling-sydney/",
+      "viewport": {
+        "width": 1024,
+        "height": 1000
+      },
+      "status": 200,
+      "physicalFile": "floor-levelling-sydney.html",
+      "sourceSha256": "a8f6fd623497d4b71bbaebda44a5bffebc6fb6f48dabcd42af46c5e9806c8611",
+      "innerWidth": 1024,
+      "innerHeight": 1000,
+      "clientWidth": 1024,
+      "scrollWidth": 1024,
+      "bodyScrollWidth": 1024,
+      "h1Count": 1,
+      "h1": "Floor levelling Sydney",
+      "imageCount": 3,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/contact/?enquiry=stock&product=Hardwood+Collection+Forest+Oak&productSlug=hardwood-collection-forest-oak&range=Hardwood+Collection&category=Engineered+timber&source=%2Franges%2Fhardwood-collection%2F",
+      "requestedUrl": "http://127.0.0.1:53198/contact/?enquiry=stock&product=Hardwood+Collection+Forest+Oak&productSlug=hardwood-collection-forest-oak&range=Hardwood+Collection&category=Engineered+timber&source=%2Franges%2Fhardwood-collection%2F",
+      "resolvedUrl": "http://127.0.0.1:53198/contact/?enquiry=stock&product=Hardwood+Collection+Forest+Oak&productSlug=hardwood-collection-forest-oak&range=Hardwood+Collection&category=Engineered+timber&source=%2Franges%2Fhardwood-collection%2F",
+      "viewport": {
+        "width": 1024,
+        "height": 1000
+      },
+      "status": 200,
+      "physicalFile": "contact.html",
+      "sourceSha256": "5e5b2a0e77fa95559f0f753870fd33898e7d795ef142aa1357ce75066d85d09e",
+      "innerWidth": 1024,
+      "innerHeight": 1000,
+      "clientWidth": 1024,
+      "scrollWidth": 1024,
+      "bodyScrollWidth": 1024,
+      "h1Count": 1,
+      "h1": "Contact Oz Timber Floor",
+      "imageCount": 3,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/ranges/hardwood-collection/",
+      "requestedUrl": "http://127.0.0.1:53198/ranges/hardwood-collection/",
+      "resolvedUrl": "http://127.0.0.1:53198/ranges/hardwood-collection/",
+      "viewport": {
+        "width": 1024,
+        "height": 1000
+      },
+      "status": 200,
+      "physicalFile": "ranges/hardwood-collection/index.html",
+      "sourceSha256": "bfb0622d7ae10247b7c70d858aa5b665150bc65fb4ef8c47361db638c6addf09",
+      "innerWidth": 1024,
+      "innerHeight": 1000,
+      "clientWidth": 1024,
+      "scrollWidth": 1024,
+      "bodyScrollWidth": 1024,
+      "h1Count": 1,
+      "h1": "Hardwood Collection engineered timber flooring range",
+      "imageCount": 21,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/products/hardwood-collection-forest-oak/",
+      "requestedUrl": "http://127.0.0.1:53198/products/hardwood-collection-forest-oak/",
+      "resolvedUrl": "http://127.0.0.1:53198/products/hardwood-collection-forest-oak/",
+      "viewport": {
+        "width": 1024,
+        "height": 1000
+      },
+      "status": 200,
+      "physicalFile": "products/hardwood-collection-forest-oak/index.html",
+      "sourceSha256": "7ed3395f04930842ecc52b71ae393811d3659524c1bd9763c493c0f74481643f",
+      "innerWidth": 1024,
+      "innerHeight": 1000,
+      "clientWidth": 1024,
+      "scrollWidth": 1024,
+      "bodyScrollWidth": 1024,
+      "h1Count": 1,
+      "h1": "Forest Oak",
+      "imageCount": 9,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/guides/choosing-office-flooring-durability-design-performance/",
+      "requestedUrl": "http://127.0.0.1:53198/guides/choosing-office-flooring-durability-design-performance/",
+      "resolvedUrl": "http://127.0.0.1:53198/guides/choosing-office-flooring-durability-design-performance/",
+      "viewport": {
+        "width": 1024,
+        "height": 1000
+      },
+      "status": 200,
+      "physicalFile": "guides/choosing-office-flooring-durability-design-performance/index.html",
+      "sourceSha256": "76c7dea13f413229c8f24cc9974f6b4c7f6309a97564f4813a7f3b3401273c11",
+      "innerWidth": 1024,
+      "innerHeight": 1000,
+      "clientWidth": 1024,
+      "scrollWidth": 1024,
+      "bodyScrollWidth": 1024,
+      "h1Count": 1,
+      "h1": "Choosing the Right Flooring for Office Spaces: Durability, Design and Performance",
+      "imageCount": 11,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/floor-levelling-sydney/",
+      "requestedUrl": "http://127.0.0.1:53198/floor-levelling-sydney/",
+      "resolvedUrl": "http://127.0.0.1:53198/floor-levelling-sydney/",
+      "viewport": {
+        "width": 768,
+        "height": 1000
+      },
+      "status": 200,
+      "physicalFile": "floor-levelling-sydney.html",
+      "sourceSha256": "a8f6fd623497d4b71bbaebda44a5bffebc6fb6f48dabcd42af46c5e9806c8611",
+      "innerWidth": 768,
+      "innerHeight": 1000,
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "bodyScrollWidth": 768,
+      "h1Count": 1,
+      "h1": "Floor levelling Sydney",
+      "imageCount": 3,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/contact/?enquiry=stock&product=Hardwood+Collection+Forest+Oak&productSlug=hardwood-collection-forest-oak&range=Hardwood+Collection&category=Engineered+timber&source=%2Franges%2Fhardwood-collection%2F",
+      "requestedUrl": "http://127.0.0.1:53198/contact/?enquiry=stock&product=Hardwood+Collection+Forest+Oak&productSlug=hardwood-collection-forest-oak&range=Hardwood+Collection&category=Engineered+timber&source=%2Franges%2Fhardwood-collection%2F",
+      "resolvedUrl": "http://127.0.0.1:53198/contact/?enquiry=stock&product=Hardwood+Collection+Forest+Oak&productSlug=hardwood-collection-forest-oak&range=Hardwood+Collection&category=Engineered+timber&source=%2Franges%2Fhardwood-collection%2F",
+      "viewport": {
+        "width": 768,
+        "height": 1000
+      },
+      "status": 200,
+      "physicalFile": "contact.html",
+      "sourceSha256": "5e5b2a0e77fa95559f0f753870fd33898e7d795ef142aa1357ce75066d85d09e",
+      "innerWidth": 768,
+      "innerHeight": 1000,
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "bodyScrollWidth": 768,
+      "h1Count": 1,
+      "h1": "Contact Oz Timber Floor",
+      "imageCount": 3,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/ranges/hardwood-collection/",
+      "requestedUrl": "http://127.0.0.1:53198/ranges/hardwood-collection/",
+      "resolvedUrl": "http://127.0.0.1:53198/ranges/hardwood-collection/",
+      "viewport": {
+        "width": 768,
+        "height": 1000
+      },
+      "status": 200,
+      "physicalFile": "ranges/hardwood-collection/index.html",
+      "sourceSha256": "bfb0622d7ae10247b7c70d858aa5b665150bc65fb4ef8c47361db638c6addf09",
+      "innerWidth": 768,
+      "innerHeight": 1000,
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "bodyScrollWidth": 768,
+      "h1Count": 1,
+      "h1": "Hardwood Collection engineered timber flooring range",
+      "imageCount": 21,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/products/hardwood-collection-forest-oak/",
+      "requestedUrl": "http://127.0.0.1:53198/products/hardwood-collection-forest-oak/",
+      "resolvedUrl": "http://127.0.0.1:53198/products/hardwood-collection-forest-oak/",
+      "viewport": {
+        "width": 768,
+        "height": 1000
+      },
+      "status": 200,
+      "physicalFile": "products/hardwood-collection-forest-oak/index.html",
+      "sourceSha256": "7ed3395f04930842ecc52b71ae393811d3659524c1bd9763c493c0f74481643f",
+      "innerWidth": 768,
+      "innerHeight": 1000,
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "bodyScrollWidth": 768,
+      "h1Count": 1,
+      "h1": "Forest Oak",
+      "imageCount": 9,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/guides/choosing-office-flooring-durability-design-performance/",
+      "requestedUrl": "http://127.0.0.1:53198/guides/choosing-office-flooring-durability-design-performance/",
+      "resolvedUrl": "http://127.0.0.1:53198/guides/choosing-office-flooring-durability-design-performance/",
+      "viewport": {
+        "width": 768,
+        "height": 1000
+      },
+      "status": 200,
+      "physicalFile": "guides/choosing-office-flooring-durability-design-performance/index.html",
+      "sourceSha256": "76c7dea13f413229c8f24cc9974f6b4c7f6309a97564f4813a7f3b3401273c11",
+      "innerWidth": 768,
+      "innerHeight": 1000,
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "bodyScrollWidth": 768,
+      "h1Count": 1,
+      "h1": "Choosing the Right Flooring for Office Spaces: Durability, Design and Performance",
+      "imageCount": 11,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/floor-levelling-sydney/",
+      "requestedUrl": "http://127.0.0.1:53198/floor-levelling-sydney/",
+      "resolvedUrl": "http://127.0.0.1:53198/floor-levelling-sydney/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "physicalFile": "floor-levelling-sydney.html",
+      "sourceSha256": "a8f6fd623497d4b71bbaebda44a5bffebc6fb6f48dabcd42af46c5e9806c8611",
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "bodyScrollWidth": 390,
+      "h1Count": 1,
+      "h1": "Floor levelling Sydney",
+      "imageCount": 3,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/contact/?enquiry=stock&product=Hardwood+Collection+Forest+Oak&productSlug=hardwood-collection-forest-oak&range=Hardwood+Collection&category=Engineered+timber&source=%2Franges%2Fhardwood-collection%2F",
+      "requestedUrl": "http://127.0.0.1:53198/contact/?enquiry=stock&product=Hardwood+Collection+Forest+Oak&productSlug=hardwood-collection-forest-oak&range=Hardwood+Collection&category=Engineered+timber&source=%2Franges%2Fhardwood-collection%2F",
+      "resolvedUrl": "http://127.0.0.1:53198/contact/?enquiry=stock&product=Hardwood+Collection+Forest+Oak&productSlug=hardwood-collection-forest-oak&range=Hardwood+Collection&category=Engineered+timber&source=%2Franges%2Fhardwood-collection%2F",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "physicalFile": "contact.html",
+      "sourceSha256": "5e5b2a0e77fa95559f0f753870fd33898e7d795ef142aa1357ce75066d85d09e",
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "bodyScrollWidth": 390,
+      "h1Count": 1,
+      "h1": "Contact Oz Timber Floor",
+      "imageCount": 3,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/ranges/hardwood-collection/",
+      "requestedUrl": "http://127.0.0.1:53198/ranges/hardwood-collection/",
+      "resolvedUrl": "http://127.0.0.1:53198/ranges/hardwood-collection/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "physicalFile": "ranges/hardwood-collection/index.html",
+      "sourceSha256": "bfb0622d7ae10247b7c70d858aa5b665150bc65fb4ef8c47361db638c6addf09",
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "bodyScrollWidth": 390,
+      "h1Count": 1,
+      "h1": "Hardwood Collection engineered timber flooring range",
+      "imageCount": 21,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/products/hardwood-collection-forest-oak/",
+      "requestedUrl": "http://127.0.0.1:53198/products/hardwood-collection-forest-oak/",
+      "resolvedUrl": "http://127.0.0.1:53198/products/hardwood-collection-forest-oak/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "physicalFile": "products/hardwood-collection-forest-oak/index.html",
+      "sourceSha256": "7ed3395f04930842ecc52b71ae393811d3659524c1bd9763c493c0f74481643f",
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "bodyScrollWidth": 390,
+      "h1Count": 1,
+      "h1": "Forest Oak",
+      "imageCount": 9,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/guides/choosing-office-flooring-durability-design-performance/",
+      "requestedUrl": "http://127.0.0.1:53198/guides/choosing-office-flooring-durability-design-performance/",
+      "resolvedUrl": "http://127.0.0.1:53198/guides/choosing-office-flooring-durability-design-performance/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "physicalFile": "guides/choosing-office-flooring-durability-design-performance/index.html",
+      "sourceSha256": "76c7dea13f413229c8f24cc9974f6b4c7f6309a97564f4813a7f3b3401273c11",
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "bodyScrollWidth": 390,
+      "h1Count": 1,
+      "h1": "Choosing the Right Flooring for Office Spaces: Durability, Design and Performance",
+      "imageCount": 11,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/floor-levelling-sydney/",
+      "requestedUrl": "http://127.0.0.1:53198/floor-levelling-sydney/",
+      "resolvedUrl": "http://127.0.0.1:53198/floor-levelling-sydney/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "status": 200,
+      "physicalFile": "floor-levelling-sydney.html",
+      "sourceSha256": "a8f6fd623497d4b71bbaebda44a5bffebc6fb6f48dabcd42af46c5e9806c8611",
+      "innerWidth": 320,
+      "innerHeight": 800,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "bodyScrollWidth": 320,
+      "h1Count": 1,
+      "h1": "Floor levelling Sydney",
+      "imageCount": 3,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/contact/?enquiry=stock&product=Hardwood+Collection+Forest+Oak&productSlug=hardwood-collection-forest-oak&range=Hardwood+Collection&category=Engineered+timber&source=%2Franges%2Fhardwood-collection%2F",
+      "requestedUrl": "http://127.0.0.1:53198/contact/?enquiry=stock&product=Hardwood+Collection+Forest+Oak&productSlug=hardwood-collection-forest-oak&range=Hardwood+Collection&category=Engineered+timber&source=%2Franges%2Fhardwood-collection%2F",
+      "resolvedUrl": "http://127.0.0.1:53198/contact/?enquiry=stock&product=Hardwood+Collection+Forest+Oak&productSlug=hardwood-collection-forest-oak&range=Hardwood+Collection&category=Engineered+timber&source=%2Franges%2Fhardwood-collection%2F",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "status": 200,
+      "physicalFile": "contact.html",
+      "sourceSha256": "5e5b2a0e77fa95559f0f753870fd33898e7d795ef142aa1357ce75066d85d09e",
+      "innerWidth": 320,
+      "innerHeight": 800,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "bodyScrollWidth": 320,
+      "h1Count": 1,
+      "h1": "Contact Oz Timber Floor",
+      "imageCount": 3,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/ranges/hardwood-collection/",
+      "requestedUrl": "http://127.0.0.1:53198/ranges/hardwood-collection/",
+      "resolvedUrl": "http://127.0.0.1:53198/ranges/hardwood-collection/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "status": 200,
+      "physicalFile": "ranges/hardwood-collection/index.html",
+      "sourceSha256": "bfb0622d7ae10247b7c70d858aa5b665150bc65fb4ef8c47361db638c6addf09",
+      "innerWidth": 320,
+      "innerHeight": 800,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "bodyScrollWidth": 320,
+      "h1Count": 1,
+      "h1": "Hardwood Collection engineered timber flooring range",
+      "imageCount": 21,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/products/hardwood-collection-forest-oak/",
+      "requestedUrl": "http://127.0.0.1:53198/products/hardwood-collection-forest-oak/",
+      "resolvedUrl": "http://127.0.0.1:53198/products/hardwood-collection-forest-oak/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "status": 200,
+      "physicalFile": "products/hardwood-collection-forest-oak/index.html",
+      "sourceSha256": "7ed3395f04930842ecc52b71ae393811d3659524c1bd9763c493c0f74481643f",
+      "innerWidth": 320,
+      "innerHeight": 800,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "bodyScrollWidth": 320,
+      "h1Count": 1,
+      "h1": "Forest Oak",
+      "imageCount": 9,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    },
+    {
+      "state": "after",
+      "route": "/guides/choosing-office-flooring-durability-design-performance/",
+      "requestedUrl": "http://127.0.0.1:53198/guides/choosing-office-flooring-durability-design-performance/",
+      "resolvedUrl": "http://127.0.0.1:53198/guides/choosing-office-flooring-durability-design-performance/",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "status": 200,
+      "physicalFile": "guides/choosing-office-flooring-durability-design-performance/index.html",
+      "sourceSha256": "76c7dea13f413229c8f24cc9974f6b4c7f6309a97564f4813a7f3b3401273c11",
+      "innerWidth": 320,
+      "innerHeight": 800,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "bodyScrollWidth": 320,
+      "h1Count": 1,
+      "h1": "Choosing the Right Flooring for Office Spaces: Durability, Design and Performance",
+      "imageCount": 11,
+      "brokenImages": [],
+      "pendingImages": [],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "remoteRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+      ],
+      "passed": true
+    }
+  ],
+  "interactions": {
+    "contact": {
+      "formName": "oz-flooring-enquiry",
+      "action": "/thank-you/",
+      "enquiry": "stock",
+      "product": "Hardwood Collection Forest Oak",
+      "productSlug": "hardwood-collection-forest-oak",
+      "range": "Hardwood Collection",
+      "category": "Engineered timber",
+      "sourcePage": "/ranges/hardwood-collection/",
+      "summaryVisible": true,
+      "summaryText": "Selected enquiryProduct: Hardwood Collection Forest OakRange: Hardwood CollectionCategory: Engineered timberEnquiry type: Check stock availabilityChange enquiry typeChange product details",
+      "consentRequired": true,
+      "serviceSelection": {
+        "serviceFieldVisible": true,
+        "productFieldHidden": true
+      },
+      "submit": {
+        "visible": true,
+        "unobstructed": true,
+        "box": {
+          "x": 37,
+          "y": 372.65625,
+          "width": 246,
+          "height": 53.90625
+        }
+      }
+    },
+    "menu": {
+      "open": true,
+      "bodyLocked": true,
+      "servicesExpanded": true,
+      "productsExpanded": true,
+      "drawer": {
+        "selector": ".site-header",
+        "left": 0,
+        "right": 320,
+        "width": 320,
+        "scrollHeight": 878,
+        "clientHeight": 799,
+        "overflowY": "auto",
+        "scrolls": true,
+        "fitsViewport": true,
+        "documentOverflow": false
+      },
+      "escape": {
+        "closed": true,
+        "bodyUnlocked": true,
+        "submenusReset": true
+      },
+      "outsideClick": {
+        "method": "synthetic bubbling click on main outside header; full-height mobile drawer leaves no guaranteed physical outside point",
+        "closed": true
+      }
+    }
+  },
+  "failures": []
+}

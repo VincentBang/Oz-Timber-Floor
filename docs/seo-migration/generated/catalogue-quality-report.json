@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-02T05:30:46.097Z",
+  "generatedAt": "2026-09-09T11:28:01.104Z",
   "totals": {
     "cataloguePages": 2115,
     "productPages": 1948,
     "rangePages": 167,
     "byClassification": {
       "manual-review": 485,
-      "indexable": 893,
+      "indexable": 721,
       "redirect-only": 185,
-      "needs-data": 550,
+      "needs-data": 722,
       "retired": 2
     },
     "byFailure": {
       "missing-source-record": 478,
       "legacy-or-alias-range": 185,
-      "empty-or-placeholder-thickness": 774,
+      "empty-or-placeholder-thickness": 949,
       "duplicate-product-identity": 17,
       "retired-product": 2,
       "invalid-board-dimensions": 28,
@@ -14336,13 +14336,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-abbey-grey/",
       "file": "products/hardwood-collection-abbey-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-abbey-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-abbey-grey/",
       "h1": "Abbey Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -14350,19 +14350,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-acacia/",
       "file": "products/hardwood-collection-acacia/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-acacia",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-acacia/",
       "h1": "Acacia",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -14370,19 +14375,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-aged-blackbutt/",
       "file": "products/hardwood-collection-aged-blackbutt/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-aged-blackbutt",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-aged-blackbutt/",
       "h1": "Aged Blackbutt",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -14390,19 +14400,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-aged-natural/",
       "file": "products/hardwood-collection-aged-natural/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-aged-natural",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-aged-natural/",
       "h1": "Aged Natural",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -14410,19 +14425,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-aged-oak/",
       "file": "products/hardwood-collection-aged-oak/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-aged-oak",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-aged-oak/",
       "h1": "Aged Oak",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -14430,7 +14450,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -14442,7 +14467,7 @@
       "h1": "Oakleaf Laminate Aged Spotted Gum",
       "category": "Laminate",
       "range": "Oakleaf Laminate",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "Confirm product details before order",
       "hasProductSchema": false,
       "currentRobots": "noindex,follow",
@@ -14453,6 +14478,10 @@
       "issues": [
         {
           "code": "missing-source-record",
+          "severity": "HIGH"
+        },
+        {
+          "code": "empty-or-placeholder-thickness",
           "severity": "HIGH"
         }
       ]
@@ -14548,13 +14577,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-alpine-snow/",
       "file": "products/hardwood-collection-alpine-snow/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-alpine-snow",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-alpine-snow/",
       "h1": "Alpine Snow",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -14562,19 +14591,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-ancient-stone/",
       "file": "products/hardwood-collection-ancient-stone/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-ancient-stone",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-ancient-stone/",
       "h1": "Ancient Stone",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -14582,7 +14616,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -14617,13 +14656,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-antique-oak/",
       "file": "products/hardwood-collection-antique-oak/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-antique-oak",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-antique-oak/",
       "h1": "Antique Oak",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -14631,19 +14670,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-antique/",
       "file": "products/hardwood-collection-antique/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-antique",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-antique/",
       "h1": "Antique",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -14651,19 +14695,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-arctic-fox/",
       "file": "products/hardwood-collection-arctic-fox/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-arctic-fox",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-arctic-fox/",
       "h1": "Arctic Fox",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -14671,19 +14720,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-artisan-oak-beige/",
       "file": "products/hardwood-collection-artisan-oak-beige/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-artisan-oak-beige",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-artisan-oak-beige/",
       "h1": "Artisan Oak Beige",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -14691,19 +14745,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-artisan-oak-natural/",
       "file": "products/hardwood-collection-artisan-oak-natural/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-artisan-oak-natural",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-artisan-oak-natural/",
       "h1": "Artisan Oak Natural",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -14711,19 +14770,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-ashwood/",
       "file": "products/hardwood-collection-ashwood/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-ashwood",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-ashwood/",
       "h1": "Ashwood",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -14731,19 +14795,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-aspen-oak/",
       "file": "products/hardwood-collection-aspen-oak/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-aspen-oak",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-aspen-oak/",
       "h1": "Aspen Oak",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm Pack Pack Qty: 1.698m² Brand Oakleaf Lamina",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -14751,7 +14820,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -14792,8 +14866,8 @@
       "h1": "Autumn Leaves",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
-      "boardSize": "",
+      "thickness": "14/3 mm",
+      "boardSize": "190 × 1900 mm (nested shorts)",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
       "indexationControl": {
@@ -14806,13 +14880,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-avola-natural/",
       "file": "products/hardwood-collection-avola-natural/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-avola-natural",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-avola-natural/",
       "h1": "Avola Natural",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -14820,7 +14894,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -14913,13 +14992,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-beach/",
       "file": "products/hardwood-collection-beach/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-beach",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-beach/",
       "h1": "Beach",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -14927,7 +15006,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -14962,13 +15046,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-bedrock/",
       "file": "products/hardwood-collection-bedrock/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-bedrock",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-bedrock/",
       "h1": "Bedrock",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -14976,19 +15060,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-bellmore-oak/",
       "file": "products/hardwood-collection-bellmore-oak/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-bellmore-oak",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-bellmore-oak/",
       "h1": "Bellmore Oak",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -14996,19 +15085,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-black-fox/",
       "file": "products/hardwood-collection-black-fox/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-black-fox",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-black-fox/",
       "h1": "Black Fox",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15016,7 +15110,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -15051,13 +15150,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-bleached-driftwood/",
       "file": "products/hardwood-collection-bleached-driftwood/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-bleached-driftwood",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-bleached-driftwood/",
       "h1": "Bleached Driftwood",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15065,7 +15164,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -15100,13 +15204,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-bluegrass/",
       "file": "products/hardwood-collection-bluegrass/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-bluegrass",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-bluegrass/",
       "h1": "Bluegrass",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "1900mm length (nested shorts) 2mm Solid Hickory wear layer. Pack Qty: 2.155m2 /",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15114,19 +15218,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-bondi-beach/",
       "file": "products/hardwood-collection-bondi-beach/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-bondi-beach",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-bondi-beach/",
       "h1": "Bondi Beach",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15134,19 +15243,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-bondi/",
       "file": "products/hardwood-collection-bondi/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-bondi",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-bondi/",
       "h1": "Bondi",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15154,19 +15268,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-brazilian-oak/",
       "file": "products/hardwood-collection-brazilian-oak/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-brazilian-oak",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-brazilian-oak/",
       "h1": "Brazilian Oak",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15174,19 +15293,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-bright/",
       "file": "products/hardwood-collection-bright/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-bright",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-bright/",
       "h1": "Bright",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15194,19 +15318,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-brown-sugar/",
       "file": "products/hardwood-collection-brown-sugar/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-brown-sugar",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-brown-sugar/",
       "h1": "Brown Sugar",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15214,19 +15343,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-brownstone/",
       "file": "products/hardwood-collection-brownstone/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-brownstone",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-brownstone/",
       "h1": "Brownstone",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15234,19 +15368,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-brush-box/",
       "file": "products/hardwood-collection-brush-box/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-brush-box",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-brush-box/",
       "h1": "Brush Box",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15254,7 +15393,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -15318,13 +15462,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-burnt-ash/",
       "file": "products/hardwood-collection-burnt-ash/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-burnt-ash",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-burnt-ash/",
       "h1": "Burnt Ash",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15332,7 +15476,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -15367,13 +15516,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-carbon/",
       "file": "products/hardwood-collection-carbon/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-carbon",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-carbon/",
       "h1": "Carbon",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15381,19 +15530,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-castle-grey/",
       "file": "products/hardwood-collection-castle-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-castle-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-castle-grey/",
       "h1": "Castle Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15401,19 +15555,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-chablis/",
       "file": "products/hardwood-collection-chablis/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-chablis",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-chablis/",
       "h1": "Chablis",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15421,19 +15580,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-chalkers-ridge/",
       "file": "products/hardwood-collection-chalkers-ridge/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-chalkers-ridge",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-chalkers-ridge/",
       "h1": "Chalkers Ridge",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15441,7 +15605,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -15505,13 +15674,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-charm-grey/",
       "file": "products/hardwood-collection-charm-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-charm-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-charm-grey/",
       "h1": "Charm Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15519,7 +15688,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -15554,13 +15728,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-chesterfield/",
       "file": "products/hardwood-collection-chesterfield/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-chesterfield",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-chesterfield/",
       "h1": "Chesterfield",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15568,19 +15742,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-chevron-cannes/",
       "file": "products/hardwood-collection-chevron-cannes/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-chevron-cannes",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-chevron-cannes/",
       "h1": "Chevron Cannes",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15588,19 +15767,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-chevron-champagne/",
       "file": "products/hardwood-collection-chevron-champagne/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-chevron-champagne",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-chevron-champagne/",
       "h1": "Chevron Champagne",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15608,7 +15792,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -15730,13 +15919,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-chevron-latte/",
       "file": "products/hardwood-collection-chevron-latte/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-chevron-latte",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-chevron-latte/",
       "h1": "Chevron Latte",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15744,7 +15933,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -15866,13 +16060,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-chevron-riesling/",
       "file": "products/hardwood-collection-chevron-riesling/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-chevron-riesling",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-chevron-riesling/",
       "h1": "Chevron Riesling",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15880,7 +16074,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -15973,13 +16172,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-chevron-vintage/",
       "file": "products/hardwood-collection-chevron-vintage/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-chevron-vintage",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-chevron-vintage/",
       "h1": "Chevron Vintage",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -15987,19 +16186,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-chicory/",
       "file": "products/hardwood-collection-chicory/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-chicory",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-chicory/",
       "h1": "Chicory",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16007,7 +16211,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -16048,7 +16257,7 @@
       "h1": "Oakleaf Laminate Classic Oak",
       "category": "Laminate",
       "range": "Oakleaf Laminate",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "Confirm product details before order",
       "hasProductSchema": false,
       "currentRobots": "noindex,follow",
@@ -16059,6 +16268,10 @@
       "issues": [
         {
           "code": "missing-source-record",
+          "severity": "HIGH"
+        },
+        {
+          "code": "empty-or-placeholder-thickness",
           "severity": "HIGH"
         }
       ]
@@ -16096,13 +16309,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-cloud-break/",
       "file": "products/hardwood-collection-cloud-break/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-cloud-break",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-cloud-break/",
       "h1": "Cloud Break",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16110,7 +16323,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -16174,13 +16392,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-coastal-spotted-gum/",
       "file": "products/hardwood-collection-coastal-spotted-gum/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-coastal-spotted-gum",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-coastal-spotted-gum/",
       "h1": "Coastal Spotted Gum",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16188,7 +16406,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -16310,13 +16533,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-copper-still/",
       "file": "products/hardwood-collection-copper-still/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-copper-still",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-copper-still/",
       "h1": "Copper Still",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "1900mm length (nested shorts) 2mm Solid Hickory wear layer. Pack Size: 2.155m2 /",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16324,19 +16547,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-coral-cay/",
       "file": "products/hardwood-collection-coral-cay/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-coral-cay",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-coral-cay/",
       "h1": "Coral Cay",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16344,7 +16572,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -16379,13 +16612,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-crema/",
       "file": "products/hardwood-collection-crema/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-crema",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-crema/",
       "h1": "Crema",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16393,19 +16626,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-crystal-lake/",
       "file": "products/hardwood-collection-crystal-lake/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-crystal-lake",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-crystal-lake/",
       "h1": "Crystal Lake",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16413,7 +16651,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -16448,13 +16691,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-crystal/",
       "file": "products/hardwood-collection-crystal/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-crystal",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-crystal/",
       "h1": "Crystal",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16462,7 +16705,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -16497,13 +16745,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-deep-brown/",
       "file": "products/hardwood-collection-deep-brown/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-deep-brown",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-deep-brown/",
       "h1": "Deep Brown",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16511,19 +16759,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-delta-sand/",
       "file": "products/hardwood-collection-delta-sand/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-delta-sand",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-delta-sand/",
       "h1": "Delta Sand",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16531,7 +16784,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -16566,13 +16824,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-doeskin/",
       "file": "products/hardwood-collection-doeskin/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-doeskin",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-doeskin/",
       "h1": "Doeskin",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16580,7 +16838,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -16615,13 +16878,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-double-char/",
       "file": "products/hardwood-collection-double-char/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-double-char",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-double-char/",
       "h1": "Double Char",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "1900mm length (nested shorts) 2mm Solid Hickory wear layer. Pack Size: 2.155m2 /",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16629,19 +16892,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-dover-grey/",
       "file": "products/hardwood-collection-dover-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-dover-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-dover-grey/",
       "h1": "Dover Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16649,19 +16917,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-dublin/",
       "file": "products/hardwood-collection-dublin/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-dublin",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-dublin/",
       "h1": "Dublin",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16669,7 +16942,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -16704,13 +16982,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-ebony/",
       "file": "products/hardwood-collection-ebony/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-ebony",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-ebony/",
       "h1": "Ebony",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16718,19 +16996,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-elegant/",
       "file": "products/hardwood-collection-elegant/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-elegant",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-elegant/",
       "h1": "Elegant",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16738,7 +17021,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -16773,13 +17061,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-euro-oak/",
       "file": "products/hardwood-collection-euro-oak/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-euro-oak",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-euro-oak/",
       "h1": "Euro Oak",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16787,7 +17075,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -16822,13 +17115,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-flagstone/",
       "file": "products/hardwood-collection-flagstone/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-flagstone",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-flagstone/",
       "h1": "Flagstone",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16836,19 +17129,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-foggy-shore/",
       "file": "products/hardwood-collection-foggy-shore/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-foggy-shore",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-foggy-shore/",
       "h1": "Foggy Shore",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16856,7 +17154,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -16868,8 +17171,8 @@
       "h1": "Forest Oak",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
-      "boardSize": "",
+      "thickness": "14/3 mm",
+      "boardSize": "190 × 1900 mm (nested shorts)",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
       "indexationControl": {
@@ -16882,13 +17185,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-forest/",
       "file": "products/hardwood-collection-forest/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-forest",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-forest/",
       "h1": "Forest",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16896,19 +17199,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-forrest/",
       "file": "products/hardwood-collection-forrest/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-forrest",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-forrest/",
       "h1": "Forrest",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16916,7 +17224,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -16957,8 +17270,8 @@
       "h1": "Frosty Snap",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
-      "boardSize": "",
+      "thickness": "14/3 mm",
+      "boardSize": "190 × 1900 mm (nested shorts)",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
       "indexationControl": {
@@ -16971,13 +17284,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-ghost-grey/",
       "file": "products/hardwood-collection-ghost-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-ghost-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-ghost-grey/",
       "h1": "Ghost Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -16985,7 +17298,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -17026,8 +17344,8 @@
       "h1": "Golden Bloom",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
-      "boardSize": "",
+      "thickness": "14/3 mm",
+      "boardSize": "190 × 1900 mm (nested shorts)",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
       "indexationControl": {
@@ -17040,13 +17358,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-golden-sands/",
       "file": "products/hardwood-collection-golden-sands/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-golden-sands",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-golden-sands/",
       "h1": "Golden Sands",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17054,7 +17372,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -17089,13 +17412,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-graphite/",
       "file": "products/hardwood-collection-graphite/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-graphite",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-graphite/",
       "h1": "Graphite",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17103,7 +17426,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -17138,13 +17466,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-grey-pearl/",
       "file": "products/hardwood-collection-grey-pearl/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-grey-pearl",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-grey-pearl/",
       "h1": "Grey Pearl",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17152,19 +17480,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-grey-stone/",
       "file": "products/hardwood-collection-grey-stone/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-grey-stone",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-grey-stone/",
       "h1": "Grey Stone",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17172,19 +17505,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-grey-wash/",
       "file": "products/hardwood-collection-grey-wash/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-grey-wash",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-grey-wash/",
       "h1": "Grey Wash",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17192,19 +17530,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-grigio/",
       "file": "products/hardwood-collection-grigio/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-grigio",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-grigio/",
       "h1": "Grigio",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17212,7 +17555,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -17276,13 +17624,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-hamptons/",
       "file": "products/hardwood-collection-hamptons/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-hamptons",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-hamptons/",
       "h1": "Hamptons",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17290,19 +17638,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-harbourside/",
       "file": "products/hardwood-collection-harbourside/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-harbourside",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-harbourside/",
       "h1": "Harbourside",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17310,19 +17663,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-harlem/",
       "file": "products/hardwood-collection-harlem/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-harlem",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-harlem/",
       "h1": "Harlem",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17330,7 +17688,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -17365,13 +17728,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-hb-dark-brown/",
       "file": "products/hardwood-collection-hb-dark-brown/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-hb-dark-brown",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-hb-dark-brown/",
       "h1": "HB-Dark Brown",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17379,19 +17742,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-helsinki/",
       "file": "products/hardwood-collection-helsinki/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-helsinki",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-helsinki/",
       "h1": "Helsinki",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17399,19 +17767,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-heritage-grey/",
       "file": "products/hardwood-collection-heritage-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-heritage-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-heritage-grey/",
       "h1": "Heritage Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17419,19 +17792,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-heron-grey/",
       "file": "products/hardwood-collection-heron-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-heron-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-heron-grey/",
       "h1": "Heron Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17439,19 +17817,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-herringbone-ash-grey/",
       "file": "products/hardwood-collection-herringbone-ash-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-herringbone-ash-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-herringbone-ash-grey/",
       "h1": "Herringbone Ash Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17459,19 +17842,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-herringbone-barnside/",
       "file": "products/hardwood-collection-herringbone-barnside/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-herringbone-barnside",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-herringbone-barnside/",
       "h1": "Herringbone Barnside",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17479,7 +17867,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -17488,7 +17881,7 @@
       "classification": "manual-review",
       "sourceRecord": null,
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-herringbone-beacon-cove/",
-      "h1": "Hardwood Collection Herringbone Beacon Cove - % % % %",
+      "h1": "Hardwood Collection Herringbone Beacon Cove",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
       "thickness": "Confirm product details before order",
@@ -17543,13 +17936,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-herringbone-cabernet/",
       "file": "products/hardwood-collection-herringbone-cabernet/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-herringbone-cabernet",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-herringbone-cabernet/",
       "h1": "Herringbone Cabernet",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17557,19 +17950,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-herringbone-chateau-grey/",
       "file": "products/hardwood-collection-herringbone-chateau-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-herringbone-chateau-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-herringbone-chateau-grey/",
       "h1": "Herringbone Chateau Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17577,19 +17975,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-herringbone-classic-spotted-gum/",
       "file": "products/hardwood-collection-herringbone-classic-spotted-gum/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-herringbone-classic-spotted-gum",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-herringbone-classic-spotted-gum/",
       "h1": "Herringbone Classic Spotted Gum",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17597,19 +18000,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-herringbone-cognac/",
       "file": "products/hardwood-collection-herringbone-cognac/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-herringbone-cognac",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-herringbone-cognac/",
       "h1": "Herringbone Cognac",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17617,19 +18025,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-herringbone-colonial-grey/",
       "file": "products/hardwood-collection-herringbone-colonial-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-herringbone-colonial-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-herringbone-colonial-grey/",
       "h1": "Herringbone Colonial Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17637,19 +18050,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-herringbone-dark-brown/",
       "file": "products/hardwood-collection-herringbone-dark-brown/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-herringbone-dark-brown",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-herringbone-dark-brown/",
       "h1": "Herringbone Dark Brown",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17657,7 +18075,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -17666,7 +18089,7 @@
       "classification": "needs-data",
       "sourceRecord": "hardwood-collection-herringbone-golden-sands",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-herringbone-golden-sands/",
-      "h1": "Hardwood Collection Herringbone Golden Sands - % % % %",
+      "h1": "Hardwood Collection Herringbone Golden Sands",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
       "thickness": "Confirm product details before order",
@@ -17688,13 +18111,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-herringbone-grey-stone/",
       "file": "products/hardwood-collection-herringbone-grey-stone/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-herringbone-grey-stone",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-herringbone-grey-stone/",
       "h1": "Herringbone Grey Stone",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17702,7 +18125,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -17827,7 +18255,7 @@
       "classification": "needs-data",
       "sourceRecord": "hardwood-collection-herringbone-pebble-reef",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-herringbone-pebble-reef/",
-      "h1": "Hardwood Collection Herringbone Pebble Reef - % % % %",
+      "h1": "Hardwood Collection Herringbone Pebble Reef",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
       "thickness": "Confirm product details before order",
@@ -17849,13 +18277,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-herringbone-pewter/",
       "file": "products/hardwood-collection-herringbone-pewter/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-herringbone-pewter",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-herringbone-pewter/",
       "h1": "Herringbone Pewter",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17863,19 +18291,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-herringbone-porcelain/",
       "file": "products/hardwood-collection-herringbone-porcelain/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-herringbone-porcelain",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-herringbone-porcelain/",
       "h1": "Herringbone Porcelain",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17883,19 +18316,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-herringbone-pure-natural/",
       "file": "products/hardwood-collection-herringbone-pure-natural/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-herringbone-pure-natural",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-herringbone-pure-natural/",
       "h1": "Herringbone Pure Natural",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17903,7 +18341,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -17967,13 +18410,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-herringbone-riesling/",
       "file": "products/hardwood-collection-herringbone-riesling/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-herringbone-riesling",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-herringbone-riesling/",
       "h1": "Herringbone Riesling",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -17981,7 +18424,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -17990,7 +18438,7 @@
       "classification": "needs-data",
       "sourceRecord": "hardwood-collection-herringbone-san-remo",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-herringbone-san-remo/",
-      "h1": "Hardwood Collection Herringbone San Remo - % % % %",
+      "h1": "Hardwood Collection Herringbone San Remo",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
       "thickness": "Confirm product details before order",
@@ -18012,13 +18460,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-herringbone-sauvignon/",
       "file": "products/hardwood-collection-herringbone-sauvignon/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-herringbone-sauvignon",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-herringbone-sauvignon/",
       "h1": "Herringbone Sauvignon",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18026,7 +18474,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -18035,7 +18488,7 @@
       "classification": "needs-data",
       "sourceRecord": "hardwood-collection-herringbone-shore-break",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-herringbone-shore-break/",
-      "h1": "Hardwood Collection Herringbone Shore Break - % % % %",
+      "h1": "Hardwood Collection Herringbone Shore Break",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
       "thickness": "Confirm product details before order",
@@ -18086,13 +18539,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-herringbone-storm/",
       "file": "products/hardwood-collection-herringbone-storm/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-herringbone-storm",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-herringbone-storm/",
       "h1": "Herringbone Storm",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18100,7 +18553,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -18222,13 +18680,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-homestead/",
       "file": "products/hardwood-collection-homestead/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-homestead",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-homestead/",
       "h1": "Homestead",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18236,19 +18694,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-honey-mash/",
       "file": "products/hardwood-collection-honey-mash/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-honey-mash",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-honey-mash/",
       "h1": "Honey Mash",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "1900mm length (nested shorts), 2mm Solid Hickory wear layer. Pack Qty: 2.155m2 /",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18256,19 +18719,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-honeybee/",
       "file": "products/hardwood-collection-honeybee/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-honeybee",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-honeybee/",
       "h1": "Honeybee",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18276,19 +18744,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-honeycomb/",
       "file": "products/hardwood-collection-honeycomb/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-honeycomb",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-honeycomb/",
       "h1": "Honeycomb",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18296,19 +18769,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-hudson-oak/",
       "file": "products/hardwood-collection-hudson-oak/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-hudson-oak",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-hudson-oak/",
       "h1": "Hudson Oak",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18316,19 +18794,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-husky-grey/",
       "file": "products/hardwood-collection-husky-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-husky-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-husky-grey/",
       "h1": "Husky Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18336,7 +18819,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -18371,13 +18859,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-iron-grey/",
       "file": "products/hardwood-collection-iron-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-iron-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-iron-grey/",
       "h1": "Iron Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18385,19 +18873,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-iron-ridge/",
       "file": "products/hardwood-collection-iron-ridge/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-iron-ridge",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-iron-ridge/",
       "h1": "Iron Ridge",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18405,19 +18898,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-ivory/",
       "file": "products/hardwood-collection-ivory/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-ivory",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-ivory/",
       "h1": "Ivory",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm Pack Pack Qty: 1.698m² Brand Oakleaf Lamina",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18425,7 +18923,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -18489,13 +18992,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-kempas/",
       "file": "products/hardwood-collection-kempas/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-kempas",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-kempas/",
       "h1": "Kempas",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18503,7 +19006,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -18544,8 +19052,8 @@
       "h1": "Liberty Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
-      "boardSize": "",
+      "thickness": "14/3 mm",
+      "boardSize": "190 × 1900 mm (nested shorts)",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
       "indexationControl": {
@@ -18558,13 +19066,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-limestone/",
       "file": "products/hardwood-collection-limestone/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-limestone",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-limestone/",
       "h1": "Limestone",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18572,19 +19080,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-limewash/",
       "file": "products/hardwood-collection-limewash/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-limewash",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-limewash/",
       "h1": "Limewash",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18592,7 +19105,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -18627,13 +19145,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-lugano-oak/",
       "file": "products/hardwood-collection-lugano-oak/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-lugano-oak",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-lugano-oak/",
       "h1": "Lugano Oak",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18641,19 +19159,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-maize/",
       "file": "products/hardwood-collection-maize/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-maize",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-maize/",
       "h1": "Maize",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18661,7 +19184,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -18702,8 +19230,8 @@
       "h1": "Maple Falls",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
-      "boardSize": "",
+      "thickness": "14/3 mm",
+      "boardSize": "190 × 1900 mm (nested shorts)",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
       "indexationControl": {
@@ -18774,13 +19302,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-maritime/",
       "file": "products/hardwood-collection-maritime/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-maritime",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-maritime/",
       "h1": "Maritime",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm Pack Pack Qty: 1.698m² Brand Oakleaf Lamina",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18788,7 +19316,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -18852,13 +19385,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-merbau/",
       "file": "products/hardwood-collection-merbau/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-merbau",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-merbau/",
       "h1": "Merbau",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18866,7 +19399,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -18901,13 +19439,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-millstone/",
       "file": "products/hardwood-collection-millstone/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-millstone",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-millstone/",
       "h1": "Millstone",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18915,7 +19453,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -18950,13 +19493,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-misty-cove/",
       "file": "products/hardwood-collection-misty-cove/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-misty-cove",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-misty-cove/",
       "h1": "Misty Cove",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18964,19 +19507,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-moon/",
       "file": "products/hardwood-collection-moon/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-moon",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-moon/",
       "h1": "Moon",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -18984,7 +19532,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -19019,13 +19572,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-moonstone/",
       "file": "products/hardwood-collection-moonstone/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-moonstone",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-moonstone/",
       "h1": "Moonstone",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -19033,7 +19586,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -19097,13 +19655,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-mountain-spotted-gum/",
       "file": "products/hardwood-collection-mountain-spotted-gum/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-mountain-spotted-gum",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-mountain-spotted-gum/",
       "h1": "Mountain Spotted Gum",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -19111,19 +19669,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-mystic-oak/",
       "file": "products/hardwood-collection-mystic-oak/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-mystic-oak",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-mystic-oak/",
       "h1": "Mystic Oak",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -19131,7 +19694,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -19166,13 +19734,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-natural-oak-grey/",
       "file": "products/hardwood-collection-natural-oak-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-natural-oak-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-natural-oak-grey/",
       "h1": "Natural Oak Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -19180,7 +19748,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -19215,13 +19788,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-natural/",
       "file": "products/hardwood-collection-natural/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-natural",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-natural/",
       "h1": "Natural",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -19229,7 +19802,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -19322,13 +19900,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-nordic-oak/",
       "file": "products/hardwood-collection-nordic-oak/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-nordic-oak",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-nordic-oak/",
       "h1": "Nordic Oak",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -19336,19 +19914,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-northern-blackbutt/",
       "file": "products/hardwood-collection-northern-blackbutt/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-northern-blackbutt",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-northern-blackbutt/",
       "h1": "Northern Blackbutt",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -19356,19 +19939,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-nsw-spotted-gum/",
       "file": "products/hardwood-collection-nsw-spotted-gum/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-nsw-spotted-gum",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-nsw-spotted-gum/",
       "h1": "NSW Spotted Gum",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -19376,7 +19964,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -19388,8 +19981,8 @@
       "h1": "Nubuck",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
-      "boardSize": "",
+      "thickness": "14/3 mm",
+      "boardSize": "190 × 1900 mm (nested shorts)",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
       "indexationControl": {
@@ -19408,8 +20001,8 @@
       "h1": "Nutshell",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
-      "boardSize": "",
+      "thickness": "14/3 mm",
+      "boardSize": "190 × 1900 mm (nested shorts)",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
       "indexationControl": {
@@ -19422,13 +20015,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-oak-adaja/",
       "file": "products/hardwood-collection-oak-adaja/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-oak-adaja",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-oak-adaja/",
       "h1": "Oak Adaja",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -19436,19 +20029,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-oak-natural/",
       "file": "products/hardwood-collection-oak-natural/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-oak-natural",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-oak-natural/",
       "h1": "Oak Natural",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -19456,7 +20054,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -19549,13 +20152,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-oriental-pearl/",
       "file": "products/hardwood-collection-oriental-pearl/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-oriental-pearl",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-oriental-pearl/",
       "h1": "Oriental Pearl",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -19563,19 +20166,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-oyster-grey/",
       "file": "products/hardwood-collection-oyster-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-oyster-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-oyster-grey/",
       "h1": "Oyster Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -19583,19 +20191,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-pale-stone/",
       "file": "products/hardwood-collection-pale-stone/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-pale-stone",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-pale-stone/",
       "h1": "Pale Stone",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -19603,7 +20216,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -19696,13 +20314,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-pearl-shell/",
       "file": "products/hardwood-collection-pearl-shell/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-pearl-shell",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-pearl-shell/",
       "h1": "Pearl Shell",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -19710,7 +20328,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -19803,13 +20426,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-pewter/",
       "file": "products/hardwood-collection-pewter/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-pewter",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-pewter/",
       "h1": "Pewter",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -19817,19 +20440,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-piccolo/",
       "file": "products/hardwood-collection-piccolo/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-piccolo",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-piccolo/",
       "h1": "Piccolo",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -19837,7 +20465,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -19849,8 +20482,8 @@
       "h1": "Polar Fleece",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
-      "boardSize": "",
+      "thickness": "14/3 mm",
+      "boardSize": "190 × 1900 mm (nested shorts)",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
       "indexationControl": {
@@ -19921,13 +20554,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-pure-oak/",
       "file": "products/hardwood-collection-pure-oak/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-pure-oak",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-pure-oak/",
       "h1": "Pure Oak",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -19935,19 +20568,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-qld-spotted-gum/",
       "file": "products/hardwood-collection-qld-spotted-gum/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-qld-spotted-gum",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-qld-spotted-gum/",
       "h1": "QLD Spotted Gum",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -19955,19 +20593,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-queens/",
       "file": "products/hardwood-collection-queens/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-queens",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-queens/",
       "h1": "Queens",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -19975,7 +20618,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -20010,13 +20658,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-raffia/",
       "file": "products/hardwood-collection-raffia/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-raffia",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-raffia/",
       "h1": "Raffia",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20024,19 +20672,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-ranchwood/",
       "file": "products/hardwood-collection-ranchwood/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-ranchwood",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-ranchwood/",
       "h1": "Ranchwood",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20044,7 +20697,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -20108,13 +20766,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-red-rock/",
       "file": "products/hardwood-collection-red-rock/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-red-rock",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-red-rock/",
       "h1": "Red Rock",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20122,19 +20780,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-red-stone/",
       "file": "products/hardwood-collection-red-stone/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-red-stone",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-red-stone/",
       "h1": "Red Stone",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20142,19 +20805,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-regent-grey/",
       "file": "products/hardwood-collection-regent-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-regent-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-regent-grey/",
       "h1": "Regent Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20162,7 +20830,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -20197,13 +20870,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-river-sand/",
       "file": "products/hardwood-collection-river-sand/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-river-sand",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-river-sand/",
       "h1": "River Sand",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20211,7 +20884,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -20304,13 +20982,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-rock/",
       "file": "products/hardwood-collection-rock/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-rock",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-rock/",
       "h1": "Rock",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20318,19 +20996,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-royal-grey/",
       "file": "products/hardwood-collection-royal-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-royal-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-royal-grey/",
       "h1": "Royal Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20338,7 +21021,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -20373,13 +21061,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-rustic-eldorado/",
       "file": "products/hardwood-collection-rustic-eldorado/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-rustic-eldorado",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-rustic-eldorado/",
       "h1": "Rustic Eldorado",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "1900mm length (nested shorts) 2mm Solid Hickory wear layer. Pack Size: 2.155m2 /",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20387,19 +21075,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-rustic-natural/",
       "file": "products/hardwood-collection-rustic-natural/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-rustic-natural",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-rustic-natural/",
       "h1": "Rustic Natural",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "1900mm length (nested shorts) 2mm Solid Hickory wear layer. Pack Size: 2.155m2 /",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20407,7 +21100,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -20471,13 +21169,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-san-remo/",
       "file": "products/hardwood-collection-san-remo/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-san-remo",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-san-remo/",
       "h1": "San Remo",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20485,19 +21183,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-sandalwood/",
       "file": "products/hardwood-collection-sandalwood/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-sandalwood",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-sandalwood/",
       "h1": "Sandalwood",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20505,19 +21208,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-sandy-bluff/",
       "file": "products/hardwood-collection-sandy-bluff/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-sandy-bluff",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-sandy-bluff/",
       "h1": "Sandy Bluff",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20525,19 +21233,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-sandy-cape/",
       "file": "products/hardwood-collection-sandy-cape/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-sandy-cape",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-sandy-cape/",
       "h1": "Sandy Cape",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20545,7 +21258,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -20609,13 +21327,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-seafoam/",
       "file": "products/hardwood-collection-seafoam/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-seafoam",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-seafoam/",
       "h1": "Seafoam",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20623,19 +21341,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-seaspray/",
       "file": "products/hardwood-collection-seaspray/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-seaspray",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-seaspray/",
       "h1": "Seaspray",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20643,7 +21366,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -20707,13 +21435,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-sierra-oak/",
       "file": "products/hardwood-collection-sierra-oak/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-sierra-oak",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-sierra-oak/",
       "h1": "Sierra Oak",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20721,19 +21449,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-silk-grey/",
       "file": "products/hardwood-collection-silk-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-silk-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-silk-grey/",
       "h1": "Silk Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20741,19 +21474,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-silver-grey/",
       "file": "products/hardwood-collection-silver-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-silver-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-silver-grey/",
       "h1": "Silver Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20761,19 +21499,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-silver-moon/",
       "file": "products/hardwood-collection-silver-moon/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-silver-moon",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-silver-moon/",
       "h1": "Silver Moon",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20781,19 +21524,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-silverwood/",
       "file": "products/hardwood-collection-silverwood/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-silverwood",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-silverwood/",
       "h1": "Silverwood",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20801,7 +21549,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -20894,13 +21647,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-snow/",
       "file": "products/hardwood-collection-snow/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-snow",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-snow/",
       "h1": "Snow",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20908,7 +21661,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -20943,13 +21701,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-soho/",
       "file": "products/hardwood-collection-soho/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-soho",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-soho/",
       "h1": "Soho",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -20957,7 +21715,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -20998,8 +21761,8 @@
       "h1": "Spring Moon",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
-      "boardSize": "",
+      "thickness": "14/3 mm",
+      "boardSize": "190 × 1900 mm (nested shorts)",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
       "indexationControl": {
@@ -21041,13 +21804,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-stone-grey/",
       "file": "products/hardwood-collection-stone-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-stone-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-stone-grey/",
       "h1": "Stone Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -21055,19 +21818,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-storm/",
       "file": "products/hardwood-collection-storm/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-storm",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-storm/",
       "h1": "Storm",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -21075,7 +21843,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -21145,8 +21918,8 @@
       "h1": "Summer Haze",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
-      "boardSize": "",
+      "thickness": "14/3 mm",
+      "boardSize": "190 × 1900 mm (nested shorts)",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
       "indexationControl": {
@@ -21159,13 +21932,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-surfside/",
       "file": "products/hardwood-collection-surfside/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-surfside",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-surfside/",
       "h1": "Surfside",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -21173,7 +21946,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -21237,13 +22015,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-toasted-rye/",
       "file": "products/hardwood-collection-toasted-rye/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-toasted-rye",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-toasted-rye/",
       "h1": "Toasted Rye",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "1900mm length (nested shorts) 2mm Solid Hickory wear layer. Pack Size: 2.155m2 /",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -21251,7 +22029,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -21286,13 +22069,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-toledo/",
       "file": "products/hardwood-collection-toledo/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-toledo",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-toledo/",
       "h1": "Toledo",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -21300,7 +22083,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -21335,13 +22123,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-tumble-stone/",
       "file": "products/hardwood-collection-tumble-stone/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-tumble-stone",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-tumble-stone/",
       "h1": "Tumble Stone",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -21349,19 +22137,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-urban-grey/",
       "file": "products/hardwood-collection-urban-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-urban-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-urban-grey/",
       "h1": "Urban Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -21369,19 +22162,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-urban-oak-natural/",
       "file": "products/hardwood-collection-urban-oak-natural/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-urban-oak-natural",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-urban-oak-natural/",
       "h1": "Urban Oak Natural",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -21389,7 +22187,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -21453,13 +22256,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-warm-springs/",
       "file": "products/hardwood-collection-warm-springs/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-warm-springs",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-warm-springs/",
       "h1": "Warm Springs",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -21467,19 +22270,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-washed-coral/",
       "file": "products/hardwood-collection-washed-coral/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-washed-coral",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-washed-coral/",
       "h1": "Washed Coral",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -21487,19 +22295,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-washed-oak/",
       "file": "products/hardwood-collection-washed-oak/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-washed-oak",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-washed-oak/",
       "h1": "Washed Oak",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -21507,7 +22320,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -21542,13 +22360,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-wattleseed/",
       "file": "products/hardwood-collection-wattleseed/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-wattleseed",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-wattleseed/",
       "h1": "Wattleseed",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -21556,19 +22374,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-welsh-slate/",
       "file": "products/hardwood-collection-welsh-slate/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-welsh-slate",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-welsh-slate/",
       "h1": "Welsh Slate",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -21576,19 +22399,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-wheat/",
       "file": "products/hardwood-collection-wheat/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-wheat",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-wheat/",
       "h1": "Wheat",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -21596,19 +22424,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-whiskey-barrel/",
       "file": "products/hardwood-collection-whiskey-barrel/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-whiskey-barrel",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-whiskey-barrel/",
       "h1": "Whiskey Barrel",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "1900mm length (nested shorts) 2mm Solid Hickory wear layer. Pack Size: 2.155m2 /",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -21616,19 +22449,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-white-lily/",
       "file": "products/hardwood-collection-white-lily/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-white-lily",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-white-lily/",
       "h1": "White Lily",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -21636,7 +22474,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -21671,13 +22514,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-white-sands/",
       "file": "products/hardwood-collection-white-sands/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-white-sands",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-white-sands/",
       "h1": "White Sands",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -21685,19 +22528,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-white-smoke/",
       "file": "products/hardwood-collection-white-smoke/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-white-smoke",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-white-smoke/",
       "h1": "White Smoke",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -21705,7 +22553,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -21956,13 +22809,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-willow/",
       "file": "products/hardwood-collection-willow/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-willow",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-willow/",
       "h1": "Willow",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -21970,19 +22823,24 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
       "route": "/products/hardwood-collection-windsor/",
       "file": "products/hardwood-collection-windsor/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-windsor",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-windsor/",
       "h1": "Windsor",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -21990,7 +22848,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -22002,8 +22865,8 @@
       "h1": "Winter Frost",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
-      "boardSize": "",
+      "thickness": "14/3 mm",
+      "boardSize": "190 × 1900 mm (nested shorts)",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
       "indexationControl": {
@@ -22016,13 +22879,13 @@
       "type": "product",
       "route": "/products/hardwood-collection-wolf-grey/",
       "file": "products/hardwood-collection-wolf-grey/index.html",
-      "classification": "indexable",
+      "classification": "needs-data",
       "sourceRecord": "hardwood-collection-wolf-grey",
       "canonical": "https://oztimberfloor.com.au/products/hardwood-collection-wolf-grey/",
       "h1": "Wolf Grey",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -22030,7 +22893,12 @@
         "applyNoindex": false,
         "reason": ""
       },
-      "issues": []
+      "issues": [
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
+        }
+      ]
     },
     {
       "type": "product",
@@ -28727,7 +29595,7 @@
       "h1": "Oakleaf Laminate Aged Spotted Gum",
       "category": "Laminate",
       "range": "Oakleaf Laminate",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "Confirm product details before order",
       "hasProductSchema": false,
       "currentRobots": "noindex,follow",
@@ -28739,6 +29607,10 @@
         {
           "code": "legacy-or-alias-range",
           "severity": "INFORMATIONAL"
+        },
+        {
+          "code": "empty-or-placeholder-thickness",
+          "severity": "HIGH"
         }
       ]
     },
@@ -28832,7 +29704,7 @@
       "h1": "Classic Oak",
       "category": "Laminate",
       "range": "Oakleaf Laminate",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "8mm & 12mm",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "noindex,follow",
@@ -47682,11 +48554,11 @@
       "classification": "indexable",
       "sourceRecord": "hardwood-collection",
       "canonical": "https://oztimberfloor.com.au/ranges/hardwood-collection/",
-      "h1": "Hardwood Collection",
+      "h1": "Hardwood Collection engineered timber flooring range",
       "category": "Engineered timber",
       "range": "Hardwood Collection",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
-      "boardSize": "",
+      "thickness": "14/3 mm",
+      "boardSize": "190 × 1900 mm (nested shorts)",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
       "indexationControl": {
@@ -48377,7 +49249,7 @@
       "h1": "Oakleaf Laminate",
       "category": "Laminate",
       "range": "Oakleaf Laminate",
-      "thickness": "12mm, AC4, Plank Size: Length 2200mm, Pack Qty: 1.698m² Width: 193mm, Thickness:",
+      "thickness": "",
       "boardSize": "",
       "hasProductSchema": false,
       "currentRobots": "index,follow",
@@ -50241,7 +51113,7 @@
     }
   ],
   "controls": {
-    "approvedIndexationControlRun": false,
+    "approvedIndexationControlRun": true,
     "sitemapUrlsRemoved": 0,
     "pageChanges": 0,
     "currentlyNoindexPages": 1222,

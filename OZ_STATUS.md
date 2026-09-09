@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-1 September 2026
+9 September 2026
 
 ## Current Branch
 
@@ -10,7 +10,18 @@
 
 ## Current Task
 
-OZ-PERF-002 is complete locally. The 15 priority publication owners now have factual intrinsic image dimensions and one verified eager/high-priority primary image, backed by a deterministic final build stage and redirect-aware five-width browser evidence. The reconciled publication contract remains 943 unique canonical pages and 943 sitemap URLs, backed by 971 physical indexable HTML pages, 1,228 noindex routes, 350 redirect-only routes and 1,912 redirect rules. No commit, push, merge, deployment, DNS, custom-domain or production-indexing change is part of this task.
+OZ-MIG-004 independently safe local repairs are complete; the consolidated protected decision is pending. Current counts remain 943 publication canonicals/sitemap URLs, 971 physical indexable HTML, 1,230 physical noindex files representing 1,228 unique noindex routes, 350 redirect-only routes and 1,912 redirect rules. Factual catalogue repair exposed 172 exact currently indexable Hardwood-derived routes that require the hash-locked route-level control decision; no bulk noindex or protected redirect/indexation change was made. Vincent subsequently requested dev push, main merge and deployment. The protected-preview package and promotion preflight are recorded in `docs/seo-migration/OZ-MIG-004/IMPLEMENTATION_AND_QA.md`; actual publication is established by the provider receipt and post-deploy smoke test, not this preflight. No form submission, DNS/domain, production-indexing, GA4 or Search Console action is included in that promotion.
+
+## OZ-MIG-004 current record — 9 September 2026
+
+- Fresh GET reconciliation covers 35 routes each on WordPress and Netlify. WordPress still owns nine established category/service paths; Netlify serves newer staging-only owners and remains globally noindex.
+- Repaired Hardwood Collection to the verified 12-colour supplier set and removed reproduced mixed/download/navigation field contamination without inventing facts.
+- Removed 54 obsolete old-WordPress `srcset` references where valid local primary images already existed.
+- Corrected `quote_submit` to fire only after a confirmed thank-you marker; local form contract/prefill remain intact and no real submission occurred.
+- Added context-aware public-package validation. Preview remains fail-closed noindex; an isolated production fixture proves normal owners can be indexable while deliberate controlled/thank-you pages remain noindex.
+- Current release contract passes with zero unexplained protected drift. GSC, hardening, image, LCP, old-asset, analytics, package and whitespace checks pass.
+- `migration:check:local` intentionally remains `NO-GO` on the exact 172 protected-decision routes. Three historical browser/performance hashes and the legacy SEO freeze remain stale by design and are not being rewritten into expected output.
+- Protected manifest SHA-256: `ab50628d77038ea331e94d253aa4735ee0405a05f5d1d785b8cd28bf5650514e`.
 
 ## Completed Work
 
@@ -92,7 +103,7 @@ OZ-PERF-002 is complete locally. The 15 priority publication owners now have fac
 
 ## Next Recommended Task
 
-Run a separately approved controlled preview deployment and external release verification: verify the exact candidate artifact, Netlify Forms delivery/notifications, preview noindex headers, representative redirects and real response behaviour. GA4, production domain/DNS and production indexing remain separate explicit decisions.
+Approve or reject the OZ-MIG-004 protected decision plan. Applying its exact owner/indexation choices is the highest-value next action because it resolves the only 172 current migration blockers while protecting the established production owners and the 632-destination redirect cohort. Preview/deployment remains a later separate approval.
 
 ## Blocked Decisions
 

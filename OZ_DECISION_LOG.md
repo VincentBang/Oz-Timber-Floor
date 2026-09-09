@@ -1,5 +1,16 @@
 # Oz Timber Floor Decision Log
 
+## Pending Decision Record — OZ-MIG-004, 9 September 2026
+
+- Status: **PENDING; not approved and not implemented**.
+- Exact manifest: `docs/seo-migration/OZ-MIG-004/DECISION_PLAN.json`.
+- SHA-256: `ab50628d77038ea331e94d253aa4735ee0405a05f5d1d785b8cd28bf5650514e`.
+- The packet proposes retaining nine established WordPress canonical owners and moving the completed redesigned content to them, with newer staging-only slugs becoming direct aliases.
+- Bamboo remains publicly retired. Current `_redirects` contains 21 executable Bamboo/Verdura rules; the historical “25” count is not the current executable-rule count.
+- The exact 172 newly classified unsupported Hardwood-derived routes are proposed for controlled treatment. None is a direct current redirect destination, and the protected 632-destination cohort remains excluded from bulk action.
+- The six differentiated supplier-page pairs remain separate and no new indexable service-area hub is proposed.
+- This record does not supersede historical approved decisions unless and until Vincent approves this exact manifest and the resulting implementation passes.
+
 ## Current Strategic Decisions
 
 - Oz Timber Floor remains separate from Operon Flooring.

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T05:30:50.489Z",
+  "generatedAt": "2026-09-09T11:27:25.746Z",
   "summary": {
     "reviewedRedirects": 60,
     "equityRows": 130,
@@ -9,7 +9,7 @@
     "independentlyDerivedCategoryFallbacks": 13,
     "keywordClusters": 12,
     "keywordCollisions": 0,
-    "indexableCatalogueQualityFindings": 361,
+    "indexableCatalogueQualityFindings": 360,
     "supplierPairs": 6,
     "supplierPairsNeedingReview": 0,
     "blockers": 0
@@ -3252,13 +3252,6 @@
       "file": "ranges/grande-9-0-hybrid/index.html",
       "issues": [
         "duplicated-name-token"
-      ]
-    },
-    {
-      "route": "/ranges/hardwood-collection/",
-      "file": "ranges/hardwood-collection/index.html",
-      "issues": [
-        "image-to-confirm"
       ]
     },
     {

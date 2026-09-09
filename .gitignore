@@ -1,6 +1,7 @@
 .DS_Store
 screenlog.0
 dist/
+.netlify/
 
 # Private, machine-local migration and release evidence. These inputs must not
 # be published through the public Git repository or the Netlify site artifact.

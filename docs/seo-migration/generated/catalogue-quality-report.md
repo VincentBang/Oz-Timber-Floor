@@ -1,6 +1,6 @@
 # Catalogue quality report
 
-Generated: 2026-09-02T05:30:46.097Z
+Generated: 2026-09-09T11:28:01.104Z
 
 This report is generated from the current static product/range pages and `data/product-catalogue.json`. It does not invent specifications. The report identifies every non-indexable classification; only explicit, reviewable entries in `data/catalogue-quality-overrides.json` receive automatic noindex/schema/sitemap changes. This prevents an unreviewed bulk noindex from breaking legacy redirect equity.
 
@@ -8,9 +8,9 @@ This report is generated from the current static product/range pages and `data/p
 
 | Classification | Pages |
 | --- | ---: |
-| indexable | 893 |
+| indexable | 721 |
 | manual-review | 485 |
-| needs-data | 550 |
+| needs-data | 722 |
 | redirect-only | 185 |
 | retired | 2 |
 
@@ -18,7 +18,7 @@ This report is generated from the current static product/range pages and `data/p
 
 | Failure | Pages |
 | --- | ---: |
-| empty-or-placeholder-thickness | 774 |
+| empty-or-placeholder-thickness | 949 |
 | missing-source-record | 478 |
 | legacy-or-alias-range | 185 |
 | range-alias | 46 |
@@ -31,10 +31,10 @@ This report is generated from the current static product/range pages and `data/p
 
 ## URL lists
 
-- Indexable catalogue pages: 893. Full machine-readable list: `catalogue-quality-report.json` under `pages` with `classification: "indexable"`.
-- Pages classified as non-indexable pending remediation: 1222. Full machine-readable list: `catalogue-quality-report.json` under `pages` where `classification` is not `indexable`. This is a review queue, not a claim that all of those URLs have already been noindexed.
+- Indexable catalogue pages: 721. Full machine-readable list: `catalogue-quality-report.json` under `pages` with `classification: "indexable"`.
+- Pages classified as non-indexable pending remediation: 1394. Full machine-readable list: `catalogue-quality-report.json` under `pages` where `classification` is not `indexable`. This is a review queue, not a claim that all of those URLs have already been noindexed.
 - Pages currently protected with `noindex,follow`: 1222. Those pages have also been removed from the main sitemap.
-- Report-only mode: no page or sitemap changes were made.
+- Applied approved indexation controls to 0 page(s) and excluded 0 URL(s) from the main sitemap.
 
 ## Review rule
 

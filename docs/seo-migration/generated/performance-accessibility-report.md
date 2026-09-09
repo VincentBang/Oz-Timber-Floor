@@ -3,10 +3,10 @@
 | Check | Result |
 | --- | ---: |
 | HTML files scanned | 2201 |
-| Images | 18281 |
+| Images | 18107 |
 | Images with missing alt attribute | 0 |
-| Images with missing width or height | 13752 |
-| Images marked lazy | 13465 |
+| Images with missing width or height | 13578 |
+| Images marked lazy | 13291 |
 | Buttons without an accessible name | 0 |
 | Focus-visible styling present | yes |
 | Reduced-motion styling present | yes |

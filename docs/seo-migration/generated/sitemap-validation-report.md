@@ -1,6 +1,6 @@
 # Sitemap validation report
 
-Generated: 2026-09-02T05:30:46.577Z
+Generated: 2026-09-09T11:27:24.688Z
 
 - Main sitemap URLs: 943
 - Expected publication canonicals: 943

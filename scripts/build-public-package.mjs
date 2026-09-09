@@ -8,6 +8,9 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const publishRoot = path.join(root, "dist");
 const checkOnly = process.argv.includes("--check");
+const context = String(process.env.CONTEXT || "dev").trim().toLowerCase();
+const indexingEnabled = /^true$/i.test(String(process.env.OZ_PRODUCTION_INDEXING_ENABLED || "").trim());
+const publishIndexable = context === "production" && indexingEnabled;
 
 const publicDirectories = Object.freeze([
   "about",
@@ -145,7 +148,9 @@ function verifyPublicPackage(manifest) {
   }
 
   const headers = fs.readFileSync(path.join(publishRoot, "_headers"), "utf8");
-  if (!/X-Robots-Tag:\s*noindex,\s*nofollow/i.test(headers)) issues.push("missing-global-noindex");
+  const globalNoindex = /X-Robots-Tag:\s*noindex,\s*nofollow/i.test(headers);
+  if (publishIndexable && globalNoindex) issues.push("unexpected-global-noindex-in-production-fixture");
+  if (!publishIndexable && !globalNoindex) issues.push("missing-global-noindex");
 
   const sensitivePatterns = [
     /\/Users\/daibang\//,
@@ -187,5 +192,5 @@ if (!fs.existsSync(publishRoot) || !fs.statSync(publishRoot).isDirectory()) {
 const manifest = packageManifest();
 verifyPublicPackage(manifest);
 process.stdout.write(
-  `PUBLIC PACKAGE PASS files=${manifest.fileCount} bytes=${manifest.byteCount} manifestSha256=${manifest.manifestSha256} output=dist\n`,
+  `PUBLIC PACKAGE PASS mode=${publishIndexable ? "isolated-production-fixture" : "protected-preview"} files=${manifest.fileCount} bytes=${manifest.byteCount} manifestSha256=${manifest.manifestSha256} output=dist\n`,
 );

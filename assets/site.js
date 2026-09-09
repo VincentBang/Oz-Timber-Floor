@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
   var toggle = document.querySelector(".nav-toggle");
   var params = new URLSearchParams(window.location.search);
   var attributionKeys = ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "gclid", "fbclid"];
+  var pendingQuoteKey = "oz-pending-quote-submit";
+  var pendingQuoteMaxAge = 10 * 60 * 1000;
 
   function attributionValue(key) {
     var fromUrl = params.get(key);
@@ -122,7 +124,39 @@ document.addEventListener("DOMContentLoaded", function () {
     return Object.assign(payload, extra || {});
   }
 
+  function quoteContext(payload) {
+    if (!payload || typeof payload !== "object" || Array.isArray(payload)) return null;
+    var context = {
+      enquiry_type: ["stock", "supply-only", "supply-install", "product", "commercial", "service"].indexOf(payload.enquiry_type) !== -1 ? payload.enquiry_type : "",
+      category: ["Hybrid", "Laminate", "Engineered timber", "Solid timber", "Vinyl"].indexOf(payload.category) !== -1 ? payload.category : ""
+    };
+    ["has_product_context", "has_range_context", "utm_source_present", "utm_medium_present", "utm_campaign_present", "gclid_present", "fbclid_present"].forEach(function (key) {
+      context[key] = payload[key] === true;
+    });
+    return context;
+  }
+
   initAnalytics();
+
+  if (/^\/thank-you\/?$/.test(window.location.pathname)) {
+    var pendingQuote = null;
+    try {
+      var pendingQuoteJson = window.sessionStorage.getItem(pendingQuoteKey);
+      window.sessionStorage.removeItem(pendingQuoteKey);
+      pendingQuote = JSON.parse(pendingQuoteJson || "null");
+    } catch (error) {}
+    var quoteAge = pendingQuote && Date.now() - pendingQuote.timestamp;
+    var confirmedContext = pendingQuote && quoteContext(pendingQuote.context);
+    if (pendingQuote && Number.isFinite(pendingQuote.timestamp) && quoteAge >= 0 && quoteAge <= pendingQuoteMaxAge && confirmedContext) {
+      trackEvent("quote_submit", Object.assign(confirmedContext, {
+        page_path: window.location.pathname,
+        source_page: "/contact/",
+        event_category: "lead",
+        lead_event_state: "confirmed_thank_you",
+        form_name: contact.formName || "oz-flooring-enquiry"
+      }));
+    }
+  }
 
   var mobileNavQuery = window.matchMedia ? window.matchMedia("(max-width: 980px)") : null;
   var navScrollState = null;
@@ -840,11 +874,12 @@ document.addEventListener("DOMContentLoaded", function () {
       trackEvent("quote_start", analyticsPayload({ event_category: "lead" }));
     });
     form.addEventListener("submit", function () {
-      trackEvent("quote_submit", analyticsPayload({
-        event_category: "lead",
-        lead_event_state: "submit_attempt",
-        form_name: contact.formName || "oz-flooring-enquiry"
-      }));
+      try {
+        window.sessionStorage.setItem(pendingQuoteKey, JSON.stringify({
+          timestamp: Date.now(),
+          context: quoteContext(analyticsPayload())
+        }));
+      } catch (error) {}
     });
   });
 
