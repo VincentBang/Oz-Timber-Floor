@@ -1,0 +1,24 @@
+{
+  "task": "OZ-RELEASE-CLOSEOUT",
+  "authority": "Standing instruction section6.5 verified in-scope interaction and enquiry failure repair",
+  "repairs": [
+    {
+      "id": "FORM-ACCEPTANCE-AND-DUPLICATE-GUARD",
+      "file": "assets/site.js",
+      "beforeSha256": "b06445a1cbb5b9b740c60be3cfd45161f1cb4f332d24b89c09aa13ecd6991dd2",
+      "afterSha256": "f68f40ef3b0036bf52d810e278211e82efe2027f52fb441d041fac87591e3160",
+      "reason": "Independent intercepted HTTP500/direct-thank-you false success and two POSTs on rapid double activation; preserve native form name/action/payload and JS-disabled fallback",
+      "evidenceBefore": "docs/release/OZ-RELEASE-CLOSEOUT/LOCAL_FORM_MOCKS_BEFORE_REPAIR.json",
+      "edits": [
+        {
+          "before": "pendingQuote && Number.isFinite(pendingQuote.timestamp)",
+          "after": "pendingQuote && pendingQuote.accepted === true && Number.isFinite(pendingQuote.timestamp)"
+        },
+        {
+          "before": "    form.addEventListener(\"submit\", function () {\n      try {\n        window.sessionStorage.setItem(pendingQuoteKey, JSON.stringify({\n          timestamp: Date.now(),\n          context: quoteContext(analyticsPayload())\n        }));\n      } catch (error) {}\n    });",
+          "after": "    var submitting = false;\n    form.addEventListener(\"submit\", function (event) {\n      if (submitting) { event.preventDefault(); return; }\n      try { window.sessionStorage.removeItem(pendingQuoteKey); } catch (error) {}\n      // Keep the existing native POST as a fallback. A submit attempt alone is\n      // never evidence that Netlify accepted an enquiry.\n      if (!window.fetch || !window.FormData) return;\n      event.preventDefault();\n      var action = new URL(form.getAttribute(\"action\"), window.location.href);\n      if (action.origin !== window.location.origin) return;\n      var body = new URLSearchParams(new window.FormData(form));\n      var submitButton = form.querySelector('button[type=\"submit\"]');\n      var originalText = submitButton && submitButton.textContent;\n      var priorError = form.querySelector(\"[data-submit-error]\");\n      if (priorError) priorError.remove();\n      submitting = true;\n      form.setAttribute(\"aria-busy\", \"true\");\n      if (submitButton) { submitButton.disabled = true; submitButton.textContent = \"Sending enquiry…\"; }\n      window.fetch(action.href, {\n        method: \"POST\",\n        credentials: \"same-origin\",\n        headers: { \"Content-Type\": \"application/x-www-form-urlencoded\" },\n        body: body.toString()\n      }).then(function (response) {\n        if (!response.ok || new URL(response.url).origin !== action.origin) throw new Error(\"Enquiry acceptance not confirmed\");\n        try {\n          window.sessionStorage.setItem(pendingQuoteKey, JSON.stringify({\n            accepted: true,\n            timestamp: Date.now(),\n            context: quoteContext(analyticsPayload())\n          }));\n        } catch (error) {}\n        window.location.assign(action.href);\n      }).catch(function () {\n        try { window.sessionStorage.removeItem(pendingQuoteKey); } catch (error) {}\n        submitting = false;\n        form.removeAttribute(\"aria-busy\");\n        if (submitButton) { submitButton.disabled = false; submitButton.textContent = originalText; }\n        var message = document.createElement(\"p\");\n        message.className = \"form-span\";\n        message.setAttribute(\"data-submit-error\", \"true\");\n        message.setAttribute(\"role\", \"alert\");\n        message.tabIndex = -1;\n        message.textContent = \"We could not confirm your enquiry was received. Please contact us using the phone or email details on this page before resending.\";\n        form.appendChild(message);\n        message.focus();\n      });\n    });"
+        }
+      ]
+    }
+  ]
+}

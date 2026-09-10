@@ -1,5 +1,33 @@
 # Oz Timber Floor Task Queue
 
+## Current Protected Promotion — 10 September 2026
+
+- Vincent authorizes the latest closeout implementation through dev → main to the existing protected Netlify site; no WordPress/DNS/domain/indexing/GA4/Search Console change.
+- Fresh isolated build and 11 release/check commands pass; rebuilt package matches the sealed form-enabled draft byte-for-byte. Preserve raw results and provider receipts privately.
+- Controlled form storage, thank-you navigation and inbox receipt are confirmed; this supersedes the earlier pending single-test checklist below. Product/range-prefilled live context remains unverified.
+- Remaining domain-cutover prerequisites: backup/restore and full DNS evidence, Google verification carry-forward, owner physical-device review, and approved existing analytics ID or a separately agreed deferral. Do not treat protected Netlify deployment as live-domain migration approval.
+
+## Form Activation Follow-up — 10 September 2026
+
+- [x] Check existing Free plan and usage; enable detection without a billing change.
+- [x] Redeploy the byte-identical public-only package as a noindex draft; verify all 33 form fields and one exact-form email notification.
+- [x] Run all 2,001 HTTPS contracts on the new draft, independently review provider/form evidence and seven fresh isolated success-event unit cases, and append dated evidence without rewriting the previous seal.
+- [ ] Owner clicks the prepared Send enquiry once and confirms receipt of `OZ-RELEASE-TEST-20260910T105455596Z-1`; then verify that exact provider record, context, spam state and navigation. Runtime automation denied both attempted clicks; no test POST has been sent by the agent.
+- [ ] Obtain WordPress DB/uploads restore evidence, full DNS export, approved Oz GA4 ID and physical-device checks. Carry the observed existing Google verification meta into the final production package before cutover. No production operation is authorised.
+
+## OZ-RELEASE-CLOSEOUT — 10 September 2026
+
+- [x] Verify and separately record Vincent's standing approval of R1 `d2ab0a23d6d171ef465a933ea191eabdb1db68ae6c4337b5c948ca0f68bf8fa7` and its bound scope.
+- [x] Preserve inherited work and original decision/review evidence; replay all2196 exact file operations in an isolated candidate before local implementation.
+- [x] Complete local acceptance gates, 130 responsive cells, 75 priority measurements, deterministic public-only package and isolated production fixture.
+- [x] Resolve saved-account mismatch; verify Oz Owner login and create the exact public-only draft. Production is unchanged.
+- [x] Complete HTTPS browser evidence (129 original cells plus one independently retested lazy-trigger observation) and all 30 Lighthouse measurements.
+- [x] Finish the full HTTPS routing rerun: 2,001/2,001 pass after the narrow ETF physical-noindex harness correction; original failure evidence and all 128 affected incoming shadows preserved.
+- [ ] Verify bounded synthetic form persistence/notification and consolidate remaining owner-only evidence.
+- [x] Refresh the release evidence and cutover/rollback plan for final manifest sealing. ENGINEERING COMPLETE — OWNER ACTION REQUIRED: provider form detection/notifications and bounded delivery tests remain owner-approval/input gated; stop before production.
+
+Earlier pending-approval entries below are historical and superseded only within this recorded closeout scope.
+
 ## OZ-MIG-004 — 9 September 2026
 
 - [x] Reconcile the current WordPress site, Netlify deployment, local source and generated public package.

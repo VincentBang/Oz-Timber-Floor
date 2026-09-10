@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } catch (error) {}
     var quoteAge = pendingQuote && Date.now() - pendingQuote.timestamp;
     var confirmedContext = pendingQuote && quoteContext(pendingQuote.context);
-    if (pendingQuote && Number.isFinite(pendingQuote.timestamp) && quoteAge >= 0 && quoteAge <= pendingQuoteMaxAge && confirmedContext) {
+    if (pendingQuote && pendingQuote.accepted === true && Number.isFinite(pendingQuote.timestamp) && quoteAge >= 0 && quoteAge <= pendingQuoteMaxAge && confirmedContext) {
       trackEvent("quote_submit", Object.assign(confirmedContext, {
         page_path: window.location.pathname,
         source_page: "/contact/",
@@ -873,13 +873,53 @@ document.addEventListener("DOMContentLoaded", function () {
       form.setAttribute("data-analytics-started", "true");
       trackEvent("quote_start", analyticsPayload({ event_category: "lead" }));
     });
-    form.addEventListener("submit", function () {
-      try {
-        window.sessionStorage.setItem(pendingQuoteKey, JSON.stringify({
-          timestamp: Date.now(),
-          context: quoteContext(analyticsPayload())
-        }));
-      } catch (error) {}
+    var submitting = false;
+    form.addEventListener("submit", function (event) {
+      if (submitting) { event.preventDefault(); return; }
+      try { window.sessionStorage.removeItem(pendingQuoteKey); } catch (error) {}
+      // Keep the existing native POST as a fallback. A submit attempt alone is
+      // never evidence that Netlify accepted an enquiry.
+      if (!window.fetch || !window.FormData) return;
+      event.preventDefault();
+      var action = new URL(form.getAttribute("action"), window.location.href);
+      if (action.origin !== window.location.origin) return;
+      var body = new URLSearchParams(new window.FormData(form));
+      var submitButton = form.querySelector('button[type="submit"]');
+      var originalText = submitButton && submitButton.textContent;
+      var priorError = form.querySelector("[data-submit-error]");
+      if (priorError) priorError.remove();
+      submitting = true;
+      form.setAttribute("aria-busy", "true");
+      if (submitButton) { submitButton.disabled = true; submitButton.textContent = "Sending enquiry…"; }
+      window.fetch(action.href, {
+        method: "POST",
+        credentials: "same-origin",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: body.toString()
+      }).then(function (response) {
+        if (!response.ok || new URL(response.url).origin !== action.origin) throw new Error("Enquiry acceptance not confirmed");
+        try {
+          window.sessionStorage.setItem(pendingQuoteKey, JSON.stringify({
+            accepted: true,
+            timestamp: Date.now(),
+            context: quoteContext(analyticsPayload())
+          }));
+        } catch (error) {}
+        window.location.assign(action.href);
+      }).catch(function () {
+        try { window.sessionStorage.removeItem(pendingQuoteKey); } catch (error) {}
+        submitting = false;
+        form.removeAttribute("aria-busy");
+        if (submitButton) { submitButton.disabled = false; submitButton.textContent = originalText; }
+        var message = document.createElement("p");
+        message.className = "form-span";
+        message.setAttribute("data-submit-error", "true");
+        message.setAttribute("role", "alert");
+        message.tabIndex = -1;
+        message.textContent = "We could not confirm your enquiry was received. Please contact us using the phone or email details on this page before resending.";
+        form.appendChild(message);
+        message.focus();
+      });
     });
   });
 

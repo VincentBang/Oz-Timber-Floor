@@ -8,14 +8,17 @@ const now = 1_800_000_000_000;
 
 // Execute the real page script with an inert DOM and in-memory sessionStorage.
 // No form submission, network request or analytics configuration is performed.
-function page({ pathname = "/contact/", search = "", storage = new Map(), at = now, collector = true } = {}) {
+function page({ pathname = "/contact/", search = "", storage = new Map(), at = now, collector = true, accepted = true } = {}) {
   const events = [];
   const listeners = new Map();
   const select = { value: "", addEventListener() {} };
   const form = {
     addEventListener(name, listener) { listeners.set(name, listener); },
-    getAttribute() { return null; },
+    getAttribute(name) { return name === "action" ? "/thank-you/" : null; },
     setAttribute() {},
+    removeAttribute() {},
+    querySelector() { return null; },
+    appendChild() {},
   };
   let ready;
   const document = {
@@ -23,11 +26,13 @@ function page({ pathname = "/contact/", search = "", storage = new Map(), at = n
     querySelector(selector) { return pathname === "/contact/" && selector === "#enquiryType" ? select : null; },
     querySelectorAll(selector) { return pathname === "/contact/" && selector === "[data-contact-form]" ? [form] : []; },
     getElementById() { return null; },
-    createElement() { throw new Error("Analytics must not load a runtime or create a tag in this fixture"); },
+    createElement(tag) { assert.equal(tag, "p", "No analytics script may be loaded"); return {setAttribute() {},focus() {}}; },
   };
   const window = {
     OZ_TIMBER_FLOOR_CONTACT: { formName: "oz-flooring-enquiry", analytics: { ga4MeasurementId: null } },
-    location: { pathname, search, href: `http://localhost${pathname}${search}`, origin: "http://localhost" },
+    location: { pathname, search, href: `http://localhost${pathname}${search}`, origin: "http://localhost", assign() {} },
+    FormData: class extends Array { constructor() { super(); } },
+    fetch: async () => ({ok: accepted, url: "http://localhost/thank-you/"}),
     sessionStorage: {
       getItem(key) { return storage.get(key) ?? null; },
       setItem(key, value) { storage.set(key, String(value)); },
@@ -38,15 +43,16 @@ function page({ pathname = "/contact/", search = "", storage = new Map(), at = n
   vm.runInNewContext(source, { document, window, URLSearchParams, URL, Date: class extends Date { static now() { return at; } } });
   assert.equal(typeof ready, "function");
   ready();
-  return { events, storage, select, submit: () => listeners.get("submit")() };
+  return { events, storage, select, submit: async () => { listeners.get("submit")({preventDefault() {}}); await Promise.resolve(); await Promise.resolve(); } };
 }
 
 const contact = page({ search: "?enquiry=stock&category=Engineered+timber&product=Private+product+notes&range=Private+range+notes&utm_source=private-campaign&gclid=private-id" });
 contact.select.value = "supply-install";
-contact.submit();
+await contact.submit();
 assert.equal(contact.events.length, 0, "Submitting must not emit a success event");
 const marker = JSON.parse(contact.storage.get(pendingKey));
 assert.equal(marker.timestamp, now);
+assert.equal(marker.accepted, true, "Only a successful mocked response may create confirmation state");
 assert.deepEqual(marker.context, {
   enquiry_type: "supply-install",
   category: "Engineered timber",
@@ -76,11 +82,12 @@ assert.equal(page({ pathname: "/thank-you/" }).events.length, 0, "Direct thank-y
 
 for (const invalid of [
   "not-json", "null", "[]", String(now),
-  JSON.stringify({ timestamp: now }),
-  JSON.stringify({ timestamp: String(now), context: marker.context }),
-  JSON.stringify({ timestamp: now, context: [] }),
-  JSON.stringify({ timestamp: now + 1, context: marker.context }),
-  JSON.stringify({ timestamp: now - 10 * 60 * 1000 - 1, context: marker.context }),
+  JSON.stringify({ accepted: true, timestamp: now }),
+  JSON.stringify({ accepted: true, timestamp: String(now), context: marker.context }),
+  JSON.stringify({ accepted: true, timestamp: now, context: [] }),
+  JSON.stringify({ accepted: true, timestamp: now + 1, context: marker.context }),
+  JSON.stringify({ accepted: true, timestamp: now - 10 * 60 * 1000 - 1, context: marker.context }),
+  JSON.stringify({ timestamp: now, context: marker.context }),
 ]) {
   const result = page({ pathname: "/thank-you/", storage: new Map([[pendingKey, invalid]]) });
   assert.equal(result.events.length, 0, `Invalid or expired marker must not report success: ${invalid}`);
@@ -95,7 +102,7 @@ const untrustedContext = {
   email: "private@example.com",
   source_page: "/private-address/",
 };
-const sanitized = page({ pathname: "/thank-you/", storage: new Map([[pendingKey, JSON.stringify({ timestamp: now, context: untrustedContext })]]) });
+const sanitized = page({ pathname: "/thank-you/", storage: new Map([[pendingKey, JSON.stringify({ accepted: true, timestamp: now, context: untrustedContext })]]) });
 assert.equal(sanitized.events[0][2].enquiry_type, "");
 assert.equal(sanitized.events[0][2].category, "");
 assert.equal(sanitized.events[0][2].has_product_context, false);
@@ -105,5 +112,10 @@ const idle = page({ pathname: "/products/", storage: new Map([[pendingKey, JSON.
 assert.equal(idle.events.length, 0, "Only the thank-you route can report success");
 assert.equal(idle.storage.has(pendingKey), true);
 assert.equal(page({ pathname: "/thank-you/", storage: idle.storage, collector: false }).events.length, 0, "Unconfigured GA4 remains inactive");
+
+const failed = page({accepted:false});
+await failed.submit();
+assert.equal(failed.storage.has(pendingKey),false,"Failed HTTP response must not retain success state");
+assert.equal(page({pathname:"/thank-you/",storage:failed.storage}).events.length,0,"Failure followed by direct thank-you visit is not a successful enquiry");
 
 console.log("ANALYTICS CONTRACT PASS behavioral=context-preserved,once-only,expiry,malformed,allowlist,no-submit-success,no-live-GA4");

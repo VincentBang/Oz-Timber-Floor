@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 import { buildImageDimensionReport, priorityRoutes } from "./image-dimension-audit.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const reportPath = path.join(root, "docs/performance/generated/priority-route-performance.json");
+const reportPath = path.join(root, "docs/release/OZ-RELEASE-CLOSEOUT/generated/performance/priority-route-performance.json");
 const expectedWidths = Object.freeze([320, 390, 768, 1024, 1440]);
 
 function argument(name) {
@@ -85,16 +85,26 @@ function validateMatrix(records, label) {
 }
 
 function writeReport() {
-  const before = loadRecords(argument("--baseline"), "baseline");
-  const after = loadRecords(argument("--final"), "final");
+  const currentOnly = Boolean(argument("--current"));
+  const before = currentOnly ? [] : loadRecords(argument("--baseline"), "baseline");
+  const after = loadRecords(argument("--current") || argument("--final"), "final");
   const beforeConsoleErrors = Number(argument("--baseline-console-errors") || 0);
   const afterConsoleErrors = Number(argument("--final-console-errors") || 0);
-  const matrixIssues = [...validateMatrix(before, "baseline"), ...validateMatrix(after, "final")];
+  const matrixIssues = [...(currentOnly ? [] : validateMatrix(before, "baseline")), ...validateMatrix(after, "final")];
   if (matrixIssues.length) throw new Error(matrixIssues.join("\n"));
   const staticAudit = buildImageDimensionReport();
+  if (currentOnly) {
+    for (const record of after) {
+      const owner = staticAudit.routes.find((entry) => entry.route === record.url);
+      if (!record.measuredAt || record.sourceSha256 !== owner?.ownerSha256) {
+        throw new Error(`Browser measurement/source fingerprint missing or stale for ${record.url}`);
+      }
+    }
+  }
   const report = {
+    evidenceMode: currentOnly ? "current-closeout" : "before-after",
     schemaVersion: 1,
-    task: "OZ-PERF-002",
+    task: currentOnly ? "OZ-RELEASE-CLOSEOUT" : "OZ-PERF-002",
     baseUrl: argument("--base-url") || "http://127.0.0.1:8766",
     redirectAware: true,
     routeResolution: "scripts/publication-inventory.mjs exact-200-rewrite owners",
@@ -130,16 +140,20 @@ function checkReport() {
   if (current.summary.routesWithIssues) failures.push(`current static image audit has ${current.summary.routesWithIssues} routes with issues`);
   if (fs.existsSync(reportPath)) {
     const report = JSON.parse(fs.readFileSync(reportPath, "utf8"));
-    failures.push(...validateMatrix(report.browser?.baselineRecords ?? [], "baseline"));
+    if (report.evidenceMode !== "current-closeout") failures.push(...validateMatrix(report.browser?.baselineRecords ?? [], "baseline"));
     failures.push(...validateMatrix(report.browser?.finalRecords ?? [], "final"));
     if (report.browser?.final?.overflowRecords?.length) failures.push(`${report.browser.final.overflowRecords.length} final browser records overflow horizontally`);
     if (Number(report.browser?.final?.consoleErrors) !== 0) failures.push(`final browser run has ${report.browser.final.consoleErrors} console errors`);
     const finalRecords = report.browser?.finalRecords ?? [];
+    if (finalRecords.some((record) => Number(record.overflow) > 0)) failures.push("raw browser records contain horizontal overflow");
+    if (report.evidenceMode === "current-closeout" && finalRecords.some((record) => !Number.isFinite(record.consoleErrors) || record.consoleErrors !== 0 || !Number.isFinite(record.failedRequests) || record.failedRequests !== 0)) failures.push("raw current browser records contain missing or failing console/network results");
+    if (report.evidenceMode === "current-closeout" && finalRecords.some((record) => !record.measuredAt || !record.sourceSha256)) failures.push("current measurements must retain their timestamp and observed source hash");
     if (finalRecords.some((record) => Number(record.missingDims) !== 0)) failures.push("final browser matrix contains missing image dimensions");
     if (finalRecords.some((record) => Number(record.highCount) !== 1)) failures.push("final browser matrix does not have exactly one high-priority image on every route");
     const recordedOwners = new Map((report.staticAudit?.owners ?? []).map((owner) => [owner.route, owner.ownerSha256]));
     for (const route of current.routes) {
       if (recordedOwners.get(route.route) !== route.ownerSha256) failures.push(`${route.route}: publication-owner hash differs from browser evidence`);
+      if (report.evidenceMode === "current-closeout" && finalRecords.filter((record) => record.url === route.route).some((record) => record.sourceSha256 !== route.ownerSha256)) failures.push(`${route.route}: raw browser source hash differs from current owner`);
     }
   }
   if (failures.length) {
@@ -147,7 +161,7 @@ function checkReport() {
     for (const failure of failures) console.error(`- ${failure}`);
     process.exitCode = 1;
   } else {
-    console.log(`PERF PRIORITY ROUTES PASSED routes=${priorityRoutes.length} captures=75 widths=${expectedWidths.join(",")} report=docs/performance/generated/priority-route-performance.json`);
+    console.log(`PERF PRIORITY ROUTES PASSED routes=${priorityRoutes.length} captures=75 widths=${expectedWidths.join(",")} report=${path.relative(root, reportPath)}`);
   }
 }
 

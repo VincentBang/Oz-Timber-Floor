@@ -7,18 +7,18 @@ import { createPublicationInventory } from "./publication-inventory.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const domain = "https://oztimberfloor.com.au";
-const reportPath = path.join(root, "docs/performance/generated/image-dimension-audit.json");
+const reportPath = path.join(root, "docs/release/OZ-RELEASE-CLOSEOUT/generated/performance/image-dimension-audit.json");
 
 export const priorityRoutes = Object.freeze([
   { route: "/", primarySrc: "/assets/images/hero/enchant-caramel-herringbone-interior.webp" },
-  { route: "/floor-levelling-sydney/", primarySrc: "/assets/images/hero/sydney-timber-flooring-contractor.jpg" },
-  { route: "/timber-flooring-installation-sydney/", primarySrc: "/assets/images/hero/sydney-timber-flooring-contractor.jpg" },
-  { route: "/hybrid-flooring-sydney/", primarySrc: "/assets/images/products/hybrid/hybrid-pacific-blackbutt.webp" },
-  { route: "/laminate-flooring-sydney/", primarySrc: "/assets/images/products/laminate/laminate-coastal-blackbutt.jpg" },
-  { route: "/engineered-timber-flooring-sydney/", primarySrc: "/assets/images/products/engineered/engineered-blackbutt-rustic.jpg" },
-  { route: "/solid-timber-flooring-sydney/", primarySrc: "/assets/images/hero/sydney-timber-flooring-contractor.jpg" },
-  { route: "/commercial-flooring-sydney/", primarySrc: "/assets/images/products/engineered/engineered-blackbutt-rustic.jpg" },
-  { route: "/office-flooring-sydney/", primarySrc: "/assets/images/products/hybrid/hybrid-natural-oak.jpg" },
+  { route: "/floor-levelling/", primarySrc: "/assets/images/hero/sydney-timber-flooring-contractor.jpg" },
+  { route: "/timber-floor-installation/", primarySrc: "/assets/images/hero/sydney-timber-flooring-contractor.jpg" },
+  { route: "/hybrid/", primarySrc: "/assets/images/products/hybrid/hybrid-pacific-blackbutt.webp" },
+  { route: "/laminate/", primarySrc: "/assets/images/products/laminate/laminate-coastal-blackbutt.jpg" },
+  { route: "/engineered-timber-flooring/", primarySrc: "/assets/images/products/engineered/engineered-blackbutt-rustic.jpg" },
+  { route: "/solid-timber/", primarySrc: "/assets/images/hero/sydney-timber-flooring-contractor.jpg" },
+  { route: "/commercial-flooring/", primarySrc: "/assets/images/products/engineered/engineered-blackbutt-rustic.jpg" },
+  { route: "/office-flooring/", primarySrc: "/assets/images/products/hybrid/hybrid-natural-oak.jpg" },
   { route: "/products/", primarySrc: "/assets/images/products/engineered/engineered-blackbutt-rustic.jpg" },
   { route: "/ranges/etf-9-0mm-hybrid/", primarySrc: "/assets/products/hybrid/etf-9-0mm-hybrid/alaskan-oak.jpg" },
   { route: "/products/etf-9-0mm-hybrid-driftwood/", primarySrc: "/assets/products/hybrid/etf-9-0mm-hybrid/driftwood.jpg" },

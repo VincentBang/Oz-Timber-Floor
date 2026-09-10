@@ -6,17 +6,17 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const browserReportPath = path.join(root, "docs", "ui-ux", "generated", "browser-qa.json");
+const browserReportPath = path.join(root, "docs/release/OZ-RELEASE-CLOSEOUT/browser/browser-qa.json");
 
 const lcpFiles = Object.freeze([
   "index.html",
   "products/index.html",
   "products.html",
   "ranges/index.html",
-  "hybrid-flooring-sydney/index.html",
-  "hybrid-flooring-sydney.html",
-  "engineered-timber-flooring-sydney/index.html",
-  "engineered-timber-flooring-sydney.html",
+  "hybrid/index.html",
+  "hybrid.html",
+  "engineered-timber-flooring/index.html",
+  "engineered-timber-flooring.html",
   "ranges/avala/index.html",
   "products/avala-blackbutt/index.html",
 ]);
@@ -25,10 +25,10 @@ const requiredRoutes = Object.freeze([
   "/",
   "/products/",
   "/ranges/",
-  "/hybrid-flooring-sydney/",
-  "/engineered-timber-flooring-sydney/",
-  "/timber-flooring-installation-sydney/",
-  "/floor-levelling-sydney/",
+  "/hybrid/",
+  "/engineered-timber-flooring/",
+  "/timber-floor-installation/",
+  "/floor-levelling/",
   "/projects/",
   "/contact/",
   "/ranges/avala/",
@@ -104,6 +104,10 @@ if (!fs.existsSync(browserReportPath)) {
 } else {
   browserReport = JSON.parse(fs.readFileSync(browserReportPath, "utf8"));
   if (browserReport.schemaVersion !== 1) addFailure("browser-report-schema", { value: browserReport.schemaVersion });
+  if (browserReport.success !== true || browserReport.failures?.length) addFailure("browser-report-failed");
+  for (const required of ["assets/site.js", "assets/site.css", "assets/contact-config.js", "_redirects", "index.html"]) {
+    if (!browserReport.sourceHashes?.[required]) addFailure("browser-source-binding-missing", { file: required });
+  }
 
   for (const [relativePath, expectedHash] of Object.entries(browserReport.sourceHashes || {})) {
     const absolutePath = path.join(root, relativePath);

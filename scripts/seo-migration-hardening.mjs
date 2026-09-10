@@ -7,7 +7,9 @@ import { createPublicationInventory } from "./publication-inventory.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const domain = "https://oztimberfloor.com.au";
-const generatedDir = path.join(root, "docs", "seo-migration", "generated");
+const generatedDir = process.env.OZ_MIGRATION_GENERATED_DIR
+  ? path.resolve(process.env.OZ_MIGRATION_GENERATED_DIR)
+  : path.join(root, "docs/release/OZ-RELEASE-CLOSEOUT/generated/migration");
 const equityPath = path.join(generatedDir, "gsc-equity-map-2026-09-01.csv");
 const expectations = JSON.parse(fs.readFileSync(path.join(root, "data", "seo-migration-redirect-expectations.json"), "utf8"));
 const ownership = JSON.parse(fs.readFileSync(path.join(root, "data", "seo-keyword-ownership.json"), "utf8"));
@@ -83,11 +85,11 @@ const noindexRoutes = new Set(inventory.noindexRoutes);
 const redirectOnlyRoutes = new Set(inventory.redirectOnlyRoutes);
 const reviewedBySource = new Map(expectations.reviewedRedirects.map((item) => [normalizeRoute(item.source), item]));
 const categoryRoutes = new Map([
-  ["hybrid", "/hybrid-flooring-sydney/"],
-  ["laminate", "/laminate-flooring-sydney/"],
-  ["engineered timber", "/engineered-timber-flooring-sydney/"],
-  ["solid timber", "/solid-timber-flooring-sydney/"],
-  ["vinyl", "/vinyl-flooring-sydney/"],
+  ["hybrid", "/hybrid/"],
+  ["laminate", "/laminate/"],
+  ["engineered timber", "/engineered-timber-flooring/"],
+  ["solid timber", "/solid-timber/"],
+  ["vinyl", "/vinyl/"],
 ]);
 
 function recordSlug(record, prefix) {

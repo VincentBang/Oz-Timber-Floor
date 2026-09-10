@@ -12,7 +12,7 @@
     },
     {
       "source": "/hybrid-timber-flooring-look-of-timber-with-extra-durability/",
-      "target": "/hybrid-flooring-sydney/",
+      "target": "/hybrid/",
       "semanticMatch": "exact-category",
       "decision": "redirect-category",
       "note": "The retired legacy article has no clean migrated equivalent; the current Hybrid category preserves the same product-selection intent without carrying unsupported claims."
@@ -179,154 +179,154 @@
     },
     {
       "source": "/product/grandoak-age-carbonised-oak/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-black-forest/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-driftwood/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-french-grey/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-ghost-white/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-natural-oak/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-trio-smoked-oak/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-white-smoked-oak/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-arctic-oak/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-mink-grey/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-gunsynd-oak/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-moroccan-oak/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-milano-oak/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-canyon-oak/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-european-oak/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-limed-oak/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-baliness-oak/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-burnt-oak/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-black-opal/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-uluru-oak/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-persian-oak/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
     },
     {
       "source": "/product/grandoak-desert-oak/",
-      "target": "/engineered-timber-flooring-sydney/",
+      "target": "/engineered-timber-flooring/",
       "semanticMatch": "generic-category",
       "decision": "redirect-category",
       "note": "Grand Oak catalogue evidence identifies Engineered timber, but no verified indexable Grand Oak product or range is published; retain the Engineered timber owner rather than the semantically wrong Hybrid category."
@@ -511,91 +511,91 @@
     },
     {
       "route": "/products/grandoak-age-carbonised-oak/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-black-forest/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-driftwood/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-french-grey/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-ghost-white/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-natural-oak/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-trio-smoked-oak/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-white-smoked-oak/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-arctic-oak/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-mink-grey/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-gunsynd-oak/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-moroccan-oak/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-milano-oak/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-canyon-oak/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-european-oak/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-limed-oak/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-baliness-oak/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-burnt-oak/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-black-opal/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-uluru-oak/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-persian-oak/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/grandoak-desert-oak/",
-      "target": "/engineered-timber-flooring-sydney/"
+      "target": "/engineered-timber-flooring/"
     },
     {
       "route": "/products/stone-floor-oak-beige/",

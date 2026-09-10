@@ -1,5 +1,18 @@
 # Oz Timber Floor Decision Log
 
+## Protected Netlify Promotion Approval — 10 September 2026
+
+Vincent explicitly requested: “push to dev then merge to main and deploy the most up to date”. This authorizes promotion of the reviewed closeout candidate through `dev` and `main` to the existing `oztimberfloor.netlify.app` deployment. It supersedes the earlier no-push/no-merge/main-publication restriction only for this protected Netlify promotion. The actual provider preflight confirms no custom domain or aliases, automatic main/dev builds, enabled form detection and no production-indexing flag. DNS, WordPress hosting, domain attachment, production indexing, GA4 and Search Console changes remain excluded. Private release evidence, credentials and raw GSC inputs remain outside Git and the public package. Current release checks validate the approved R1 without changing its exact bytes or historical decision evidence.
+
+## Standing Release Approval — OZ-RELEASE-CLOSEOUT, 10 September 2026
+
+- Vincent approved implementation of the verified R1 through `OZ_RELEASE_CLOSEOUT_STANDING_AUTHORITY_CODEX_PROMPT.md` in this Codex conversation.
+- Approved R1 SHA-256: `d2ab0a23d6d171ef465a933ea191eabdb1db68ae6c4337b5c948ca0f68bf8fa7`; original parent: `ab50628d77038ea331e94d253aa4735ee0405a05f5d1d785b8cd28bf5650514e`. The original/R1 files and their bound evidence remain unchanged.
+- Scope: nine reviewed owners, exactly172 reversible holds,297 protected rule-target updates and10,107 named address references. Preserve all128 shadowed incoming cases, Bamboo coverage, six supplier owners and no new service-area hub.
+- This standing instruction supersedes earlier task-specific implementation/tooling/draft-preview restrictions. It authorizes bounded local release checkpoints, QA tooling, non-production drafts and up to three safe synthetic form tests subject to verified test values/destination.
+- It does not authorize push, merge, production publishing, DNS/domain changes, production indexing, live GA4 configuration or Search Console writes.
+- Exact implementation, backup, mechanical repairs and current results are recorded privately in `docs/release/OZ-RELEASE-CLOSEOUT/LEDGER.json`. Historical pending records below are retained as history, not an active approval blocker.
+
 ## Pending Decision Record — OZ-MIG-004, 9 September 2026
 
 - Status: **PENDING; not approved and not implemented**.

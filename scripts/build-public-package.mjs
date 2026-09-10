@@ -13,6 +13,15 @@ const indexingEnabled = /^true$/i.test(String(process.env.OZ_PRODUCTION_INDEXING
 const publishIndexable = context === "production" && indexingEnabled;
 
 const publicDirectories = Object.freeze([
+  "floor-levelling",
+  "hybrid",
+  "laminate",
+  "engineered-timber-flooring",
+  "timber-floor-installation",
+  "commercial-flooring",
+  "office-flooring",
+  "solid-timber",
+  "vinyl",
   "about",
   "assets",
   "bamboo-flooring-sydney",

@@ -10,6 +10,7 @@ from __future__ import annotations
 import csv
 import html
 import json
+import os
 import re
 import sys
 import zipfile
@@ -22,7 +23,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DOMAIN = "https://oztimberfloor.com.au"
 SOURCE_DIR = ROOT / "docs/seo-migration/source/search-console/2026-09-01"
 SOURCE_WORKBOOK = SOURCE_DIR / "https___oztimberfloor.com.au_-Performance-on-Search-2026-09-01.xlsx"
-GENERATED_DIR = ROOT / "docs/seo-migration/generated"
+GENERATED_DIR = Path(os.environ.get("OZ_MIGRATION_GENERATED_DIR", ROOT / "docs/release/OZ-RELEASE-CLOSEOUT/generated/migration"))
 EQUITY_OUTPUT = GENERATED_DIR / "gsc-equity-map-2026-09-01.csv"
 MANUAL_OUTPUT = GENERATED_DIR / "catalogue-equity-manual-review-2026-09-01.csv"
 EXPECTATIONS_PATH = ROOT / "data/seo-migration-redirect-expectations.json"

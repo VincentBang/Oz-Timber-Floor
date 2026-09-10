@@ -16,7 +16,7 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://oztimberfloor.com.au/commercial-flooring-sydney/</loc>
+    <loc>https://oztimberfloor.com.au/commercial-flooring/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -31,7 +31,7 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://oztimberfloor.com.au/engineered-timber-flooring-sydney/</loc>
+    <loc>https://oztimberfloor.com.au/engineered-timber-flooring/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -41,7 +41,7 @@
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://oztimberfloor.com.au/floor-levelling-sydney/</loc>
+    <loc>https://oztimberfloor.com.au/floor-levelling/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -161,7 +161,7 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://oztimberfloor.com.au/hybrid-flooring-sydney/</loc>
+    <loc>https://oztimberfloor.com.au/hybrid/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -171,12 +171,12 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://oztimberfloor.com.au/laminate-flooring-sydney/</loc>
+    <loc>https://oztimberfloor.com.au/laminate/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://oztimberfloor.com.au/office-flooring-sydney/</loc>
+    <loc>https://oztimberfloor.com.au/office-flooring/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -1614,339 +1614,13 @@
   </url>
 
   <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-abbey-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-acacia/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-aged-blackbutt/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-aged-natural/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-aged-oak/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-alpine-snow/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-ancient-stone/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-antique-oak/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-antique/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-arctic-fox/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-artisan-oak-beige/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-artisan-oak-natural/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-ashwood/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-aspen-oak/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
     <loc>https://oztimberfloor.com.au/products/hardwood-collection-autumn-leaves/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.64</priority>
   </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-avola-natural/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
 
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-beach/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-bedrock/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-bellmore-oak/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-black-fox/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-bleached-driftwood/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-bluegrass/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-bondi-beach/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-bondi/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-brazilian-oak/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-bright/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-brown-sugar/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-brownstone/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-brush-box/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-burnt-ash/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-carbon/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-castle-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-chablis/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-chalkers-ridge/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-charm-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-chesterfield/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-chevron-cannes/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-chevron-champagne/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-chevron-latte/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-chevron-riesling/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-chevron-vintage/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-chicory/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-cloud-break/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-coastal-spotted-gum/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-copper-still/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-coral-cay/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-crema/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-crystal-lake/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-crystal/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-deep-brown/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-delta-sand/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-doeskin/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-double-char/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-dover-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-dublin/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-ebony/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-elegant/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-euro-oak/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-flagstone/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-foggy-shore/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
   <url>
     <loc>https://oztimberfloor.com.au/products/hardwood-collection-forest-oak/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-forest/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-forrest/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.64</priority>
   </url>
@@ -1956,242 +1630,15 @@
     <changefreq>monthly</changefreq>
     <priority>0.64</priority>
   </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-ghost-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
 
   <url>
     <loc>https://oztimberfloor.com.au/products/hardwood-collection-golden-bloom/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.64</priority>
   </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-golden-sands/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
 
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-graphite/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-grey-pearl/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-grey-stone/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-grey-wash/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-grigio/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-hamptons/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-harbourside/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-harlem/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-hb-dark-brown/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-helsinki/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-heritage-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-heron-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-herringbone-ash-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-herringbone-barnside/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-herringbone-cabernet/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-herringbone-chateau-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-herringbone-classic-spotted-gum/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-herringbone-cognac/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-herringbone-colonial-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-herringbone-dark-brown/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-herringbone-grey-stone/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-herringbone-pewter/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-herringbone-porcelain/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-herringbone-pure-natural/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-herringbone-riesling/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-herringbone-sauvignon/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-herringbone-storm/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-homestead/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-honey-mash/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-honeybee/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-honeycomb/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-hudson-oak/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-husky-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-iron-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-iron-ridge/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-ivory/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-kempas/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
   <url>
     <loc>https://oztimberfloor.com.au/products/hardwood-collection-liberty-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-limestone/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-limewash/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-lugano-oak/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-maize/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.64</priority>
   </url>
@@ -2203,75 +1650,6 @@
   </url>
 
   <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-maritime/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-merbau/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-millstone/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-misty-cove/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-moon/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-moonstone/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-mountain-spotted-gum/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-mystic-oak/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-natural-oak-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-natural/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-nordic-oak/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-northern-blackbutt/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-nsw-spotted-gum/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
     <loc>https://oztimberfloor.com.au/products/hardwood-collection-nubuck/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.64</priority>
@@ -2281,49 +1659,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.64</priority>
   </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-oak-adaja/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-oak-natural/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
 
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-oriental-pearl/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-oyster-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-pale-stone/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-pearl-shell/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-pewter/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-piccolo/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
   <url>
     <loc>https://oztimberfloor.com.au/products/hardwood-collection-polar-fleece/</loc>
     <changefreq>monthly</changefreq>
@@ -2331,157 +1667,7 @@
   </url>
 
   <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-pure-oak/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-qld-spotted-gum/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-queens/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-raffia/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-ranchwood/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-red-rock/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-red-stone/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-regent-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-river-sand/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-rock/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-royal-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-rustic-eldorado/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-rustic-natural/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-san-remo/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-sandalwood/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-sandy-bluff/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-sandy-cape/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-seafoam/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-seaspray/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-sierra-oak/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-silk-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-silver-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-silver-moon/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-silverwood/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-snow/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-soho/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
     <loc>https://oztimberfloor.com.au/products/hardwood-collection-spring-moon/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-stone-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-storm/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.64</priority>
   </url>
@@ -2491,113 +1677,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.64</priority>
   </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-surfside/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
 
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-toasted-rye/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-toledo/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-tumble-stone/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-urban-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-urban-oak-natural/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-warm-springs/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-washed-coral/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-washed-oak/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-wattleseed/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-welsh-slate/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-wheat/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-whiskey-barrel/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-white-lily/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-white-sands/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-white-smoke/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-willow/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-windsor/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
   <url>
     <loc>https://oztimberfloor.com.au/products/hardwood-collection-winter-frost/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.64</priority>
   </url>
-  <url>
-    <loc>https://oztimberfloor.com.au/products/hardwood-collection-wolf-grey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
-  </url>
+
   <url>
     <loc>https://oztimberfloor.com.au/products/herringbone-7-0-hybrid-clear-water-beach-herringbone/</loc>
     <changefreq>monthly</changefreq>
@@ -4827,7 +3913,7 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://oztimberfloor.com.au/solid-timber-flooring-sydney/</loc>
+    <loc>https://oztimberfloor.com.au/solid-timber/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -4847,7 +3933,7 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://oztimberfloor.com.au/timber-flooring-installation-sydney/</loc>
+    <loc>https://oztimberfloor.com.au/timber-floor-installation/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -4862,7 +3948,7 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://oztimberfloor.com.au/vinyl-flooring-sydney/</loc>
+    <loc>https://oztimberfloor.com.au/vinyl/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>

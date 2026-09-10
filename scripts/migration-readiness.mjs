@@ -13,7 +13,7 @@ const applyCatalogueOnly = args.has("--apply-catalogue-only");
 const allowExternal = args.has("--allow-external");
 const generatedDir = process.env.OZ_MIGRATION_GENERATED_DIR
   ? path.resolve(process.env.OZ_MIGRATION_GENERATED_DIR)
-  : path.join(root, "docs", "seo-migration", "generated");
+  : path.join(root, "docs/release/OZ-RELEASE-CLOSEOUT/generated/migration");
 const sitemapPath = process.env.OZ_MIGRATION_SITEMAP_PATH
   ? path.resolve(process.env.OZ_MIGRATION_SITEMAP_PATH)
   : path.join(root, "sitemap.xml");

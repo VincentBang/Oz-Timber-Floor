@@ -2,13 +2,39 @@
 
 ## Last Updated
 
-9 September 2026
+10 September 2026
 
 ## Current Branch
 
-`main`
+`codex/oz-release-closeout`
+
+## Owner Inbox Confirmation — 10 September 2026
+
+Latest release instruction: Vincent approved dev → main promotion and deployment of this candidate to the existing protected Netlify hostname. Fresh isolated build, current release contract, migration gate, routing, catalogue, old-assets, analytics, image, LCP and package checks pass; all 6,254 rebuilt package files match the verified form-enabled draft. This does not approve the WordPress/domain cutover, DNS, production indexing or live analytics. Provider receipt and post-deployment checks are recorded separately; earlier no-push/no-main-publication statements below are historical within this newly approved narrow scope.
+
+Vincent confirms receipt in the intended email inbox, responding to the request for reference `OZ-RELEASE-TEST-20260910T105455596Z-1`. The controlled draft test now has Netlify verified-storage evidence, owner-confirmed thank-you navigation and owner-confirmed mailbox delivery. No additional submission was performed. Product/range-prefilled live delivery is still untested because this test's fields were blank. Backup/restore and full DNS evidence, existing Oz GA4 ID, physical-device review, Google verification carry-forward, final candidate validation and explicit production approval remain pending. See `docs/release/OZ-RELEASE-CLOSEOUT/form-activation-2026-09-10/INBOX_CONFIRMATION_ADDENDUM.md`. Earlier records below retain their original observation state.
+
+## Owner Submission Verification — 10 September 2026, 21:29 AEST
+
+Netlify's authenticated Oz form UI now shows one clearly labelled controlled test under **Verified submissions**, received at 21:25 AEST. Its exact reference is `OZ-RELEASE-TEST-20260910T105455596Z-1`; enquiry type is `supply-only`, source is `/contact/`, and consent is `on`. The owner reports seeing the thank-you page. Mailbox receipt remains unconfirmed. Product/range fields are empty, so this test does not establish live product/range prefill delivery. The owner manually used a different sender email from the approved automated-test address; no agent submission or sender-authority expansion occurred. Two owner-reported attempts total, no further submission performed. The earlier zero-submission snapshots below remain historical. See `docs/release/OZ-RELEASE-CLOSEOUT/form-activation-2026-09-10/OWNER_SUBMISSION_ADDENDUM.md`. Production approval remains pending.
+
+## Form Activation Addendum — 10 September 2026
+
+ENGINEERING COMPLETE — EXACT OWNER ACTIONS REMAINING. Vincent's narrow extension was applied: existing Oz Netlify form detection enabled; exactly one notification to `info@oztimberfloor.com.au` bound to `oz-flooring-enquiry` (33 detected fields). New noindex draft `6aa28aaf1ed9ee51094d4a3b` uses the unchanged verified public package; production remains `6aa211dff262ae00099fc4ed`. Fresh HTTPS checks: 2,001/2,001 pass, 1,962 unique URLs, exact 771 publication/sitemap and protected routing contracts. Seven fresh isolated success-event unit cases pass; earlier full browser/Lighthouse evidence remains historical and source-bound, not relabelled as testing this deploy.
+
+Actual synthetic delivery is still NOT VERIFIED: two automated submit actions were rejected by runtime safety checks before execution; the final provider aggregate reports zero submissions. The prepared test token is `OZ-RELEASE-TEST-20260910T105455596Z-1`. Owner should click Send enquiry once and confirm receipt; no bypass, duplicate submission, spam weakening or production workaround was attempted. Backup/restore evidence, full DNS export, approved GA4 ID and physical-device checks remain missing. Current WordPress verification is preserved live; its exact Google verification meta must be carried into the final production package before cutover. See `docs/release/OZ-RELEASE-CLOSEOUT/form-activation-2026-09-10/VERIFICATION_ADDENDUM.md` and its dated `RELEASE_MANIFEST.json`. Previous sealed records and the status snapshot below are preserved as historical evidence.
+
+## Active Release Closeout — 10 September 2026
+
+Vincent's standing release-closeout instruction approves the verified R1 (`d2ab0a23d6d171ef465a933ea191eabdb1db68ae6c4337b5c948ca0f68bf8fa7`) for implementation and bounded non-production verification. All 2,196 exact R1 file operations are applied locally. Current migration and release contracts pass: 771 exact publication/sitemap owners, 2,219 physical HTML files, zero blocker/high/medium findings, 5,194 local routing assertions, 130 current responsive cells and 75 priority measurements. The public-only package is deterministic; the isolated production fixture differs only by the global noindex header.
+
+The Netlify login mismatch is resolved. Verified Oz Owner authentication created non-production draft `6aa26cac57a49b0b2ddb9326` at `https://ozqa-6b3ecb6fb09fb1421f0d446c--oztimberfloor.netlify.app`; published deploy remains `6aa211dff262ae00099fc4ed`. The exact public package and 771 served sitemap entries match. HTTPS browser evidence covers 130 cells (129 original passes plus one independently retested lazy-trigger harness observation), and all 30 Lighthouse runs are complete. The full HTTPS rerun passes all 2,001 checks across 1,962 unique URLs with zero transients after correcting one ETF physical-noindex expectation against the frozen R1 evidence; no page/redirect change was made. Status: ENGINEERING COMPLETE — OWNER ACTION REQUIRED. Provider HTML form detection is disabled, no forms/form notifications exist, and real enquiry delivery is unverified. Owner provider-setup/safe-sender, backup/DNS, GA4 and device inputs remain pending. This is not production GO. See `docs/release/OZ-RELEASE-CLOSEOUT/RELEASE_REPORT.md`.
+
+The inherited status content below is preserved as historical context. The current ledger is `docs/release/OZ-RELEASE-CLOSEOUT/LEDGER.json`. No push, merge, production publication, domain/DNS change, production indexing or live GA4/Search Console configuration is authorized.
 
 ## Current Task
+
+Vincent explicitly approved publishing the four independent decision-review documents to the public GitHub repository and requested dev/main promotion with deployment to the existing protected Netlify site. The review is a preserved snapshot of `b406af8e64bc84d269711a88303ae0a378ac96ee` and recommends **REVISE BEFORE APPROVAL**: retain the nine established owner choices, but specify their complete routing/publication transitions, including 413 other incoming rules and 297 protected-cohort dependencies. See `docs/seo-migration/OZ-MIG-004/review/DECISION_REVIEW.md`. This documentation-only publication does not approve or apply the protected SEO plan, alter the website package, or enable indexing. The earlier repair deployment receipt below remains historical evidence, not proof of this later publication.
 
 The reviewed OZ-MIG-004 repair package is deployed to the existing protected Netlify site through the Git integration. Code commit `1916b19733a90907aafe765089ffbe85c390ef2c` was pushed to dev and fast-forwarded into main; ready main deploy `6aa144f26420d10008e8b8fc` passed 30 live HTTP checks and four live browser cells. See `docs/seo-migration/OZ-MIG-004/DEPLOYMENT_RECEIPT_2026-09-09.md`. The receipt/test follow-up changes no public package bytes. Production indexing and the protected route/catalogue decision remain unapproved.
 
@@ -107,7 +133,7 @@ OZ-MIG-004 independently safe local repairs are complete; the consolidated prote
 
 ## Next Recommended Task
 
-Approve or reject the OZ-MIG-004 protected decision plan. Applying its exact owner/indexation choices is the highest-value next action because it resolves the only 172 current migration blockers while protecting the established production owners and the 632-destination redirect cohort. Preview/deployment remains a later separate approval.
+Revise the existing OZ-MIG-004 decision manifest to explicitly bind all nine owner transitions, incoming rules, URL variants, rewrite ordering and owner-publication contracts; then present its new exact hash for Vincent's approval. Preserve the review-supported reversible 172-route catalogue hold, Bamboo retirement, six separate supplier pages and no-new-hub scope. Publication of the review does not authorise applying these protected changes.
 
 ## Blocked Decisions
 

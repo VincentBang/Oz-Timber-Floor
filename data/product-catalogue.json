@@ -47,7 +47,7 @@
         "kronoswiss-aquastop",
         "oak-step"
       ],
-      "canonicalUrl": "/laminate-flooring-sydney/",
+      "canonicalUrl": "/laminate/",
       "notes": "Retired old WordPress import shell; redirect to stronger live page."
     },
     {
@@ -1749,7 +1749,7 @@
         "fiddleback",
         "hardwood-collection"
       ],
-      "canonicalUrl": "/engineered-timber-flooring-sydney/",
+      "canonicalUrl": "/engineered-timber-flooring/",
       "notes": "Retired old WordPress import shell; redirect to stronger live page."
     },
     {
@@ -2229,7 +2229,7 @@
         "fiddleback",
         "hardwood-collection"
       ],
-      "canonicalUrl": "/engineered-timber-flooring-sydney/",
+      "canonicalUrl": "/engineered-timber-flooring/",
       "notes": "Retired old WordPress import shell; redirect to stronger live page."
     },
     {
@@ -3465,7 +3465,7 @@
         "fiddleback",
         "hardwood-collection"
       ],
-      "canonicalUrl": "/engineered-timber-flooring-sydney/",
+      "canonicalUrl": "/engineered-timber-flooring/",
       "notes": "Retired old WordPress import shell; redirect to stronger live page."
     },
     {
@@ -3505,7 +3505,7 @@
         "fiddleback",
         "hardwood-collection"
       ],
-      "canonicalUrl": "/engineered-timber-flooring-sydney/",
+      "canonicalUrl": "/engineered-timber-flooring/",
       "notes": "Retired old WordPress import shell; redirect to stronger live page."
     },
     {
@@ -4487,7 +4487,7 @@
         "kronoswiss-aquastop",
         "oak-step"
       ],
-      "canonicalUrl": "/laminate-flooring-sydney/",
+      "canonicalUrl": "/laminate/",
       "notes": "Retired old WordPress import shell; redirect to stronger live page."
     },
     {
@@ -4527,7 +4527,7 @@
         "kronoswiss-aquastop",
         "oak-step"
       ],
-      "canonicalUrl": "/laminate-flooring-sydney/",
+      "canonicalUrl": "/laminate/",
       "notes": "Retired old WordPress import shell; redirect to stronger live page."
     },
     {
@@ -4567,7 +4567,7 @@
         "kronoswiss-aquastop",
         "oak-step"
       ],
-      "canonicalUrl": "/laminate-flooring-sydney/",
+      "canonicalUrl": "/laminate/",
       "notes": "Retired old WordPress import shell; redirect to stronger live page."
     },
     {
@@ -4607,7 +4607,7 @@
         "kronoswiss-aquastop",
         "oak-step"
       ],
-      "canonicalUrl": "/laminate-flooring-sydney/",
+      "canonicalUrl": "/laminate/",
       "notes": "Retired old WordPress import shell; redirect to stronger live page."
     },
     {
@@ -5302,7 +5302,7 @@
         "fiddleback",
         "hardwood-collection"
       ],
-      "canonicalUrl": "/engineered-timber-flooring-sydney/",
+      "canonicalUrl": "/engineered-timber-flooring/",
       "notes": "Retired old WordPress import shell; redirect to stronger live page."
     },
     {
@@ -6369,7 +6369,7 @@
         "fiddleback",
         "hardwood-collection"
       ],
-      "canonicalUrl": "/engineered-timber-flooring-sydney/",
+      "canonicalUrl": "/engineered-timber-flooring/",
       "notes": "Retired old WordPress import shell; redirect to stronger live page.",
       "canonicalRangeSlug": "prestige-oak"
     },
@@ -6410,7 +6410,7 @@
         "fiddleback",
         "hardwood-collection"
       ],
-      "canonicalUrl": "/engineered-timber-flooring-sydney/",
+      "canonicalUrl": "/engineered-timber-flooring/",
       "notes": "Retired old WordPress import shell; redirect to stronger live page.",
       "canonicalRangeSlug": "prestige-oak"
     },
@@ -7585,7 +7585,7 @@
         "easi-plank",
         "elite-6-0-hybrid"
       ],
-      "canonicalUrl": "/hybrid-flooring-sydney/",
+      "canonicalUrl": "/hybrid/",
       "notes": "Retired old WordPress import shell; redirect to stronger live page."
     },
     {
@@ -7634,7 +7634,7 @@
         "easi-plank",
         "elite-6-0-hybrid"
       ],
-      "canonicalUrl": "/hybrid-flooring-sydney/",
+      "canonicalUrl": "/hybrid/",
       "notes": "Retired old WordPress import shell; redirect to stronger live page.",
       "supplierId": "new-oz-building-material-group",
       "longDescription": "",
@@ -7709,7 +7709,7 @@
         "easi-plank",
         "elite-6-0-hybrid"
       ],
-      "canonicalUrl": "/hybrid-flooring-sydney/",
+      "canonicalUrl": "/hybrid/",
       "notes": "Retired old WordPress import shell; redirect to stronger live page.",
       "supplierId": "new-oz-building-material-group",
       "longDescription": "",
@@ -8937,7 +8937,7 @@
       ],
       "supplierId": "preference-floors",
       "sourceUrl": "https://preferencefloors.com.au/floor-type/timber-flooring/",
-      "canonicalUrl": "/engineered-timber-flooring-sydney/",
+      "canonicalUrl": "/engineered-timber-flooring/",
       "notes": "Retired old WordPress import shell; redirect to stronger live page.",
       "products": [
         "village-oak-ancient-stone",
@@ -9351,7 +9351,7 @@
         "kronoswiss-aquastop",
         "oak-step"
       ],
-      "canonicalUrl": "/laminate-flooring-sydney/",
+      "canonicalUrl": "/laminate/",
       "notes": "Retired old WordPress import shell; redirect to stronger live page."
     },
     {
@@ -9391,7 +9391,7 @@
         "kronoswiss-aquastop",
         "oak-step"
       ],
-      "canonicalUrl": "/laminate-flooring-sydney/",
+      "canonicalUrl": "/laminate/",
       "notes": "Retired old WordPress import shell; redirect to stronger live page."
     },
     {
@@ -9431,7 +9431,7 @@
         "kronoswiss-aquastop",
         "oak-step"
       ],
-      "canonicalUrl": "/laminate-flooring-sydney/",
+      "canonicalUrl": "/laminate/",
       "notes": "Retired old WordPress import shell; redirect to stronger live page."
     },
     {
@@ -95116,35 +95116,35 @@
     {
       "id": "hybrid",
       "name": "Hybrid flooring",
-      "slug": "hybrid-flooring-sydney",
+      "slug": "hybrid",
       "active": true,
       "thumbnailImage": "/assets/products/hybrid/avala/avala-blackbutt.webp"
     },
     {
       "id": "laminate",
       "name": "Laminate flooring",
-      "slug": "laminate-flooring-sydney",
+      "slug": "laminate",
       "active": true,
       "thumbnailImage": "/assets/products/laminate/prime-legend/legend-atlantic-oak.webp"
     },
     {
       "id": "engineered-timber",
       "name": "Engineered timber flooring",
-      "slug": "engineered-timber-flooring-sydney",
+      "slug": "engineered-timber-flooring",
       "active": true,
       "thumbnailImage": "/assets/products/engineered-timber/botanica/alaska.jpg"
     },
     {
       "id": "solid-timber",
       "name": "Solid timber / hardwood flooring",
-      "slug": "solid-timber-flooring-sydney",
+      "slug": "solid-timber",
       "active": true,
       "thumbnailImage": "/assets/products/engineered-timber/hardwood-collection/abbey-grey/abbey-grey-swatch.webp"
     },
     {
       "id": "vinyl",
       "name": "Vinyl flooring",
-      "slug": "vinyl-flooring-sydney",
+      "slug": "vinyl",
       "active": true,
       "thumbnailImage": "/assets/images/categories/vinyl-flooring-thumbnail.jpg"
     }
